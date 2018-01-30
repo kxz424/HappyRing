@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+
+/* 메인화면 첫번째 탭  col-md-9 css 조정 */
+.f-section-1 .container .col-md-9 {
+	 padding-left: 0px;
+}
+
+
+
+/* 768px일때 메인화면 첫번째 탭  col-md-9 css 조정 */
+@media(max-width: 768px){
+	.f-section-1 .container .col-md-9 {
+		 padding-left: 15px;
+}
+}

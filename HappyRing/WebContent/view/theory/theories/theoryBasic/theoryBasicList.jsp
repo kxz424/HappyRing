@@ -25,7 +25,10 @@
 
 <!-- top-add-slider 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/common/top-add-slider.css">
-    
+ 
+<!-- thoeryList 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/theory/theoryList.css">
+     
 
 </head>
 <body>
@@ -41,8 +44,7 @@
 
 	<div class="row">
 	
-	   <div class="col-md-2"></div>
-	   <div class="col-md-6" style="border: solid pink; ">
+	   <div class="col-md-9" style="border: solid pink; ">
 	   
 	   <!--## top-add-slider START-->
 	    	  	<div class="top-add-slider" style="border: solid green;">
@@ -231,14 +233,13 @@
 	  
 	  
 	   <!-- ## right-side 영역 START -->            
-	   <div class="col-md-2 right-side-1">
+	   <div class="col-md-3 right-side-1">
 	   		<!--  right-side 영역 : right-side-all.jsp 인크루드 -->
 	   		<jsp:include page="/view/include/right-side-all.jsp"></jsp:include>
 	   </div> 
 	   <!-- right-side 영역 END -->  
 	  
 	  
-	   <div class="col-md-2"></div>
 	
 	</div>	
 	

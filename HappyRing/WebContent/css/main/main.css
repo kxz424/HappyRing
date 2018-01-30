@@ -27,7 +27,7 @@
 
 
 
-/* 메인화면 첫번째 탭  col-md-9 css 조정 */
+/* 768px일때 메인화면 첫번째 탭  col-md-9 css 조정 */
 @media(max-width: 768px){
 	.mainTab-1-div .col-md-9 {
 		 padding-left: 15px;
