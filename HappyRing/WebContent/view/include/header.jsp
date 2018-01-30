@@ -14,6 +14,13 @@
 
 <!-- 공통 전용 font css -->
 <link rel="stylesheet" href="/HappyRing/css/googleFont/font.css">
+
+
+<script type="text/javascript">
+
+</script>
+
+
 </head>
 <body>
 
@@ -276,7 +283,6 @@
           </nav>
         </div>
       </header>
-
 
 </body>
 </html>

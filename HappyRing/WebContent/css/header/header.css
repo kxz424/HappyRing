@@ -62,6 +62,9 @@
     font-weight: 300;
     line-height: 50px;
     outline: 0;
+    /* header search창 dropdown 부분 임시 수정 */
+   	width: 100%;
+   	/* header search창 dropdown 부분 임시 수정 */
 /*     padding-top: 14px; */
     height: 49px;
 }
