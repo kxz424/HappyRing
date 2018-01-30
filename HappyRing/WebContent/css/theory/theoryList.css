@@ -51,25 +51,28 @@
 
 
 
-/*list 내 article border에 색 넣어주기*/
+/*list article border에 색 넣어주기*/
 .th-list-block .post-blog {
     border: solid #80808024;
 }
 
-/* 리스트 내 article >img 크기 조정 */
+/* 리스트 article >img 크기 조정 */
 .th-list-block .post-blog .post-blog-image {
-    min-height: 170px;
+   min-height: 0px;
 }
-/* .f-section-1  .post-blog .post-blog-image img{ */
+.f-section-1  .post-blog .post-blog-image img{
 /* min-height: 10px !important; */
-/* } */
+	width: 100%;
+    object-fit: initial;
+}
 
 
-/* article 내 teg 좌우 padding 수정*/
+/* article tag 좌우 padding 수정*/
 @media (min-width: 992px){
 	.th-list-block .post-blog-caption-header {
 		padding-left: 9px;
 	    padding-right: 9px;
+	    border-top: dotted #80808026;
 	}
 }
 
@@ -82,16 +85,16 @@
 
 
 
-/* article 내 title 좌우 padding 수정*/
+/* article title 좌우 padding 수정*/
 @media (min-width: 992px){
 	.th-list-block .post-blog-caption-body{
 		padding-left: 14px;
 	    padding-right: 14px;
-	        text-align: center;
+	    text-align: left;
 	}
 }
 
-/* article 내 title 위 아래 padding 수정*/
+/* article title 위 아래 padding 수정*/
 .th-list-block  .post-blog-caption-body {
     padding-top: 6px;
     padding-bottom: 12px;
@@ -100,7 +103,7 @@
 
 
 
-/* article 내 footer font-size 수정*/
+/* article footer font-size 수정*/
 @media (min-width: 992px){
 	.th-list-block .post-blog-caption-footer{
 		font-size: 10px;
@@ -108,5 +111,12 @@
 	    padding-right: 14px;
 	    padding-top: 5px;
     	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
 	}
+}
+
+
+/* article footer icon size 수정 */
+.th-list-block .icon-md-middle.glyphicon-heart-empty {
+    font-size: 15px;
 }
