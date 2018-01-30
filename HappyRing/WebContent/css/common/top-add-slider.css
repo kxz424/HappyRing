@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.top-add-slider{
+	height: auto;
+}
+
+
+/* top-add-slider 크기 조정 */
+.top-add-slider .swiper-container {
+    height: 180px;
+    min-height: 10px;
+}
+
+/* top-add-slider 페이지 버튼 자리 위치 조정 */
+.top-add-slider .swiper-pagination-wrap {
+    bottom: 7px;
+    left: 10%;
+}

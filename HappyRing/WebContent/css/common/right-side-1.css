@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+.right-side-1{
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+
+
+
+
+@media (max-width: 768px){ 
+	.right-side-1{
+		margin-top: 15px;
+	    border-bottom: dotted 4px #80808036;
+	    border-top: dotted 4px #80808036;
+	}
+}
+
+
+
+
+/* ## 심리자가측정 테스트~근처상담소찾기 btn group css START */
+.rs-btn-group{
+/* 	border: solid; */
+}
+
+.rs-btn-group .row {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+.rs-btn-group .btn-success{
+	border-radius:15px 0px 0px 0px; 
+    height: 99.5px;
+}
+
+.rs-btn-group .btn-info{
+	border-radius: 0px 15px 0px 0px; 
+    height: 99.5px;
+}
+.rs-btn-group .btn-warning{
+	border-radius: 0px 0px 0px 15px; 
+    height: 99.5px;
+}
+
+.rs-btn-group .btn-danger{
+	border-radius: 0px 0px 15px 0px; 
+    height: 99.5px;
+}
+
+
+
+
+
+/* 768px일때 심리자가측정 테스트~근처상담소찾기 btn radius 수정 */
+
+@media(max-width:768px){
+
+	.rs-btn-group .btn-success{
+		border-radius:15px;
+	    height: 99.5px;
+	}
+	
+	.rs-btn-group .btn-info{
+		border-radius:15px;
+	    height: 99.5px;
+	}
+	.rs-btn-group .btn-warning{
+		border-radius:15px;
+	    height: 99.5px;
+	}
+	
+	.rs-btn-group .btn-danger{
+		border-radius:15px;
+	    height: 99.5px;
+	}
+}
+
+
+
+
+
+
+/* 심리자가측정 테스트~근처상담소찾기 btn group css END */
+
+
+/* ## 공지사항 css START */
+.rs-notice{
+	border: solid #c0c0c0;
+	margin-top: 15px;
+	border-radius: 8px;
+}
+/* 공지사항 css END */
+
+
+/* ## 하단 광고 auto tab css START */
+.rs-bottom-tab-auto{
+	border: solid #c0c0c0;
+	margin-top: 15px;
+	border-radius: 8px;
+}
+
+/* 탭 버튼(nav) width 비율 조정  */
+.rs-bottom-tab-auto .tabs-horizontal.tabs-line .nav-tabs li {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* 탭 버튼 a태그 padding 조정 */
+.rs-bottom-tab-auto .tabs-horizontal.tabs-line .nav-tabs li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* 탭 본문(content) padding 조정 */
+.rs-bottom-tab-auto .tabs-horizontal.tabs-line .tab-content {
+    padding: 8px;
+/*     padding-top: 28px; */
+}
+
+/* 탭 본문(content) 내에 광고 div 크기 및 마진 지정*/
+.rs-bottom-tab-auto .tabs-horizontal.tabs-line .tab-content .rs-content{
+	border: solid; 
+	height: 70px; 
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+
+/* 탭 본문(content) 768px사이즈 이하 일때 padding 조정 및 탭 본문(content) 내에 광고 div 크기 및 마진 지정  */
+@media(max-width: 768px){
+	
+	/*  768px사이즈 : 탭 본문(content) padding 조정 */
+	.rs-bottom-tab-auto .tabs-horizontal.tabs-line .tab-content {
+	   padding-top: 37px;
+	}
+	
+	/*  768px사이즈 : 	탭 본문(content) 내에 광고 div 크기 및 마진 지정*/
+	.rs-bottom-tab-auto .tabs-horizontal.tabs-line .tab-content .rs-content{
+	height: 100px; 
+}
+	
+} 
+
+
+
+
+/* 하단 광고 auto tab css END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

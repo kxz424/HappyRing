@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.f-section-1 {
+	padding-top: 20px;
+	background-color: rgb(242, 243, 249);
+	height: auto;
+	padding-bottom: 20px;
+}
+
+
+.f-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.f-section-1  .post-blog .post-blog-image img{
+min-height: 10px !important;
+}

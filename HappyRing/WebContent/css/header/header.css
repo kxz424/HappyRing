@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+/** 헤더 네비게이션 바 색상변경*/
+.rd-navbar-static .rd-navbar-top-panel, .rd-navbar-fullwidth .rd-navbar-top-panel {
+    background-color: rgb(0, 200, 202);
+}
+
+
+/**/
+
+.rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown{
+	width: 216px;
+}
+
+
+
+/** 헤더 search바 width 비율*/
+
+.wide-screen-search .rd-navbar-shop-header .rd-navbar-fullwidth .rd-navbar-inner>*:nth-child(2),
+.rd-navbar-shop-header .rd-navbar-static .rd-navbar-inner>*:nth-child(2) {
+	
+	    width: 100%;
+	
+	}
+
+.wide-screen-search>.row {
+	margin-left: 0px;
+}
+
+
+
+
+/** 헤더 아래 카테고리, 검색창, 로그인 있는 곳  화면크기에 따른 block, none 설정 */
+.small-screen-search {
+	display: none;
+}
+
+
+@media(max-width : 992px){
+	.wide-screen-search{
+			display: none;		
+	}
+	.small-screen-search{
+			display: block;
+	}
+}
+
+
+
+
+/** ## 카테고리 관련 css START */
+
+/* 대분류 : mainCate*/
+.wide-screen-search .mainCate~.select2-container--bootstrap .select2-selection {
+	
+	background-color: #f2f3f9;
+    border: 1px solid #f2f3f9;
+    border-radius: 35px 0px 0px 35px;
+    color: #29293a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 50px;
+    outline: 0;
+/*     padding-top: 14px; */
+    height: 49px;
+}
+
+.mainCate-col {
+	
+	padding-right: 0px;
+/* 	width: 15%; */
+	padding-left: 0;
+}
+
+
+
+/* .mainCate-col  .select2{ */
+/* 		    width: 100% !important; */
+/* 	} */
+
+
+
+/*중분류 : middleCate*/
+.wide-screen-search .middleCate~.select2-container--bootstrap .select2-selection {
+	
+	background-color: #f2f3f9;
+    border: 1px solid #f2f3f9;
+    border-radius: 0px;
+    color: #29293a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 50px;
+    outline: 0;
+/*     padding-top: 14px; */
+    height: 49px;
+	
+}
+
+.middleCate-col {
+	
+	padding-left:1.5px;
+	padding-right: 1.5px;
+/* 	width: 15%; */
+}
+
+/** 카테고리 관련 css END */
+
+
+/* ## 검색창 관련 css START */
+
+/* 입력창 안 안쪽 높이 조정 */
+.input-search .form-input {
+    min-height: 49px;
+}
+
+/* 검색 입력 창 둘러싸고 있는 div 높이 및 보더 조정 */
+.rd-mailform-inline-modern.rd-mailform-sm .rd-mailform-inline-inner::before {
+	height: 49px;
+	border-radius: 0 35px 35px 0;
+}
+
+/* */
+.rd-navbar-shop-header .rd-navbar-search .form-wrap {
+	margin-top: 9px;
+}
+
+/* */
+.rd-navbar-search-form-input .form-input {
+	margin-top: 0px;
+	height: 45px;
+}
+
+/* 텍스트 입력창+검색 버튼 포함한 전체 div를 묶은 col-md-8의 왼쪽 패딩 없앰*/
+.input-search {
+	padding-left: 0;
+}
+
+
+/* 검색창 css END */
+
+
+/* ## 검색창 검색버튼  START */
+
+/* 버튼 padding 10px줘서 글자크기 맞춤 */
+.rd-navbar-shop-header .rd-navbar-fullwidth .rd-navbar-search .button-sm, 
+.rd-navbar-shop-header .rd-navbar-static .rd-navbar-search .button-sm {
+	
+	padding: 10px 35px;
+    font-size: 14px;
+    line-height: 24px; 
+    height: 40px;
+    margin-top: 9px;
+    color: #fff;
+    background-color: #57cbcc;
+    border-color: #57cbcc;
+}
+
+/* 검색버튼 색 변경 */
+.button-secondary, .button-secondary:focus {
+    color: #fff;
+    background-color: #ed1c94;
+    border-color: #ed1c94;
+}
+/*검색창 검색버튼  END */
+
