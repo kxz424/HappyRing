@@ -75,14 +75,12 @@
 	   
 	   <!-- ## 게시물 list : 기초심리학 START -->
 	   <div class="th-list-block">
-	    	 		
 	     <div class="row"> 	
-	     
 	     	<c:forEach var="i" begin="0" end="5">	
-	    	<div class="col-md-4">  		
+             <div class="col-md-4">  		
               <article class="post-blog box-shadow">
               	<a class="post-blog-image" href="single-post.html">
-              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="" width="auto" height="90">
+              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="" width="auto" height="90">
               	</a>
                   <div class="post-blog-caption-header">
                     <ul class="post-blog-tags">
@@ -90,18 +88,20 @@
                     </ul>
                   </div>
                   <div class="post-blog-caption-body">
-                    <h7><a class="post-blog-title" href="single-post.html">The Top 5 Reasons Why ‘The Customer Is Always Right’ Is Wrong</a></h7>
+                    <h7><a class="post-blog-title" href="single-post.html">
+                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
+                    </a></h7>
                   </div>
                   <div class="post-blog-caption-footer">
-                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="single-post.html"><span class="icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="single-post.html">
+                    <span class="icon glyphicon glyphicon-heart-empty"></span><span>12</span></a>
                   </div>
-              </article>
-             </div>
+                 </article>
+                </div>
              </c:forEach> 
-          </div> 
-		                    
-	   </div>
-	   <!-- 게시물 list : 기초 심리학 END -->
+           </div> 
+	    </div>
+	    <!-- 게시물 list : 기초 심리학 END -->
 	   
 	   
 	   
@@ -165,7 +165,8 @@
  <!-- Javascript-->
     <script src="/HappyRing/js/core.min.js"></script>
     <script src="/HappyRing/js/script.js"></script>
-
+ <!-- header전용 js --> 
+    <script src="/HappyRing/js/header/header.js"></script>
 
 
 </body>
