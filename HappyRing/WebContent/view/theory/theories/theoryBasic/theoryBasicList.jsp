@@ -75,9 +75,7 @@
 	   
 	   <!-- ## 게시물 list : 기초심리학 START -->
 	   <div class="th-list-block">
-	    	 		
 	     <div class="row"> 	
-	     
 	     	<c:forEach var="i" begin="0" end="5">	
              <div class="col-md-4">  		
               <article class="post-blog box-shadow">
@@ -96,60 +94,14 @@
                   </div>
                   <div class="post-blog-caption-footer">
                     <time datetime="2017">2018-01-30</time><a class="post-comment" href="single-post.html">
-                    <span class="icon icon-md-middle icon-gray-1 glyphicon glyphicon-heart-empty"></span><span>12</span></a>
+                    <span class="icon glyphicon glyphicon-heart-empty"></span><span>12</span></a>
                   </div>
-              </article>
-             </div>
+                 </article>
+                </div>
              </c:forEach> 
-          </div> 
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       
-		       <div class="th_a2_3">
-						           <div class="row">
-										<div class="col-xs-0  col-md-4"></div>
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-12 col-md-5" style=" padding-right: 0px; padding-left: 0px;">
-								                  <ul class="pagination-custom" id="pageNum">
-								                       <li><a href="">◀◀</a></li>
-								                       <li><a href="">◀</a></li>
-								                          
-								                       <li><a href="">1</a></li>
-								                           
-								                       <li><a href="">2</a></li>
-								                           
-								                       <li><a href="">3</a></li>
-								                           
-								                       <li><a href="">4</a></li>
-								                           
-								                       <li><a href="">▶</a></li>
-								                       <li><a href="">▶▶</a></li>
-								                    </ul>
-								          </div>
-								          <div class="col-xs-7 col-md-1"></div>
-			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 50px;">
-								          
-								          <a href="/HappyRing_before/view/theory/theories/theoryBasic/theoryBasicBoard.jsp">
-								               <input class="btn btn-primary" type="button" id="write" value="글쓰기">
-								          </a>     
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-								</div>             
-	   </div>
-	   <!-- 게시물 list : 기초 심리학 END -->
+           </div> 
+	    </div>
+	    <!-- 게시물 list : 기초 심리학 END -->
 	   
 	   
 	   

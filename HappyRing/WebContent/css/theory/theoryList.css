@@ -117,6 +117,7 @@
 
 
 /* article footer icon size 수정 */
-.th-list-block .icon-md-middle.glyphicon-heart-empty {
+.th-list-block .glyphicon-heart-empty {
     font-size: 15px;
+    color: red;
 }
