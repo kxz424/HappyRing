@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/*심리이론 및 사이트 전체적인 section 설정*/
 .f-section-1 {
 	padding-top: 20px;
 	background-color: rgb(242, 243, 249);
@@ -8,19 +10,7 @@
 }
 
 
-.f-title{
-	margin-top: 12px;
-/* 	border: solid; */
-	background-color: white;
-	padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-
-.f-section-1  .post-blog .post-blog-image img{
-min-height: 10px !important;
-}
-
+/* section 안 container 설정 */
 
 /* @media (min-width: 1200px){ */
 /* 	.f-section-1 .container { */
@@ -31,6 +21,26 @@ min-height: 10px !important;
 @media (min-width: 1200px){
 	.f-section-1 .container {
 	    width: 1040px;
-/* 	    border: solid red; */
 	}
 }
+
+
+/* 컨테이너 내 전체 div  col-md-9 css 조정 */
+.f-section-1 .container .col-md-9 {
+	 padding-left: 0px;
+/* 	 border: solid pink; */
+}
+
+
+
+/* 768px일때컨테이너 내 전체 div  col-md-9 css 조정 */
+@media(max-width: 768px){
+	.f-section-1 .container .col-md-9 {
+		 padding-left: 15px;
+}
+}
+
+
+
+
+

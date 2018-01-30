@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+/* 심리이론 게시물 타이틀 div */
+.th-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 심리이론 게시물 타이틀 대제목 col-md padding 조정 */
+.th-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/*심리이론 명언 text 글자 크기 조정*/
+.th-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+
+.th-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 블록 형식의 list div */
+.th-list-block{
+    /* padding-top: 25px; */
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 14px;
+    background-color: white;
+    /* border: solid red; */
+}
+
+
+/*블륵 형식의 list col-md padding 조정*/
+.th-list-block .col-md-4{
+/* 	padding-top: 15px; */
+/* 	padding-left:0px; */
+	padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+
+
+/*list 내 article border에 색 넣어주기*/
+.th-list-block .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 내 article >img 크기 조정 */
+.th-list-block .post-blog .post-blog-image {
+    min-height: 170px;
+}
+/* .f-section-1  .post-blog .post-blog-image img{ */
+/* min-height: 10px !important; */
+/* } */
+
+
+/* article 내 teg 좌우 padding 수정*/
+@media (min-width: 992px){
+	.th-list-block .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right: 9px;
+	}
+}
+
+
+.th-list-block .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+
+/* article 내 title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.th-list-block .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	        text-align: center;
+	}
+}
+
+/* article 내 title 위 아래 padding 수정*/
+.th-list-block  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+
+
+/* article 내 footer font-size 수정*/
+@media (min-width: 992px){
+	.th-list-block .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+	}
+}
