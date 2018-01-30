@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/* 자유게시판 게시물 타이틀 div */
+.fr-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 자유게시판 게시물 타이틀 대제목 col-md padding 조정 */
+.fr-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/* 자유게시판 명언 text 글자 크기 조정*/
+.fr-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+
+.fr-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 자유게시판 list div */
+.fr-list{
+    /* padding-top: 25px; */
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 14px;
+    background-color: white;
+    /* border: solid red; */
+}
+/* 자유게시판 paging 버튼 및 글쓰기 버튼 공간 확보 */
+.fr-paging {
+    height: auto;
+    margin-top: 12px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    background-color: white;
+}
+
+
+/* 자유게시판 paging 버튼 글씨크기 조정 */
+.fr-paging #pageNum a, .fr-paging #write {
+	font-size: 12px;
+}
+/* 자유게시판 paging 버튼 크기 설정 */
+.fr-paging #pageNum a, .fr-paging li {
+	min-width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	line-height: 35px;
+}
+
+.fr-none {
+	display: none;
+}
+
+@media(max-width: 768px){
+	.fr-none {
+		display: block;
+	}
+}
+
+
+
