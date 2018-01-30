@@ -20,3 +20,10 @@
 .f-section-1  .post-blog .post-blog-image img{
 min-height: 10px !important;
 }
+
+
+@media (min-width: 1200px){
+	.f-section-1 .container {
+	    width: 970px;
+	}
+}
