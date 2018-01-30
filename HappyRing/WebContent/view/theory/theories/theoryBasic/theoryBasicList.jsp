@@ -36,7 +36,7 @@
 
 
   <section class="f-section-1">
-
+	<div class="container">
 
 
 	<div class="row">
@@ -262,7 +262,7 @@
 	
 	
 	
-	
+	</div>
   </section>
 
 

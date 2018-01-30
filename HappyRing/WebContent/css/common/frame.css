@@ -22,8 +22,15 @@ min-height: 10px !important;
 }
 
 
+/* @media (min-width: 1200px){ */
+/* 	.f-section-1 .container { */
+/* 	    width: 970px; */
+/* 	} */
+/* } */
+
 @media (min-width: 1200px){
 	.f-section-1 .container {
-	    width: 970px;
+	    width: 1040px;
+/* 	    border: solid red; */
 	}
 }
