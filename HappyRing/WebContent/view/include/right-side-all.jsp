@@ -69,8 +69,8 @@
 	      	 <div class="tabs-custom tabs-horizontal tabs-line tabs-line-small tabs-line-secondary" id="tabs-2">
 	      	    <!-- # 탭 nav START -->
                 <ul class="nav nav-tabs">
-                  <li class="active"><a href="#tabs-2-1" data-toggle="tab"><p class="hn">h상담소 정보</p></a></li>
-                  <li><a href="#tabs-2-2" data-toggle="tab"><p class="hn">gg상담소 랭킹</p></a></li>
+                  <li class="active"><a href="#tabs-2-1" data-toggle="tab"><p class="hn">상담소 정보</p></a></li>
+                  <li><a href="#tabs-2-2" data-toggle="tab"><p class="hn">상담소 랭킹</p></a></li>
                 </ul>
                 <!-- 탭 nav END -->
                 <!-- # 탭 content START -->

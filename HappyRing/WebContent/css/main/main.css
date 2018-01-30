@@ -1,11 +1,39 @@
 @charset "UTF-8";
 
 
+/* ##메인 전용 typed-text title START **/
+@media (min-width: 992px){
+  .main-title-div .typed-text-wrap{
+	    font-size: 13px;
+	    line-height: 0.55556;
+	}
+}
+/* 메인 전용 typed-text title END **/
+
+
+
 
 /* ## 메인화면 첫번째 탭 : 비포&애프터 등 포함한 tab css START*/
 .mainTab-1-div {
 	
 }
+
+
+
+/* 메인화면 첫번째 탭  col-md-9 css 조정 */
+.mainTab-1-div .col-md-9 {
+	 padding-left: 0px;
+}
+
+
+
+/* 메인화면 첫번째 탭  col-md-9 css 조정 */
+@media(max-width: 768px){
+	.mainTab-1-div .col-md-9 {
+		 padding-left: 15px;
+}
+}
+
 
 
 /* 탭 버튼들 ul(nav) 위치 조정*/
