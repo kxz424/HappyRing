@@ -29,7 +29,7 @@
 
 
 /* 자유게시판 list div */
-.fr-list{
+.fr-list, .fr-xs-list{
     /* padding-top: 25px; */
     margin-top: 15px;
     padding-bottom: 30px;

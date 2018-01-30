@@ -122,7 +122,7 @@
               				<div class="fr-paging">
 						           <div class="row">
 			<!-- 					                       페이징 -->
-								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 25%;">
+								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 22%;">
 								                  <ul class="pagination-custom" id="pageNum">
 								                       <li><a href="">◀◀</a></li>
 								                       <li><a href="">◀</a></li>
@@ -147,27 +147,6 @@
 								
 								
 								
-								
-								
-								<div class="fr-xs-paging">
-						           <div class="row">
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-12" style="padding-top: 10px; padding-right: 3%; padding-left: 3%;">
-								              <a class="button button-default-outline button-nina button-block button-blog" href="#">Load more posts</a>
-								          </div>
-<!-- 								          <div class="col-xs-7 col-md-1"></div> -->
-			<!-- 					                        글쓰기 버튼 -->
-								          <div class="" style="padding-top: 10px; padding-right: 3%; float: right;">
-								          
-								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								          </a>     
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-								</div>
-								
-								
               <!-- 자유게시판 글등록btn 및 paging END -->
                
                
@@ -184,7 +163,7 @@
               
               
               <!-- 자유게시판 list START -->
-              <div class="fr-list">
+              <div class="fr-xs-list">
               <div class="row table-list">
                   <div class="col-md-12">
 
@@ -192,25 +171,23 @@
                      <table class="table table-hover">
                         <thead>
                            <tr>
-                              <th class="t1">번호</th>
-                              <th class="t2">게시판</th>
-                              <th class="t3">제목</th>
-                              <th class="t4">작성자</th>
-                              <th class="t5">작성일</th>
-                              <th class="t6">엔젤링</th>
-                              <th class="t7">조회수</th>
+                              <th class="t1">자유게시판</th>
                            </tr>
                         </thead>
                         <tbody>
                            <c:forEach var="i" begin="1" end="10">
                               <tr>
-                                 <td class="t1">${i}</td>
-                                 <td class="t2">[자유게시판]</td>
-                                 <td class="t3">테스트${i}</td>
-                                 <td class="t4">kjs${i}</td>
-                                 <td class="t5">2017-12-28</td>
-                                 <td class="t6">${i}</td>
-                                 <td class="t7">10</td>
+                                 <td class="t1">
+                                 	<div>
+                                 		<span><strong>자유</strong></span>&nbsp &nbsp<span>안녕하세요 새로 가입한 신입 인사드립니다.</span>
+                                 	</div>
+                                 	<div>
+                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
+                                 	</div>
+                                 	<div>
+                                 		<button class="btn btn-primary" style="float: right;">2</button>
+                                 	</div>
+                                 </td>
                               </tr>
                            </c:forEach>
                         </tbody>
@@ -226,7 +203,7 @@
               				<div class="fr-paging">
 						           <div class="row">
 			<!-- 					                       페이징 -->
-								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 25%;">
+								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 22%;">
 								                  <ul class="pagination-custom" id="pageNum">
 								                       <li><a href="">◀◀</a></li>
 								                       <li><a href="">◀</a></li>
