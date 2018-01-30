@@ -191,6 +191,16 @@
 .post-blog-quote .quote-primary-meta .cite {
     color: #0101f7;
 }
+/* 멋진응원 엔젤링 아이콘(하트) 색 변경 */
+.mainTab-1-div .tab-content .glyphicon-heart-empty {
+	color: red;
+/* 	float: right; */
+	margin-top: 5px;
+}
+/* 멋진응원 엔젤링 count 숫자 색 변경 */
+.mainTab-1-div .tab-content .heart-count {
+	color: black;
+}
 
 /* 멋진응원 css END*/
 

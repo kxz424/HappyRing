@@ -26,35 +26,36 @@
 	  <!-- 공지사항 시작 --> 
 	  <div class="rs-notice">
 	    <div class="notice" style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;">
-		    <p class="hn" style="padding-bottom: 9px;">공지사항</p>
+		    <p class="hn" style="padding-bottom: 9px;">공지사항<button class="btn btn-primary notice-view-more"><span class="glyphicon glyphicon-plus"></span></button></p>
+		    
 
 			   <table class="table table-hover">
 				  <tbody>
 				  	  <tr>
 						<td>
 						  <span class="glyphicon glyphicon-paperclip">
-									공지사항1 
+									<strong>에브리밀 닭가슴살 꼬치소시지 체험단 모집(</strong> 
 						  </span>
 					    </td>
 					 </tr>
 					 <tr>
 					   <td>
 						  <span class="glyphicon glyphicon-paperclip">
-									공지사항1 
+									<strong>▷▶두유습관 챌린지 도전자 추가 발표◀◁</strong> 
 						  </span>
 					   </td>
 				     </tr>
 					 <tr>
 					   <td>
 					     <span class="glyphicon glyphicon-paperclip">
-									공지사항1 
+									<strong>단백할시간 레드 체험단 모집(01.29~02.07)</strong> 
 					     </span>
 					   </td>
 					 </tr>
 					 <tr>
 					   <td>
 					     <span class="glyphicon glyphicon-paperclip">
-									공지사항1 
+									<strong>공지사항1</strong> 
 						 </span>
 					   </td>
 					</tr>
@@ -77,15 +78,30 @@
                 <div class="tab-content">
                   <!-- 상담소 정보 content-->	
                   <div class="tab-pane fade in active" id="tabs-2-1">
-                        <div class="rs-content"></div>
-                        <div class="rs-content"></div>
-                        <div class="rs-content"><a href="mailto:#">mail@demolink.org</a></div>
+                        <div class="rs-content">
+                        	<img src="/HappyRing/img/right-side-all/add1.png"/>
+                        </div>
+                        <div class="rs-content">
+                        	<img src="/HappyRing/img/right-side-all/add2.png"/>
+                        </div>
+                        <div class="rs-content">
+                        	<img src="/HappyRing/img/right-side-all/add3.png"/>
+                        </div>
                   </div>
                   <!-- 상담소 랭킹 content-->
                   <div class="tab-pane fade" id="tabs-2-2">
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><div class="rs-content"></div>
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><div class="rs-content"></div>
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><div class="rs-content"></div>
+                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
+                       <div class="rs-content">
+                       		<img src="/HappyRing/img/right-side-all/add4.png"/>
+                       </div>
+                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
+                       <div class="rs-content">
+                       		<img src="/HappyRing/img/right-side-all/add5.png"/>
+                       </div>
+                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
+                       <div class="rs-content">
+                       		<img src="/HappyRing/img/right-side-all/add6.png"/>
+                       </div>
                   </div>
                 </div> 
                 <!-- 탭 content END -->    

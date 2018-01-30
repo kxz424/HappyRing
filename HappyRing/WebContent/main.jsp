@@ -95,7 +95,7 @@
                              <div class="quote-primary-text">
                               <p class="jh">누구나 재능은 있다. 드문 것은 그 재능이 이끄는 암흑 속으로 따라 들어갈 용기다.</p>
                              </div>
-                               <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span></p>
+                               <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span><span class="glyphicon glyphicon-heart-empty"></span><span class="heart-count">123</span></p>
                            </div>
                           </a>
                         </div>
