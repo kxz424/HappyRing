@@ -47,6 +47,12 @@
     background-color: white;
 }
 
+@media(max-width: 768px){
+	.fr-paging {
+	    display: none;
+	}
+}
+
 
 /* 자유게시판 paging 버튼 글씨크기 조정 */
 .fr-paging #pageNum a, .fr-paging #write {
@@ -60,12 +66,12 @@
 	line-height: 35px;
 }
 
-.fr-none {
+.fr-xs-paging {
 	display: none;
 }
 
 @media(max-width: 768px){
-	.fr-none {
+	.fr-xs-paging {
 		display: block;
 	}
 }

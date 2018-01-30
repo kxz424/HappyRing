@@ -207,6 +207,8 @@
     <script src="/HappyRing/js/script.js"></script>
  <!-- 메인전용 js -->   
     <script src="/HappyRing/js/main/main.js"></script>
+ <!-- right-side-all 전용 js --> 
+    <script src="/HappyRing/js/right-side-all/right-side-all.js"></script>
  <!-- header전용 js --> 
     <script src="/HappyRing/js/header/header.js"></script>
     
