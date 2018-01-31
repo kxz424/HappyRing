@@ -113,17 +113,16 @@
                      </table>
                   </div>
                </div>
-              </div>
-              <!-- 자유게시판 list END -->
-              
-              
-              
-              <!-- 자유게시판 글등록btn 및 paging START -->
+               
+               
+               
+               
+               <!-- 자유게시판 글등록btn 및 paging START -->
               
               				<div class="fr-paging">
 						           <div class="row">
 			<!-- 					                       페이징 -->
-								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 25%;">
+								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 22%;">
 								                  <ul class="pagination-custom" id="pageNum">
 								                       <li><a href="">◀◀</a></li>
 								                       <li><a href="">◀</a></li>
@@ -148,17 +147,72 @@
 								
 								
 								
+              <!-- 자유게시판 글등록btn 및 paging END -->
+               
+               
+               
+               
+               
+              </div>
+              <!-- 자유게시판 list END -->
+              
+              
+              
+              
+              
+              
+              
+              <!-- 자유게시판 list START -->
+              <div class="fr-xs-list">
+              <div class="row table-list">
+                  <div class="col-md-12">
+
+
+                     <table class="table table-hover">
+                        <thead>
+                           <tr>
+                              <th class="t1">자유게시판</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <c:forEach var="i" begin="1" end="10">
+                              <tr>
+                                 <td class="t1">
+                                 	<div class="row">
+                                 		<div class="col-xs-10">
+	                                 		<span><strong>자유</strong></span>&nbsp &nbsp<span>안녕하세요 새로 가입한 신입</span><br/>
+		                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
+		                                </div>
+		                                
+		                                 
+		                                <div class="col-xs-2">
+	                                 		<button class="btn btn-primary fr-xs-count-btn">2</button>
+	                                 	</div>
+                                 	</div>
+                                 	
+                                 	
+                                 </td>
+                              </tr>
+                           </c:forEach>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+               
+               
+               
+               
+               <!-- 자유게시판 글등록btn 및 paging START -->
 								
-								
-								<div class="fr-paging fr-none">
+								<div class="fr-xs-paging">
 						           <div class="row">
 			<!-- 					                       페이징 -->
-								          <div class="col-xs-10" style=" padding-right: 0px; padding-left: 25%;">
+								          <div class="col-xs-12">
 								              <a class="button button-default-outline button-nina button-block button-blog" href="#">Load more posts</a>
 								          </div>
 <!-- 								          <div class="col-xs-7 col-md-1"></div> -->
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-4" style="padding-left: 20px;">
+								          <div class="col-xs-offset-8 col-xs-4">
 								          
 								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
@@ -170,6 +224,17 @@
 								
 								
               <!-- 자유게시판 글등록btn 및 paging END -->
+               
+               
+               
+               
+               
+              </div>
+              <!-- 자유게시판 list END -->
+              
+              
+              
+              
               
               
               
@@ -213,6 +278,8 @@
 <!-- Javascript-->
   <script src="/HappyRing/js/core.min.js"></script>
   <script src="/HappyRing/js/script.js"></script>
+<!-- right-side-all 전용 js --> 
+  <script src="/HappyRing/js/right-side-all/right-side-all.js"></script>
 <!-- header전용 js --> 
   <script src="/HappyRing/js/header/header.js"></script>
 
