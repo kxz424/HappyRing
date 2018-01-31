@@ -77,23 +77,26 @@
 	   <div class="th-list-block">
 	     <div class="row"> 	
 	     	<c:forEach var="i" begin="0" end="5">	
-             <div class="col-md-4">  		
+             <div class="col-md-4"> 
               <article class="post-blog box-shadow">
-              	<a class="post-blog-image" href="single-post.html">
+              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
               		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="" width="auto" height="90">
               	</a>
                   <div class="post-blog-caption-header">
                     <ul class="post-blog-tags">
-                      <li><a class="button-tags" href="single-post.html">Tips &amp; Tricks</a></li>
+                      <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
                     </ul>
+                    
+                    <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
+                    
                   </div>
                   <div class="post-blog-caption-body">
-                    <h7><a class="post-blog-title" href="single-post.html">
+                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
                     	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
                     </a></h7>
                   </div>
                   <div class="post-blog-caption-footer">
-                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="single-post.html">
+                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
                     <span class="icon glyphicon glyphicon-heart-empty"></span><span>12</span></a>
                   </div>
                  </article>
