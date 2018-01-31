@@ -85,7 +85,7 @@
                   <div class="post-blog-caption-header">
                     <ul class="post-blog-tags">
                       <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
-                    </ul>
+                    </ul>	
                     
                     <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
                     
@@ -97,7 +97,7 @@
                   </div>
                   <div class="post-blog-caption-footer">
                     <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-                    <span class="icon glyphicon glyphicon-heart-empty"></span><span>12</span></a>
+                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
                   </div>
                  </article>
                 </div>
@@ -151,17 +151,13 @@
 	
 	
 	</div>
+	<!-- container END -->
   </section>
-
-
-
+  <!-- section END -->
 	<!-- footer include -->
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
-
-
-
-
 </div>
+<!-- page END -->
 
 
 
