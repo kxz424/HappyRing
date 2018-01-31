@@ -71,7 +71,7 @@
 @media (min-width: 992px){
 	.th-list-block .post-blog-caption-header {
 		padding-left: 9px;
-	    padding-right: 9px;
+	    padding-right:11px;
 	    border-top: dotted #80808026;
 	}
 }
@@ -118,6 +118,6 @@
 
 /* article footer icon size 수정 */
 .th-list-block .glyphicon-heart-empty {
-    font-size: 15px;
+    font-size: 12px;
     color: red;
 }
