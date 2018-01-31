@@ -75,8 +75,6 @@
 	    border-top: dotted #80808026;
 	}
 }
-
-
 .th-list-block .post-blog-caption-header .button-tags{
 	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
 	padding: 4px 8px;
@@ -84,6 +82,13 @@
 }
 
 
+
+
+/* */
+.th-list-block .post-blog-caption-header .post-comment{
+
+	font-size: 11px;
+}	
 
 /* article title 좌우 padding 수정*/
 @media (min-width: 992px){
@@ -117,7 +122,9 @@
 
 
 /* article footer icon size 수정 */
-.th-list-block .glyphicon-heart-empty {
+.th-list-block .glyphicon-heart {
     font-size: 12px;
     color: red;
 }
+
+
