@@ -178,15 +178,19 @@
                            <c:forEach var="i" begin="1" end="10">
                               <tr>
                                  <td class="t1">
-                                 	<div>
-                                 		<span><strong>자유</strong></span>&nbsp &nbsp<span>안녕하세요 새로 가입한 신입 인사드립니다.</span>
+                                 	<div class="row">
+                                 		<div class="col-xs-10">
+	                                 		<span><strong>자유</strong></span>&nbsp &nbsp<span>안녕하세요 새로 가입한 신입</span><br/>
+		                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
+		                                </div>
+		                                
+		                                 
+		                                <div class="col-xs-2">
+	                                 		<button class="btn btn-primary fr-xs-count-btn">2</button>
+	                                 	</div>
                                  	</div>
-                                 	<div>
-                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-                                 	</div>
-                                 	<div>
-                                 		<button class="btn btn-primary" style="float: right;">2</button>
-                                 	</div>
+                                 	
+                                 	
                                  </td>
                               </tr>
                            </c:forEach>
@@ -199,46 +203,16 @@
                
                
                <!-- 자유게시판 글등록btn 및 paging START -->
-              
-              				<div class="fr-paging">
-						           <div class="row">
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-8 col-md-10" style=" padding-right: 0px; padding-left: 22%;">
-								                  <ul class="pagination-custom" id="pageNum">
-								                       <li><a href="">◀◀</a></li>
-								                       <li><a href="">◀</a></li>
-								                          <c:forEach var="i" begin="1" end="4">
-								                       <li><a href="">${i}</a></li>
-								                           </c:forEach>
-								                       <li><a href="">▶</a></li>
-								                       <li><a href="">▶▶</a></li>
-								                    </ul>
-								          </div>
-<!-- 								          <div class="col-xs-7 col-md-1"></div> -->
-			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-4 col-md-2" style="padding-left: 20px;">
-								          
-								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								          </a>     
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-								</div>
-								
-								
-								
-								
 								
 								<div class="fr-xs-paging">
 						           <div class="row">
 			<!-- 					                       페이징 -->
-								          <div class="col-xs-12" style="padding-top: 10px; padding-right: 3%; padding-left: 3%;">
+								          <div class="col-xs-12">
 								              <a class="button button-default-outline button-nina button-block button-blog" href="#">Load more posts</a>
 								          </div>
 <!-- 								          <div class="col-xs-7 col-md-1"></div> -->
 			<!-- 					                        글쓰기 버튼 -->
-								          <div class="" style="padding-top: 10px; padding-right: 3%; float: right;">
+								          <div class="col-xs-offset-8 col-xs-4">
 								          
 								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
 								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
