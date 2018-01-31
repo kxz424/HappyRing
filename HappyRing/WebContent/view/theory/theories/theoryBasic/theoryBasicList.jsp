@@ -151,17 +151,13 @@
 	
 	
 	</div>
+	<!-- container END -->
   </section>
-
-
-
+  <!-- section END -->
 	<!-- footer include -->
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
-
-
-
-
 </div>
+<!-- page END -->
 
 
 
