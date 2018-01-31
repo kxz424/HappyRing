@@ -15,6 +15,9 @@
 <!-- 공통 전용 font css -->
 <link rel="stylesheet" href="/HappyRing/css/googleFont/font.css">
 
+<!-- 공통 전용 paging css -->
+<link rel="stylesheet" href="/HappyRing/css/paging/paging.css">
+
 
 <script type="text/javascript">
 
