@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="/HappyRing/css/common/right-side-1.css">
 <!-- communityList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
-<!-- worryBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css">
+<!-- before&afterBoardList 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/community/before&after/before&afterBoardList.css">
 
 
 
@@ -88,7 +88,7 @@
                      <table class="table table-hover">
                         <thead>
                            <tr>
-                              <th class="t1">고민게시판</th>
+                              <th class="t1">팁&노하우</th>
                            </tr>
                         </thead>
                         <tbody>
@@ -129,7 +129,7 @@
 	                     <table class="table table-hover">
 	                        <thead>
 	                           <tr>
-	                              <th class="t1">고민게시판</th>
+	                              <th class="t1">팁&노하우</th>
 	                           </tr>
 	                        </thead>
 	                        <tbody>
@@ -138,7 +138,7 @@
 	                                 <td class="t1">
 	                                 	<div class="row">
 	                                 		<div class="col-xs-10">
-		                                 		<span><strong>고민</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
+		                                 		<span><strong>팁&노하우</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
 			                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
 			                                </div>
 			                                
