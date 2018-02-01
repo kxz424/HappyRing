@@ -5,14 +5,31 @@
 
 
 /* 심리이론 게시물 타이틀 div START*/
+
 .thd-title{
 	margin-top: 12px;
 /* 	border: solid; */
 	background-color: white;
 	padding-bottom: 10px;
     padding-top: 10px;
-    padding-left: 19px;
 }
+
+
+/* 심리이론 게시물 타이틀 대제목 col-md padding 조정 */
+.thd-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/*심리이론 명언 text 글자 크기 조정*/
+.thd-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+.thd-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
 
 /* 심리이론 게시물 타이틀 div END*/
 
