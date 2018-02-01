@@ -21,7 +21,10 @@
  
 <!-- right-side-1 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/common/right-side-1.css">
-
+ 
+<!-- thoeryDetaik 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
+     
  
 
 
@@ -48,12 +51,68 @@
 	    	 <jsp:include page="/view/include/top-add-slider.jsp"></jsp:include> 	
 	         <!-- top-add-slider END  -->
 	   
-	   
-	   
-	         <!-- ----------------------################### START -->
+	         
+	         <!-- ## 게시글 title START -->
+   			 <div class="thd-title">
+   				<!-- # 타이틀  -->
+				<div class="row">
+                  <div class="col-md-6">
+                     <h4 class="hn">Basic Theory</h4>
+                  </div>
+                  <div class="col-md-6"></div>
+                </div>
+                <!-- 명언 text -->
+                <div class="row">
+                  <div class="col-md-1"></div>	
+                  <div class="col-md-10">
+                     <span class="icon mdi mdi-volume-high"></span>
+                     &nbsp;<span class="sub-text">당신이 할 수 있는 가장<strong>&nbsp; 반짝반짝 빛나는 스스로의 방식을 찾을 것</strong>&nbsp;&nbsp;&nbsp;
+                     <span class="sub-text-small"> by. 메릴 스트립 Meryl Streep</span> </span>
+                  </div>
+                  <div class="col-md-1"></div>	
+                </div>
+   			 </div>
+	         <!-- 게시글 title END -->
 	         
 	         
-	         <!-- ----------------------################### END -->
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         
+	         <!-- # detail-div : 기초심리학 detail START -->
+	         <div class="thd-div">
+				<!-- # detail-div-inline START -->
+				<div class="thd-div-inline">
+				
+				
+					<!-- title, 닉네임, 등록일, 카테고리 -->
+					
+					
+					
+					<!-- 내용 -->
+					
+					
+					
+					
+					<!-- 버튼들 -->
+					
+					
+					<!-- 댓글 -->
+				
+				
+				
+				
+				
+				</div>
+	         	 <!-- detail-div-inline END -->
+	         </div>
+	         <!-- detail-div : 기초심리학 detail END -->
 	   
 	   
 	   
