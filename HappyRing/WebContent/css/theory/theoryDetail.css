@@ -123,11 +123,138 @@
 
 /* 이미지 패딩 없애기 */
 @media (min-width: 992px){
-.post-blog-article .post-blog-article-body img {
-    margin-top: 24px;
+	.post-blog-article .post-blog-article-body img {
+	    margin-top: 24px;
+	}
 }
 
+
+
+/* ## 댓글 css START */
+
+.thd-div-comment {
+/* 	border: solid pink;  */
+	border-top: 2px dashed rgba(131, 131, 134, 0.1);
+	padding: 25px;
+	margin-top: 230px;
 }
+
+
+
+
+/* 댓글 list css*/
+.thd-div-comment .comment-group {
+	border-radius: 9px;
+    padding: 20px;
+/*     text-align: left; */
+/*     font-size: 15px; */
+/*     color: #29293a; */
+    background: #f2f3f9;
+    border: 2px dashed rgba(131, 131, 134, 0.1);
+}
+
+/* 닉네임 입력칸 css 조정 */
+.thd-div-comment .form-input.txtName{
+    display: block;
+    width: 100%;
+    min-height: 28px;
+    padding: 18px 25px;
+    font-weight: 300;
+    line-height: 13px;
+    font-size: 13.5px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;	
+    border: 0px solid #f2f3f9;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    height: 25px;
+}
+
+
+/* 댓글 비밀여부 css */
+@media (min-width: 992px){
+.thd-div-comment .checkbox-inline .checkbox-custom-dummy{
+	width: 20px;
+    height: 20px;
+/*     margin-top: 1px; */
+/*     margin-top: 13.5px; */
+	}
+}
+
+
+@media (min-width: 992px){
+.thd-div-comment .checkbox, .checkbox-inline {
+    padding-left: 27px;
+    margin-top: 7px;
+}
+}
+
+
+
+/* 댓글 입력칸 css  */
+.thd-div-comment .form-input.txtComment {
+	display: block;
+    width: 100%;
+    min-height: 32px;
+    padding: 18px 25px;
+    font-weight: 300;
+    line-height: 23px;
+    font-size: 13.5px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;
+    border: 0px solid #f2f3f9;
+    border-radius: 15px 0px 0px 15px;
+    -webkit-appearance: none;
+   
+}
+
+/* text 입력칸 height 조정*/
+.thd-div-comment  textarea.form-input {
+    height: 126px;
+    min-height: 89px;
+    max-height: 255px;
+    resize: vertical;
+}
+
+
+/* 댓글 입력 text area maring 조정*/
+@media (min-width: 480px){
+.thd-div-comment .cell-sm-10{
+	    -webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	     flex-basis: 100%;
+	     margin-top: 8px;
+	     padding-right: 0px;
+	}
+}
+@media (min-width: 480px){
+.thd-div-comment .cell-sm-2 {
+	    -webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	     flex-basis: 100%;
+	     margin-top: 8px;
+	     padding-left: 0px;
+	}
+}
+
+/* 댓글 입력 버튼 */
+@media (min-width: 992px){
+	.thd-div-comment .button {
+	min-width: 105px;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    border-radius: 0px 15px 15px 0px;
+	}
+}
+
+
+
+/* 댓글 css END */ 
 
 
 
