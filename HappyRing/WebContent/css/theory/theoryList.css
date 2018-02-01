@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-/* 심리이론 게시물 타이틀 div */
+/* ## 심리이론 게시물 타이틀 div */
 .th-title{
 	margin-top: 12px;
 /* 	border: solid; */
@@ -21,11 +21,16 @@
 .th-title .row .col-md-10 .sub-text{
 	font-size: 14px;
 }
-
 .th-title .row .col-md-10 .sub-text-small{
 	
 	font-size: 10px
 }
+
+
+/* 심리이론 게시물 타이틀 div END*/
+
+
+
 
 
 /* 블록 형식의 list div */

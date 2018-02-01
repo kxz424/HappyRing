@@ -38,7 +38,7 @@
 
 
 	<!--### row START -->	
-	<div class="row">
+	<div clacss="row">
 	   
 	   <!-- ## col-md-9 START -->	
 	   <div class="col-md-9">

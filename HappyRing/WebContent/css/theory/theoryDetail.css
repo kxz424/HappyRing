@@ -1,2 +1,52 @@
 @charset "UTF-8";
 
+
+
+
+
+/* 심리이론 게시물 타이틀 div START*/
+.thd-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* 심리이론 게시물 제목 col-md padding 조정 */
+.thd-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/*심리이론 닉네임 크기 조정*/
+.thd-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+.thd-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 심리이론 게시물 타이틀 div END*/
+
+
+/* detail div */
+.thd-div{
+    padding-top: 25px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: white;
+    border: solid red;
+}
+
+
+.thd-div-inline{
+	
+	padding-top: 60px;
+    padding-bottom: 85px;
+    border: solid;
+}
