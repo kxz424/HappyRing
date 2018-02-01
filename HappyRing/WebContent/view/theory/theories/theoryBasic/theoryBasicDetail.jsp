@@ -252,6 +252,22 @@
 		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
+		                    <br>
+		                    <!-- Comment-->
+		                    <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">Ronald Chen</p>
+		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">Catherine Payne</span>
+		                        </div>
+		                        <div class="comment-text">
+		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
+		                        </div>
+		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply2</a></div>
+		                      </div>
+		                    </article>
 		                  </div>
 		                  <!-- Comment-->
 		                  <article class="comment">
