@@ -11,42 +11,106 @@
 	background-color: white;
 	padding-bottom: 10px;
     padding-top: 10px;
+    padding-left: 19px;
 }
-
-/* 심리이론 게시물 제목 col-md padding 조정 */
-.thd-title .row .col-md-6{
-	padding-left: 4%; 
-	margin-bottom: 2%;
-}
-
-/*심리이론 닉네임 크기 조정*/
-.thd-title .row .col-md-10 .sub-text{
-	font-size: 14px;
-}
-.thd-title .row .col-md-10 .sub-text-small{
-	
-	font-size: 10px
-}
-
 
 /* 심리이론 게시물 타이틀 div END*/
 
 
 /* detail div */
 .thd-div{
-    padding-top: 25px;
     margin-top: 15px;
-    padding-bottom: 25px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding: 6px;
     background-color: white;
-    border: solid red;
 }
 
-
+/* detail-div-inline */
 .thd-div-inline{
-	
-	padding-top: 60px;
+	padding-top: 11px;
     padding-bottom: 85px;
-    border: solid;
+    border: solid rgb(234, 234, 234);
 }
+
+
+/* row에 주어진 -값 없애는 조정*/
+.thd-div-inline .row {
+	margin-left: 0px; 
+    margin-right: 0px;
+}
+
+
+/* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
+@media (min-width: 992px){
+	.thd-div-inline .row .col-md-9 {
+	   padding-left: 5px !important;
+	}
+}
+@media (min-width: 992px){
+	.thd-div-inline .row .col-md-3 {
+	    text-align: right;
+	    padding-right: 5px;
+	    padding-left: 52px;
+	}
+}
+   
+/* icon 크기 조정 */
+.thd-div-inline .icon {
+    font-size: 13px;
+    padding-top: 7px;
+    padding-right: 0px
+}
+
+/* 아이콘 색 조정 */
+.thd-div-inline .icon-primary {
+    color: #981df0;
+}
+
+/* 닉네임, 등록일, 택스 담고 있는 text padding 조정 */
+/* .thd-div-inline p{ */
+/* 	padding-right: 20px; */
+/* } */
+
+/* hr태그 margin 없애기*/
+.thd-div-inline hr{
+    margin-top: 12px;
+}
+
+
+/* 닉네임 들어있는 table의 td padding 조정 */
+.thd-div-inline .td-nick {
+	padding-left: 7px;
+	padding-top: 11px;
+}
+
+
+/* post-blog-article : article 전체 윤곽 */
+.thd-div-inline .post-blog-article{
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+/* articel header 글자  조정 */
+.thd-div-inline .post-blog-article .post-blog-article-title{
+    letter-spacing: 0.1em;
+    font-size: 33px;
+}
+
+/* article 내용 padding 조정 */
+.thd-div-inline .post-blog-article .post-blog-article-body{
+	padding: 25px;
+	padding-top: 53px;
+/* 	border: solid; */
+}
+
+
+/* 이미지 패딩 없애기 */
+@media (min-width: 992px){
+.post-blog-article .post-blog-article-body img {
+    margin-top: 24px;
+}
+
+}
+
+
+
