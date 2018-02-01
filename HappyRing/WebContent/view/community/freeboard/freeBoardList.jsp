@@ -119,56 +119,15 @@
                
                <!-- 자유게시판 글등록btn 및 paging START -->
               
-              				<div class="fr-paging">
-						           <div class="row">
-			<!-- 					                       페이징 -->
-								          <div class="col-sm-offset-3 col-md-offset-3 col-xs-7 col-md-7" style=" padding-right: 0px; ">
-								                  <ul class="pagination-custom" id="pageNum">
-								                       <li><a href="">◀◀</a></li>
-								                       <li><a href="">◀</a></li>
-								                          <c:forEach var="i" begin="1" end="3">
-								                       <li><a href="">${i}</a></li>
-								                           </c:forEach>
-								                       <li><a href="">▶</a></li>
-								                       <li><a href="">▶▶</a></li>
-								                    </ul>
-								          </div>
-<!-- 								          <div class="col-xs-7 col-md-1"></div> -->
-			<!-- 					                        글쓰기 버튼 -->
-								          <div class="col-xs-2 col-md-2" style="padding-left: 20px;">
-								          
-								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-								               <input class="btn btn-primary" type="button" id="write"value="글쓰기" />
-								          </a>     
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-								</div>
-								
-								
-								
+               <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
+									
               <!-- 자유게시판 글등록btn 및 paging END -->
                
                
                
               <!-- 자유게시판 검색창 START -->
               
-              <!-- Alternative Newsletter-->
-	              <!-- RD Mailform: Subscribe-->
-	          <div class="row">
-	          	<div class="col-sm-offset-2 col-md-offset-2 col-sm-8 col-md-8">
-	          		<form class="rd-mailform rd-mailform-inline rd-mailform-sm" method="post">
-	                <div class="rd-mailform-inline-inner">
-	                  <div class="form-wrap" style="width: 55%;">
-	                    <input class="form-input" type="text" id="subscribe-form-email-2"/>
-	                    <label class="form-label" for="subscribe-form-email-2">검색어를 입력하세요</label>
-	                  </div>
-	                  <button class="button form-button button-sm button-secondary button-nina" type="submit">Subscribe</button>
-	                </div>
-	              </form>
-	          	</div>
-	          </div>
-	              
+	  	      <jsp:include page="/view/paging/search.jsp"></jsp:include>       
               
               <!-- 자유게시판 검색창 END -->
               				
