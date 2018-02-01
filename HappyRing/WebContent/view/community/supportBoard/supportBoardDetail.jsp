@@ -88,7 +88,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">고민게시판</a></span></td>
+				                	<td><span class=""><a href="">응원게시판</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
 		                        </tr>
