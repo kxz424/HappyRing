@@ -152,6 +152,12 @@
                            </c:forEach>
                         </tbody>
                      </table>
+                     
+                     <!-- 글쓰기 버튼 START -->
+                     <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
+			         	<button class="btn btn-primary fr-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
+			         </a>
+			         <!-- 글쓰기 버튼 END -->
                   </div>
                </div>
                
