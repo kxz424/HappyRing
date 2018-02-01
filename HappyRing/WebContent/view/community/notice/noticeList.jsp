@@ -24,8 +24,8 @@
   <link rel="stylesheet" href="/HappyRing/css/common/right-side-1.css">
 <!-- communityList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
-<!-- worryBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css">
+<!-- noticeBoardList 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/community/notice/noticeList.css">
 
 
 
@@ -56,12 +56,12 @@
 	         <!-- ----------------------################### START -->
 	          	
 	          	
-	         <!-- ## 게시물 title : 고민게시판 START -->
+	         <!-- ## 게시물 title : 공지사항 START -->
 	   			<div class="cd-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
-	                     <h4 class="hn">고민게시판</h4>
+	                     <h4 class="hn">공지사항</h4>
 	                  </div>
 	                  <div class="col-md-6"></div>
 	                </div>
@@ -76,10 +76,10 @@
 	                  <div class="col-md-1"></div>	
 	                </div>
 	   			</div>
-	      <!-- 게시물 title : 고민게시판 END -->
+	      <!-- 게시물 title : 공지사항 END -->
 	      
 	      
-	      <!-- 고민게시판 list START -->
+	      <!-- 공지사항 list START -->
               <div class="cd-list">
               	<div class="row table-list">
                   <div class="col-md-12">
@@ -88,7 +88,7 @@
                      <table class="table table-hover">
                         <thead>
                            <tr>
-                              <th class="t1">고민게시판</th>
+                              <th class="t1">공지사항</th>
                            </tr>
                         </thead>
                         <tbody>
@@ -101,11 +101,11 @@
 	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 		                                </div>
 		                                <div class="col-md-2">
-		                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+		                                	<img alt="공지사항게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
 	                                 	</div>
 	                                 	<div class="col-md-12">
 	                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-	                                 		<span style="float: right;">고민</span>
+	                                 		<span style="float: right;">공지사항</span>
 	                                 	</div>
                                  	</div>
                                  </td>
@@ -116,11 +116,11 @@
                   </div>
                </div>
               </div>
-              <!-- 고민게시판 list END -->
+              <!-- 공지사항 list END -->
               
               
               
-              <!-- 작은화면 고민게시판 list START -->
+              <!-- 작은화면 공지사항 list START -->
               <div class="cd-xs-list">
 	              <div class="row table-list">
 	                  <div class="col-md-12">
@@ -129,7 +129,7 @@
 	                     <table class="table table-hover">
 	                        <thead>
 	                           <tr>
-	                              <th class="t1">고민게시판</th>
+	                              <th class="t1">공지사항</th>
 	                           </tr>
 	                        </thead>
 	                        <tbody>
@@ -138,7 +138,7 @@
 	                                 <td class="t1">
 	                                 	<div class="row">
 	                                 		<div class="col-xs-10">
-		                                 		<span><strong>고민</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
+		                                 		<span><strong>공지사항</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
 			                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
 			                                </div>
 			                                
@@ -165,16 +165,16 @@
                
                
               </div>
-              <!-- 작은화면 고민게시판 list END -->
+              <!-- 작은화면 공지사항 list END -->
               
               
               
               
-              <!-- 고민게시판 글등록btn 및 paging, search 창 START -->
+              <!-- 공지사항 글등록btn 및 paging, search 창 START -->
              
               <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
 									
-              <!-- 고민게시판 글등록btn 및 paging, search 창 END -->
+              <!-- 공지사항 글등록btn 및 paging, search 창 END -->
                
               
               
