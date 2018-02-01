@@ -1,45 +1,62 @@
 @charset "UTF-8";
 
-/*  paging 버튼 및 글쓰기 버튼 공간 확보 */
-.fr-list {
-    height: auto;
-    margin-top: 12px;
-    padding-top: 13px;
-    padding-bottom: 7px;
-    background-color: white;
-}
 
 /*  paging 버튼 글씨크기 조정 */
-.fr-paging #pageNum a, .fr-paging #write {
+.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging #write {
 	font-size: 12px;
 }
 /*  paging 버튼 크기 설정 */
-.fr-paging #pageNum a, .fr-paging li {
+.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging li {
 	min-width: 35px;
 	height: 35px;
 	vertical-align: middle;
 	line-height: 35px;
 }
+/* paging 부분 바탕색 및 위치조정 */
+.fr-paging-search, .fr-xs-paging-search {
+	margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+/* 큰화면일때 모바일화면 기준 작은화면 paging 부분 숨김 처리 */
+.fr-xs-paging-search {
+	display: none;
+}
+
+.fr-paging-search .fr-paging {
+	padding-top: 10px;
+}
 
 /* 검색창 부분 위치 조정 */
-.fr-list .range {
-		margin-top: 10px;
+.fr-paging-search .fr-search {
+	margin-top: 10px;
 }
 /* ## 모바일 화면 기준  css START */
 @media(max-width: 768px){
-	/*  목록 검색창 부분 위지 조정 */
-	.fr-xs-list .fr-xs-paging .col-xs-12 {
+	/* 큰화면 기준 paging 숨김처리 */
+	.fr-paging-search {
+		display: none;
+	}
+	/* 작은화면 기준 paging 숨김처리 */
+	.fr-xs-paging-search {
+		display: block;
+	}
+	
+	/*  목록 검색창 버튼 부분 위치 조정 */
+	.fr-xs-paging-search .fr-xs-paging .col-xs-12 {
 		padding-right: 3%; 
 		padding-left: 3%;
 		padding-top: 10px;
 	}
 	/* 모바일 화면 목록 글쓰기 버튼 위치 조정 */
-	.fr-xs-list .fr-xs-paging .col-xs-4 {
+	.fr-xs-paging-search .fr-xs-paging .col-xs-4 {
 		padding-top: 10px; 
 		padding-right: 3%; 
 	}
 	/* 모바일 화면 목록 글쓰기 버튼 위치 조정 */
-	.fr-xs-list .fr-xs-write{
+	.fr-xs-paging-search .fr-xs-write{
 		float: right;
 	}
 }

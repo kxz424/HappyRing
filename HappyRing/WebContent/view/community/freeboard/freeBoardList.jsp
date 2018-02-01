@@ -113,37 +113,8 @@
                      </table>
                   </div>
                </div>
-               
-               
-               
-               
-               <!-- 자유게시판 글등록btn 및 paging START -->
-              
-               <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
-									
-              <!-- 자유게시판 글등록btn 및 paging END -->
-               
-               
-               
-              <!-- 자유게시판 검색창 START -->
-              
-	  	      <jsp:include page="/view/paging/search.jsp"></jsp:include>       
-              
-              <!-- 자유게시판 검색창 END -->
-              				
-              
-              
-              
-               
-               
-               
-               
               </div>
               <!-- 자유게시판 list END -->
-              
-              
-              
-              
               
               
               
@@ -185,53 +156,16 @@
                </div>
                
                
-               
-               
-               <!-- 자유게시판 글등록btn 및 paging START -->
-								
-								<div class="fr-xs-paging">
-						           <div class="row">
-			<!-- 					                       페이징 -->
-								          <div class="col-xs-12">
-								              <a class="button button-default-outline button-nina button-block button-blog" href="#">Load more posts</a>
-								          </div>
-<!-- 								          <div class="col-xs-7 col-md-1"></div> -->
-			<!-- 					                        글쓰기 버튼 -->
-			
-			
-										  <!-- 자유게시판 검색창 START -->
-										  <div class="col-xs-12">
-										      <!-- Alternative Newsletter-->
-								              <form class="rd-mailform rd-mailform-inline rd-mailform-sm" method="post">
-								                <div class="rd-mailform-inline-inner">
-								                  <div class="form-wrap" style="width: 55%;">
-								                    <input class="form-input" type="text" id="subscribe-form-email-2"/>
-								                    <label class="form-label" for="subscribe-form-email-2">검색어를 입력하세요</label>
-								                  </div>
-								                  <button class="button form-button button-sm button-secondary button-nina" type="submit">Subscribe</button>
-								                </div>
-								              </form>
-										  </div>
-					              		  <!-- 자유게시판 검색창 END -->
-										
-			
-			
-								          <div class="col-xs-offset-8 col-xs-4">
-								          
-								          <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-								               <input class="btn btn-primary fr-xs-write" type="button" id="write"value="글쓰기" />
-								          </a>     
-								          </div>
-								           <div class="col-xs-3 col-md-0"></div>
-								  </div>
-								</div>
-								
-              <!-- 자유게시판 글등록btn 및 paging END -->
-              
-               
-               
-               
               </div>
+              
+              <!-- 자유게시판 글등록btn 및 paging, search 창 START -->
+             
+              <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
+									
+              <!-- 자유게시판 글등록btn 및 paging, search 창 END -->
+               
+              
+              
               <!-- 자유게시판 list END -->
               
               
