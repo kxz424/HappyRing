@@ -201,13 +201,13 @@
 			              </div>
 	                    </div>
 	                    <!-- 댓글 내용 입력칸 --> 
-	                    <div class="cell-sm-10">
+	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 	                      <div class="form-wrap form-wrap-validation">
 	                        <textarea class="form-input txtComment" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 	                      </div>
 	                    </div>
 	                    <!-- 댓글 등록 버튼  -->
-	                    <div class="cell-sm-2">
+	                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
 	                      <div class="form-button">
 	                        <button class="button button-secondary button-nina" type="submit">등록</button>
 	                      </div>
@@ -301,13 +301,13 @@
 					              </div>
 			                    </div>
 			                    <!-- 댓글 내용 입력칸 --> 
-			                    <div class="cell-sm-10">
+			                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 			                      <div class="form-wrap form-wrap-validation">
 			                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
 			                      </div>
 			                    </div>
 			                    <!-- 댓글 등록 버튼  -->
-			                    <div class="cell-sm-2">
+			                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
 			                      <div class="form-button">
 			                        <button class="button button-secondary button-nina" type="submit">등록</button>
 			                      </div>
