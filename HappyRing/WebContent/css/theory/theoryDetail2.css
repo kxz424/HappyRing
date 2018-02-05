@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+
+
+
+
+/* 심리이론 게시물 타이틀 div START*/
+
+.thd-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 심리이론 게시물 타이틀 대제목 col-md padding 조정 */
+.thd-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/*심리이론 명언 text 글자 크기 조정*/
+.thd-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+.thd-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 심리이론 게시물 타이틀 div END*/
+
+
+/* detail div */
+.thd-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+}
+
+/* detail-div-inline */
+.thd-div-inline{
+	padding-top: 11px;
+    padding-bottom: 85px;
+    border: solid rgb(234, 234, 234);
+}
+
+
+/* row에 주어진 -값 없애는 조정*/
+.thd-div-inline .row {
+	margin-left: 0px; 
+    margin-right: 0px;
+}
+
+
+/* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
+@media (min-width: 992px){
+	.thd-div-inline .row .col-md-9 {
+	   padding-left: 5px !important;
+	}
+}
+@media (min-width: 992px){
+	.thd-div-inline .row .col-md-3 {
+	    text-align: right;
+	    padding-right: 5px;
+	    padding-left: 52px;
+	}
+}
+   
+/* icon 크기 조정 */
+.thd-div-inline .icon {
+    font-size: 13px;
+    padding-top: 7px;
+    padding-right: 0px
+}
+
+/* 아이콘 색 조정 */
+.thd-div-inline .icon-primary {
+    color: #981df0;
+}
+
+/* 닉네임, 등록일, 택스 담고 있는 text padding 조정 */
+/* .thd-div-inline p{ */
+/* 	padding-right: 20px; */
+/* } */
+
+/* hr태그 margin 없애기*/
+.thd-div-inline hr{
+    margin-top: 12px;
+}
+
+
+/* 닉네임 들어있는 table의 td padding 조정 */
+.thd-div-inline .td-nick {
+	padding-left: 7px;
+	padding-top: 11px;
+}
+
+
+/* post-blog-article : article 전체 윤곽 */
+.thd-div-inline .post-blog-article{
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+/* articel header 글자  조정 */
+.thd-div-inline .post-blog-article .post-blog-article-title{
+    letter-spacing: 0.1em;
+    font-size: 33px;
+}
+
+/* article 내용 padding 조정 */
+.thd-div-inline .post-blog-article .post-blog-article-body{
+	padding: 25px;
+	padding-top: 53px;
+/* 	border: solid; */
+}
+
+
+/* 이미지 패딩 없애기 */
+@media (min-width: 992px){
+	.post-blog-article .post-blog-article-body img {
+	    margin-top: 24px;
+	}
+}
+
+
+
+/* ## 댓글 css START */
+
+.thd-div-comment {
+/* 	border: solid pink;  */
+	border-top: 2px dashed rgba(131, 131, 134, 0.1);
+	padding: 25px;
+	margin-top: 230px;
+}
+
+
+
+
+/* 댓글 list css*/
+.thd-div-comment .comment-group {
+	border-radius: 9px;
+    padding: 20px;
+/*     text-align: left; */
+/*     font-size: 15px; */
+/*     color: #29293a; */
+    background: #f2f3f9;
+    border: 2px dashed rgba(131, 131, 134, 0.1);
+}
+
+/* 닉네임 입력칸 css 조정 */
+.thd-div-comment .form-input.txtName{
+    display: block;
+    width: 100%;
+    min-height: 28px;
+    padding: 18px 25px;
+    font-weight: 300;
+    line-height: 13px;
+    font-size: 13.5px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;	
+    border: 0px solid #f2f3f9;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    height: 25px;
+}
+
+
+/* 댓글 비밀여부 css */
+@media (min-width: 992px){
+.thd-div-comment .checkbox-inline .checkbox-custom-dummy{
+	width: 20px;
+    height: 20px;
+/*     margin-top: 1px; */
+/*     margin-top: 13.5px; */
+	}
+}
+
+
+@media (min-width: 992px){
+.thd-div-comment .checkbox, .checkbox-inline {
+    padding-left: 27px;
+    margin-top: 7px;
+}
+}
+
+
+
+/* 댓글 입력칸 css  */
+.thd-div-comment .form-input.txtComment {
+	display: block;
+    width: 100%;
+    min-height: 32px;
+    padding: 18px 25px;
+    font-weight: 300;
+    line-height: 23px;
+    font-size: 13.5px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;
+    border: 0px solid #f2f3f9;
+    border-radius: 15px 0px 0px 15px;
+    -webkit-appearance: none;
+   
+}
+
+/* text 입력칸 height 조정*/
+.thd-div-comment  textarea.form-input {
+    height: 126px;
+    min-height: 89px;
+    max-height: 255px;
+    resize: vertical;
+}
+
+
+/* 댓글 입력 text area maring 조정*/
+@media (min-width: 480px){
+.thd-div-comment .cell-sm-10{
+	    -webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	     flex-basis: 100%;
+	     margin-top: 8px;
+	     padding-right: 0px;
+	}
+}
+@media (min-width: 480px){
+.thd-div-comment .cell-sm-2 {
+	    -webkit-flex-basis: 100%;
+	    -ms-flex-preferred-size: 100%;
+	     flex-basis: 100%;
+	     margin-top: 8px;
+	     padding-left: 0px;
+	}
+}
+
+/* 댓글 입력 버튼 (종상) */
+@media (min-width: 992px){
+	.thd-div-comment .button {
+	min-width: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    border-radius: 0px 15px 15px 0px;
+	}
+}
+
+/* 492px 이하에서 댓글 입력창 사이즈 변경 */
+@media(max-width: 492px){
+	/* 댓글 입력창 */
+	.thd-div-comment .cell-sm-10 {
+		padding-right: 15px;
+	}
+	/* 댓글 등록 버튼 */
+	.thd-div-comment .cell-sm-2 {
+		padding-left: 15px;
+	}
+	/* 댓글 입력창 textarea */
+	.thd-div-comment .cell-sm-10 .form-input.txtComment {
+		border-radius: 15px;
+		resize: none;
+	}
+}
+
+/* 대댓글 숨김 처리 (종상) */
+.thd-div-comment .thd-none {
+	display: none;
+}
+/* 대댓글 입력창 바탕색 (종상) */
+.thd-div-comment .thd-txt-bg-color .range {
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+
+/* 댓글 css END */ 
+
+
+
