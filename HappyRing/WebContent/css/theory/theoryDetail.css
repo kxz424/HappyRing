@@ -130,7 +130,6 @@
 
 
 
-
 /** ## 버튼 css START */ 
 
 .thd-div-buttons{
@@ -333,7 +332,7 @@
 
 
 /* 댓글 입력 버튼 (종상) */
-@media (min-width: 992px){
+/* @media (min-width: 992px){ */
 	.thd-div-comment .button {
 	min-width: 100%;
     font-size: 14px;
@@ -343,24 +342,9 @@
     padding-bottom: 52px;
     border-radius: 0px 15px 15px 0px;
 	}
-}
+/* } */
 
-/* 492px 이하에서 댓글 입력창 사이즈 변경 */
-@media(max-width: 492px){
-	/* 댓글 입력창 */
-	.thd-div-comment .cell-sm-10 {
-		padding-right: 15px;
-	}
-	/* 댓글 등록 버튼 */
-	.thd-div-comment .cell-sm-2 {
-		padding-left: 15px;
-	}
-	/* 댓글 입력창 textarea */
-	.thd-div-comment .cell-sm-10 .form-input.txtComment {
-		border-radius: 15px;
-		resize: none;
-	}
-}
+
 
 /* 대댓글 숨김 처리 (종상) */
 .thd-div-comment .thd-none {
