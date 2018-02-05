@@ -243,10 +243,12 @@
 		                      <div class="comment-text">
 		                        <p>Thank you for such an amazing and informative article! It’s useful to know how to continue small talk and eventually make it into a great conversation.</p>
 		                      </div>
-		                      <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
+		                      <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                    </div>
 		                  </article>
-		                  <div class="comment-group">
+		                  
+		                  <!-- 대댓글 영역 START -->
+		                  <div class="comment-group thd-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
@@ -278,7 +280,45 @@
 		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply2</a></div>
 		                      </div>
 		                    </article>
+		                    
+		                    <!--# 댓글 입력 -->
+					
+							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+			                  <div class="range range-20">
+			                    
+			                    <!-- 닉네임입력 -->
+			                    <div class="cell-sm-4">
+			                      <div class="form-wrap form-wrap-validation">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name" data-constraints="@Required">
+		                      	  </div>
+			                    </div>
+			                    <!-- 댓글 비밀여부 check box -->
+			                    <div class="cell-sm-8">
+			                   	  <div class="form-wrap">
+					                <label class="checkbox-inline">
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할래요</span>
+					                </label>
+					              </div>
+			                    </div>
+			                    <!-- 댓글 내용 입력칸 --> 
+			                    <div class="cell-sm-10">
+			                      <div class="form-wrap form-wrap-validation">
+			                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
+			                      </div>
+			                    </div>
+			                    <!-- 댓글 등록 버튼  -->
+			                    <div class="cell-sm-2">
+			                      <div class="form-button">
+			                        <button class="button button-secondary button-nina" type="submit">등록</button>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </form>
+		                    
 		                  </div>
+		                  <!-- 대댓글 영역 END -->
+		                  
+		                  
 		                  <!-- Comment-->
 		                  <article class="comment">
 		                    <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
@@ -291,13 +331,89 @@
 		                      <div class="comment-text">
 		                        <p>Your tips helped me change my attitude to small talk, and I’m not avoiding them anymore. I hope to see more of such posts here in the future.</p>
 		                      </div>
-		                      <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
+		                      <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                    </div>
 		                  </article>
+		                  
+		                  <!-- 대댓글 영역 START -->
+		                  <div class="comment-group thd-none">
+		                    <!-- Comment-->
+		                    <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">Ronald Chen</p>
+		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">Catherine Payne</span>
+		                        </div>
+		                        <div class="comment-text">
+		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
+		                        </div>
+		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                    
+		                    
+		                    <!--# 댓글 입력 -->
+					
+							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+			                  <div class="range range-20">
+			                    
+			                    <!-- 닉네임입력 -->
+			                    <div class="cell-sm-4">
+			                      <div class="form-wrap form-wrap-validation">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name" data-constraints="@Required">
+		                      	  </div>
+			                    </div>
+			                    <!-- 댓글 비밀여부 check box -->
+			                    <div class="cell-sm-8">
+			                   	  <div class="form-wrap">
+					                <label class="checkbox-inline">
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할래요</span>
+					                </label>
+					              </div>
+			                    </div>
+			                    <!-- 댓글 내용 입력칸 --> 
+			                    <div class="cell-xs-10 cell-sm-10">
+			                      <div class="form-wrap form-wrap-validation">
+			                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
+			                      </div>
+			                    </div>
+			                    <!-- 댓글 등록 버튼  -->
+			                    <div class="cell-sm-2">
+			                      <div class="form-button">
+			                        <button class="button button-secondary button-nina" type="submit">등록</button>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </form>
+		                  </div>
+		                  <!-- 대댓글 영역 END -->
+		                  
 		                </div>
 		                
 					</div>	
 					<!-- 댓글 END -->			
+					
+					
+					
+					
+					
+					
+					<!-- 댓글 페이징 START -->
+             
+		              <jsp:include page="/view/paging/onlyPaging.jsp"></jsp:include>			
+											
+		            <!-- 댓글 페이징 END -->
+					
+					
+					
+					
+					
+					
+					
+					
+					
 				
 				</div>
 	         	 <!-- detail-div-inline END -->
@@ -340,6 +456,26 @@
     <script src="/HappyRing/js/script.js"></script>
  <!-- header전용 js --> 
     <script src="/HappyRing/js/header/header.js"></script>
+    
+    
+<script type="text/javascript">
+$(function(){
+	
+	//댓글에 reply 버튼 클릭시 해당되는 대댓글 화면에 나타내기 (종상)
+	$(".thd-reply-btn").click(function(e){
+		e.preventDefault();
+		var reply = $(this).parent().parent().parent().next();
+		if(reply.attr('class') == 'comment-group thd-none'){
+			reply.attr('class', 'comment-group thd-block');
+		}else{
+			reply.attr('class', 'comment-group thd-none');
+		}
+	});
+});
+</script>    
+    
+    
+
 
 
 </body>

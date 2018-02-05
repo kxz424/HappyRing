@@ -175,33 +175,35 @@
 					<!--## 댓글 SATART -->
 					<div class="thd-div-comment">
 					
-					
-					
-					
-					
+					<h5> 댓글쓰기 </h5>
 					<!--# 댓글 입력 -->
-					
 					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 	                  <div class="range range-20">
 	                    
 	                    <!-- 닉네임입력 -->
 	                    <div class="cell-sm-4">
 	                      <div class="form-wrap form-wrap-validation">
-                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name" data-constraints="@Required">
+                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
                       	  </div>
 	                    </div>
 	                    <!-- 댓글 비밀여부 check box -->
 	                    <div class="cell-sm-8">
 	                   	  <div class="form-wrap">
 			                <label class="checkbox-inline">
-			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할래요</span>
+			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 			                </label>
+  							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							</div>
+							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+			                </div>
 			              </div>
 	                    </div>
 	                    <!-- 댓글 내용 입력칸 --> 
 	                    <div class="cell-sm-10">
 	                      <div class="form-wrap form-wrap-validation">
-	                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
+	                        <textarea class="form-input txtComment" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 	                      </div>
 	                    </div>
 	                    <!-- 댓글 등록 버튼  -->
@@ -214,12 +216,20 @@
 	                </form>
 					
 					
+					<h5 class="reply-cate"> 댓글 
+					  <span>3</span> 
+					  <span>&nbsp;|&nbsp;</span>
+					  <span> 공감순 
+					    <span class="glyphicon glyphicon-chevron-down"></span> 
+					  </span> 
+					  <span>&nbsp;|&nbsp;</span>
+					  <span> 최신순 
+					    <span class="glyphicon glyphicon-chevron-down"></span> 
+					  </span> 
+					  <span>&nbsp;|&nbsp;</span>
+					</h5>
 					
-					
-					
-					
-					
-					 <!-- 댓글 리스트 (종상)  -->
+					 <!-- 댓글 리스트  -->
 				      <div class="comment-group">
 		                  <!-- Comment-->
 		                  <article class="comment">
@@ -236,6 +246,8 @@
 		                      <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                    </div>
 		                  </article>
+		                  
+		                  <!-- 대댓글 영역 START -->
 		                  <div class="comment-group thd-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
@@ -268,6 +280,7 @@
 		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply2</a></div>
 		                      </div>
 		                    </article>
+		                    
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
@@ -301,7 +314,11 @@
 			                    </div>
 			                  </div>
 			                </form>
+		                    
 		                  </div>
+		                  <!-- 대댓글 영역 END -->
+		                  
+		                  
 		                  <!-- Comment-->
 		                  <article class="comment">
 		                    <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
@@ -318,6 +335,7 @@
 		                    </div>
 		                  </article>
 		                  
+		                  <!-- 대댓글 영역 START -->
 		                  <div class="comment-group thd-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
@@ -370,11 +388,12 @@
 			                  </div>
 			                </form>
 		                  </div>
+		                  <!-- 대댓글 영역 END -->
 		                  
 		                </div>
 		                
 					</div>	
-					<!-- 댓글 END (종상) -->	
+					<!-- 댓글 END -->			
 					
 					
 					
@@ -392,7 +411,9 @@
 					
 					
 					
-							
+					
+					
+					
 				
 				</div>
 	         	 <!-- detail-div-inline END -->
@@ -435,9 +456,8 @@
     <script src="/HappyRing/js/script.js"></script>
  <!-- header전용 js --> 
     <script src="/HappyRing/js/header/header.js"></script>
-
-
-
+    
+    
 <script type="text/javascript">
 $(function(){
 	
@@ -452,9 +472,9 @@ $(function(){
 		}
 	});
 });
-</script>
-
-
+</script>    
+    
+    
 
 
 
