@@ -130,6 +130,11 @@
     width: 50%;
     margin-left: 0;
     margin-right: 0;
+    float: left;
+}
+/* 탭 버튼(nav) 높이 조절 */
+.rs-bottom-tab-auto .tabs-horizontal.tabs-line .nav-tabs {
+	height: 35px;
 }
 
 /* 탭 버튼 a태그 padding 조정 */
