@@ -169,7 +169,61 @@
 					<!-- 본문 제목, 내용 END  -->
 					
 					
-					<!-- 버튼들 -->
+					<!-- ## 버튼들 START -->
+					<div class="thd-div-buttons row">
+					  <div class="col-md-2"></div>
+					  
+					  <!-- 버튼 -->
+					  <div class="col-md-8">
+					  	<div class="row">
+						   <div class="col-md-2 col-xs-2">
+						  	 <img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="50" height="50" />
+						  	 <br>
+						  	 <label style="text-align: center;">13 <br> 하이염</label>
+						   </div>
+						   <div class="col-md-2 col-xs-2">
+						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png" width="50" height="50" />
+						  	<br>
+						  	<label>하이염3</label>
+						   </div>
+						   <div class="col-md-2 col-xs-2">	
+						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png" width="50" height="50" />
+						  	<br>
+						  	<label>하이염3</label>
+						   </div>
+						   <div class="col-md-2 col-xs-2">	
+						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="50" height="50" />
+						  	<br>
+						  	<label>하이염3</label>
+						   </div>
+						   <div class="col-md-2 col-xs-2">	
+						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sick.png" width="50" height="50" />
+						  	<br>
+						  	<label>하이염3</label>
+						   </div>
+						   <div class="col-md-2 col-xs-2">	
+						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png" width="50" height="50" />
+						  	<br>
+						  	<label>하이염3</label>
+						   </div>	
+					  	</div>
+					  </div>
+					  <div class="col-md-2"></div>
+					  
+					  <!-- 버튼 아래 text 표시 -->
+					  <div class="col-md-2"></div>
+					  <div class="col-md-8"></div>
+					  <div class="col-md-2"></div>
+					  
+					  <!-- 버튼 아래 count 표시 -->
+					  <div class="col-md-2"></div>
+					  <div class="col-md-8"></div>
+					  <div class="col-md-2"></div>
+					  
+					  
+					  
+					</div>
+					<!-- 버튼ㄴ들 END -->
 					
 					
 					<!--## 댓글 SATART -->
