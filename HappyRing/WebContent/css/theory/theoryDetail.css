@@ -100,6 +100,28 @@
 }
 
 
+
+
+/* 닉네임, 버튼들   패딩조정 */
+.thd-div-inline .name-and-buttons{
+	padding-left: 10px;
+    padding-right: 13px;
+}
+
+.thd-div-inline .writer-name {
+	float: left;
+}
+
+.thd-div-inline .etc-btns {
+	float: right;
+}
+
+
+
+
+
+
+
 /* post-blog-article : article 전체 윤곽 */
 .thd-div-inline .post-blog-article{
 	text-align: center;
@@ -234,13 +256,14 @@
 /** ##조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START */ 
 .thd-div-etc-buttons {
 /* 	border: solid green; */
-	height: auto;
+	height: 28px;
 	margin-top: 65px;
     margin-bottom: 9px;
+    padding-right: 10px;
 }
 
-.thd-div-etc-buttons .col-md-7{
-    padding-left: 40px;
+.thd-div-etc-buttons .bottom-etc-buttons{
+    float:right;
 }
 
 /* 버튼들 radius, padding 조정 */
@@ -493,12 +516,4 @@
 
 
 
-/* 댓글 css END */ 
-
-
-
-
-
-
-
-
+/* 댓글 css END */

@@ -9,7 +9,7 @@
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
 <!-- thoeryDetaik 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail2.css">
+  <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
      
  
 
@@ -70,7 +70,7 @@
 					<!-- # 카테고리, 등록일 div START -->
 					<div class="row">
 					   <!-- 카테고리 -->	
-					   <div class="col-md-9 col-xs-9">
+					   <div class="col-md-9">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
@@ -82,7 +82,7 @@
 		                  </table>
 					   </div>
 					   <!-- 등록일 -->	
-					   <div class="col-md-3 col-xs-3" style="text-align: right;">
+					   <div class="col-md-3" style="text-align: right;">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 								<tr>
@@ -98,21 +98,20 @@
 					<hr/>
 					
 					<!-- # 닉네임  START-->
-					<div class="row">
+					<div class="name-and-buttons">
 					   <!-- 등록일 -->	
-					   <div class="col-md-3 col-xs-5">
-						  <table cellspacing="0" cellpadding="0" border="0">
+					   
+					   	<div class="writer-name">
+						<table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
 		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
 		                        </tr>
 	                        </tbody>
 	                    </table>
-					  </div>
+					   </div>
 					  
-					  
-					  <div class="col-md-2"></div>
 					   <!-- 카테고리 -->	
-					   <div class="col-md-7 col-xs-7">
+					    <div class="etc-btns">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	 <tbody><tr valign="top">
 		                        <td class="td-nick thd-div-etc-buttons">
@@ -145,8 +144,7 @@
 		                        </tr>
 	                        </tbody>
 		                  </table>
-					   </div>
-					  
+					  </div>
 					</div>
 					
                     <!-- # 닉네임  END-->
@@ -200,15 +198,15 @@
 					<!-- 본문 제목, 내용 END  -->
 					
 					
+					
+					
 				    <!-- ## 버튼들 START -->
 					<div class="thd-div-buttons">
 					  
-					  <div class="row">
-					  <div class="col-md-5 col-xs-6"></div>
-					  <div class="col-md-7 col-xs-6">
+					  <div class="center" style="">
 						  <div class="smile">
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png"/><br/>
-						  	<label><strong>1</strong><br/><span>유익해g요</span></label>
+						  	<label><strong>1</strong><br/><span>유익해요</span></label>
 						  </div>
 						  <div class="smile">
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png"/><br/>
@@ -230,7 +228,6 @@
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png"/><br/>
 						  	<label><strong>6</strong><br/><span>슬퍼요</span></label>
 						  </div>
-					  </div>	  
 					  </div>
 					  
 					  
@@ -249,15 +246,15 @@
 		                <li><a href="#">April 2017</a></li>
 		                <li><a href="#">May 2017</a></li>
 		              </ul>
+					
+					
 					</div>
-					<!-- 같이보면 좋을 list END -->
+					<!-- 같이보면 좋을 list END -->		
 					
 					
 					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
 					<div class="thd-div-etc-buttons">
-					  <div class="row">
-					  	<div class="col-md-5 col-xs-4"></div>
-					  	<div class="col-md-7 col-xs-8">
+					  <div class="bottom-etc-buttons">
 						   <button type="button" class="btn btn-heart btn-xs">
 							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
 						   </button>
@@ -277,11 +274,10 @@
 						   <button type="button" class="btn btn-correction btn-xs">
 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
 						   </button>
-						</div>  
 					  </div>	  
 					</div>
 					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
-										
+								
 					
 					<!--## 댓글 SATART -->
 					<div class="thd-div-comment">
@@ -485,6 +481,7 @@
 			                </label>
   							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
 							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							   <input type="file"/>
 							</div>
 							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
 			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
@@ -507,8 +504,22 @@
 	                </form>
 		                
 		                
+		                
+		                
 					</div>	
 					<!-- 댓글 END -->			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					
 					
 					

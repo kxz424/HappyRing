@@ -98,12 +98,55 @@
 					<hr/>
 					
 					<!-- # 닉네임  START-->
-					<table cellspacing="0" cellpadding="0" border="0">
-	                    <tbody><tr valign="top">
-	                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
-	                        </tr>
-                        </tbody>
-                    </table>
+					<div class="name-and-buttons">
+					   <!-- 등록일 -->	
+					   
+					   	<div class="writer-name">
+						<table cellspacing="0" cellpadding="0" border="0">
+		                    <tbody><tr valign="top">
+		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
+		                        </tr>
+	                        </tbody>
+	                    </table>
+					   </div>
+					  
+					   <!-- 카테고리 -->	
+					    <div class="etc-btns">
+					      <table cellspacing="0" cellpadding="0" border="0">
+		                	 <tbody><tr valign="top">
+		                        <td class="td-nick thd-div-etc-buttons">
+		                        
+			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
+										   <button type="button" class="btn btn-heart btn-xs">
+											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+										   </button>
+										   	
+										   <button type="button" class="btn btn-star btn-xs">
+											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+										   </button>
+										   
+										   <button type="button" class="btn btn-share btn-xs">
+											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
+										   </button>
+										   
+										   <button type="button" class="btn btn-list btn-xs">
+											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
+										   </button>
+										   
+										   <button type="button" class="btn btn-correction btn-xs">
+											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
+										   </button>
+									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+		                        
+		                        
+		                        
+		                        </td>
+		                        </tr>
+	                        </tbody>
+		                  </table>
+					  </div>
+					</div>
+					
                     <!-- # 닉네임  END-->
 					
 					
@@ -211,9 +254,7 @@
 					
 					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
 					<div class="thd-div-etc-buttons">
-					  <div class="row">
-					  	<div class="col-md-5"></div>
-					  	<div class="col-md-7">
+					  <div class="bottom-etc-buttons">
 						   <button type="button" class="btn btn-heart btn-xs">
 							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
 						   </button>
@@ -233,7 +274,6 @@
 						   <button type="button" class="btn btn-correction btn-xs">
 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
 						   </button>
-						</div>  
 					  </div>	  
 					</div>
 					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
