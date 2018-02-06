@@ -133,7 +133,7 @@
 /** ## 버튼들  css START */ 
 
 .thd-div-buttons{
-	border: solid blue;
+/* 	border: solid blue; */
 	padding-top: 30px;
 	padding-bottom: 30px;
 	height: auto;
@@ -203,7 +203,7 @@
 /* 리스티 li>a 글자크기 조정*/
 .thd-div-recommend-list .list-marked-secondary a {
 /*     color: #ed1c94; */
-    color: #27272e;
+/*     color: #27272e; */
     font-size: 14px;
 }
 
@@ -213,12 +213,72 @@
 }
 
 
-
-
 /** 같이보면 좋을 list css END */
 
 
 
+
+/** ##조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START */ 
+.thd-div-etc-buttons {
+/* 	border: solid green; */
+	height: auto;
+	margin-top: 65px;
+    margin-bottom: 9px;
+}
+
+.thd-div-etc-buttons .col-md-7{
+    padding-left: 40px;
+}
+
+/* 버튼들 radius, padding 조정 */
+.thd-div-etc-buttons .btn {
+	padding: 5px 10px;
+	border-radius: 6px;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: .22s;
+}
+
+/* heart(좋아요 버튼) */
+.thd-div-etc-buttons .btn-heart:hover, .btn-heart:focus, .btn-heart:active, .btn-heart.active, .open > .btn-heart.dropdown-toggle {
+    color: black;
+	background-color: #ff56b3;
+	border-color: #ff56b3;
+    }
+
+/* star(즐겨찾기 버튼) */
+.thd-div-etc-buttons .btn-star:hover, .btn-star:focus, .btn-star:active, .btn-star.active, .open > .btn-star.dropdown-toggle {
+    color: black;
+	background-color: #e5da00;
+	border-color: #e5da00;
+    }
+    
+/* share (공유 버튼) */
+.thd-div-etc-buttons .btn-share:hover, .btn-share:focus, .btn-share:active, .btn-share.active, .open > .btn-share.dropdown-toggle {
+    color: black;
+	background-color: #57ca00;
+	border-color: #57ca00;
+    }    
+    
+/* list(목록 버튼) */
+.thd-div-etc-buttons .btn-list:hover, .btn-list:focus, .btn-list:active, .btn-list.active, .open > .btn-list.dropdown-toggle {
+    color: black;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+    } 
+
+/* btn-correction(수정건의 버튼) */
+.thd-div-etc-buttons .btn-correction:hover, .btn-correction:focus, .btn-correction:active, .btn-correction.active, .open > .btn-correction.dropdown-toggle {
+    color: black;
+	background-color: #ca005e;
+	border-color: #ca005e;
+    }     
+    
+    
+    
+/** 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END*/
 
 
 /* ## 댓글 css START */
