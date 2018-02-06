@@ -98,12 +98,31 @@
 					<hr/>
 					
 					<!-- # 닉네임  START-->
-					<table cellspacing="0" cellpadding="0" border="0">
-	                    <tbody><tr valign="top">
-	                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
-	                        </tr>
-                        </tbody>
-                    </table>
+					<div class="row">
+					   <!-- 등록일 -->	
+					   <div class="col-md-2">
+						  <table cellspacing="0" cellpadding="0" border="0">
+		                    <tbody><tr valign="top">
+		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
+		                        </tr>
+	                        </tbody>
+	                    </table>
+					  </div>
+					   <!-- 카테고리 -->	
+					   <div class="col-md-10">
+					      <table cellspacing="0" cellpadding="0" border="0">
+		                	<tbody>
+		                	    <tr valign="top">
+				                	<td><span class=""><a href="">심리 기초 이론</a></span></td>
+			                        <td>&nbsp; | &nbsp; </td>
+			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
+		                        </tr>
+		                    </tbody>
+		                  </table>
+					   </div>
+					  
+					</div>
+					
                     <!-- # 닉네임  END-->
 					
 					
