@@ -441,6 +441,7 @@
 			                </label>
   							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
 							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							   <input type="file"/>
 							</div>
 							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
 			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
