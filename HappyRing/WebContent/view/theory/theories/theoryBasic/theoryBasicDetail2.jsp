@@ -70,7 +70,7 @@
 					<!-- # 카테고리, 등록일 div START -->
 					<div class="row">
 					   <!-- 카테고리 -->	
-					   <div class="col-md-9">
+					   <div class="col-md-9 col-xs-9">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
@@ -82,7 +82,7 @@
 		                  </table>
 					   </div>
 					   <!-- 등록일 -->	
-					   <div class="col-md-3" style="text-align: right;">
+					   <div class="col-md-3 col-xs-3" style="text-align: right;">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 								<tr>
@@ -100,7 +100,7 @@
 					<!-- # 닉네임  START-->
 					<div class="row">
 					   <!-- 등록일 -->	
-					   <div class="col-md-3">
+					   <div class="col-md-3 col-xs-5">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
 		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
@@ -108,15 +108,16 @@
 	                        </tbody>
 	                    </table>
 					  </div>
+					  
+					  
+					  <div class="col-md-2"></div>
 					   <!-- 카테고리 -->	
-					   <div class="col-md-9">
+					   <div class="col-md-7 col-xs-7">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	 <tbody><tr valign="top">
-		                        <td class="td-nick">
-		                        
+		                        <td class="td-nick thd-div-etc-buttons">
 		                        
 			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-									  	<div class="col-md-7">
 										   <button type="button" class="btn btn-heart btn-xs">
 											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
 										   </button>
@@ -136,9 +137,7 @@
 										   <button type="button" class="btn btn-correction btn-xs">
 											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
 										   </button>
-									</div>
 									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
-		                        
 		                        
 		                        
 		                        
@@ -204,10 +203,12 @@
 				    <!-- ## 버튼들 START -->
 					<div class="thd-div-buttons">
 					  
-					  <div class="center" style="">
+					  <div class="row">
+					  <div class="col-md-5 col-xs-6"></div>
+					  <div class="col-md-7 col-xs-6">
 						  <div class="smile">
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png"/><br/>
-						  	<label><strong>1</strong><br/><span>유익해요</span></label>
+						  	<label><strong>1</strong><br/><span>유익해g요</span></label>
 						  </div>
 						  <div class="smile">
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png"/><br/>
@@ -229,6 +230,7 @@
 						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png"/><br/>
 						  	<label><strong>6</strong><br/><span>슬퍼요</span></label>
 						  </div>
+					  </div>	  
 					  </div>
 					  
 					  
@@ -254,8 +256,8 @@
 					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
 					<div class="thd-div-etc-buttons">
 					  <div class="row">
-					  	<div class="col-md-5"></div>
-					  	<div class="col-md-7">
+					  	<div class="col-md-5 col-xs-4"></div>
+					  	<div class="col-md-7 col-xs-8">
 						   <button type="button" class="btn btn-heart btn-xs">
 							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
 						   </button>
