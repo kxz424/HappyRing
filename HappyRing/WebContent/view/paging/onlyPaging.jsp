@@ -6,9 +6,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+<!-- 공통 전용 onlyPaging css -->
+<link rel="stylesheet" href="/HappyRing/css/paging/onlyPaging.css">
+
 </head>
 <body>
-	<div class="fr-paging-search">
+	<div class="fr-paging-search-onlyPaging">
 		<div class="fr-paging">
 	       <div class="row">
 	<!-- 					                       페이징 -->

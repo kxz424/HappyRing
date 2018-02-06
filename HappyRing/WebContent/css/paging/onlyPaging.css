@@ -2,80 +2,78 @@
 
 
 /*  paging 버튼 글씨크기 조정 */
-.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging #write {
+.fr-paging-search-onlyPaging .fr-paging #pageNum a, .fr-paging-search-onlyPaging .fr-paging #write {
 	font-size: 12px;
 }
 /*  paging 버튼 크기 설정 */
-.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging li {
+.fr-paging-search-onlyPaging .fr-paging #pageNum a, .fr-paging-search-onlyPaging .fr-paging li {
 	min-width: 35px;
 	height: 35px;
 	vertical-align: middle;
 	line-height: 35px;
 }
 /* 큰 화면 paging 버튼 간격 조정 */
-.fr-paging-search .fr-paging li{
+.fr-paging-search-onlyPaging .fr-paging li{
 	margin-left: 5px;
 }
 /* paging 부분 바탕색 및 위치조정 */
-.fr-paging-search, .fr-xs-paging-search {
+.fr-paging-search-onlyPaging, .fr-xs-paging-search {
 	margin-top: 15px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: white;
+    padding-top: 60px;
+    background-color: none;
 }
 /* 큰화면 기준 paging 부분 위치 조정 */
-.fr-paging-search {
+.fr-paging-search-onlyPaging {
 	margin-top: 0;
 }
 /* paging 위치 조정 */
-.fr-paging-search .col-md-7 {
-	padding-left: 5%;
+.fr-paging-search-onlyPaging .col-md-7 {
+	padding-left: 6%;
 }
 /* paging 글쓰기 버튼 크기 및 위치 조정 */
-.fr-paging-search .fr-write {
+.fr-paging-search-onlyPaging .fr-write {
 	height: 35px; 
 	padding: 8px 20px; 
 	border-radius: 10px;
 }
 /* paging 부분 paging버튼과 검색창 구분을 위한 css */
-.fr-paging-search .fr-search{
+.fr-paging-search-onlyPaging .fr-search{
 	margin-top: 15px;
 	border-top: 15px solid rgb(242, 243, 249);
 	padding-top: 15px;
 }
 
 /* paging 부분 검색창 크기 조정 */
-.fr-paging-search .fr-search .rd-mailform-inline-inner{
+.fr-paging-search-onlyPaging .fr-search .rd-mailform-inline-inner{
 	width: 84%;
 }
 /* paging 부분 검색창 크기 조정 */
-.fr-paging-search .fr-search .rd-mailform-inline-inner:before{
+.fr-paging-search-onlyPaging .fr-search .rd-mailform-inline-inner:before{
 	height: 35px;
 }
 /* paging 부분 검색창 크기 및 위치 조정 */
-.fr-paging-search .fr-search .form-wrap {
+.fr-paging-search-onlyPaging .fr-search .form-wrap {
 	width: 50%; 
 	height: 35px; 
 	margin-top: 0px;
 }
 /* paging 부분 검색입력창 크기 및 위치 조정 */
-.fr-paging-search .fr-search .form-wrap .form-input {
+.fr-paging-search-onlyPaging .fr-search .form-wrap .form-input {
 	height: 35px; 
 	min-height: 35px; 
 	margin-top: 8px; 
 	border-radius: 10px;
 }
 /* paging 부분 검색입력창 크기 및 위치 조정 */
-.fr-paging-search .fr-search .form-wrap .form-label {
+.fr-paging-search-onlyPaging .fr-search .form-wrap .form-label {
 	top: 26px;
 }
 /* paging 부분 검색창 위치 조정 */
-.fr-paging-search .fr-search .col-md-8{
+.fr-paging-search-onlyPaging .fr-search .col-md-8{
 	padding-left: 10%;
 }
 /* paging 부분 검색 버튼 크기 조정 */
-.fr-paging-search .fr-search .fr-search-btn {
+.fr-paging-search-onlyPaging .fr-search .fr-search-btn {
 	min-width: 75px;
 	min-height: 35px; 
 	margin-top: 15px; 
@@ -87,12 +85,12 @@
 	display: none;
 }
 
-.fr-paging-search .fr-paging {
+.fr-paging-search-onlyPaging .fr-paging {
 	padding-top: 10px;
 }
 
 /* 검색창 부분 위치 조정 */
-.fr-paging-search .fr-search {
+.fr-paging-search-onlyPaging .fr-search {
 	margin-top: 10px;
 }
 /* ## 모바일 화면 기준  css START */

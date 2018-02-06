@@ -130,7 +130,7 @@
 
 
 
-/** ## 버튼 css START */ 
+/** ## 버튼들  css START */ 
 
 .thd-div-buttons{
 	border: solid blue;
@@ -161,7 +161,62 @@
 
 
 
-/** 버튼 css END */
+/** 버튼들 css END */
+
+
+
+
+
+/** ## 같이보면 좋을 list css START */
+.thd-div-recommend-list {
+	border: solid green;
+	padding: 25px 30px 25px 30px;
+	height: auto;
+}
+
+/* 리스트 타이틀 글자 ('~님이 추천하는') css */
+.thd-div-recommend-list p:nth-child(1){
+	font-size: 15px;
+}
+
+/* 리스트 타이틀 글자 ('읽으면') css */
+.thd-div-recommend-list span:nth-child(1){
+	color: red;
+	font-weight: bold;
+}
+
+/* 리스트 타이틀 글자 ('도움되는 글') css */
+.thd-div-recommend-list span:nth-child(2){
+	font-weight: bold;
+}
+
+/* 리스트 li 간격 조정 */
+.thd-div-recommend-list .list-marked > li + li {
+    margin-top: 3px;
+}
+
+/* 리스트  > 아이콘 위치 조정  */
+.thd-div-recommend-list .list-marked > li:before {
+    top: 0.2em;
+}
+
+/* 리스티 li>a 글자크기 조정*/
+.thd-div-recommend-list .list-marked-secondary a {
+/*     color: #ed1c94; */
+    font-size: 14px;
+}
+
+/* 리스트 padding-left 조정 */
+.thd-div-recommend-list .list-marked{
+	padding-left: 0px;
+}
+
+
+
+
+/** 같이보면 좋을 list css END */
+
+
 
 
 
@@ -171,7 +226,7 @@
 /* 	border: solid pink;  */
 	border-top: 2px dashed rgba(131, 131, 134, 0.1);
 	padding: 25px;
-	margin-top: 230px;
+/* 	margin-top: 230px; */
 }
 
 
@@ -192,6 +247,7 @@
     background: #f2f3f9;
     border: 2px dashed rgba(131, 131, 134, 0.1);
     margin-top: 13px;
+    margin-bottom: 25px;
 }
 
 /* 닉네임 입력칸 css 조정 */
