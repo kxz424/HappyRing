@@ -7,10 +7,13 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
- 
+
 <!-- thoeryDetaik 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
      
+ 
+
+
 
 </head>
 <body>
@@ -206,53 +209,26 @@
 					  
 					  
 					</div>
-					<!-- 버튼ㄴ들 END -->
+					<!-- 버튼들 END -->
 					
 					
+					<!-- ## 같이보면 좋을 list START  -->
+					<div class="thd-div-recommend-list">
+				      <p>해피링관리자님이 추천하는  <span>읽으면 </span>&nbsp;<span>도움되는 글</span></p>
+				      <ul class="list-marked list-marked-secondary">
+		                <li><a href="#">January 2017</a></li>
+		                <li><a href="#">February 2017</a></li>
+		                <li><a href="#">March 2017</a></li>
+		                <li><a href="#">April 2017</a></li>
+		                <li><a href="#">May 2017</a></li>
+		              </ul>
+					
+					
+					</div>
+					<!-- 같이보면 좋을 list END -->					
 					
 					<!--## 댓글 SATART -->
 					<div class="thd-div-comment">
-					
-					<h5> 댓글쓰기 </h5>
-					<!--# 댓글 입력 -->
-					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-	                  <div class="range range-20">
-	                    
-	                    <!-- 닉네임입력 -->
-	                    <div class="cell-sm-4">
-	                      <div class="form-wrap form-wrap-validation">
-                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
-                      	  </div>
-	                    </div>
-	                    <!-- 댓글 비밀여부 check box -->
-	                    <div class="cell-sm-8">
-	                   	  <div class="form-wrap">
-			                <label class="checkbox-inline">
-			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
-			                </label>
-  							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
-							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
-							</div>
-							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
-			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
-			                </div>
-			              </div>
-	                    </div>
-	                    <!-- 댓글 내용 입력칸 --> 
-	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
-	                      <div class="form-wrap form-wrap-validation">
-	                        <textarea class="form-input txtComment" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
-	                      </div>
-	                    </div>
-	                    <!-- 댓글 등록 버튼  -->
-	                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
-	                      <div class="form-button">
-	                        <button class="button button-secondary button-nina" type="submit">등록</button>
-	                      </div>
-	                    </div>
-	                  </div>
-	                </form>
-					
 					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
@@ -393,7 +369,6 @@
 		                    
 		                    
 		                    <!--# 댓글 입력 -->
-					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
@@ -428,7 +403,55 @@
 		                  </div>
 		                  <!-- 대댓글 영역 END -->
 		                  
-		                </div>
+		                <!-- 댓글 페이징 START -->
+		                <jsp:include page="/view/paging/onlyPaging.jsp"></jsp:include>			
+		                <!-- 댓글 페이징 END -->
+		            </div>
+		                
+		                
+		                
+		            <h5> 댓글쓰기 </h5>
+					<!--# 댓글 입력 -->
+					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+	                  <div class="range range-20">
+	                    
+	                    <!-- 닉네임입력 -->
+	                    <div class="cell-sm-4">
+	                      <div class="form-wrap form-wrap-validation">
+                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
+                      	  </div>
+	                    </div>
+	                    <!-- 댓글 비밀여부 check box -->
+	                    <div class="cell-sm-8">
+	                   	  <div class="form-wrap">
+			                <label class="checkbox-inline">
+			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
+			                </label>
+  							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							</div>
+							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+			                </div>
+			              </div>
+	                    </div>
+	                    <!-- 댓글 내용 입력칸 --> 
+	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
+	                      <div class="form-wrap form-wrap-validation">
+	                        <textarea class="form-input txtComment" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
+	                      </div>
+	                    </div>
+	                    <!-- 댓글 등록 버튼  -->
+	                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
+	                      <div class="form-button">
+	                        <button class="button button-secondary button-nina" type="submit">등록</button>
+	                      </div>
+	                    </div>
+	                  </div>
+	                </form>
+		                
+		                
+		                
 		                
 					</div>	
 					<!-- 댓글 END -->			
@@ -438,11 +461,7 @@
 					
 					
 					
-					<!-- 댓글 페이징 START -->
-             
-		              <jsp:include page="/view/paging/onlyPaging.jsp"></jsp:include>			
-											
-		            <!-- 댓글 페이징 END -->
+					
 					
 					
 					
@@ -487,9 +506,10 @@
 </div>
 <!-- page END -->
 	
+
     
 <!-- theoryBasicDetail 전용 js --> 
-   <script src="/HappyRing/js/theory/theoryBasicDetail.js"></script>  
+   <script src="/HappyRing/js/theory/theoryBasicDetail.js"></script>   
     
     
 

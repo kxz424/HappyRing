@@ -4,24 +4,10 @@
 <html>
 <head>
 <title>Landing Default</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!-- 사이트 내부 템플릿 아이콘 -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  
-<!-- 사이트 내부 템플릿  Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-  <link rel="stylesheet" href="/HappyRing/css/bootstrap.css"> <!-- v.3.0.3 -->
-  <link rel="stylesheet" href="/HappyRing/css/style.css">
-  <link rel="stylesheet" href="/HappyRing/css/mdi.css">
-  <link rel="stylesheet" href="/HappyRing/css/fl-bigmug-line.css">
- 
-<!-- right-side-1 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/common/right-side-1.css">
- 
+<!-- bootstrap.css, style.css 등 공통 css -->
+<jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
+
 <!-- thoeryDetaik 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail2.css">
      
@@ -521,29 +507,9 @@
 <!-- page END -->
 	
 
-
- <!-- Javascript-->
-    <script src="/HappyRing/js/core.min.js"></script>
-    <script src="/HappyRing/js/script.js"></script>
- <!-- header전용 js --> 
-    <script src="/HappyRing/js/header/header.js"></script>
     
-    
-<script type="text/javascript">
-$(function(){
-	
-	//댓글에 reply 버튼 클릭시 해당되는 대댓글 화면에 나타내기 (종상)
-	$(".thd-reply-btn").click(function(e){
-		e.preventDefault();
-		var reply = $(this).parent().parent().parent().next();
-		if(reply.attr('class') == 'comment-group thd-none'){
-			reply.attr('class', 'comment-group thd-block');
-		}else{
-			reply.attr('class', 'comment-group thd-none');
-		}
-	});
-});
-</script>    
+<!-- theoryBasicDetail 전용 js --> 
+   <script src="/HappyRing/js/theory/theoryBasicDetail.js"></script>   
     
     
 
