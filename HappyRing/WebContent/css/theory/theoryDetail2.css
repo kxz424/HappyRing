@@ -169,7 +169,7 @@
 
 /** ## 같이보면 좋을 list css START */
 .thd-div-recommend-list {
-	border: solid green;
+/* 	border: solid green; */
 	padding: 25px 30px 25px 30px;
 	height: auto;
 }
@@ -203,6 +203,7 @@
 /* 리스티 li>a 글자크기 조정*/
 .thd-div-recommend-list .list-marked-secondary a {
 /*     color: #ed1c94; */
+    color: #27272e;
     font-size: 14px;
 }
 
