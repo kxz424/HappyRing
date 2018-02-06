@@ -380,6 +380,10 @@
 			                    </div>
 			                  </div>
 			                </form>
+			                
+			                
+			                
+			                
 		                    
 		                  </div>
 		                  <!-- 대댓글 영역 END -->
@@ -484,7 +488,7 @@
 							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
 							</div>
 							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
-			                   <img src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+			                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
 			                </div>
 			              </div>
 	                    </div>
@@ -504,7 +508,78 @@
 	                  </div>
 	                </form>
 		                
+		           <div class="choose-sticker">
+							<table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+			                
+			                <table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+									<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/sick.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+			                
+			                <table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                       <img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                     </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                       <img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+
 		                
+		                </div>
 		                
 		                
 					</div>	
@@ -567,7 +642,19 @@
     
     
 
+<script type="text/javascript">
 
+$(document).ready(function(){ //DOM이 준비되고
+    $('.sicker-btn').click(function(){ // ID가 toggleButton인 요소를 클릭하면
+        var state = $('.choose-sticker').css('display'); // state 변수에 ID가 moreMenu인 요소의 display의 속성을 '대입'
+        if(state == 'none'){ // state가 none 상태일경우 
+            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
+        }else{ // 그 외에는
+            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
+        }
+    });
+});
+</script>
 
 </body>
 </html>
