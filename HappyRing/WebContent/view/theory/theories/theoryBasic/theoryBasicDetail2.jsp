@@ -100,7 +100,7 @@
 					<!-- # 닉네임  START-->
 					<div class="row">
 					   <!-- 등록일 -->	
-					   <div class="col-md-2">
+					   <div class="col-md-3">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
 		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
@@ -109,15 +109,42 @@
 	                    </table>
 					  </div>
 					   <!-- 카테고리 -->	
-					   <div class="col-md-10">
+					   <div class="col-md-9">
 					      <table cellspacing="0" cellpadding="0" border="0">
-		                	<tbody>
-		                	    <tr valign="top">
-				                	<td><span class=""><a href="">심리 기초 이론</a></span></td>
-			                        <td>&nbsp; | &nbsp; </td>
-			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
+		                	 <tbody><tr valign="top">
+		                        <td class="td-nick">
+		                        
+		                        
+			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
+									  	<div class="col-md-7">
+										   <button type="button" class="btn btn-heart btn-xs">
+											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+										   </button>
+										   	
+										   <button type="button" class="btn btn-star btn-xs">
+											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+										   </button>
+										   
+										   <button type="button" class="btn btn-share btn-xs">
+											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
+										   </button>
+										   
+										   <button type="button" class="btn btn-list btn-xs">
+											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
+										   </button>
+										   
+										   <button type="button" class="btn btn-correction btn-xs">
+											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
+										   </button>
+									</div>
+									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+		                        
+		                        
+		                        
+		                        
+		                        </td>
 		                        </tr>
-		                    </tbody>
+	                        </tbody>
 		                  </table>
 					   </div>
 					  

@@ -58,12 +58,12 @@
 
 /* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
 @media (min-width: 992px){
-	.thd-div-inline .row .col-md-9 {
+	.thd-div-inline>.row:nth-child(1) .col-md-9 {
 	   padding-left: 5px !important;
 	}
 }
 @media (min-width: 992px){
-	.thd-div-inline .row .col-md-3 {
+	.thd-div-inline>.row:nth-child(1) .col-md-3 {
 	    text-align: right;
 	    padding-right: 5px;
 	    padding-left: 52px;
