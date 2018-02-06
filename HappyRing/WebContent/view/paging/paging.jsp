@@ -6,6 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+<!-- 공통 전용 paging css -->
+<link rel="stylesheet" href="/HappyRing/css/paging/paging.css">
+
 </head>
 <body>
 	<div class="fr-paging-search">

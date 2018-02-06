@@ -47,6 +47,16 @@
 }
 
 
+/* header 로고 영역, 로그인 영역 */
+.rd-navbar-shop-header .rd-navbar-fullwidth .rd-navbar-inner > *:nth-child(1), .rd-navbar-shop-header .rd-navbar-static .rd-navbar-inner > *:nth-child(1), 
+.rd-navbar-shop-header .rd-navbar-fullwidth .rd-navbar-inner > *:nth-child(3), .rd-navbar-shop-header .rd-navbar-static .rd-navbar-inner > *:nth-child(3) {
+	width: 17%;
+}
+/* header 검색창 영역 */
+.rd-navbar-shop-header .rd-navbar-fullwidth .rd-navbar-inner > *:nth-child(2), .rd-navbar-shop-header .rd-navbar-static .rd-navbar-inner > *:nth-child(2) {
+	width: 66%;
+}
+
 
 
 /** ## 카테고리 관련 css START */

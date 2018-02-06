@@ -6,7 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <!-- top-add-slider 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/common/top-add-slider.css">
+  <link rel="stylesheet" href="/HappyRing/css/common/include/top-add-slider.css">
+	
 <title>Insert title here</title>
 </head>
 <body>

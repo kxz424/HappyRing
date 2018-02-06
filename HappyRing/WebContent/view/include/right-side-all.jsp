@@ -5,6 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+
+<!-- right-side-1 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/common/include/right-side-1.css">
+
+
 </head>
 <body>
 <!-- 심리자가측정 테스트~근처상담소찾기 btn group START -->	
@@ -108,5 +114,12 @@
 	         </div>
 	      </div>
 	      <!-- 하단 광고 auto tab END -->
+	      
+	      
+	      
+<!-- right-side-all.jsp 전용 js --> 
+   <script src="/HappyRing/js/common/include/right-side-all.js"></script>
+	      
+	      
 </body>
 </html>

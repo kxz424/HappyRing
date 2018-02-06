@@ -6,22 +6,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
+
+
+ 
+
 <!-- 헤더 전용 styleSheet -->
-<link rel="stylesheet" href="/HappyRing/css/header/header.css">
+<link rel="stylesheet" href="/HappyRing/css/common/include/header.css">
 
 <!-- 공통 전용 styleSheet : frame.css -->
-<link rel="stylesheet" href="/HappyRing/css/common/frame.css">
+<link rel="stylesheet" href="/HappyRing/css/common/include/frame.css">
 
 <!-- 공통 전용 font css -->
 <link rel="stylesheet" href="/HappyRing/css/googleFont/font.css">
 
-<!-- 공통 전용 paging css -->
-<link rel="stylesheet" href="/HappyRing/css/paging/paging.css">
 
 
-<script type="text/javascript">
 
-</script>
+
+
+
 
 
 </head>
@@ -286,6 +289,16 @@
           </nav>
         </div>
       </header>
+
+
+
+<!-- Javascript-->
+   <script src="/HappyRing/js/common/innerBootstrap/core.min.js"></script>
+   <script src="/HappyRing/js/common/innerBootstrap/script.js"></script>
+<!-- header전용 js --> 
+   <script src="/HappyRing/js/common/include/header.js"></script>
+
+
 
 </body>
 </html>
