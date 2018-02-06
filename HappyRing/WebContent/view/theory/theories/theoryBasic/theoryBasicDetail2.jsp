@@ -303,7 +303,7 @@
 		                    </div>
 		                    <div class="comment-body">
 		                      <div class="comment-header">
-		                        <p class="comment-title">Catherine Payne</p>
+		                        <p class="comment-title">새로운유저입니다</p>
 		                        <time class="comment-time" datetime="2017">2 days ago</time>
 		                      </div>
 		                      <div class="comment-text">
@@ -321,8 +321,8 @@
 		                      </div>
 		                      <div class="comment-body">
 		                        <div class="comment-header">
-		                          <p class="comment-title">Ronald Chen</p>
-		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">Catherine Payne</span>
+		                          <p class="comment-title">대박나세요</p>
+		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">새로운유저입니다 님</span>
 		                        </div>
 		                        <div class="comment-text">
 		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
@@ -587,25 +587,27 @@
 					
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 				
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
 	         <!-- detail-div : 심리학 detail END -->
 	   
+	   
+	   		 <!-- ## 다음글/이전글 list START  -->	
+	   		 <div class="thd-bottm-list-div">
+	   		 	 <table class="table-custom table-hover">
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                    </tr>
+                  </tbody>
+                </table>
+	   		 </div>
+	   		 <!-- 다음글/이전글 list END  -->	
 	   
 	   </div>
 	   <!-- col-md-9 END -->	 
@@ -640,21 +642,7 @@
 <!-- theoryBasicDetail 전용 js --> 
    <script src="/HappyRing/js/theory/theoryBasicDetail.js"></script>   
     
-    
 
-<script type="text/javascript">
-
-$(document).ready(function(){ //DOM이 준비되고
-    $('.sicker-btn').click(function(){ // ID가 toggleButton인 요소를 클릭하면
-        var state = $('.choose-sticker').css('display'); // state 변수에 ID가 moreMenu인 요소의 display의 속성을 '대입'
-        if(state == 'none'){ // state가 none 상태일경우 
-            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
-        }else{ // 그 외에는
-            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
-        }
-    });
-});
-</script>
 
 </body>
 </html>
