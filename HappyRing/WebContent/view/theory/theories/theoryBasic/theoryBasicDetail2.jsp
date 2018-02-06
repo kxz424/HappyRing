@@ -599,7 +599,7 @@
 	   		 	 <table class="table-custom table-hover">
                   <tbody>
                     <tr>
-                      <td>1</td>
+                      <td> 이전글<span class="icon lyphicon glyphicon-menu-down"></span> | [카테고리] 제목                                                | 작성자   |   작성일(/하트갯수)  </td>
                     </tr>
                     <tr>
                       <td>2</td>
