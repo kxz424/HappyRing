@@ -292,11 +292,7 @@
 
 
 
-<!-- Javascript-->
-   <script src="/HappyRing/js/common/innerBootstrap/core.min.js"></script>
-   <script src="/HappyRing/js/common/innerBootstrap/script.js"></script>
-<!-- header전용 js --> 
-   <script src="/HappyRing/js/common/include/header.js"></script>
+
 
 
 
