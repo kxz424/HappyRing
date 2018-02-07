@@ -321,7 +321,30 @@
 .correction-send {
 	border: solid red;
 	padding-bottom: 20px;
+	display: none;
 }
+/* 수정건의 관련 textarea css */
+.correction-send .form-input.txtComment {
+	display: block;
+    width: 100%;
+    min-height: 126px;
+    max-height: 400px;
+    font-size: 13.5px;
+    color: #29293a;
+    border: 0px solid #f2f3f9;
+    border-radius: 15px;
+    overflow: visible;
+    resize: none;
+}
+/* 건의요청 버튼 위쪽 간격조정 */
+.correction-send button {
+	margin-top: 15px;
+}
+/* 건의요청 버튼 오른쪽으로 정렬 */
+.correction-send button {
+	float: right;
+}
+
 
     
     

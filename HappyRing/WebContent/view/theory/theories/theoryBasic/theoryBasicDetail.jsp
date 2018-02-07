@@ -9,7 +9,7 @@
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
 <!-- thoeryDetaik 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail2.css">
+  <link rel="stylesheet" href="/HappyRing/css/theory/theoryDetail.css">
      
  
 
@@ -279,15 +279,20 @@
 					  
 					</div>
 					
-					<div class="correction-send">
+					<div class="correction-send thd-send-none">
 					  	
-					  <div style="padding-top: 20px; border: solid;">
-					  
-					  saasdfas22222
-					  asdfas
+					  <div class="row" style="padding-top: 20px; border: solid;">
+					  	<div class="col-md-12">
+					  		<textarea class="form-input txtComment"></textarea>
+					  	</div>
+					  	
+					  	<div class="col-md-offset-10 col-md-2">
+					  		<button class="btn btn-primary">건의요청</button>
+					    </div>
 					  </div>
 					  
-					  </div>
+					  
+				    </div>
 					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
 								
 					
