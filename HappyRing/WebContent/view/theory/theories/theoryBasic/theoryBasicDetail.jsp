@@ -118,7 +118,7 @@
 		                        
 			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
 										   <button type="button" class="btn btn-heart btn-xs">
-											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 401
 										   </button>
 										   	
 										   <button type="button" class="btn btn-star btn-xs">

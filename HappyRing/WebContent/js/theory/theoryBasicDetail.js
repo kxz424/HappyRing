@@ -36,16 +36,47 @@ $(function(){
 	
 	
 	
-	
+	//수정건의 버튼 클릭 시 입력창 표시 및 입력창으로 스크롤 이동
 	$('.btn-correction').click(function(){
-//		var send = $(this).parent().parent().next();
-//		send.css('display', 'b')
-		if($('.correction-send').css('display') == 'none'){
-			$('.correction-send').css('display', 'block');
-			var offset = $('.correction-send').offset();
-			$('html, body').animate({scrollTop : offset.top-150}, 400);
+		if($('.correction-send').css('display') == 'none'){		//입력창의 display 상태가 none일때
+			$('.correction-send').css('display', 'block');		//입력창의 display를 block 상태로 변경
+			var offset = $('.correction-send').offset();		//입력창의 현재 위치(좌표)를 저장
+			$('html, body').animate({scrollTop : offset.top-150}, 400);		//animate함수를 이용하여 입력창 위치로 이동
+		}else{		//그렇지 않으면
+			$('.correction-send').css('display', 'none');		//입력창의 display를 none 상태로 변경 혹은 유지
+		}
+	});
+	
+	$('.thd-div-etc-buttons .btn').click(function(){
+		if($(this).css('color') != 'rgb(0, 0, 0)'){
+
+			if($(this).attr('class').match(/btn-heart/)){
+				$('.thd-div-etc-buttons .btn-heart').addClass('btn-active');
+				
+			}else if($(this).attr('class').match(/btn-star/)){
+				
+			}else if($(this).attr('class').match(/btn-share/)){
+				
+			}else if($(this).attr('class').match(/btn-list/)){
+				
+			}else if($(this).attr('class').match(/btn-correction/)){
+				
+			}
+			
 		}else{
-			$('.correction-send').css('display', 'none');
+			
+			if($(this).attr('class').match(/btn-heart/)){
+				
+			}else if($(this).attr('class').match(/btn-star/)){
+				
+			}else if($(this).attr('class').match(/btn-share/)){
+				
+			}else if($(this).attr('class').match(/btn-list/)){
+				
+			}else if($(this).attr('class').match(/btn-correction/)){
+				
+			}
+			
 		}
 		
 	});
