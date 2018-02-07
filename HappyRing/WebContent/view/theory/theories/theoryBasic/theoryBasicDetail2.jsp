@@ -136,6 +136,7 @@
 										   <button type="button" class="btn btn-correction btn-xs">
 											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
 										   </button>
+										   
 									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
 		                        
 		                        
@@ -149,7 +150,7 @@
 					
                     <!-- # 닉네임  END-->
 					
-					
+				
 					
 					<!-- ## 본문 제목, 내용 START  -->
 					<article class="post-blog-article">
@@ -274,8 +275,19 @@
 						   <button type="button" class="btn btn-correction btn-xs">
 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
 						   </button>
-					  </div>	  
+					  </div>	
+					  
 					</div>
+					
+					<div class="correction-send">
+					  	
+					  <div style="padding-top: 20px; border: solid;">
+					  
+					  saasdfas22222
+					  asdfas
+					  </div>
+					  
+					  </div>
 					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
 								
 					
@@ -299,19 +311,24 @@
 				      <div class="comment-group">
 		                  <!-- Comment-->
 		                  <article class="comment">
-		                    <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
-		                    </div>
-		                    <div class="comment-body">
-		                      <div class="comment-header">
-		                        <p class="comment-title">새로운유저입니다</p>
-		                        <time class="comment-time" datetime="2017">2 days ago</time>
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
 		                      </div>
-		                      <div class="comment-text">
-		                        <p>Thank you for such an amazing and informative article! It’s useful to know how to continue small talk and eventually make it into a great conversation.</p>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">새로운유저입니다</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                      </div>
-		                      <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
-		                    </div>
-		                  </article>
+		                    </article>
+		                  
 		                  
 		                  <!-- 대댓글 영역 START -->
 		                  <div class="comment-group thd-none">
@@ -322,28 +339,38 @@
 		                      <div class="comment-body">
 		                        <div class="comment-header">
 		                          <p class="comment-title">대박나세요</p>
-		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">새로운유저입니다 님</span>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                          <span class="comment-reply">새로운유저입니다 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
 		                        </div>
 		                        <div class="comment-text">
-		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
 		                        </div>
-		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
-		                    <br>
+		                    <hr>
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
 		                      </div>
 		                      <div class="comment-body">
 		                        <div class="comment-header">
-		                          <p class="comment-title">Ronald Chen</p>
-		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">Catherine Payne</span>
+		                          <p class="comment-title">대박나세요</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;11:00</span></time>
+		                          <span class="comment-reply">대박나세요 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
 		                        </div>
 		                        <div class="comment-text">
-		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
 		                        </div>
-		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply2</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
@@ -391,35 +418,44 @@
 		                  
 		                  <!-- Comment-->
 		                  <article class="comment">
-		                    <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
-		                    </div>
-		                    <div class="comment-body">
-		                      <div class="comment-header">
-		                        <p class="comment-title">Philip Bowman</p>
-		                        <time class="comment-time" datetime="2017">2 days ago</time>
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
 		                      </div>
-		                      <div class="comment-text">
-		                        <p>Your tips helped me change my attitude to small talk, and I’m not avoiding them anymore. I hope to see more of such posts here in the future.</p>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">test입니당</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                      </div>
-		                      <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
-		                    </div>
-		                  </article>
+		                    </article>
 		                  
 		                  <!-- 대댓글 영역 START -->
 		                  <div class="comment-group thd-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
-		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
 		                      </div>
 		                      <div class="comment-body">
 		                        <div class="comment-header">
-		                          <p class="comment-title">Ronald Chen</p>
-		                          <time class="comment-time" datetime="2017">2 days ago</time><span class="comment-reply">Catherine Payne</span>
+		                          <p class="comment-title">test입니당님하염</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                          <span class="comment-reply">test입니당 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
 		                        </div>
 		                        <div class="comment-text">
-		                          <p>Thank you for your comment! I will publish more tips on social communication as well as some useful negotiation tricks so stay tuned!</p>
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
 		                        </div>
-		                        <div class="comment-footer"><a class="comment-link-reply" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
@@ -595,7 +631,7 @@
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
-	   		 <div class="thd-bottm-list-div">
+	   		 <div class="thd-bottom-list-div">
 	   		 	 <table class="table-custom table-hover">
                   <tbody>
                     <tr>
@@ -622,11 +658,6 @@
 	 </div>
 	 <!-- row END -->
 	   
-	   
-
-
-
-
 		
 	</div>
 	<!-- container END -->
@@ -634,6 +665,9 @@
    <!-- section END -->
 	<!-- footer include -->
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
+	
+      
+      
 </div>
 <!-- page END -->
 	
