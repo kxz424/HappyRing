@@ -496,18 +496,20 @@
 
 
 /* 댓글 입력 버튼 (종상) */
-/* @media (min-width: 992px){ */
-	.thd-div-comment .button {
+.thd-div-comment .button {
 	min-width: 100%;
+	height: 100%;
     font-size: 14px;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 52px;
     padding-bottom: 52px;
     border-radius: 0px 15px 15px 0px;
-	}
-/* } */
-
+}
+/* 댓글 입력 버튼 높이 조절 */
+.thd-div-comment .form-button {
+	height: 100%;
+}
 
 
 /* 대댓글 숨김 처리 (종상) */
