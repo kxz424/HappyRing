@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+
+/*  paging 버튼 글씨크기 조정 */
+.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging #write {
+	font-size: 12px;
+}
+/*  paging 버튼 크기 설정 */
+.fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging li {
+	min-width: 35px;
+	height: 35px;
+	vertical-align: middle;
+	line-height: 35px;
+}
+/* 큰 화면 paging 버튼 간격 조정 */
+.fr-paging-search .fr-paging li{
+	margin-left: 5px;
+	/* 1. (추가css:하은) paging 버튼 색 조정*/
+	color: #fff;
+    background: #3f3f6d;
+/*     background: #39397a; */
+}
+
+
+/*2. (추가css 하은) 페이징버튼 마우스 hover시 색상 변경 */
+.fr-paging-search .fr-paging .pagination-custom > li > a:hover {
+    color: #fff;
+    background: rgb(0, 200, 202);
+}
+
+
+/* paging 부분 바탕색 및 위치조정 */
+.fr-paging-search, .fr-xs-paging-search {
+	margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+/* 큰화면 기준 paging 부분 위치 조정 */
+.fr-paging-search {
+	margin-top: 0;
+}
+/* paging 위치 조정 (5.하은수정 css : 패딩조정) */
+.fr-paging-search .col-md-7 {
+	padding-left: 7.4%;
+}
+/* paging 글쓰기 버튼 크기 및 위치 조정 */
+.fr-paging-search .fr-write {
+	height: 35px; 
+	padding: 8px 20px; 
+	border-radius: 10px;
+	/*3. 글쓰기버튼 색 변경 : 하은*/
+	color: #fff;
+    background-color: #3f3f6d;
+    border-color: #3f3f6d;
+	
+}
+/* paging 부분 paging버튼과 검색창 구분을 위한 css */
+.fr-paging-search .fr-search{
+	margin-top: 15px;
+	border-top: 15px solid rgb(242, 243, 249);
+	padding-top: 15px;
+}
+
+/* paging 부분 검색창 크기 조정 */
+.fr-paging-search .fr-search .rd-mailform-inline-inner{
+	width: 84%;
+}
+/* paging 부분 검색창 크기 조정 */
+.fr-paging-search .fr-search .rd-mailform-inline-inner:before{
+	height: 35px;
+}
+/* paging 부분 검색창 크기 및 위치 조정 */
+.fr-paging-search .fr-search .form-wrap {
+	width: 50%; 
+	height: 35px; 
+	margin-top: 0px;
+}
+/* paging 부분 검색입력창 크기 및 위치 조정 */
+.fr-paging-search .fr-search .form-wrap .form-input {
+	height: 35px; 
+	min-height: 35px; 
+	margin-top: 8px; 
+	border-radius: 10px;
+}
+/* paging 부분 검색입력창 크기 및 위치 조정 */
+.fr-paging-search .fr-search .form-wrap .form-label {
+	top: 26px;
+}
+/* paging 부분 검색창 위치 조정 (6.하은 수정) */
+.fr-paging-search .fr-search .col-md-8{
+    padding-left: 10.5%;
+}
+/* paging 부분 검색 버튼 크기 조정 */
+.fr-paging-search .fr-search .fr-search-btn {
+	min-width: 75px;
+	min-height: 35px; 
+	margin-top: 15px; 
+	padding: 5px 25px; 
+	border-radius: 10px;
+	
+	/*(4.추가 css: 하은) 검색버튼 색상 변경*/
+	color: #fff;
+    background-color: rgb(0, 200, 202);
+    border-color: rgb(0, 200, 202);
+}
+/* 큰화면일때 모바일화면 기준 작은화면 paging 부분 숨김 처리 */
+.fr-xs-paging-search {
+	display: none;
+}
+
+.fr-paging-search .fr-paging {
+	padding-top: 10px;
+}
+
+/* 검색창 부분 위치 조정 */
+.fr-paging-search .fr-search {
+	margin-top: 10px;
+}
+/* ## 모바일 화면 기준  css START */
+@media(max-width: 768px){
+	/* 큰화면 기준 paging 숨김처리 */
+	.fr-paging-search {
+		display: none;
+	}
+	/* 작은화면 기준 paging 숨김처리 */
+	.fr-xs-paging-search {
+		display: block;
+	}
+	
+	/*  목록 검색창 버튼 부분 위치 조정 */
+	.fr-xs-paging-search .fr-xs-paging .col-xs-12 {
+		padding-right: 3%; 
+		padding-left: 3%;
+		padding-top: 10px;
+	}
+	/* 모바일 화면 검색버튼 크기 조정 */
+	.fr-xs-paging-search .fr-xs-search-btn{
+		min-width: 85px;
+	}
+}
+/* 모바일 화면 기준 css END */
+
+
+
+
+
+
+
+
+
+
+
+

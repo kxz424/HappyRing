@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 
 <!-- 공통 전용 paging css -->
-<link rel="stylesheet" href="/HappyRing/css/paging/paging.css">
+<link rel="stylesheet" href="/HappyRing/css/paging/paging2.css">
 
 </head>
 <body>

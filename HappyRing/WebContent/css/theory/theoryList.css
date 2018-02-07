@@ -35,10 +35,10 @@
 
 /* 블록 형식의 list div */
 .th-list-block{
-    /* padding-top: 25px; */
+    padding-top: 25px;
     margin-top: 15px;
     padding-bottom: 30px;
-    padding-left: 45px;
+    padding-left: 9px;
     padding-right: 14px;
     background-color: white;
     /* border: solid red; */
@@ -46,14 +46,78 @@
 
 
 /*블륵 형식의 list col-md padding 조정*/
-.th-list-block .col-md-4{
+/* .th-list-block .col-md-4{ */
 /* 	padding-top: 15px; */
 /* 	padding-left:0px; */
-	padding-top: 30px;
-    padding-left: 0px;
-    padding-right: 30px;
+/* 	padding-top: 30px; */
+/*     padding-left: 0px; */
+/*     padding-right: 30px; */
+/* } */
+
+
+/* istope css */
+.th-list-block .isotope .isotope-item{
+	padding-right:6px;
 }
 
+
+/* istope 구별버튼 li 간격 조정 */
+@media (min-width: 992px){
+	.th-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons > * {
+           margin-left: 1px;
+           margin-top: 0px;
+	}
+}
+/* istope 버튼그룹 위치 조정 */
+@media (min-width: 992px){
+	.th-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons{
+		  margin-left: 460px;
+	}
+}
+
+
+
+/* istope 버튼 radius 및 크기(padding)조정  */
+@media (min-width: 992px){
+	.th-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a {
+		 border-radius: 8px;
+		 padding: 5px 19px;
+	}
+}
+
+/* istope 버튼 active시 색 조정  */
+@media (min-width: 992px){
+	.th-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+/* istope 버튼 마우스 hover시 색 조정  */
+@media (min-width: 992px){
+	.th-list-block .isotope-filters-list.isotope-filters-list-buttons a:hover {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+
+/*istope 안에 들어갔기 때문에 생긴 img animation 죽이기*/
+.th-list-block .gallery-item img {
+    position: inherit;
+    left: 0%;
+    transform: none;
+}
 
 
 /*list article border에 색 넣어주기*/
@@ -69,7 +133,8 @@
 /* min-height: 10px !important; */
 /* 	width: 100%; */
     width: 211px;
-    height: 115px;
+/*     height: 115px; */
+	height: 130px;
     object-fit: initial;
 }
 
