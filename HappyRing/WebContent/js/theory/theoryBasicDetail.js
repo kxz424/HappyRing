@@ -22,12 +22,12 @@ $(function(){
 	
 	//이미지 미리보기를 댓글 입력창에 추가
 	function url(value) {
-		var img = $('<img class="img1" src="#"/>');
-		$('.thd-img').append(img);
 		if (value.files && value.files[0]) {
+			var img = $('<img class="thd-img-add" src="#"/>');
+			$('.thd-img').html(img);
 			var reader = new FileReader();
 			reader.onload = function(e){
-				$('.img1').attr('src', e.target.result);
+				$('.thd-img-add').attr('src', e.target.result);
 			};
 			reader.readAsDataURL(value.files[0]);
 		}

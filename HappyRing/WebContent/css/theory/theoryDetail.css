@@ -439,8 +439,8 @@
 .thd-div-comment .form-input.txtComment {
 	display: block;
     width: 100%;
-    min-height: 32px;
-    height: 126px;
+    min-height: 126px;
+    max-height: 400px;
     padding: 18px 25px;
     font-weight: 300;
     line-height: 23px;
@@ -452,6 +452,7 @@
     border-radius: 15px 0px 0px 15px;
     -webkit-appearance: none;
     cursor: auto;
+    overflow: auto;
    
 }
 
@@ -462,6 +463,11 @@
     max-height: 255px;
     resize: vertical;
     border-radius: 15px 0px 0px 15px;
+}
+
+/* 댓글 입력창에 추가되는 이미지 크기 지정 */
+.thd-div-comment .thd-img>.thd-img-add {
+	width: auto;
 }
 
 
@@ -487,9 +493,13 @@
 
 
 
+.thd-div-comment .form-button {
+	height: 100%;
+}
+
 /* 댓글 입력 버튼 (종상) */
-/* @media (min-width: 992px){ */
 	.thd-div-comment .button {
+	height: 100%;
 	min-width: 100%;
     font-size: 14px;
     padding-left: 5px;
@@ -498,7 +508,6 @@
     padding-bottom: 52px;
     border-radius: 0px 15px 15px 0px;
 	}
-/* } */
 
 
 

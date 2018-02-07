@@ -492,18 +492,22 @@
 			                </div>
 			              </div>
 	                    </div>
-	                    <!-- 댓글 내용 입력칸 --> 
-	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
-	                      <div class="form-wrap form-wrap-validation">
-	                      	<div contentEditable="true" class="form-input txtComment thd-img"></div>
-	                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
-	                      </div>
-	                    </div>
-	                    <!-- 댓글 등록 버튼  -->
-	                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
-	                      <div class="form-button">
-	                        <button class="button button-secondary button-nina" type="submit">등록</button>
-	                      </div>
+	                    <div class="cell-md-12">
+	                    	<div class="range">
+		                    <!-- 댓글 내용 입력칸 --> 
+		                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
+		                      <div class="form-wrap form-wrap-validation">
+		                      	<div contentEditable="true" class="form-input txtComment thd-img"></div>
+		                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
+		                      </div>
+		                    </div>
+		                    <!-- 댓글 등록 버튼  -->
+		                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
+		                      <div class="form-button">
+		                        <button class="button button-secondary button-nina" type="submit">등록</button>
+		                      </div>
+		                    </div>
+		                    </div>
 	                    </div>
 	                  </div>
 	                </form>
