@@ -5,9 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
-
-
  
 
 <!-- 헤더 전용 styleSheet -->
@@ -18,14 +15,6 @@
 
 <!-- 공통 전용 font css -->
 <link rel="stylesheet" href="/HappyRing/css/googleFont/font.css">
-
-
-
-
-
-
-
-
 
 </head>
 <body>
@@ -157,8 +146,6 @@
                     </ul>
                   </li>
                   
-                  
-                  
                   <!-- cate7:도서 -->
                   <li><a href="index.html">도서</a>
                     <!-- RD Navbar Dropdown-->
@@ -169,13 +156,22 @@
                       </li>
                     </ul>
                   </li>
-                  
-                  
                      
                   <!-- cate8: 정보방 -->
                   <li><a href="index.html">정보방</a>
                   </li>
                   
+                  
+                  <!-- cate7:도서 -->
+                  <li><a href="index.html">공지사항</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">관리자로부터</a>
+                      </li>
+                      <li><a href="landing-auction.html">관리자에게</a>
+                      </li>
+                    </ul>
+                  </li>
                   
                   
                  
