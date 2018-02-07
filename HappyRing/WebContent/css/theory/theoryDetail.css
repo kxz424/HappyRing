@@ -317,6 +317,15 @@
     
     
     
+/* 수정건의 버튼 누를시 나오는 div */
+.correction-send {
+	border: solid red;
+	padding-bottom: 20px;
+}
+
+    
+    
+    
 /** 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END*/
 
 
@@ -332,8 +341,8 @@
 
 /* 댓글 압룍 검싸고 있는 form css*/
 .thd-div-comment .rd-mailform {
-    margin-top: 13px;
-    margin-bottom: 38px;
+/*     margin-top: 13px; */
+/*     margin-bottom: 38px; */
 }
 
 
@@ -522,11 +531,39 @@
 	padding-bottom: 20px;
 }
 .thd-div-comment .comment-group .rd-mailform {
-	margin-top: 30px;
+/* 	margin-top: 30px; */
+	margin-top: 47px;
+}
+
+
+/* # 대댓글 reply닉네임 부분 css */
+/* 닉네임 앞에 붙는 아이콘 size 조정 */
+.comment-reply::before {
+	    padding-right: 2px;
+	}
+@media (min-width: 768px){
+	.comment-reply::before {
+	    font-size: 22px;
+	    line-height: 24px;
+	    padding-right: 2px;
+	}
+}
+/* 닉네임 text-size 조정 */
+.thd-div-comment  .comment-reply {
+    font-size: 12px;ㄴ
+}
+
+
+/* comment-header안에 수정/삭제 아이콘 margin 조정*/
+.thd-div-comment .comment-header .iconTrash{
+	    margin-left: 13px;
 }
 
 
 
+
+
+/* 댓글 스티커 선택버튼 */
 .thd-div-comment .choose-sticker {
     overflow: visible;
     position: absolute;
