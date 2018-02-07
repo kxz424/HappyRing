@@ -35,3 +35,21 @@ $(function(){
 	
 	
 });
+
+
+
+
+//댓글창 스티커 넣기 js START
+$(document).ready(function(){ //DOM이 준비되고
+    $('.sicker-btn').click(function(){ // ID가 toggleButton인 요소를 클릭하면
+        var state = $('.choose-sticker').css('display'); // state 변수에 ID가 moreMenu인 요소의 display의 속성을 '대입'
+        if(state == 'none'){ // state가 none 상태일경우 
+            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
+        }else{ // 그 외에는
+            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
+        }
+    });
+});
+
+
+//댓글창 스터커 넣기 js END
