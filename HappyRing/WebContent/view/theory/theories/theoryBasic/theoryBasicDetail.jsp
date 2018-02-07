@@ -595,14 +595,26 @@
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
-	   		 <div class="thd-bottm-list-div">
-	   		 	 <table class="table-custom table-hover">
+	   		 <div class="thd-bottom-list-div">
+	   		 	 <table class="table table-hover">
                   <tbody>
                     <tr>
-                      <td> 이전글<span class="icon lyphicon glyphicon-menu-down"></span> | [카테고리] 제목                                                | 작성자   |   작성일(/하트갯수)  </td>
+                      <td>이전글&ensp;<span class="glyphicon glyphicon-menu-down"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
                     </tr>
                     <tr>
-                      <td>2</td>
+                      <td>다음글&ensp;<span class="glyphicon glyphicon-menu-up"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
                     </tr>
                   </tbody>
                 </table>

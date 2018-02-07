@@ -113,21 +113,21 @@
                    <li><a href="index.html">커뮤니티</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">자유게시판</a>
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
                       </li>
-                      <li><a href="landing-default.html">고민게시판</a>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
                       </li>
-                      <li><a href="landing-default.html">웅원게시판</a>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
                       </li>
-                      <li><a href="landing-default.html">비포&애프터</a>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
                       </li>
-                      <li><a href="landing-default.html">팁&노하우</a>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
                       </li>
-                      <li><a href="landing-default.html">상담 후기</a>
+                      <li><a href="/HappyRing/view/community/consultReview/consultReviewList.jsp">상담 후기</a>
                       </li>
-                      <li><a href="landing-default.html">관리자에게</a>
+                      <li><a href="/HappyRing/view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
                       </li>
-                      <li><a href="landing-default.html">공지사항</a>
+                      <li><a href="/HappyRing/view/community/notice/noticeList.jsp">공지사항</a>
                       </li>
                     </ul>
                   </li>

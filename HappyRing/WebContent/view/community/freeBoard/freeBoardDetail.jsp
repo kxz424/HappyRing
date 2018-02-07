@@ -7,10 +7,10 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
- 
+
 <!-- communityDetail 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/community/communityDetail.css">
-     
+
  
 
 
@@ -37,8 +37,11 @@
 	    	 <jsp:include page="/view/include/top-add-slider.jsp"></jsp:include> 	
 	         <!-- top-add-slider END  -->
 	   
-	         
-	         <!-- ## 게시글 title START -->
+	   
+	   
+	         <!-- ----------------------################### START -->
+	          	
+			 <!-- ## 게시글 title START -->
    			 <div class="cd-title">
    				<!-- # 타이틀  -->
 				<div class="row">
@@ -74,7 +77,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">팁 & 노하우</a></span></td>
+				                	<td><span class=""><a href="">자유게시판</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
 		                        </tr>
@@ -168,6 +171,10 @@
 	         	 <!-- detail-div-inline END -->
 	         </div>
 	         <!-- detail-div : 심리학 detail END -->
+	         
+	         <!-- ----------------------################### END -->
+	   
+	   
 	   
 	   
 	   </div>

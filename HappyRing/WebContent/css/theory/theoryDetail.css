@@ -561,12 +561,66 @@
 
 
 /** 다음글/이전글 list css START */
-.thd-bottm-list-div{
+.thd-bottom-list-div{
     margin-top: 15px;
     padding: 6px;
     background-color: white;
-    height: 20px;
-    
+    height: auto;
+}
+/* 다음글/이전글 list margin 설정 */
+.thd-bottom-list-div .table-hover {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+/* 다음글/이전글 list td에 border 설정 */
+.thd-bottom-list-div .table-hover tr > td{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+/* 다음글/이전글 list 짝수번째 td 넓이 설정 */
+/* .thd-bottom-list-div .table-hover tr > td:nth-child(2n) { */
+/* 	padding-left: 0; */
+/* 	padding-right: 0; */
+/* 	width: 1%; */
+/* } */
+/* 다음글/이전글 list 이전글/다음글 td 넓이 설정 */
+/* .thd-bottom-list-div .table-hover tr > td:nth-child(1) { */
+/* 	width: 10%; */
+/* } */
+/* 다음글/이전글 list 제목 td 넓이 설정 */
+/* .thd-bottom-list-div .table-hover tr > td:nth-child(3) { */
+/* 	width: 50%; */
+/* 	text-align: left; */
+/* } */
+/* 다음글/이전글 list 작성자 td 넓이 설정 */
+/* .thd-bottom-list-div .table-hover tr > td:nth-child(5) { */
+/* 	width: 17%; */
+/* } */
+/* 다음글/이전글 list 작성일(/하트개수) td 넓이 설정 */
+/* .thd-bottom-list-div .table-hover tr > td:nth-child(7) { */
+/* 	width: 19%; */
+/* } */
+
+/* 다음글/이전글 list 이전글/다음글 td 넓이 설정 */
+.thd-bottom-list-div .table-hover tr > td:nth-child(1) {
+	width: 10%;
+}
+/* 다음글/이전글 list 제목 td 넓이 설정 */
+.thd-bottom-list-div .table-hover tr > td:nth-child(2) {
+	width: 50%;
+	text-align: left;
+}
+/* 다음글/이전글 list | td 넓이 설정 */
+.thd-bottom-list-div .table-hover tr > td:nth-child(3), .thd-bottom-list-div .table-hover tr > td:nth-child(5) {
+	width: 1%;
+}
+/* 다음글/이전글 list 작성자 td 넓이 설정 */
+.thd-bottom-list-div .table-hover tr > td:nth-child(4) {
+	width: 17%;
+}
+/* 다음글/이전글 list 작성일(/하트개수) td 넓이 설정 */
+.thd-bottom-list-div .table-hover tr > td:nth-child(6) {
+	width: 19%;
 }
 
 /* .thd-bottm-list-div-inline { */
