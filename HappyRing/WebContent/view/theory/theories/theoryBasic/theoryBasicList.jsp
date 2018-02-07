@@ -43,7 +43,7 @@
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
-	                     <h4 class="hn">Basic1 Theory</h4>
+	                     <h4 class="hn">Basic Theory</h4>
 	                  </div>
 	                  <div class="col-md-6"></div>
 	                </div>
@@ -63,40 +63,96 @@
 	   
 	   <!-- ## 게시물 list : 기초심리학 START -->
 	   <div class="th-list-block">
-	     <div class="row"> 	
-	     	<c:forEach var="i" begin="0" end="5">	
-             <div class="col-md-4"> 
-              <article class="post-blog box-shadow">
-              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="" width="auto" height="90">
-              	</a>
-                  <div class="post-blog-caption-header">
-                    <ul class="post-blog-tags">
-                      <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
-                    </ul>	
-                    
-                    <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
-                    
+	     <!-- Isotope Filters-->
+                  <div class="cell-lg-12" style="padding-right: 0px;">
+                    <ul class="isotope-filters isotope-filters-horizontal">
+                      <li class="block-top-level">
+                        <!-- Isotope Filters-->
+                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
+                          <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="gallery3" href="#">전체</a></li>
+                          <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">추천순</a></li>
+                          <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">조회순</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="post-blog-caption-body">
-                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-                    </a></h7>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
-                  </div>
-                 </article>
-                </div>
-             </c:forEach> 
-           </div> 
+                  
+                  <div>
+                  <!-- Isotope Content-->
+                    <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
+                      <div class="row">
+                      
+                        <c:forEach var="i" begin="0" end="2">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
+                             
+                             
+                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+				              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
+				              	</a>
+			                  <div class="post-blog-caption-header">
+			                    <ul class="post-blog-tags">
+			                      <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
+			                    </ul>	
+			                    
+			                    <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
+			                    
+			                  </div>
+			                  <div class="post-blog-caption-body">
+			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
+			                    </a></h7>
+			                  </div>
+			                  <div class="post-blog-caption-footer">
+			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
+			                  </div>
+			                 </article>
+                 
+			                  
+                        </div>
+                        </c:forEach>
+                        
+                        <c:forEach var="i" begin="0" end="2">
+                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
+                             
+                             
+                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+				              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+				              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
+				              	</a>
+			                  <div class="post-blog-caption-header">
+			                    <ul class="post-blog-tags">
+			                      <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
+			                    </ul>	
+			                    
+			                    <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
+			                    
+			                  </div>
+			                  <div class="post-blog-caption-body">
+			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
+			                    </a></h7>
+			                  </div>
+			                  <div class="post-blog-caption-footer">
+			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
+			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
+			                  </div>
+			                 </article>
+                        </div>
+                     	</c:forEach>
+                      </div>
+                    </div>
+	         <!-- ----------------------################### END -->
+	   			</div>
 	    </div>
 	    <!-- 게시물 list : 기초 심리학 END -->
 	   
 	   
-	   
-	   
+	    <!-- # 게시물 list 하단 paging START -->
+		   <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			
+	    <!-- 게시물 list 하단 paging END -->
 	   
 	   
 	   

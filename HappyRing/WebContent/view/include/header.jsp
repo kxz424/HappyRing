@@ -48,7 +48,7 @@
 		                      <li><a href="landing-auction.html">심리학 가이드</a>
 		                      </li>
 		                      <li>
-			                     <a href="freeBoardList.jsp">—주요심리학♥—</a>
+			                     <a href="freeBoardList.jsp"> 주요심리학&nbsp; <span class="icon glyphicon glyphicon-align-justify"></span> </a>
 			                     <ul class="rd-navbar-dropdown" style="top: 60px;">
 				                      <li><a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicList.jsp">기초 심리학</a>
 				                      </li>
@@ -69,7 +69,7 @@
 	                          	</ul>
 			                  </li>
 			                  <li>
-				                 <a href="#">—지식나눔방♥—</a>
+				                 <a href="#">지식나눔방&nbsp; <span class="icon glyphicon glyphicon-align-justify"></span></a>
 				                 <ul class="rd-navbar-dropdown" style="top: 114px;">
 				                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareList.jsp">심리학 지식</a>
 				                    </li>
@@ -89,9 +89,9 @@
                       </li>
                       <li><a href="landing-auction.html">30일 도전</a>
                       </li>
-                      <li><a href="landing-auction.html">도전성공후기</a>
-                      </li>
                       <li><a href="landing-auction.html">그룹방</a>
+                      </li>
+                      <li><a href="landing-auction.html">도전성공후기</a>
                       </li>
                     </ul>
                   </li>
@@ -99,7 +99,7 @@
                   
                   
                    <!-- cate4: 커뮤니티 -->
-                   <li><a href="index.html">커뮤니티</a>
+                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
@@ -112,12 +112,6 @@
                       </li>
                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
                       </li>
-                      <li><a href="/HappyRing/view/community/consultReview/consultReviewList.jsp">상담 후기</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/toAdminBoard/toAdminBoardList.jsp">관리자에게</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/notice/noticeList.jsp">공지사항</a>
-                      </li>
                     </ul>
                   </li>
                   
@@ -128,7 +122,7 @@
                     <ul class="rd-navbar-dropdown">
                       <li><a href="landing-default.html">Dr.Happy</a>
                       </li>
-                      <li><a href="landing-auction.html">퍼온글</a>
+                      <li><a href="landing-auction.html">Dr.Angel</a>
                       </li>
                     </ul>
                   </li>
@@ -159,10 +153,16 @@
                      
                   <!-- cate8: 정보방 -->
                   <li><a href="index.html">정보방</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="landing-default.html">상담소 홍보(기업)</a>
+                      </li>
+                      <li><a href="landing-auction.html">상담 후기(개인)</a>
+                      </li>
+                    </ul>
                   </li>
                   
-                  
-                  <!-- cate7:도서 -->
+                  <!-- cate9:공지사항 -->
                   <li><a href="index.html">공지사항</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
@@ -185,7 +185,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html">
+                <div class="rd-navbar-brand"><a class="brand-name" href="/HappyRing/main.jsp">
 <!--                 	<img class="logo-default" src="images/logo-default-128x52.png" alt="" width="128" height="52"/><img class="logo-inverse" src="images/logo-inverse-128x52.png" alt="" width="128" height="52"/> -->
                 	<p>해피링</p>
                 	</a></div>
