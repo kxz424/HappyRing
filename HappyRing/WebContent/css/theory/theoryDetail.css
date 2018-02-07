@@ -44,7 +44,7 @@
 /* detail-div-inline */
 .thd-div-inline{
 	padding-top: 11px;
-    padding-bottom: 85px;
+/*     padding-bottom: 85px; */
     border: solid rgb(234, 234, 234);
 }
 
@@ -125,7 +125,8 @@
 /* post-blog-article : article 전체 윤곽 */
 .thd-div-inline .post-blog-article{
 	text-align: center;
-	padding-top: 75px;
+/* 	padding-top: 75px; */
+	padding-top: 126px;
 }
 
 
@@ -155,8 +156,9 @@
 /** ## 버튼들  css START */ 
 
 .thd-div-buttons{
-	border: solid blue;
-	padding-top: 30px;
+/* 	border: solid blue; */
+/* 	padding-top: 30px; */
+	padding-top: 140px;
 	padding-bottom: 30px;
 	height: auto;
 }
@@ -205,7 +207,7 @@
 /** ## 같이보면 좋을 list css START */
 .thd-div-recommend-list {
 /* 	border: solid green; */
-	padding: 25px 30px 25px 30px;
+	padding: 105px 30px 25px 30px;
 	height: auto;
 }
 
@@ -493,13 +495,9 @@
 
 
 
-.thd-div-comment .form-button {
-	height: 100%;
-}
-
 /* 댓글 입력 버튼 (종상) */
+/* @media (min-width: 992px){ */
 	.thd-div-comment .button {
-	height: 100%;
 	min-width: 100%;
     font-size: 14px;
     padding-left: 5px;
@@ -508,6 +506,7 @@
     padding-bottom: 52px;
     border-radius: 0px 15px 15px 0px;
 	}
+/* } */
 
 
 
@@ -529,7 +528,7 @@
 .thd-div-comment .choose-sticker {
     overflow: visible;
     position: absolute;
-    top: 90.8%;
+    top: 92.8%;
     left: 75%;
     z-index: 100;
     height: 297px;
@@ -553,8 +552,34 @@
 
 .thd-div-comment .table-custom td {
     border-bottom: 0px solid #ededed;
+}
 
 /* 댓글 css END */
 
 
-/* 댓글 css END */
+
+/** 다음글/이전글 list css START */
+.thd-bottm-list-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+    height: 20px;
+    
+}
+
+/* .thd-bottm-list-div-inline { */
+/*     padding-top: 11px; */
+/*     padding-bottom: 85px; */
+/*     border: solid rgb(234, 234, 234); */
+/* } */
+
+
+/* 다음글/이전글 list css END */
+
+
+
+
+
+
+
+
