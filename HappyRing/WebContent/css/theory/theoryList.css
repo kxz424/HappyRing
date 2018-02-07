@@ -67,7 +67,9 @@
 }
 .f-section-1  .post-blog .post-blog-image img{
 /* min-height: 10px !important; */
-	width: 100%;
+/* 	width: 100%; */
+    width: 211px;
+    height: 115px;
     object-fit: initial;
 }
 

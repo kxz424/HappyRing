@@ -64,11 +64,12 @@
 	   <!-- ## 게시물 list : 기초심리학 START -->
 	   <div class="th-list-block">
 	     <div class="row"> 	
-	     	<c:forEach var="i" begin="0" end="5">	
+             
+             <c:forEach var="i" begin="0" end="5">		
              <div class="col-md-4"> 
               <article class="post-blog box-shadow">
               	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="" width="auto" height="90">
+              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
               	</a>
                   <div class="post-blog-caption-header">
                     <ul class="post-blog-tags">
@@ -89,14 +90,15 @@
                   </div>
                  </article>
                 </div>
-             </c:forEach> 
+              </c:forEach>
            </div> 
 	    </div>
 	    <!-- 게시물 list : 기초 심리학 END -->
 	   
 	   
-	   
-	   
+	    <!-- # 게시물 list 하단 paging START -->
+		   <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			
+	    <!-- 게시물 list 하단 paging END -->
 	   
 	   
 	   
