@@ -289,14 +289,14 @@
     }
 
 /* star(즐겨찾기 버튼) */
-.thd-div-etc-buttons .btn-star:hover {
+.thd-div-etc-buttons .btn-star:hover, .thd-div-etc-buttons .btn-star.btn-active {
     color: black;
 	background-color: #e5da00;
 	border-color: #e5da00;
     }
     
 /* share (공유 버튼) */
-.thd-div-etc-buttons .btn-share:hover {
+.thd-div-etc-buttons .btn-share:hover, .thd-div-etc-buttons .btn-share.btn-active {
     color: black;
 	background-color: #57ca00;
 	border-color: #57ca00;
@@ -310,7 +310,7 @@
     } 
 
 /* btn-correction(수정건의 버튼) */
-.thd-div-etc-buttons .btn-correction:hover {
+.thd-div-etc-buttons .btn-correction:hover, .thd-div-etc-buttons .btn-correction.btn-active {
     color: black;
 	background-color: #ca005e;
 	border-color: #ca005e;
