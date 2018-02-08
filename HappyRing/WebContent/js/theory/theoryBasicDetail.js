@@ -47,33 +47,36 @@ $(function(){
 		}
 	});
 	
+	//etc 버튼 클릭시 이벤트 처리
 	$('.thd-div-etc-buttons .btn').click(function(){
-		if($(this).css('color') != 'rgb(0, 0, 0)'){
-
-			if($(this).attr('class').match(/btn-heart/)){
-				$('.thd-div-etc-buttons .btn-heart').addClass('btn-active');
+		if(!$(this).attr('class').match(/btn-active/)){		//클릭한 버튼이 현재 클릭된 상태인지 확인
+			if($(this).attr('class').match(/btn-heart/)){		//클릭한 버튼의 클래스명에 btn-heart가 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-heart').addClass('btn-active');	//btn-heart 버튼에 클래스명 btn-active 추가
 				
-			}else if($(this).attr('class').match(/btn-star/)){
+			}else if($(this).attr('class').match(/btn-star/)){		//클릭한 버튼의 클래스명에 btn-star이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-star').addClass('btn-active');		//btn-star 버튼에 클래스명 btn-active 추가
 				
-			}else if($(this).attr('class').match(/btn-share/)){
+			}else if($(this).attr('class').match(/btn-share/)){		//클릭한 버튼의 클래스명에 btn-share가 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-share').addClass('btn-active');	//btn-share 버튼에 클래스명 btn-active 추가
 				
-			}else if($(this).attr('class').match(/btn-list/)){
-				
-			}else if($(this).attr('class').match(/btn-correction/)){
+			}else if($(this).attr('class').match(/btn-correction/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-correction').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
 				
 			}
 			
 		}else{
 			
-			if($(this).attr('class').match(/btn-heart/)){
+			if($(this).attr('class').match(/btn-heart/)){		//클릭한 버튼의 클래스명에 btn-heart가 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-heart').removeClass('btn-active');		//btn-heart 버튼에 클래스명 btn-active 삭제
 				
-			}else if($(this).attr('class').match(/btn-star/)){
+			}else if($(this).attr('class').match(/btn-star/)){		//클릭한 버튼의 클래스명에 btn-star이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-star').removeClass('btn-active');		//btn-star 버튼에 클래스명 btn-active 삭제
 				
-			}else if($(this).attr('class').match(/btn-share/)){
+			}else if($(this).attr('class').match(/btn-share/)){		//클릭한 버튼의 클래스명에 btn-share가 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-share').removeClass('btn-active');		//btn-share 버튼에 클래스명 btn-active 삭제
 				
-			}else if($(this).attr('class').match(/btn-list/)){
-				
-			}else if($(this).attr('class').match(/btn-correction/)){
+			}else if($(this).attr('class').match(/btn-correction/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-correction').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
 				
 			}
 			

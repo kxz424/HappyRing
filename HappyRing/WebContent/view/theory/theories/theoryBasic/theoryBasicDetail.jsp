@@ -129,9 +129,12 @@
 											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
 										   </button>
 										   
-										   <button type="button" class="btn btn-list btn-xs">
+<!-- 										   <button type="button" class="btn btn-list btn-xs"> -->
+<!-- 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
+<!-- 										   </button> -->
+										   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-										   </button>
+										   </a>
 										   
 										   <button type="button" class="btn btn-correction btn-xs">
 											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
@@ -268,9 +271,12 @@
 							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
 						   </button>
 						   
-						   <button type="button" class="btn btn-list btn-xs">
+<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
+<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
+<!-- 						   </button> -->
+						   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-						   </button>
+						   </a>
 						   
 						   <button type="button" class="btn btn-correction btn-xs">
 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
