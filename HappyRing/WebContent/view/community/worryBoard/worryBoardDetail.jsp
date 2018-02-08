@@ -43,7 +43,7 @@
    				<!-- # 타이틀  -->
 				<div class="row">
                   <div class="col-md-6">
-                     <h4 class="hn">Basic Theory</h4>
+                     <h4 class="hn">Worry Board</h4>
                   </div>
                   <div class="col-md-6"></div>
                 </div>
@@ -137,7 +137,7 @@
 										   </a>
 										   
 										   <button type="button" class="btn btn-correction btn-xs">
-											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
+											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
 										   </button>
 										   
 									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
@@ -204,7 +204,62 @@
 					
 					
 					
-				    <!-- ## 버튼들 START -->
+				   
+					
+					
+					
+					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
+					<div class="cd-div-etc-buttons">
+					  <div class="bottom-etc-buttons">
+						   <button type="button" class="btn btn-heart btn-xs">
+							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+						   </button>
+						   	
+						   <button type="button" class="btn btn-star btn-xs">
+							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+						   </button>
+						   
+						   <button type="button" class="btn btn-share btn-xs">
+							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
+						   </button>
+						   
+<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
+<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
+<!-- 						   </button> -->
+						   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
+							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
+						   </a>
+						   
+						   <button type="button" class="btn btn-correction btn-xs">
+							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
+						   </button>
+					  </div>	
+					  
+					</div>
+					
+					<div class="correction-send cd-send-none">
+					  	
+					  <div class="row" style="padding-top: 20px; border: solid;">
+					  	<div class="col-md-12">
+					  		<textarea class="form-input txtComment"></textarea>
+					  	</div>
+					  	
+					  	<div class="col-md-offset-10 col-md-2">
+					  		<button class="btn btn-primary">건의요청</button>
+					    </div>
+					  </div>
+					  
+					  
+				    </div>
+					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+								
+					
+					<!--## 댓글 SATART -->
+					<div class="cd-div-comment">
+					
+					
+					
+					 <!-- ## 버튼들 START -->
 					<div class="cd-div-buttons">
 					  
 					  <div class="center" style="">
@@ -240,70 +295,13 @@
 					<!-- 버튼들 END -->
 					
 					
-					<!-- ## 같이보면 좋을 list START  -->
-					<div class="cd-div-recommend-list">
-				      <p>해피링관리자님이 추천하는  <span>읽으면 </span>&nbsp;<span>도움되는 글</span></p>
-				      <ul class="list-marked list-marked-secondary">
-		                <li><a href="#">January 2017</a></li>
-		                <li><a href="#">February 2017</a></li>
-		                <li><a href="#">March 2017</a></li>
-		                <li><a href="#">April 2017</a></li>
-		                <li><a href="#">May 2017</a></li>
-		              </ul>
 					
 					
-					</div>
-					<!-- 같이보면 좋을 list END -->		
 					
 					
-					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="cd-div-etc-buttons">
-					  <div class="bottom-etc-buttons">
-						   <button type="button" class="btn btn-heart btn-xs">
-							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-						   </button>
-						   	
-						   <button type="button" class="btn btn-star btn-xs">
-							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-						   </button>
-						   
-						   <button type="button" class="btn btn-share btn-xs">
-							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-						   </button>
-						   
-<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 						   </button> -->
-						   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
-							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-						   </a>
-						   
-						   <button type="button" class="btn btn-correction btn-xs">
-							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
-						   </button>
-					  </div>	
-					  
-					</div>
 					
-					<div class="correction-send cd-send-none">
-					  	
-					  <div class="row" style="padding-top: 20px; border: solid;">
-					  	<div class="col-md-12">
-					  		<textarea class="form-input txtComment"></textarea>
-					  	</div>
-					  	
-					  	<div class="col-md-offset-10 col-md-2">
-					  		<button class="btn btn-primary">건의요청</button>
-					    </div>
-					  </div>
-					  
-					  
-				    </div>
-					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
-								
 					
-					<!--## 댓글 SATART -->
-					<div class="cd-div-comment">
+					
 					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
