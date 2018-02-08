@@ -42,7 +42,7 @@
                   
                   
                   <!-- cate2: 심리이론 -->
-                  <li class="active"><a href="main.jsp">심리이론</a>
+                  <li class="active"><a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicList.jsp">심리이론</a>
                     <!-- RD Navbar Dropdown-->
                           <ul class="rd-navbar-dropdown">
 		                      <li><a href="landing-auction.html">심리학 가이드</a>
@@ -71,9 +71,9 @@
 			                  <li>
 				                 <a href="#">지식나눔방&nbsp; <span class="icon glyphicon glyphicon-align-justify"></span></a>
 				                 <ul class="rd-navbar-dropdown" style="top: 114px;">
-				                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareList.jsp">심리학 지식</a>
+				                    <li><a href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareList.jsp">심리학 지식</a>
 				                    </li>
-				                    <li><a href="/HappyRing/view/theory/theoryShare/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
+				                    <li><a href="/HappyRing/view/theory/theoryCustom/theoryQnA/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
 				                    </li>
 	                          	</ul>
 				              </li>

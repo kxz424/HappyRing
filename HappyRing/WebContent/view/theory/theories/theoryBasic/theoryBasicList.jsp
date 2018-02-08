@@ -30,7 +30,7 @@
 
 	<div class="row">
 	
-	   <div class="col-md-9">
+		   <div class="col-md-9">
 	   
 	   <!--## top-add-slider START-->
 	    	 <jsp:include page="../../../include/top-add-slider.jsp"></jsp:include> 	
