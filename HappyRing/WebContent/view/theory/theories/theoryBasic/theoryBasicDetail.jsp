@@ -696,8 +696,8 @@
 	
 
     
-<!-- theoryBasicDetail 전용 js --> 
-   <script src="/HappyRing/js/theory/theoryBasicDetail.js"></script>   
+<!-- theoryDetail 전용 js --> 
+   <script src="/HappyRing/js/theory/theoryDetail.js"></script>   
     
 
 
