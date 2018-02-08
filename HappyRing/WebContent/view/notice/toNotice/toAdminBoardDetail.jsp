@@ -61,7 +61,7 @@
 	         <!-- 게시글 title END -->
 	         
 	         
-	         <!-- ### detail-div : 고민게시판 detail START -->
+	         <!-- ### detail-div : 관리자에게 detail START -->
 	         <div class="cd-div">
 				<!-- ## detail-div-inline START -->
 				<div class="cd-div-inline">
@@ -74,7 +74,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">고민게시판</a></span></td>
+				                	<td><span class=""><a href="">관리자에게</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
 		                        </tr>
@@ -638,7 +638,7 @@
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
-	         <!-- detail-div : 고민게시판 detail END -->
+	         <!-- detail-div : 관리자에게 detail END -->
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
