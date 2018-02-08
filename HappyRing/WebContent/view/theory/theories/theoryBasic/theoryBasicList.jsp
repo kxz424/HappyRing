@@ -63,7 +63,7 @@
 	   
 	   <!-- ## 게시물 list : 기초심리학 START -->
 	   <div class="th-list-block">
-	     <!-- Isotope Filters-->
+	              <!-- Isotope Filters-->
                   <div class="cell-lg-12" style="padding-right: 0px;">
                     <ul class="isotope-filters isotope-filters-horizontal">
                       <li class="block-top-level">
