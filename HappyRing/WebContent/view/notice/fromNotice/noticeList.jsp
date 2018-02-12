@@ -9,8 +9,6 @@
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include> 
  
-<!-- communityList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
 <!-- noticeBoardList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/notice/noticeList.css">
 
@@ -44,7 +42,7 @@
 	          	
 	          	
 	         <!-- ## 게시물 title : 공지사항 START -->
-	   			<div class="cd-title">
+	   			<div class="no-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
@@ -67,7 +65,46 @@
 	      
 	      
 	      <!-- 공지사항 list START -->
-              <div class="cd-list">
+              <div class="no-list">
+              
+              	 <!-- ## 고정 공지사항 list START  -->	
+		   		 <div class="no-bottom-list-div">
+		   		 	 <table class="table table-hover">
+	                  <tbody>
+	                  	<tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>사이트 이용 안내</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-07 10:20</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>ver.2 변경사항 공지</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-25 12:30</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>악성댓글 작성자 조치 안내</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-02-10 17:30</td>
+	                    </tr>
+	                  </tbody>
+	                </table>
+		   		 </div>
+		   		 <!-- 고정 공지사항 list END  -->	
+              
+              
+              
                <div class="coustom-isotope"> 
           
                    <!-- # Isotope Filters(button) START-->
@@ -93,13 +130,14 @@
                           <div class="box-info">
                             <div class="box-info-inner">
                               <span class="mdi mdi-thumb-up-outline"></span>
-                              <span class="box-info-title hn" style="float: right;">[카테]</span>
-                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
+                              <span class="box-info-title hn" style="float: right;">[type1]</span><br/>
+                              <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
+                              <p>1. 도전그룹방 신설</p>
                             </div>
                             <div class="box-info-footer">
                               <ul class="list-inline-md">
-                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>Full Time</span></li>
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
+                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
+                                <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span class="no-writer">HappyRing</span></li>
                               </ul>
                             </div>
                           </div>
@@ -110,13 +148,15 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
                           <div class="box-info">
                             <div class="box-info-inner">
-                              <h8 class="box-info-title">g호senior ui/ux designer</h8>
-                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
+                              <span class="mdi mdi-thumb-up-outline"></span>
+                              <span class="box-info-title hn" style="float: right;">[type2]</span><br/>
+                              <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
+                              <p>1. 도전그룹방 신설</p>
                             </div>
                             <div class="box-info-footer">
                                  <ul class="list-inline-md">
-                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>공감순</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
+                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
+                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span class="no-writer">HappyRing</span></li>
                                  </ul>
                             </div>
                           </div>
@@ -149,32 +189,6 @@
 	          	
 	          	
 	          	
-	          <!-- ## 다음글/이전글 list START  -->	
-	   		  <div class="thd-bottom-list-div">
-	   		 	 <table class="table table-hover">
-                  <tbody>
-                    <tr>
-                      <td>이전글&ensp;<span class="glyphicon glyphicon-menu-down"></span></td>
-<!--                       <td>|</td> -->
-                      <td>[카테고리] 제목</td>
-                      <td>|</td>
-                      <td>작성자</td>
-                      <td>|</td>
-                      <td>작성일(/하트갯수)</td>
-                    </tr>
-                    <tr>
-                      <td>다음글&ensp;<span class="glyphicon glyphicon-menu-up"></span></td>
-<!--                       <td>|</td> -->
-                      <td>[카테고리] 제목</td>
-                      <td>|</td>
-                      <td>작성자</td>
-                      <td>|</td>
-                      <td>작성일(/하트갯수)</td>
-                    </tr>
-                  </tbody>
-                </table>
-	   		  </div>
-	   		  <!-- 다음글/이전글 list END  -->	
 	          	
 	          	
 	          	

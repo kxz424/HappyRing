@@ -1,13 +1,129 @@
 @CHARSET "UTF-8";
 
+
+
+/* notice 게시판 게시물 타이틀 div */
+.no-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* notice 게시판 게시물 타이틀 대제목 col-md padding 조정 */
+.no-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/* notice 게시판 명언 text 글자 크기 조정*/
+.no-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+
+.no-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px;
+}
+
+/* notice 게시판 list div */
+.no-list {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    padding-bottom: 0;
+}
+/* notice 게시판 list block부분 height 조정 */
+.no-list .box-info>.box-info-inner {
+	min-height: auto;
+}
+/* notice 카테고리(isotope) 버튼 크기 및 radius 설정 */
+.no-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a {
+		 border-radius: 8px;
+		 padding: 5px 19px;
+}
+/* notice 카테고리(isotope) 버튼 크기 및 radius 설정 */
+.no-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+}
+
+
+
+
+
+/** 다음글/이전글 list css START */
+.no-bottom-list-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+    height: auto;
+}
+/* 다음글/이전글 list margin 설정 */
+.no-bottom-list-div .table-hover {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+/* 다음글/이전글 list td에 border 설정 */
+.no-bottom-list-div .table-hover tr > td{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+/* 다음글/이전글 list 이전글/다음글 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(1) {
+	width: 12%;
+}
+/* 다음글/이전글 list 제목 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(2) {
+	width: 50%;
+	text-align: left;
+}
+/* 다음글/이전글 list | td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(3), .no-bottom-list-div .table-hover tr > td:nth-child(5) {
+	width: 1%;
+}
+/* 다음글/이전글 list 작성자 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(4) {
+	width: 15%;
+}
+/* 다음글/이전글 list 작성일(/하트개수) td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(6) {
+	width: 19%;
+}
+/* 다음글/이전글 list css END */
+
+
+
+
+
+
 /* 공지사항 list 카테고리 버튼(isotope) 오른쪽 정렬 */
-.cd-list .isotope-filters-horizontal {
+.no-list .isotope-filters-horizontal {
 	float: right;
 }
 /* 공지사항 list 카테고리 버튼(isotope) height 영역 설정 */
-.cd-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+.no-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
 	height: 60px;
 }
-.cd-list .box-info .mdi {
+/* 공지사항 list block의 메인 아이콘 크기 */
+.no-list .box-info .mdi-thumb-up-outline {
 	font-size: 40px;
 }
+.no-list .box-info-footer .no-date-created, .no-list .box-info-footer .no-writer {
+	font-size: 13px;
+}
+
+
+
+
+
+
+
