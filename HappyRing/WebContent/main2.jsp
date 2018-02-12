@@ -50,19 +50,19 @@
                  <!-- 탭 nav-->
                   <ul class="nav nav-tabs">
                      <li> <a class="button-nina" href="#beforeN" data-toggle="tab">
-                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>주요심리학</a>
+                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>비포&애프터</a>
                      </li>
                      <li class="active"><a class="button-nina" href="#cheerUp" data-toggle="tab">
-                           <img class="imgTab" alt="" src="/HappyRing/img/main/cheering.png" width="63px"><br/>자존감</a>
+                           <img class="imgTab" alt="" src="/HappyRing/img/main/cheering.png" width="63px"><br/>멋진응원</a>
                      </li>
                      <li><a class="button-nina" href="#honor" data-toggle="tab">
-                           <img class="imgTab" alt="" src="/HappyRing/img/main/honor.png" width="63px"><br/>사랑/이별</a>
+                           <img class="imgTab" alt="" src="/HappyRing/img/main/honor.png" width="63px"><br/>도전성공후기</a>
                      </li>
                      <li><a class="button-nina" href="#trainning" data-toggle="tab">
-                           <img class="imgTab" alt="" src="/HappyRing/img/main/trainning.png" width="63px"><br/>나만의고민</a>
+                           <img class="imgTab" alt="" src="/HappyRing/img/main/trainning.png" width="63px"><br/>셀프트레이닝</a>
                      </li>
                      <li><a class="button-nina" href="#tips" data-toggle="tab">
-                           <img class="imgTab" alt="" src="/HappyRing/img/main/tips.png" width="63px"><br/>멋진응원 한마디</a>
+                           <img class="imgTab" alt="" src="/HappyRing/img/main/tips.png" width="63px"><br/>팁&노하우</a>
                     </li>
                   </ul>
                   <!-- 탭 contents-->

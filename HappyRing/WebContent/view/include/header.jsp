@@ -30,15 +30,15 @@
                 <ul class="rd-navbar-nav">
                 
                   <!-- cate1: 매일백자 -->	
-                  <li><a href="index.html">매일 100자</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">내 일기장</a>
-                      </li>
-                      <li><a href="landing-auction.html">편지함</a>
-                      </li>
-                    </ul>
-                  </li>
+<!--                   <li><a href="index.html">매일 100자</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">내 일기장</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">편지함</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                   
                   
                   <!-- cate2: 심리이론 -->
@@ -82,24 +82,43 @@
                   
                   
                   <!-- cate3:도전그룹방 -->
-                  <li><a href="index.html">도전그룹방</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">일주일 도전</a>
-                      </li>
-                      <li><a href="landing-auction.html">30일 도전</a>
-                      </li>
-                      <li><a href="landing-auction.html">그룹방</a>
-                      </li>
-                      <li><a href="landing-auction.html">도전성공후기</a>
-                      </li>
-                    </ul>
-                  </li>
+<!--                   <li><a href="index.html">도전그룹방</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">일주일 도전</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">30일 도전</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">그룹방</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">도전성공후기</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                   
                   
                   
                    <!-- cate4: 커뮤니티 -->
-                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">커뮤니티</a>
+                   
+                   <!-- plan1 : 자존감 -->
+                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자존감</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- plan 2: 사랑/이별 -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">사랑/이별 </a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
@@ -116,40 +135,136 @@
                   </li>
                   
                   
-                  <!-- cate5:해피링 칼럼 -->
-                  <li><a href="index.html">해피링칼럼</a>
+                  
+                  <!-- plan 3: 학업 /취업 -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">학업 /취업 </a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">Dr.Happy</a>
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
                       </li>
-                      <li><a href="landing-auction.html">Dr.Angel</a>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
                       </li>
                     </ul>
                   </li>
+                  
+                  
+                  <!-- plan 4 : 대인관계 -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">대인관계</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  
+                  <!-- plan 5 : 가족관계 -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">가족관계</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!-- 나만의 고민 -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">나만의 고민</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <!--자유게시판  -->
+                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                    <!-- RD Navbar Dropdown-->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <!-- cate5:해피링 칼럼 -->
+<!--                   <li><a href="index.html">해피링칼럼</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">Dr.Happy</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">Dr.Angel</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                   
                   
                   
                   <!-- cate6: 자극영상 -->
-                  <li><a href="index.html">자극영상</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">유튜브 영상</a>
-                      </li>
-                      <li><a href="landing-auction.html">공유 영상 올리기</a>
-                      </li>
-                    </ul>
-                  </li>
+<!--                   <li><a href="index.html">자극영상</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">유튜브 영상</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">공유 영상 올리기</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                   
                   <!-- cate7:도서 -->
-                  <li><a href="index.html">도서</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">이달의 추천</a>
-                      </li>
-                      <li><a href="landing-auction.html">독서그룹</a>
-                      </li>
-                    </ul>
-                  </li>
+<!--                   <li><a href="index.html">도서</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="landing-default.html">이달의 추천</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="landing-auction.html">독서그룹</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
                      
                   <!-- cate8: 정보방 -->
                   <li><a href="index.html">정보방</a>
