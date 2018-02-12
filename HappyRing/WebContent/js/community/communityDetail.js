@@ -17,17 +17,18 @@ $(function(){
 	});
 	//이미지 첨부시 이미지 변경
 	$('.cd-img-file>input:file').change(function(){
-		url(this);	//url 함수를 실행하는데 클릭한 자신을 데이터로 보냄
+		url(this, $(this));	//url 함수를 실행하는데 클릭한 자신을 데이터로 보냄
 	});
 	
 	//이미지 미리보기를 댓글 입력창에 추가
-	function url(value) {
+	function url(value, btn) {
 		if (value.files && value.files[0]) {
 			var img = $('<img class="cd-img-add" src="#"/>');	//이미지 태그 생성
-			$('.cd-img').html(img);	//생성한 이미지 태그를 원하는 태그 안으로 추가
+//			$('.cd-img').html(img);	//생성한 이미지 태그를 원하는 태그 안으로 추가
+			btn.parent().parent().parent().next().children().find('.cd-img').append(img);
 			var reader = new FileReader();	//파일을 읽는 클래스의 생성자를 호출하여 객체 생성
 			reader.onload = function(e){	//파일을 읽는 객체가 로드되었을때 실행할 함수 선언
-				$('.cd-img-add').attr('src', e.target.result);	//생성한 이미지 태그에 사용자가 선택한 이미지주소를 입력
+				btn.parent().parent().parent().next().children().children().find('.cd-img-add').attr('src', e.target.result);	//생성한 이미지 태그에 사용자가 선택한 이미지주소를 입력
 			};
 			reader.readAsDataURL(value.files[0]);	//이미지 파일의 경로를 dataURL로 읽음(?)
 		}

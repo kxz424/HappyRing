@@ -1,1 +1,13 @@
 @CHARSET "UTF-8";
+
+/* 공지사항 list 카테고리 버튼(isotope) 오른쪽 정렬 */
+.cd-list .isotope-filters-horizontal {
+	float: right;
+}
+/* 공지사항 list 카테고리 버튼(isotope) height 영역 설정 */
+.cd-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+	height: 60px;
+}
+.cd-list .box-info .mdi {
+	font-size: 40px;
+}

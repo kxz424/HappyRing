@@ -12,7 +12,7 @@
 <!-- communityList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
 <!-- noticeBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/notice/noticeList.css">
+  <link rel="stylesheet" href="/HappyRing/css/notice/noticeList.css">
 
 
 
@@ -68,91 +68,72 @@
 	      
 	      <!-- 공지사항 list START -->
               <div class="cd-list">
-              	<div class="row table-list">
-                  <div class="col-md-12">
-
-
-                     <table class="table table-hover">
-                        <thead>
-                           <tr>
-                              <th class="t1">공지사항</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <c:forEach var="i" begin="1" end="10">
-                              <tr>
-                                 <td class="t1">
-                                 	<div class="row">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                </div>
-		                                <div class="col-md-2">
-		                                	<img alt="공지사항게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
-	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-	                                 		<span style="float: right;">공지사항</span>
-	                                 	</div>
-                                 	</div>
-                                 </td>
-                              </tr>
-                           </c:forEach>
-                        </tbody>
-                     </table>
-                  </div>
-               </div>
-              </div>
-              <!-- 공지사항 list END -->
+               <div class="coustom-isotope"> 
+          
+                   <!-- # Isotope Filters(button) START-->
+                      <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
+                       <ul class="isotope-filters isotope-filters-horizontal">
+                         <li class="block-top-level">
+                           <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-1" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+                           <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-1">
+                             <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="gallery3" href="#">전체</a></li>
+	                         <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">추천순</a></li>
+	                         <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">조회순</a></li>
+                           </ul>
+                         </li>
+                       </ul>
+                    </div>
+                    <!-- Isotope Filters(button) END-->
+                    <!-- # isotope contents START-->
+                    <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
+                      <div class="row">
+                      <!-- type1 -->
+                      <c:forEach var="i" begin="0" end="5">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
+                          <div class="box-info">
+                            <div class="box-info-inner">
+                              <span class="mdi mdi-thumb-up-outline"></span>
+                              <span class="box-info-title hn" style="float: right;">[카테]</span>
+                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
+                            </div>
+                            <div class="box-info-footer">
+                              <ul class="list-inline-md">
+                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>Full Time</span></li>
+                                <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </c:forEach>
+                        <!-- type2 -->
+                        <c:forEach var="i" begin="0" end="5">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
+                          <div class="box-info">
+                            <div class="box-info-inner">
+                              <h8 class="box-info-title">g호senior ui/ux designer</h8>
+                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
+                            </div>
+                            <div class="box-info-footer">
+                                 <ul class="list-inline-md">
+                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>공감순</span></li>
+                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
+                                 </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </c:forEach>
+                      </div>
+                    </div>
+                    <!-- isotope contents END--> 
+                </div>  
+                <!-- 메인화면 isotope : 카테고리별 고민 띄어주는 부분  END -->  
+	                  
+             </div>
+             
+             
+          <!-- 공지사항 list END -->
               
               
-              
-              <!-- 작은화면 공지사항 list START -->
-              <div class="cd-xs-list">
-	              <div class="row table-list">
-	                  <div class="col-md-12">
-	
-	
-	                     <table class="table table-hover">
-	                        <thead>
-	                           <tr>
-	                              <th class="t1">공지사항</th>
-	                           </tr>
-	                        </thead>
-	                        <tbody>
-	                           <c:forEach var="i" begin="1" end="10">
-	                              <tr>
-	                                 <td class="t1">
-	                                 	<div class="row">
-	                                 		<div class="col-xs-10">
-		                                 		<span><strong>공지사항</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
-			                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-			                                </div>
-			                                
-			                                 
-			                                <div class="col-xs-2">
-		                                 		<button class="btn btn-primary cd-xs-count-btn">2</button>
-		                                 	</div>
-	                                 	</div>
-	                                 	
-	                                 	
-	                                 </td>
-	                              </tr>
-	                           </c:forEach>
-	                        </tbody>
-	                     </table>
-	                     
-	                     <!-- 글쓰기 버튼 START -->
-	                     <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-				         	<button class="btn btn-primary cd-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
-				         </a>
-				         <!-- 글쓰기 버튼 END -->
-	                  </div>
-	              </div>
-               
-               
-              </div>
-              <!-- 작은화면 공지사항 list END -->
               
               
               
@@ -166,6 +147,34 @@
               
               
 	          	
+	          	
+	          	
+	          <!-- ## 다음글/이전글 list START  -->	
+	   		  <div class="thd-bottom-list-div">
+	   		 	 <table class="table table-hover">
+                  <tbody>
+                    <tr>
+                      <td>이전글&ensp;<span class="glyphicon glyphicon-menu-down"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
+                    </tr>
+                    <tr>
+                      <td>다음글&ensp;<span class="glyphicon glyphicon-menu-up"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
+                    </tr>
+                  </tbody>
+                </table>
+	   		  </div>
+	   		  <!-- 다음글/이전글 list END  -->	
 	          	
 	          	
 	          	

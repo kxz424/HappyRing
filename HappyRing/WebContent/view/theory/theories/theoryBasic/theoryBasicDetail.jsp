@@ -641,7 +641,7 @@
 	         <!-- detail-div : 심리학 detail END -->
 	   
 	   
-	   		 <!-- ## 다음글/이전글 list START  -->	
+	   		 <!-- ## 고정 공지사항 list START  -->	
 	   		 <div class="thd-bottom-list-div">
 	   		 	 <table class="table table-hover">
                   <tbody>
@@ -666,7 +666,7 @@
                   </tbody>
                 </table>
 	   		 </div>
-	   		 <!-- 다음글/이전글 list END  -->	
+	   		 <!-- 고정 공지사항 list END  -->	
 	   
 	   </div>
 	   <!-- col-md-9 END -->	 
