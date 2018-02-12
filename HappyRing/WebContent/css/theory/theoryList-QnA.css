@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+/* 지식나눔방 게시판 게시물 타이틀 div */
+.th-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 지식나눔방 게시판 게시물 타이틀 대제목 col-md padding 조정 */
+.th-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/* 지식나눔방 게시판 명언 text 글자 크기 조정*/
+.th-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+
+.th-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px;
+}
+
+
+/* 지식나눔방 게시판 list div */
+.th-list, .th-xs-list{
+    /* padding-top: 25px; */
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    /* border: solid red; */
+}
+/* 지식나눔방 게시판 list padding-bottom 부분 조정 */
+.th-list {
+	padding-bottom: 0;
+}
+/* 큰 화면일때 모바일 화면 기준 지식나눔방 게시판 목록 숨김 처리 */
+.th-xs-list {
+	display: none;
+}
+/* ## 모바일 화면 기준 지식나눔방 게시판 css START */
+@media(max-width: 768px){
+	/* 큰 화면 기준 지식나눔방 게시판 목록 숨김 처리 */
+	.th-list {
+	    display: none;
+	}
+	/* 모바일 화면 기준 지식나눔방 게시판 목록 보임 처리 */
+	.th-xs-list {
+		display: block;
+		padding-bottom: 15px;
+	}
+	/* 지식나눔방 게시판 목록 중 댓글 개수 버튼 위치 조정 */
+	.th-xs-list .col-xs-2 {
+		margin-top: 3%;
+	}
+	/* 지식나눔방 게시판 목록 중 댓글 개수 버튼 크기 조정 */
+	.th-xs-list .th-xs-count-btn {
+		padding: 1px 6px 2px 7px;
+	}
+	/* 모바일 화면 글쓰기 버튼 위치 및 크기지정 */
+	.th-xs-list .th-xs-write {
+		float: right;
+		padding: auto 15px;
+	}
+}
+/* 모바일 화면 기준 지식나눔방 게시판 css END */
+
+
+
+
+
