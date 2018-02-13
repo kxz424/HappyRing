@@ -117,17 +117,17 @@
 		                        <td class="td-nick thd-div-etc-buttons">
 		                        
 			                        <!-- ## 누구나, Angel, human, 목록으로 등 버튼 css START -->
-								   <button type="button" class="btn btn-heart btn-xs">
-									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 누구나
-								   </button>
+<!-- 								   <button type="button" class="btn btn-heart btn-xs"> -->
+									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> <span>누구나</span> &nbsp;
+<!-- 								   </button> -->
 								   	
-								   <button type="button" class="btn btn-star btn-xs">
-									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Angel
-								   </button>
+<!-- 								   <button type="button" class="btn btn-star btn-xs"> -->
+									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span>Angel</span> &nbsp;
+<!-- 								   </button> -->
 								   
-								   <button type="button" class="btn btn-share btn-xs">
-									 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> human
-								   </button>
+<!-- 								   <button type="button" class="btn btn-share btn-xs"> -->
+									 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> <span>human</span> &nbsp;
+<!-- 								   </button> -->
 								   
 								   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
 									 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
@@ -190,13 +190,16 @@
 					<!-- ## 댓글, 나도궁금, 신고 등 버튼 css START -->
 					<div class="thd-div-etc-buttons row">
 						<div class="col-md-8">
-							<div class="thd-div-comment-btn">
-							   <button type="button" class="btn btn-heart btn-xs">
+							<div class="thd-div-bottom-btn">
+							   <button type="button" class="btn btn-heart btn-xs btn-comment">
 								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 댓글
 							   </button>
 							   	
 							   <button type="button" class="btn btn-star btn-xs">
 								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 나도궁금
+							   </button>
+							   <button type="button" class="btn btn-share btn-xs btn-reply">
+								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 답변작성
 							   </button>
 							</div>
 						</div>
@@ -221,8 +224,27 @@
 					    </div>
 					  </div>
 					  
+				    </div>
+				    
+				    <!-- 답글 작성창 START -->
+				    <div class="reply-send thd-send-none">
+					  	
+					  <div class="row" style="padding-top: 20px; border: solid;">
+					  	<div class="col-md-12">
+					  		<div class="form-input txtComment thd-img" contenteditable="true"></div>
+					  	</div>
+					  	
+					  	<div class="col-md-12">
+					  		<div class="tooltip-custom thd-img-file thd-reply-img-btn" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+							</div>
+					  		<button class="btn btn-primary">답변등록</button>
+					    </div>
+					  </div>
 					  
 				    </div>
+				    <!-- 답변 작성창 END -->
 					
 					
 					<!-- 댓글, 나도궁금, 신고 등 버튼 css END -->
@@ -314,7 +336,7 @@
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
+			                  <div class="range range-20 thd-comment-comment-div">
 			                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
@@ -408,7 +430,7 @@
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
+			                  <div class="range range-20 thd-comment-comment-div">
 			                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
@@ -460,7 +482,7 @@
 					<!--# 댓글 입력 -->
 					
 					<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-	                  <div class="range range-20">
+	                  <div class="range range-20 thd-comment-div">
 	                    
 	                    <!-- 닉네임입력 -->
 	                    <div class="cell-sm-4">
@@ -584,19 +606,19 @@
 	         	 
 	         	 
          	 	<div class="thd-reply-div">
-					<div class="row">
-						<div class="col-md-3">
-							<span>질문자 채택</span>
+					<div class="thd-reply-div-top row">
+						<div class="col-md-2">
+							<img alt="질문자 채택" src="/HappyRing/img/theory/theoryQnA/Medal-1.png" width="100" height="100"/>
 						</div>
 						<div class="col-md-6">
 							<div>
-								<span>작성자 닉네임</span>
+								<span class="hn">작성자 닉네임</span>
 							</div>
 							<div>
 								<span>채택답변수 3</span>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<span>2018-02-05 10:30</span>
 						</div>						
 					</div>
@@ -610,15 +632,21 @@
 					
 					<!-- ## 댓글, 신고 등 버튼 css START -->
 					<div class="thd-div-etc-buttons row">
-						<div class="col-md-8">
+						<div class="col-md-6">
 							<div class="thd-div-reply-comment-btn">
 							   <button type="button" class="btn btn-heart btn-xs">
 								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 댓글
 							   </button>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div class="bottom-etc-buttons">
+								<button type="button" class="btn btn-heart btn-xs">
+								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+							   </button>
+								<button type="button" class="btn btn-star btn-xs">
+								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 답변채택
+							   	</button>
 							   <button type="button" class="btn btn-correction btn-xs">
 								 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고하기
 							   </button>

@@ -318,14 +318,14 @@
     
     
     
-/* 수정건의 버튼 누를시 나오는 div */
-.correction-send {
+/* 수정건의, 답변작성 버튼 누를시 나오는 div */
+.correction-send, .reply-send {
 	border: solid red;
 	padding-bottom: 20px;
 	display: none;
 }
-/* 수정건의 관련 textarea css */
-.correction-send .form-input.txtComment {
+/* 수정건의, 답변작성 관련 textarea css */
+.correction-send .form-input.txtComment, .reply-send .form-input.txtComment {
 	display: block;
     width: 100%;
     min-height: 126px;
@@ -337,13 +337,17 @@
     overflow: visible;
     resize: none;
 }
-/* 건의요청 버튼 위쪽 간격조정 */
-.correction-send button {
+/* 건의요청, 답변등록 버튼 위쪽 간격조정 */
+.correction-send button, .reply-send button {
 	margin-top: 15px;
 }
-/* 건의요청 버튼 오른쪽으로 정렬 */
-.correction-send button {
+/* 건의요청, 답변등록 버튼 오른쪽으로 정렬 */
+.correction-send button, .reply-send button {
 	float: right;
+}
+
+.reply-send .thd-img-file {
+	margin-top: 15px;
 }
 
 
@@ -624,19 +628,38 @@
 
 
 
-/** 답글 영역 */
+/** 답글 영역 START */
 .thd-reply-div {
 	border: solid rgb(234, 234, 234);
 	border-top: 0;
 }
+/* 답글영역 상단부분 padding */
+.thd-reply-div .thd-reply-div-top {
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+/* 답글영역 상단부분 작성자 닉네임 부분 top margin */
+.thd-reply-div .thd-reply-div-top .col-md-6, .thd-reply-div .thd-reply-div-top .col-md-4 {
+	margin-top: 34px;
+}
+/* 답글영역 상단부분 작성일 부분 오른쪽 정렬 */
+.thd-reply-div .thd-reply-div-top .col-md-4 span {
+	float: right;
+}
+
+
+/* 답글영역의 content부분 padding 조절 */
 .thd-reply-div .thd-reply-div-content {
 	padding: 15px;
 }
+/* 답글영역의 댓글, 신고하기 버튼 영역 위치 조절 */
 .thd-reply-div .thd-div-etc-buttons {
 	margin-top: 20px;
 	margin-left: 0;
 	margin-right: 0;
 }
+/** 답글 영역 END */
 
 
 
