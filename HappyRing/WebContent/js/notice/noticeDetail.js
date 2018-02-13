@@ -4,10 +4,10 @@ $(function(){
 	$(".no-reply-btn").click(function(e){
 		e.preventDefault();		//현재 클릭한 태그에서 진행중인 이벤트를 중지 (예: a태그의 href)
 		var reply = $(this).parent().parent().parent().next();	//보여질 대댓글의 위치를 찾아 변수에 저장
-		if(reply.attr('class') == 'comment-group thd-none'){	//대댓글의 클래스명이 thd-none 이
-			reply.attr('class', 'comment-group thd-block');		//대댓글의 클래스명을 thd-block로 변경
+		if(reply.attr('class') == 'comment-group no-none'){	//대댓글의 클래스명이 no-none 이
+			reply.attr('class', 'comment-group no-block');		//대댓글의 클래스명을 no-block로 변경
 		}else{	//그롷지 않으면
-			reply.attr('class', 'comment-group thd-none');	//대댓글의 클래스명을 thd-none로 변경 혹은 유지
+			reply.attr('class', 'comment-group no-none');	//대댓글의 클래스명을 no-none로 변경 혹은 유지
 		}
 	});
 	
@@ -23,7 +23,7 @@ $(function(){
 	//이미지 미리보기를 댓글 입력창에 추가
 	function url(value) {
 		if (value.files && value.files[0]) {
-			var img = $('<img class="thd-img-add" src="#"/>');	//이미지 태그 생성
+			var img = $('<img class="no-img-add" src="#"/>');	//이미지 태그 생성
 			$('.no-img').html(img);	//생성한 이미지 태그를 원하는 태그 안으로 추가
 			var reader = new FileReader();	//파일을 읽는 클래스의 생성자를 호출하여 객체 생성
 			reader.onload = function(e){	//파일을 읽는 객체가 로드되었을때 실행할 함수 선언
