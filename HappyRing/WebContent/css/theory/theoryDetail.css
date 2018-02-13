@@ -360,6 +360,7 @@
 	border-top: 2px dashed rgba(131, 131, 134, 0.1);
 	padding: 25px;
 /* 	margin-top: 230px; */
+	display: none;
 }
 
 
@@ -618,6 +619,25 @@
 }
 
 /* 댓글 css END */
+
+
+
+
+
+/** 답글 영역 */
+.thd-reply-div {
+	border: solid rgb(234, 234, 234);
+	border-top: 0;
+}
+.thd-reply-div .thd-reply-div-content {
+	padding: 15px;
+}
+.thd-reply-div .thd-div-etc-buttons {
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
 
 
 
