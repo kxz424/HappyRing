@@ -189,6 +189,9 @@
 					                  <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span></p>
 					             </article>
 					             
+					             
+					             
+					             
 					             <p>An even better way to break the boring conversation mirror is to skip over the expected response and 
 					             go somewhere next-level. Even if your answer won’t concern the topic of the initial question, 
 					             it will push the conversation forward. Don’t be afraid to go ahead and be bold. Upend the dinner table 
@@ -264,28 +267,29 @@
 					  
 					  <div class="center" style="">
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png"/><br/>
-						  	<label><strong>1</strong><br/><span>유익해요</span></label>
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin7.png"/><br/>
+						  	<label><strong>2</strong><br/><span>저도그랬어요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png"/><br/>
-						  	<label><strong>2</strong><br/><span>재밌어요</span></label>
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin1.png"/><br/>
+						  	<label><strong>3</strong><br/><span>괜찮아요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png"/><br/>
-						  	<label><strong>3</strong><br/><span>놀라워요</span></label>
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin6.png"/><br/>
+						  	<label><strong>4</strong><br/><span>위로드려요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png"/><br/>
-						  	<label><strong>4</strong><br/><span>감동이에요</span></label>
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin4.png"/><br/>
+						  	<label><strong>5</strong><br/><span>슬퍼요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sick.png"/><br/>
-						  	<label><strong>5</strong><br/><span>마음아파요</span></label>
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin2.png"/><br/>
+						  	<label><strong>6</strong><br/><span>화나요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png"/><br/>
-						  	<label><strong>6</strong><br/><span>슬퍼요</span></label>
+						  
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin3.png"/><br/>
+						  	<label><strong>6</strong><br/><span>이후의 이야기원해요</span></label>
 						  </div>
 					  </div>
 					  
