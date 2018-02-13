@@ -1,0 +1,341 @@
+@charset "UTF-8";
+
+
+/* ## 심리이론 게시물 타이틀 div */
+.my-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+/* 심리이론 게시물 타이틀 대제목 col-md padding 조정 */
+.my-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/*심리이론 명언 text 글자 크기 조정*/
+.my-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+.my-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 심리이론 게시물 타이틀 div END*/
+
+
+
+
+
+/* 블록 형식의 list div */
+.my-list-block{
+    padding-top: 25px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 9px;
+    padding-right: 14px;
+    background-color: white;
+    /* border: solid red; */
+}
+
+
+/* 게시물 상단 : 카테고리별 top3 시리즈 보여주는 div */
+.my-list-top3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 9px;
+    background: #f2f3f9;
+    border: 2px dashed rgba(131, 131, 134, 0.1);
+    margin-left: 5px;
+}
+
+/* top3 내부 슬라이더 container css */
+.my-list-top3 .swiper-container {
+/*     height: auto; */
+    min-height: 24vw;
+}
+@media(min-width:992px){
+	.my-list-top3 .swiper-container {
+	    padding-left: 50px;
+	}    
+}
+
+/* 슬라이더 내부 width 조정  */
+.my-list-top3 .swiper-slide-caption{
+	width: 638px;
+}
+
+
+/* 슬라이더 내부 왼쪽 버튼 css */
+.my-list-top3 .swiper-button-prev{
+	left: 12px;
+}
+
+/*슬라이더 내부 오른쪽 버튼 css */
+.my-list-top3 .swiper-button-next {
+    right: 10px;
+}
+
+
+/* 슬라이더 내부 왼쪽,오른쪽 버튼 통합 css */
+.my-list-top3 .swiper-button-prev, .my-list-top3 .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 26px;
+    font-size: 17px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -20px;
+    z-index: 10;
+    cursor: pointer;
+    background: #ed1c94;
+    color: #fff;
+    transition: .33s;
+}
+
+/* 슬라이더 하단 페이지 동그라미 버튼 위치 조정 */
+.my-list-top3 .swiper-pagination-wrap {
+    bottom: 0px;
+}
+
+/* 슬라이더 하단 페이지 동그라미 버튼 색상 변경 */
+.my-list-top3 .swiper-pagination-bullet {
+/*     display: inline-block; */
+/*     width: 14px; */
+/*     height: 14px; */
+/*     border-radius: 100%; */
+    background: rgba(35, 233, 216, 0.49);
+/*     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5); */
+/*     transition: .33s; */
+}
+
+/* 슬라이더 하단 페이지 동그라미 버튼 active시 색상 변경 */
+.my-list-top3 .swiper-pagination-bullet-active {
+    background: #ffec17;
+}
+
+/* h3글자와 슬라이더 사이 간격 조정 */
+@media (min-width: 768px){
+	h3 + .swiper-slider {
+	    margin-top: 0px;
+	}
+}
+
+/* istope css */
+.my-list-block .isotope .isotope-item{
+	padding-right:6px;
+}
+
+
+/* istope 구별버튼 li 간격 조정 */
+@media (min-width: 992px){
+	.my-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons > * {
+           margin-left: 1px;
+           margin-top: 0px;
+	}
+}
+/* istope 버튼그룹 위치 조정 */
+@media (min-width: 992px){
+	.my-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons{
+		  margin-left: 14px;
+	}
+}
+
+
+
+/* istope 버튼 radius 및 크기(padding)조정  */
+@media (min-width: 992px){
+	.my-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a {
+		 border-radius: 8px;
+		 padding: 5px 19px;
+	}
+}
+
+/* istope 버튼 active시 색 조정  */
+@media (min-width: 992px){
+	.my-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+/* istope 버튼 마우스 hover시 색 조정  */
+@media (min-width: 992px){
+	.my-list-block .isotope-filters-list.isotope-filters-list-buttons a:hover {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+
+/* dropBox 크기 조정 */
+
+
+
+.my-list-block .select2-container--bootstrap .select2-selection--single {
+    text-align: left;
+    height: 33px;
+    line-height: 35px;
+    padding: 0 19px 0 19px;
+}
+
+
+.my-list-block .select2-container--bootstrap .select2-selection {
+    background-color: #f2f3f9;
+    border: 1px solid #f2f3f9;
+    border-radius: 8px;
+    color: #29293a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33px;
+    outline: 0;
+}
+
+.my-list-block .select2-results__options{
+	max-height: 422px;
+}
+
+
+.my-list-block .innerCate .btnSelectAll, 
+.my-list-block .innerCate .btnDelete{
+	
+	padding: 6px 18px;
+    border-radius: 20px;
+}
+
+
+
+
+/* 체크박스 들어갈 div 조정 */
+
+.my-list-block .post-blog-caption-check{
+	padding-left: 9px;
+    padding-right: 11px;
+}
+
+/* 체크박스 크기 조정 */
+.my-list-block .checkbox-inline .checkbox-custom-dummy{
+	width: 18px;
+    height: 19px;
+    border-radius: 5px;
+}
+
+
+
+.my-list-block .checkbox-inline {
+    padding-left: 38px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/*istope 안에 들어갔기 때문에 생긴 img animation 죽이기*/
+.my-list-block .gallery-item img {
+    position: inherit;
+    left: 0%;
+    transform: none;
+}
+
+
+/*list article border에 색 넣어주기*/
+.my-list-block .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 article >img 크기 조정 */
+.my-list-block .post-blog .post-blog-image {
+   min-height: 0px;
+}
+.f-section-1  .post-blog .post-blog-image img{
+/* min-height: 10px !important; */
+/* 	width: 100%; */
+    width: 211px;
+/*     height: 115px; */
+	height: 130px;
+    object-fit: initial;
+}
+
+
+/* article tag 좌우 padding 수정*/
+@media (min-width: 992px){
+	.my-list-block .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right:11px;
+	    border-top: dotted #80808026;
+	}
+}
+.my-list-block .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+
+
+/* article header에 게시글 no. 글자크기 수정 */
+.my-list-block .post-blog-caption-header .post-comment{
+	font-size: 11px;
+}	
+
+/* article title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.my-list-block .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	    text-align: left;
+	}
+}
+
+/* article title 위 아래 padding 수정*/
+.my-list-block  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+
+
+/* article footer font-size 수정*/
+@media (min-width: 992px){
+	.my-list-block .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
+	}
+}
+
+
+/* article footer icon size 수정 */
+.my-list-block .glyphicon-heart {
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+
+
+

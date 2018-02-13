@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+
+/* ## 상담소홍보 게시물 타이틀 div */
+.ct-title{
+	margin-top: 12px;
+/* 	border: solid; */
+	background-color: white;
+	padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 29px;
+}
+
+
+/* 상담소홍보 게시물 타이틀 대제목 col-md padding 조정 */
+.ct-title .row .col-md-6{
+	padding-left: 4%; 
+	margin-bottom: 2%;
+}
+
+/* 상담소홍보 명언 text 글자 크기 조정*/
+.ct-title .row .col-md-10 .sub-text{
+	font-size: 14px;
+}
+.ct-title .row .col-md-10 .sub-text-small{
+	
+	font-size: 10px
+}
+
+
+/* 상담소 홍보 게시물 타이틀 div END*/
+
+
+
+/* 블록 형식의 list div */
+.ct-list-block{
+    padding-top: 1px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 9px;
+    padding-right: 14px;
+    background-color: white;
+    /* border: solid red; */
+}
+
+
+
+/**/
+
+
+
+/** 고정 공지사항 listcss START */
+.no-bottom-list-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+    height: auto;
+}
+/* 고정 공지 list margin 설정 */
+.no-bottom-list-div .table-hover {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+/* 고정 공지 list td에 border 설정 */
+.no-bottom-list-div .table-hover tr > td{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+/* 고정 공지 list 이전글/다음글 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(1) {
+	width: 12%;
+}
+/* 고정 공지 list 제목 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(2) {
+	width: 50%;
+	text-align: left;
+}
+/* 고정 공지 list | td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(3), .no-bottom-list-div .table-hover tr > td:nth-child(5) {
+	width: 1%;
+}
+/* 고정 공지 list 작성자 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(4) {
+	width: 15%;
+}
+/* 고정 공지 list 작성일(/하트개수) td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(6) {
+	width: 19%;
+}
+/* 고정 공지 list css END */
+
+
+
+
+/* istope css */
+.ct-list-block .isotope .isotope-item{
+	padding-right:6px;
+}
+
+
+/* istope 구별버튼 li 간격 조정 */
+@media (min-width: 992px){
+	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons > * {
+           margin-left: 1px;
+           margin-top: 0px;
+	}
+}
+/* istope 버튼그룹 위치 조정 */
+@media (min-width: 992px){
+	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons{
+/* 		  margin-left: 460px; */
+   		  margin-left: 368px;
+	}
+}
+
+
+
+/* istope 버튼 radius 및 크기(padding)조정  */
+@media (min-width: 992px){
+	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a {
+		 border-radius: 8px;
+		 padding: 5px 19px;
+	}
+}
+
+/* istope 버튼 active시 색 조정  */
+@media (min-width: 992px){
+	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+/* istope 버튼 마우스 hover시 색 조정  */
+@media (min-width: 992px){
+	.ct-list-block .isotope-filters-list.isotope-filters-list-buttons a:hover {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+	}
+
+}
+
+
+
+/*istope 안에 들어갔기 때문에 생긴 img animation 죽이기*/
+.ct-list-block .gallery-item img {
+    position: inherit;
+    left: 0%;
+    transform: none;
+}
+
+
+/*list article border에 색 넣어주기*/
+.ct-list-block .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 article >img 크기 조정 */
+.ct-list-block .post-blog .post-blog-image {
+   min-height: 0px;
+}
+.f-section-1  .post-blog .post-blog-image img{
+/* min-height: 10px !important; */
+/* 	width: 100%; */
+    width: 211px;
+/*     height: 115px; */
+	height: 130px;
+    object-fit: initial;
+}
+
+
+/* article tag 좌우 padding 수정*/
+@media (min-width: 992px){
+	.ct-list-block .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right:11px;
+	    border-top: dotted #80808026;
+	}
+}
+.ct-list-block .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+
+
+/* article header에 게시글 no. 글자크기 수정 */
+.ct-list-block .post-blog-caption-header .post-comment{
+	font-size: 11px;
+}	
+
+/* article title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.ct-list-block .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	    text-align: left;
+	}
+}
+
+/* article title 위 아래 padding 수정*/
+.ct-list-block  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+/* article footer font-size 수정*/
+@media (min-width: 992px){
+	.ct-list-block .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
+	}
+}
+
+
+/* article footer icon size 수정 */
+.ct-list-block .glyphicon-heart {
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+
+
+
+
