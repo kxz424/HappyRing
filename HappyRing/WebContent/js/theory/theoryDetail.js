@@ -33,9 +33,6 @@ $(function(){
 		}
 	}
 	
-	
-	
-	
 	//수정건의 버튼 클릭 시 입력창 표시 및 입력창으로 스크롤 이동
 	$('.btn-correction').click(function(){
 		if($('.correction-send').css('display') == 'none'){		//입력창의 display 상태가 none일때
@@ -89,9 +86,6 @@ $(function(){
 });
 
 
-
-
-
 //댓글창 스티커 넣기 js START
 $(document).ready(function(){ //DOM이 준비되고
     $('.sicker-btn').click(function(){ // ID가 toggleButton인 요소를 클릭하면
@@ -104,5 +98,25 @@ $(document).ready(function(){ //DOM이 준비되고
     });
 });
 
-
 //댓글창 스터커 넣기 js END
+
+
+//숨겨진 댓글창 여닫기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
