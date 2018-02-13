@@ -44,6 +44,55 @@
 }
 
 
+
+/**/
+
+
+
+/** 고정 공지사항 listcss START */
+.no-bottom-list-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+    height: auto;
+}
+/* 고정 공지 list margin 설정 */
+.no-bottom-list-div .table-hover {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+/* 고정 공지 list td에 border 설정 */
+.no-bottom-list-div .table-hover tr > td{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+/* 고정 공지 list 이전글/다음글 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(1) {
+	width: 12%;
+}
+/* 고정 공지 list 제목 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(2) {
+	width: 50%;
+	text-align: left;
+}
+/* 고정 공지 list | td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(3), .no-bottom-list-div .table-hover tr > td:nth-child(5) {
+	width: 1%;
+}
+/* 고정 공지 list 작성자 td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(4) {
+	width: 15%;
+}
+/* 고정 공지 list 작성일(/하트개수) td 넓이 설정 */
+.no-bottom-list-div .table-hover tr > td:nth-child(6) {
+	width: 19%;
+}
+/* 고정 공지 list css END */
+
+
+
+
 /* istope css */
 .ct-list-block .isotope .isotope-item{
 	padding-right:6px;

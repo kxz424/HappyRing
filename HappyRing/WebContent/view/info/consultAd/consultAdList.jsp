@@ -64,6 +64,42 @@
 	   <div class="ct-list-block">
 	   
 	   
+	   <!-- ## 고정 공지사항 list START  -->	
+		   		 <div class="no-bottom-list-div">
+		   		 	 <table class="table table-hover">
+	                  <tbody>
+	                  	<tr>
+	                      <td>[선착순]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>서울시 강남구 해피링 본사 20명 심리테스트 진행 서비스가..</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-07 10:20</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[국가지원]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>진단서에 따른 국가 무료 지원금 혜택에 대한 정보입니다 </td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-25 12:30</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[상담정보]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>각 지역별 무료상담소 안내</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-02-10 17:30</td>
+	                    </tr>
+	                  </tbody>
+	                </table>
+		   		 </div>
+		   		 <!-- 고정 공지사항 list END  -->	
+	   
 	   		 <!-- ## 게시물 상단 : 카테고리별 top3 시리즈 보여주는 div START-->	
 	   		 <!-- 게시물 상단 : 카테고리별 top3 시리즈 보여주는 div END-->
 	   
