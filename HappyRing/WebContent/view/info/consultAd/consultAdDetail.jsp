@@ -631,7 +631,7 @@
 
     
 <!-- theoryDetail 전용 js --> 
-   <script src="/HappyRing/js/info/infoCommonDetail.js"></script>    
+   <script src="/HappyRing/js/info/consultAdDetail.js"></script>    
     
 
 
