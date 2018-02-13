@@ -9,7 +9,7 @@
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
 <!-- thoeryDetaik 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/info/consultReview/consultReviewDetail.css">
+  <link rel="stylesheet" href="/HappyRing/css/info/infoReview/infoReviewDetail.css">
      
  
 
@@ -683,7 +683,7 @@
 
     
 <!-- theoryDetail 전용 js --> 
-   <script src="/HappyRing/js/info/consultReviewDetail.js"></script>    
+   <script src="/HappyRing/js/info/infoReviewDetail.js"></script>    
     
 
 
