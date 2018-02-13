@@ -97,6 +97,7 @@
 .cd-div-inline .td-nick {
 	padding-left: 7px;
 	padding-top: 11px;
+	padding-right: 0px;
 }
 
 
@@ -626,7 +627,7 @@
 /** 다음글/이전글 list css START */
 .cd-bottom-list-div{
     margin-top: 15px;
-    padding: 6px;
+    padding: 2px;
     background-color: white;
     height: auto;
 }
