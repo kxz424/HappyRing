@@ -31,11 +31,9 @@
 /* notice 게시판 list div */
 .no-list {
     margin-top: 15px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
     background-color: white;
-    padding-bottom: 0;
+    padding: 10px 15px 15px 15px;
+    
 }
 /* notice 게시판 list block부분 height 조정 */
 .no-list .box-info>.box-info-inner {
@@ -61,7 +59,7 @@
 
 /** 다음글/이전글 list css START */
 .no-bottom-list-div{
-    margin-top: 15px;
+/*     margin-top: 15px; */
     padding: 6px;
     background-color: white;
     height: auto;
@@ -111,10 +109,10 @@
 }
 /* 공지사항 list 카테고리 버튼(isotope) height 영역 설정 */
 .no-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
-	height: 60px;
+	height: 20px;
 }
 /* 공지사항 list block의 메인 아이콘 크기 */
-.no-list .box-info .mdi-thumb-up-outline {
+.no-list .box-info .mdi-bullhorn, .no-list .box-info .mdi-email-outline {
 	font-size: 40px;
 }
 .no-list .box-info-footer .no-date-created, .no-list .box-info-footer .no-writer {

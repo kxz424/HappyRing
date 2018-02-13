@@ -5,14 +5,12 @@
 <html>
 <head>
 <title>Landing Default</title>
-
+ 
 <!-- bootstrap.css, style.css 등 공통 css -->
-<jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
-
-<!-- communityList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
-<!-- worryBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css">
+<jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include> 
+ 
+<!-- noticeBoardList 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/notice/noticeList.css">
 
 
 
@@ -43,8 +41,8 @@
 	         <!-- ----------------------################### START -->
 	          	
 	          	
-	         <!-- ## 게시물 title : 관리자에게 START -->
-	   			<div class="cd-title">
+	         <!-- ## 게시물 title : 공지사항 START -->
+	   			<div class="no-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
@@ -63,108 +61,135 @@
 	                  <div class="col-md-1"></div>	
 	                </div>
 	   			</div>
-	      <!-- 게시물 title : 관리자에게 END -->
+	      <!-- 게시물 title : 공지사항 END -->
 	      
 	      
-	      <!-- 관리자에게 list START -->
-              <div class="cd-list">
-              	<div class="row table-list">
-                  <div class="col-md-12">
-
-
-                     <table class="table table-hover">
-                        <thead>
-                           <tr>
-                              <th class="t1">관리자에게</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <c:forEach var="i" begin="1" end="10">
-                              <tr>
-                                 <td class="t1">
-                                 	<div class="row">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                </div>
-		                                <div class="col-md-2">
-		                                	<img alt="관리자에게게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
-	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-	                                 		<span style="float: right;">관리자에게</span>
-	                                 	</div>
-                                 	</div>
-                                 </td>
-                              </tr>
-                           </c:forEach>
-                        </tbody>
-                     </table>
-                  </div>
-               </div>
-              </div>
-              <!-- 관리자에게 list END -->
+	      <!-- 공지사항 list START -->
+              <div class="no-list">
+              
+              	 <!-- ## 고정 공지사항 list START  -->	
+		   		 <div class="no-bottom-list-div">
+		   		 	 <table class="table table-hover">
+	                  <tbody>
+	                  	<tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>사이트 이용 안내</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-07 10:20</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>ver.2 변경사항 공지</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-01-25 12:30</td>
+	                    </tr>
+	                    <tr>
+	                      <td>[카테고리]<span class=""></span></td>
+	<!--                       <td>|</td> -->
+	                      <td>악성댓글 작성자 조치 안내</td>
+	                      <td>|</td>
+	                      <td>HappyRing</td>
+	                      <td>|</td>
+	                      <td>2018-02-10 17:30</td>
+	                    </tr>
+	                  </tbody>
+	                </table>
+		   		 </div>
+		   		 <!-- 고정 공지사항 list END  -->	
               
               
               
-              <!-- 작은화면 관리자에게 list START -->
-              <div class="cd-xs-list">
-	              <div class="row table-list">
-	                  <div class="col-md-12">
-	
-	
-	                     <table class="table table-hover">
-	                        <thead>
-	                           <tr>
-	                              <th class="t1">관리자에게</th>
-	                           </tr>
-	                        </thead>
-	                        <tbody>
-	                           <c:forEach var="i" begin="1" end="10">
-	                              <tr>
-	                                 <td class="t1">
-	                                 	<div class="row">
-	                                 		<div class="col-xs-10">
-		                                 		<span><strong>관리자에게</strong></span>&nbsp &nbsp<span>네이버 블로그 포스트 저장 방법과 시간 관련</span><br/>
-			                                 	<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-			                                </div>
-			                                
-			                                 
-			                                <div class="col-xs-2">
-		                                 		<button class="btn btn-primary cd-xs-count-btn">2</button>
-		                                 	</div>
-	                                 	</div>
-	                                 	
-	                                 	
-	                                 </td>
-	                              </tr>
-	                           </c:forEach>
-	                        </tbody>
-	                     </table>
-	                     
-	                     <!-- 글쓰기 버튼 START -->
-	                     <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-				         	<button class="btn btn-primary cd-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
-				         </a>
-				         <!-- 글쓰기 버튼 END -->
-	                  </div>
-	              </div>
-               
-               
-              </div>
-              <!-- 작은화면 관리자에게 list END -->
-              
-              
-              
-              
-              <!-- 관리자에게 글등록btn 및 paging, search 창 START -->
+               <div class="coustom-isotope"> 
+          
+                   <!-- # Isotope Filters(button) START-->
+                      <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
+                       <ul class="isotope-filters isotope-filters-horizontal">
+                         <li class="block-top-level">
+                           <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-1" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+                           <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-1">
+                             <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="gallery3" href="#">전체</a></li>
+	                         <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">추천순</a></li>
+	                         <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">조회순</a></li>
+                           </ul>
+                         </li>
+                       </ul>
+                    </div>
+                    <!-- Isotope Filters(button) END-->
+                    <!-- # isotope contents START-->
+                    <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
+                      <div class="row">
+                      <!-- type1 -->
+                      <c:forEach var="i" begin="0" end="5">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
+                          <div class="box-info">
+                            <div class="box-info-inner">
+                              <span class="mdi mdi-email-outline"></span>
+                              <span class="box-info-title hn" style="float: right;">[수정요청]</span><br/>
+                              <h6 class="box-info-title hn">심리학 기초 오타</h6>
+                              <p>심리학 기초의 OO게시물에 오타가 있습니다. 수정 부탁드려요</p>
+                            </div>
+                            <div class="box-info-footer">
+                              <ul class="list-inline-md">
+                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-22 14:30</span></li>
+                                <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">심리학이란</span></li>
+                                <li class="box-inline"><span class="icon icon-primary mdi mdi-comment-check-outline"></span><span class="no-writer">2</span></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </c:forEach>
+                        <!-- type2 -->
+                        <c:forEach var="i" begin="0" end="5">
+                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
+                          <div class="box-info">
+                            <div class="box-info-inner">
+                              <span class="mdi mdi-email-outline"></span>
+                              <span class="box-info-title hn" style="float: right;">[바라는점]</span><br/>
+                              <h6 class="box-info-title hn">심리학 관련 정보추가 요청</h6>
+                              <p>이 사이트 덕분에 심리학에 흥미가 생긴 사람입니다. 심리학 관련 정보가 더 추가되었으면 좋겠습니다.</p>
+                            </div>
+                            <div class="box-info-footer">
+                                 <ul class="list-inline-md">
+                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-02-01 11:30</span></li>
+                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">심리학이란</span></li>
+                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-comment-check-outline"></span><span class="no-writer">3</span></li>
+                                 </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </c:forEach>
+                      </div>
+                    </div>
+                    <!-- isotope contents END--> 
+                </div>  
+                <!-- 메인화면 isotope : 카테고리별 고민 띄어주는 부분  END -->  
+	                  
+             </div>
              
-              <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
+             
+          <!-- 공지사항 list END -->
+              
+              
+              
+              
+              
+              
+              <!-- 공지사항 글등록btn 및 paging, search 창 START -->
+             
+              <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			
 									
-              <!-- 관리자에게 글등록btn 및 paging, search 창 END -->
+              <!-- 공지사항 글등록btn 및 paging, search 창 END -->
                
               
               
+	          	
+	          	
 	          	
 	          	
 	          	
@@ -204,7 +229,6 @@
 </div>
 <!-- page END -->
 	
-
 
 
 </body>

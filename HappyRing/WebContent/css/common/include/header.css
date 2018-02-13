@@ -177,3 +177,24 @@
 }
 /*검색창 검색버튼  END */
 
+
+
+
+/* modal창 회원가입 및 아이디/비밀번호 찾기 버튼 */
+#login-modal .row, #sign-up-modal .row {
+	margin-top: 15px;
+}
+/* modal창 회원가입 버튼 위치 조정 */
+#login-modal .row>.col-md-offset-1, #sign-up-modal .row>.col-md-offset-1 {
+	text-align: left;
+}
+/* modal창 회원가입 및 아이디/비밀번호 찾기 버튼 cursor 주기 */
+#login-modal .row a, #sign-up-modal .row a {
+	cursor: pointer;
+}
+/* 모달창 안에 존재하는 모든 입력창, 버튼 radius 조정 */
+#login-modal input, #sign-up-modal input, #login-modal button, #sign-up-modal button {
+	border-radius: 8px;
+}
+
+

@@ -129,7 +129,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
                           <div class="box-info">
                             <div class="box-info-inner">
-                              <span class="mdi mdi-thumb-up-outline"></span>
+                              <span class="mdi mdi-bullhorn"></span>
                               <span class="box-info-title hn" style="float: right;">[type1]</span><br/>
                               <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
                               <p>1. 도전그룹방 신설</p>
@@ -137,7 +137,7 @@
                             <div class="box-info-footer">
                               <ul class="list-inline-md">
                                 <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span class="no-writer">HappyRing</span></li>
+                                <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">HappyRing</span></li>
                               </ul>
                             </div>
                           </div>
@@ -148,7 +148,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
                           <div class="box-info">
                             <div class="box-info-inner">
-                              <span class="mdi mdi-thumb-up-outline"></span>
+                              <span class="mdi mdi-bullhorn"></span>
                               <span class="box-info-title hn" style="float: right;">[type2]</span><br/>
                               <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
                               <p>1. 도전그룹방 신설</p>
@@ -156,7 +156,7 @@
                             <div class="box-info-footer">
                                  <ul class="list-inline-md">
                                    <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span class="no-writer">HappyRing</span></li>
+                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">HappyRing</span></li>
                                  </ul>
                             </div>
                           </div>
@@ -180,7 +180,7 @@
               
               <!-- 공지사항 글등록btn 및 paging, search 창 START -->
              
-              <jsp:include page="/view/paging/paging.jsp"></jsp:include>			
+              <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			
 									
               <!-- 공지사항 글등록btn 및 paging, search 창 END -->
                
