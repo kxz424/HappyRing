@@ -10,7 +10,7 @@
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
 <!-- thoeryList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/info/consultReview/consultReviewList.css">
+  <link rel="stylesheet" href="/HappyRing/css/info/infoReview/infoReviewList.css">
 
 
 </head>

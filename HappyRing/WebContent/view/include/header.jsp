@@ -52,28 +52,28 @@
 			                     <ul class="rd-navbar-dropdown" style="top: 60px;">
 				                      <li><a href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicList.jsp">기초 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">3대 심리학</a>
+				                      <li><a href="#">3대 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">성격 심리학</a>
+				                      <li><a href="#">성격 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">상담 심리학</a>
+				                      <li><a href="#">상담 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">행동 심리학</a>
+				                      <li><a href="#">행동 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">인지 심리학</a>
+				                      <li><a href="#">인지 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">사회 심리학</a>
+				                      <li><a href="#">사회 심리학</a>
 				                      </li>
-				                      <li><a href="freeBoardList.jsp">연애 심리학</a>
+				                      <li><a href="#">연애 심리학</a>
 				                      </li>
 	                          	</ul>
 			                  </li>
 			                  <li>
-				                 <a href="#">지식나눔방&nbsp; <span class="icon glyphicon glyphicon-align-justify"></span></a>
+				                 <a href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareList.jsp">지식나눔방&nbsp; <span class="icon glyphicon glyphicon-align-justify"></span></a>
 				                 <ul class="rd-navbar-dropdown" style="top: 114px;">
 				                    <li><a href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareList.jsp">심리학 지식</a>
 				                    </li>
-				                    <li><a href="/HappyRing/view/theory/theoryCustom/theoryQnA/theoryShareQNA/shareQNAList.jsp">묻고 답하기</a>
+				                    <li><a href="/HappyRing/view/theory/theoryCustom/theoryQnA/theoryQnAList.jsp">묻고 답하기</a>
 				                    </li>
 	                          	</ul>
 				              </li>
@@ -207,7 +207,7 @@
                   </li>
                   
                   <!--자유게시판  -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                  <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">자유게시판</a>
                     <!-- RD Navbar Dropdown-->
 <!--                     <ul class="rd-navbar-dropdown"> -->
 <!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
@@ -222,11 +222,6 @@
 <!--                       </li> -->
 <!--                     </ul> -->
                   </li>
-                  
-                  
-                  
-                  
-                  
                   
                   
                   
@@ -270,20 +265,20 @@
                   <li><a href="index.html">정보방</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">상담소 홍보(기업)</a>
+                      <li><a href="/HappyRing/view/info/infoAd/infoAdList.jsp">상담소 홍보(기업)</a>
                       </li>
-                      <li><a href="landing-auction.html">상담 후기(개인)</a>
+                      <li><a href="/HappyRing/view/info/infoReview/infoReviewList.jsp">상담 후기(개인)</a>
                       </li>
                     </ul>
                   </li>
                   
                   <!-- cate9:공지사항 -->
-                  <li><a href="index.html">공지사항</a>
+                  <li><a href="/HappyRing/view/notice/fromNotice/fromNoticeList.jsp">공지사항</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="landing-default.html">관리자로부터</a>
+                      <li><a href="/HappyRing/view/notice/fromNotice/fromNoticeList.jsp">관리자로부터</a>
                       </li>
-                      <li><a href="landing-auction.html">관리자에게</a>
+                      <li><a href="/HappyRing/view/notice/toNotice/toNoticeList.jsp">관리자에게</a>
                       </li>
                     </ul>
                   </li>
@@ -317,22 +312,22 @@
 		          		<!-- 대분류 카테고리 -->
 		          		<div class="col-md-2 mainCate-col">
 		          		<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
-                  <option label=" "> </option>
-                  <option value="1" selected="">도전그룹방</option>
-                  <option value="2">Chicago</option>
-                  <option value="3">San Francisco</option>
-                </select>
+		                  <option label=" "> </option>
+		                  <option value="1" selected="">도전그룹방</option>
+		                  <option value="2">Chicago</option>
+		                  <option value="3">San Francisco</option>
+		                </select>
 		          		
 		          		</div>
 		          		
 		          		<!-- 중분류 카테고리 -->
 		          		<div class="col-md-2 middleCate-col">
 		          		<select class="form-control select-filter middleCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="middleCate">
-                  <option label=" "> </option>
-                  <option value="1" selected="">일주일도전</option>
-                  <option value="2">Chicago</option>
-                  <option value="3">San Francisco</option>
-                </select>
+		                  <option label=" "> </option>
+		                  <option value="1" selected="">일주일도전</option>
+		                  <option value="2">Chicago</option>
+		                  <option value="3">San Francisco</option>
+		                </select>
 		          		
 		          		</div>
 		          		

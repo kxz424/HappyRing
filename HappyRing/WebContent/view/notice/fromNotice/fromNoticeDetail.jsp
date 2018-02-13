@@ -7,9 +7,9 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
- 
-<!-- communityDetail 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityDetail.css">
+
+<!-- thoeryDetaik 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/notice/noticeDetail.css">
      
  
 
@@ -39,11 +39,11 @@
 	   
 	         
 	         <!-- ## 게시글 title START -->
-   			 <div class="cd-title">
+   			 <div class="no-title">
    				<!-- # 타이틀  -->
 				<div class="row">
                   <div class="col-md-6">
-                     <h4 class="hn">Basic Theory</h4>
+                     <h4 class="hn">Notice</h4>
                   </div>
                   <div class="col-md-6"></div>
                 </div>
@@ -62,9 +62,9 @@
 	         
 	         
 	         <!-- ### detail-div : 심리학 detail START -->
-	         <div class="cd-div">
+	         <div class="no-div">
 				<!-- ## detail-div-inline START -->
-				<div class="cd-div-inline">
+				<div class="no-div-inline">
 					
 					
 					<!-- # 카테고리, 등록일 div START -->
@@ -74,7 +74,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">공지사항</a></span></td>
+				                	<td><span class=""><a href="">이벤트 알림</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
 		                        </tr>
@@ -98,15 +98,62 @@
 					<hr/>
 					
 					<!-- # 닉네임  START-->
-					<table cellspacing="0" cellpadding="0" border="0">
-	                    <tbody><tr valign="top">
-	                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
-	                        </tr>
-                        </tbody>
-                    </table>
+					<div class="name-and-buttons">
+					   <!-- 등록일 -->	
+					   
+					   	<div class="writer-name">
+						<table cellspacing="0" cellpadding="0" border="0">
+		                    <tbody><tr valign="top">
+		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
+		                        </tr>
+	                        </tbody>
+	                    </table>
+					   </div>
+					  
+					   <!-- 카테고리 -->	
+					    <div class="etc-btns">
+					      <table cellspacing="0" cellpadding="0" border="0">
+		                	 <tbody><tr valign="top">
+		                        <td class="td-nick no-div-etc-buttons">
+		                        
+			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
+										   <button type="button" class="btn btn-heart btn-xs">
+											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+										   </button>
+										   	
+										   <button type="button" class="btn btn-star btn-xs">
+											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+										   </button>
+										   
+										   <button type="button" class="btn btn-share btn-xs">
+											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
+										   </button>
+										   
+<!-- 										   <button type="button" class="btn btn-list btn-xs"> -->
+<!-- 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
+<!-- 										   </button> -->
+										   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
+											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
+										   </a>
+										   
+<!-- 										   <button type="button" class="btn btn-correction btn-xs"> -->
+<!-- 											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의 -->
+<!-- 										   </button> -->
+										   
+									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+		                        
+		                        
+		                        
+		                        </td>
+		                        </tr>
+	                        </tbody>
+		                  </table>
+					  </div>
+					</div>
+					
                     <!-- # 닉네임  END-->
 					
-					
+				
 					
 					<!-- ## 본문 제목, 내용 START  -->
 					<article class="post-blog-article">
@@ -155,20 +202,105 @@
 					<!-- 본문 제목, 내용 END  -->
 					
 					
-					<!-- 버튼들 -->
 					
 					
-					<!-- 댓글 -->
-				
-				
-				
-				
+					
+					
+					<!-- ## 같이보면 좋을 list START  -->
+					<div class="no-div-recommend-list">
+				      <p>해피링관리자님이 추천하는  <span>필독 </span>&nbsp;<span>공지사항</span></p>
+				      <ul class="list-marked list-marked-secondary">
+		                <li><a href="#">January 2017</a></li>
+		                <li><a href="#">February 2017</a></li>
+		                <li><a href="#">March 2017</a></li>
+		                <li><a href="#">April 2017</a></li>
+		                <li><a href="#">May 2017</a></li>
+		              </ul>
+					
+					
+					</div>
+					<!-- 같이보면 좋을 list END -->		
+					
+					
+					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
+					<div class="no-div-etc-buttons">
+					  <div class="bottom-etc-buttons">
+						   <button type="button" class="btn btn-heart btn-xs">
+							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+						   </button>
+						   	
+						   <button type="button" class="btn btn-star btn-xs">
+							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+						   </button>
+						   
+						   <button type="button" class="btn btn-share btn-xs">
+							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
+						   </button>
+						   
+<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
+<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
+<!-- 						   </button> -->
+						   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
+							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
+						   </a>
+						   
+<!-- 						   <button type="button" class="btn btn-correction btn-xs"> -->
+<!-- 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의 -->
+<!-- 						   </button> -->
+					  </div>	
+					  
+					</div>
+					
+					<div class="correction-send no-send-none">
+					  	
+					  <div class="row" style="padding-top: 20px; border: solid;">
+					  	<div class="col-md-12">
+					  		<textarea class="form-input txtComment"></textarea>
+					  	</div>
+					  	
+					  	<div class="col-md-offset-10 col-md-2">
+					  		<button class="btn btn-primary">건의요청</button>
+					    </div>
+					  </div>
+					  
+					  
+				    </div>
+					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+								
+					
 				
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
 	         <!-- detail-div : 심리학 detail END -->
 	   
+	   
+	   		 <!-- ## 다음글/이전글 list START  -->	
+	   		 <div class="no-bottom-list-div">
+	   		 	 <table class="table table-hover">
+                  <tbody>
+                    <tr>
+                      <td>이전글&ensp;<span class="glyphicon glyphicon-menu-down"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
+                    </tr>
+                    <tr>
+                      <td>다음글&ensp;<span class="glyphicon glyphicon-menu-up"></span></td>
+<!--                       <td>|</td> -->
+                      <td>[카테고리] 제목</td>
+                      <td>|</td>
+                      <td>작성자</td>
+                      <td>|</td>
+                      <td>작성일(/하트갯수)</td>
+                    </tr>
+                  </tbody>
+                </table>
+	   		 </div>
+	   		 <!-- 다음글/이전글 list END  -->	
 	   
 	   </div>
 	   <!-- col-md-9 END -->	 
@@ -183,11 +315,6 @@
 	 </div>
 	 <!-- row END -->
 	   
-	   
-
-
-
-
 		
 	</div>
 	<!-- container END -->
@@ -195,9 +322,17 @@
    <!-- section END -->
 	<!-- footer include -->
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
+	
+      
+      
 </div>
 <!-- page END -->
 	
+
+    
+<!-- theoryDetail 전용 js --> 
+   <script src="/HappyRing/js/notice/noticeDetail.js"></script>    
+    
 
 
 </body>

@@ -7,9 +7,9 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
- 
-<!-- communityDetail 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityDetail.css">
+
+<!-- thoeryDetaik 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/info/infoReview/infoReviewDetail.css">
      
  
 
@@ -39,11 +39,11 @@
 	   
 	         
 	         <!-- ## 게시글 title START -->
-   			 <div class="cd-title">
+   			 <div class="ctr-title">
    				<!-- # 타이틀  -->
 				<div class="row">
                   <div class="col-md-6">
-                     <h4 class="hn">Basic Theory</h4>
+                     <h4 class="hn">consulting Review</h4>
                   </div>
                   <div class="col-md-6"></div>
                 </div>
@@ -61,10 +61,10 @@
 	         <!-- 게시글 title END -->
 	         
 	         
-	         <!-- ### detail-div : 관리자에게 detail START -->
-	         <div class="cd-div">
+	         <!-- ### detail-div : 심리학 detail START -->
+	         <div class="ctr-div">
 				<!-- ## detail-div-inline START -->
-				<div class="cd-div-inline">
+				<div class="ctr-div-inline">
 					
 					
 					<!-- # 카테고리, 등록일 div START -->
@@ -74,7 +74,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">관리자에게</a></span></td>
+				                	<td><span class=""><a href="">상담후기</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon icon-primary mdi mdi-tag"></span>&ensp;연애·자존감·가족·학업</td>
 		                        </tr>
@@ -104,7 +104,7 @@
 					   	<div class="writer-name">
 						<table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
-		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
+		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;상담다녀온1인</td>
 		                        </tr>
 	                        </tbody>
 	                    </table>
@@ -114,7 +114,7 @@
 					    <div class="etc-btns">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	 <tbody><tr valign="top">
-		                        <td class="td-nick cd-div-etc-buttons">
+		                        <td class="td-nick ctr-div-etc-buttons">
 		                        
 			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
 										   <button type="button" class="btn btn-heart btn-xs">
@@ -125,19 +125,19 @@
 											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
 										   </button>
 										   
-										   <button type="button" class="btn btn-share btn-xs">
-											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-										   </button>
+<!-- 										   <button type="button" class="btn btn-share btn-xs"> -->
+<!-- 											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유 -->
+<!-- 										   </button> -->
 										   
 <!-- 										   <button type="button" class="btn btn-list btn-xs"> -->
 <!-- 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
 <!-- 										   </button> -->
-										   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
+										   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
 										   </a>
 										   
 										   <button type="button" class="btn btn-correction btn-xs">
-											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
+											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고하기
 										   </button>
 										   
 									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
@@ -205,32 +205,32 @@
 					
 					
 				    <!-- ## 버튼들 START -->
-					<div class="cd-div-buttons">
+					<div class="ctr-div-buttons">
 					  
 					  <div class="center" style="">
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png"/><br/>
-						  	<label><strong>1</strong><br/><span>유익해요</span></label>
+						  	<img alt="" src="/HappyRing/img/common/educated2.png"/><br/>
+						  	<label><strong>1</strong><br/><span>도움이됬어요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png"/><br/>
-						  	<label><strong>2</strong><br/><span>재밌어요</span></label>
+						  	<img alt="" src="/HappyRing/img/common/interesting2.png"/><br/>
+						  	<label><strong>2</strong><br/><span>잘됬어요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png"/><br/>
-						  	<label><strong>3</strong><br/><span>놀라워요</span></label>
-						  </div>
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png"/><br/>
+						  	<img alt="" src="/HappyRing/img/common/touched2.png"/><br/>
 						  	<label><strong>4</strong><br/><span>감동이에요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sick.png"/><br/>
+						  	<img alt="" src="/HappyRing/img/common/sick2.png"/><br/>
 						  	<label><strong>5</strong><br/><span>마음아파요</span></label>
 						  </div>
 						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png"/><br/>
-						  	<label><strong>6</strong><br/><span>슬퍼요</span></label>
+						  	<img alt="" src="/HappyRing/img/common/wow2.png"/><br/>
+						  	<label><strong>3</strong><br/><span>참고할게요</span></label>
+						  </div>
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/common/anger.png"/><br/>
+						  	<label><strong>6</strong><br/><span>동의불가예요</span></label>
 						  </div>
 					  </div>
 					  
@@ -240,24 +240,10 @@
 					<!-- 버튼들 END -->
 					
 					
-					<!-- ## 같이보면 좋을 list START  -->
-					<div class="cd-div-recommend-list">
-				      <p>해피링관리자님이 추천하는  <span>읽으면 </span>&nbsp;<span>도움되는 글</span></p>
-				      <ul class="list-marked list-marked-secondary">
-		                <li><a href="#">January 2017</a></li>
-		                <li><a href="#">February 2017</a></li>
-		                <li><a href="#">March 2017</a></li>
-		                <li><a href="#">April 2017</a></li>
-		                <li><a href="#">May 2017</a></li>
-		              </ul>
-					
-					
-					</div>
-					<!-- 같이보면 좋을 list END -->		
 					
 					
 					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="cd-div-etc-buttons">
+					<div class="ctr-div-etc-buttons">
 					  <div class="bottom-etc-buttons">
 						   <button type="button" class="btn btn-heart btn-xs">
 							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
@@ -267,25 +253,25 @@
 							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
 						   </button>
 						   
-						   <button type="button" class="btn btn-share btn-xs">
-							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-						   </button>
+<!-- 						   <button type="button" class="btn btn-share btn-xs"> -->
+<!-- 							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유 -->
+<!-- 						   </button> -->
 						   
 <!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
 <!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
 <!-- 						   </button> -->
-						   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
+						   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
 						   </a>
 						   
 						   <button type="button" class="btn btn-correction btn-xs">
-							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의
+							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고하기
 						   </button>
 					  </div>	
 					  
 					</div>
 					
-					<div class="correction-send cd-send-none">
+					<div class="correction-send ctr-send-none">
 					  	
 					  <div class="row" style="padding-top: 20px; border: solid;">
 					  	<div class="col-md-12">
@@ -303,7 +289,7 @@
 								
 					
 					<!--## 댓글 SATART -->
-					<div class="cd-div-comment">
+					<div class="ctr-div-comment">
 					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
@@ -336,13 +322,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply cd-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply ctr-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group cd-none">
+		                  <div class="comment-group ctr-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
@@ -360,7 +346,7 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply cd-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply ctr-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    <hr>
@@ -381,13 +367,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply cd-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply ctr-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    <!--# 댓글 입력 -->
 					
-							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform ctr-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -443,12 +429,12 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply cd-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply ctr-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group cd-none">
+		                  <div class="comment-group ctr-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
@@ -466,13 +452,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply cd-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply ctr-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    
 		                    <!--# 댓글 입력 -->
-							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform ctr-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -530,7 +516,7 @@
 			                <label class="checkbox-inline">
 			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 			                </label>
-  							<div class="tooltip-custom cd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+  							<div class="tooltip-custom ctr-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
 							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
 							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
 							</div>
@@ -542,7 +528,7 @@
 	                    <!-- 댓글 내용 입력칸 --> 
 	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 	                      <div class="form-wrap form-wrap-validation">
-	                      	<div contentEditable="true" class="form-input txtComment cd-img"></div>
+	                      	<div contentEditable="true" class="form-input txtComment ctr-img"></div>
 	                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 	                      </div>
 	                    </div>
@@ -638,11 +624,11 @@
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
-	         <!-- detail-div : 관리자에게 detail END -->
+	         <!-- detail-div : 심리학 detail END -->
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
-	   		 <div class="cd-bottom-list-div">
+	   		 <div class="ctr-bottom-list-div">
 	   		 	 <table class="table table-hover">
                   <tbody>
                     <tr>
@@ -681,11 +667,6 @@
 	 </div>
 	 <!-- row END -->
 	   
-	   
-
-
-
-
 		
 	</div>
 	<!-- container END -->
@@ -693,12 +674,17 @@
    <!-- section END -->
 	<!-- footer include -->
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
+	
+      
+      
 </div>
 <!-- page END -->
-
-<!-- communityDetail 전용 js --> 
-   <script src="/HappyRing/js/community/communityDetail.js"></script>   
 	
+
+    
+<!-- theoryDetail 전용 js --> 
+   <script src="/HappyRing/js/info/infoReviewDetail.js"></script>    
+    
 
 
 </body>
