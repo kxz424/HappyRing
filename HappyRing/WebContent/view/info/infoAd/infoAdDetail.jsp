@@ -39,7 +39,7 @@
 	   
 	         
 	         <!-- ## 게시글 title START -->
-   			 <div class="ct-title">
+   			 <div class="info-title">
    				<!-- # 타이틀  -->
 				<div class="row">
                   <div class="col-md-6">
@@ -62,9 +62,9 @@
 	         
 	         
 	         <!-- ### detail-div : 심리학 detail START -->
-	         <div class="ct-div">
+	         <div class="info-div">
 				<!-- ## detail-div-inline START -->
-				<div class="ct-div-inline">
+				<div class="info-div-inline">
 					
 					
 					<!-- # 카테고리, 등록일 div START -->
@@ -101,13 +101,13 @@
 				
 				
 				<!-- ## 상담소 소개 : top 간략 설명 부분 START -->
-				<div class="ct-simple-info-div" >
+				<div class="info-simple-info-div" >
 					<div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
 			            <div class="cell-md-4 cell-lg-5 cell-xl-4">
-			              <div class="product-single-preview">
+			              <div class="produinfo-single-preview">
 			                <div class="unit unit-sm-horizontal unit-sm-middle unit-spacing-md-midle unit--inverse unit-sm">
-			                  <div class="unit-right product-single-image">
-			                    <div class="product-single-image-element"><img class="product-image-area animateImageIn" src="/HappyRing/img/main/honor.png" alt=""></div>
+			                  <div class="unit-right produinfo-single-image">
+			                    <div class="produinfo-single-image-element"><img class="produinfo-image-area animateImageIn" src="/HappyRing/img/main/honor.png" alt=""></div>
 			                  </div>
 			                </div>
 			              </div>
@@ -191,7 +191,7 @@
 					
 					
 					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="ct-div-etc-buttons">
+					<div class="info-div-etc-buttons">
 					  <div class="bottom-etc-buttons">
 						   <button type="button" class="btn btn-heart btn-xs">
 							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
@@ -219,7 +219,7 @@
 					  
 					</div>
 					
-					<div class="correction-send ct-send-none">
+					<div class="correction-send info-send-none">
 					  	
 					  <div class="row" style="padding-top: 20px; border: solid;">
 					  	<div class="col-md-12">
@@ -237,7 +237,7 @@
 								
 					
 					<!--## 댓글 SATART -->
-					<div class="ct-div-comment">
+					<div class="info-div-comment">
 					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
@@ -270,13 +270,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply ct-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group ct-none">
+		                  <div class="comment-group info-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
@@ -294,7 +294,7 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply ct-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    <hr>
@@ -315,13 +315,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply ct-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    <!--# 댓글 입력 -->
 					
-							<form class="rd-mailform ct-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform info-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -377,12 +377,12 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply ct-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group ct-none">
+		                  <div class="comment-group info-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
@@ -400,13 +400,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply ct-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    
 		                    <!--# 댓글 입력 -->
-							<form class="rd-mailform ct-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform info-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -464,7 +464,7 @@
 			                <label class="checkbox-inline">
 			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 			                </label>
-  							<div class="tooltip-custom ct-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+  							<div class="tooltip-custom info-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
 							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
 							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
 							</div>
@@ -476,7 +476,7 @@
 	                    <!-- 댓글 내용 입력칸 --> 
 	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 	                      <div class="form-wrap form-wrap-validation">
-	                      	<div contentEditable="true" class="form-input txtComment ct-img"></div>
+	                      	<div contentEditable="true" class="form-input txtComment info-img"></div>
 	                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 	                      </div>
 	                    </div>
@@ -576,7 +576,7 @@
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
-	   		 <div class="ct-bottom-list-div">
+	   		 <div class="info-bottom-list-div">
 	   		 	 <table class="table table-hover">
                   <tbody>
                     <tr>
