@@ -34,7 +34,6 @@ $(function() {
 	//폰트 변경시 글자크기 이전과 동일하게
 	$('.dropdown-fontname a').click(function(){
 		var fontsize = $('.note-current-fontsize').text();
-// 			alert(fontsize);
 		
 		
 		window.getSelection().getRangeAt(0).insertNode('안녕하세요 반갑습니다.');

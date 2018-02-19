@@ -163,7 +163,7 @@
  <!-- 에디터 -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
-	<script src="/HappyRing/js/community/communityBoard.js"></script>
+	<script src="/HappyRing/js/common/editor/board-editor.js"></script>
  <!-- 에디터 -->
 
 
