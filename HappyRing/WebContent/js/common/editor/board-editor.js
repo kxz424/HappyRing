@@ -21,7 +21,7 @@ $(function() {
 // 				    ['para', ['ul', 'ol', 'paragraph']],
 			['para', ['paragraph']],
 		    ['height', ['height']],
-		    ['table', ['table']],
+//		    ['table', ['table']],
 		    ['insert', ['link', 'picture', 'video', 'hr']],
 // 				    ['misc', ['fullscreen', 'codeview', 'undo', 'redo', 'help']]
 		    ['misc', ['fullscreen', 'undo', 'redo']]
