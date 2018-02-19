@@ -8,13 +8,13 @@
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
  
+<!-- 에디터 -->
+<link href="/HappyRing/summernote/summernote-0.8.9.css" rel="stylesheet">
+<link href="/HappyRing/css/common/editor/commonEditor.css" rel="stylesheet">
+<!-- 에디터 -->
+
 <!-- communityBoard 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/theory/theoryBoard.css">
-  
-<!-- 에디터 -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
-<link href="/HappyRing_before/css/community/commonEditor.css" rel="stylesheet">
-<!-- 에디터 -->
 
  
 
@@ -84,7 +84,7 @@
 					<hr/>
 					
 					<div class="row thd-cate">
-						<div class="col-sm-3 col-md-3">
+						<div class="col-xs-3 col-sm-3 col-md-3">
 							<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
 			                  <option label=" "> </option>
 			                  <option value="1" selected="">연애</option>
@@ -93,7 +93,7 @@
 			                  <option value="4">학업</option>
 			                </select>
 						</div>
-						<div class="col-sm-9 col-md-9">
+						<div class="col-xs-9 col-md-9">
 							<form class="rd-mailform rd-mailform-inline rd-mailform-sm" method="post">
 					         <div class="rd-mailform-inline-inner">
 					           <div class="form-wrap">
@@ -161,7 +161,7 @@
 	
 
  <!-- 에디터 -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+	<script src="/HappyRing/summernote/summernote-0.8.9.js"></script>
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script src="/HappyRing/js/common/editor/board-editor.js"></script>
  <!-- 에디터 -->

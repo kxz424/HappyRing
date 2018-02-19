@@ -99,19 +99,9 @@
 .thd-cate .form-wrap .form-label {
 	top: 33px;
 }
-/* 카테고리 dropdown box z-inded 조절(에디터 뒤로 숨겨지는것 처리 */
-.thd-cate .select2-dropdown {
-    position: absolute;
-    margin-top: 2px;
-    left: -100000px;
-    z-index: 1000;
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid #dedfe8;
-    border-radius: 35px;
-    box-shadow: 0 6px 8px 0 rgba(110, 123, 157, 0.17);
+/* 카테고리 dropdown box z-inded 조절(에디터 뒤로 숨겨지는것 처리) */
+.select2-dropdown.select2-dropdown--below {
+	z-index: 1000;
 }
 
 
