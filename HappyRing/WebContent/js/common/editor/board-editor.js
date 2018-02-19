@@ -3,8 +3,8 @@ $(function() {
 	$('#summernote').summernote({
 // 			    options: {disableDragAndDrop: false},
 	    lang: 'ko-KR',
-	    height: auto,
 	    minHeight: 400,
+	    maxHeight: 1500,
 	    fontNames: ['Nanum Pen Script', 'Jeju Gothic', 'Jeju Myeongjo', 'KoPub Batang', 'Nanum Brush Script', 'Noto Sans KR', 
 			'Noto Sans Egyptian Hieroglyphs', 'Nanum Myeongjo', 'Nanum Gothic', 'Jeju Hallasan', 'Nanum Gothic Coding'],
 	  	fontNamesIgnoreCheck: ['Nanum Pen Script'],
