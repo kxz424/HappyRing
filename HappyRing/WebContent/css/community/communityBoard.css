@@ -118,8 +118,6 @@
 
 /* 에디터 z-index 조정 */
 .cd-div-inline .panel-heading.note-toolbar{
-    padding: 0 0 5px 5px;
-    margin: 0;
     z-index: 1;
 }
 

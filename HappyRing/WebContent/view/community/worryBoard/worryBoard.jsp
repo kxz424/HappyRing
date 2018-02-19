@@ -12,11 +12,9 @@
   <link rel="stylesheet" href="/HappyRing/css/community/communityBoard.css">
   
 <!-- 에디터 -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
-<link href="/HappyRing_before/css/community/commonEditor.css" rel="stylesheet">
+<link href="/HappyRing/summernote/summernote-0.8.9.css" rel="stylesheet">
+<link href="/HappyRing/css/common/editor/commonEditor.css" rel="stylesheet">
 <!-- 에디터 -->
-
- 
 
 
 
@@ -113,7 +111,7 @@
 					
 					
 					<!-- 버튼들 -->
-					<div class="row ">
+					<div class="row">
 					  <div class="col-md-4"></div>
 					  <div class="col-md-5 community-write-btns">
 					    <input class="btn btn-primary community-write" type="button" id="write" value="등록">
@@ -122,10 +120,8 @@
 					  </div> 
 					  <div class="col-md-3"></div> 
 				    </div>
-				
-				
-				
-				
+				    
+				    
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
@@ -133,7 +129,7 @@
 	          	
 	          	
 	         
-	         <!-- ----------------------################### END -->
+	         <!------------------------################### END -->
 	   
 	   
 	   
