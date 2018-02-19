@@ -22,7 +22,7 @@
 <body>
 
 <div class="page">
-   <jsp:include page="/view/include/header.jsp"></jsp:include>
+	<jsp:include page="/view/include/header.jsp"></jsp:include>
    <section class="f-section-1">
 	<div class="container">
 
@@ -43,9 +43,9 @@
 	   
 	   
 	         <!-- ----------------------################### START -->
-<!-- 	          	팁&노하우 작성페이지 -->
+<!-- 	          	고민게시판 작성페이지 -->
 	          	
-	         <!-- ### detail-div  START -->
+	         <!-- ### detail-div : 심리학 detail START -->
 	         <div class="cd-div">
 				<!-- ## detail-div-inline START -->
 				<div class="cd-div-inline">
@@ -58,7 +58,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">고민</a></span></td>
+				                	<td><span class=""><a href="">팁&노하우</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
 		                        </tr>
@@ -125,7 +125,7 @@
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
-	         <!-- detail-div  END -->
+	         <!-- detail-div : 심리학 detail END -->
 	          	
 	          	
 	         
@@ -147,6 +147,9 @@
 	 </div>
 	 <!-- row END -->
 	   
+	   
+
+
 
 
 		

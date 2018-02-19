@@ -43,7 +43,6 @@
 	   
 	   
 	         <!-- ----------------------################### START -->
-<!-- 	          	팁&노하우 작성페이지 -->
 	          	
 	         <!-- ### detail-div  START -->
 	         <div class="cd-div">
@@ -58,7 +57,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">고민</a></span></td>
+				                	<td><span class=""><a href="">응원</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
 		                        </tr>
