@@ -53,10 +53,10 @@
 				<div class="cd-div-inline">
 					
 					
-					<!-- # 닉네임, 등록일 div START -->
+					<!-- # 카테고리,닉네임 div START -->
 					<div class="row">
 					   <!-- 닉네임 -->	
-					   <div class="col-md-9">
+					   <div class="col-md-9 col-nickName">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
@@ -68,7 +68,7 @@
 		                  </table>
 					   </div>
 					   <!-- 등록일 -->	
-					   <div class="col-md-3" style="text-align: right;">
+					   <div class="col-md-3 col-date" style="text-align: right;">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 								<tr>
@@ -113,8 +113,15 @@
 					
 					
 					<!-- 버튼들 -->
-					
-				
+					<div class="row ">
+					  <div class="col-md-4"></div>
+					  <div class="col-md-5 community-write-btns">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="등록">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="임시저장">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="취소">
+					  </div> 
+					  <div class="col-md-3"></div> 
+				    </div>
 				
 				
 				

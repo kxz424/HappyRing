@@ -101,114 +101,8 @@
                    <!-- cate4: 커뮤니티 -->
                    
                    <!-- plan1 : 자존감 -->
-                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자존감</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <!-- plan 2: 사랑/이별 -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">사랑/이별 </a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  
-                  
-                  <!-- plan 3: 학업 /취업 -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">학업 /취업 </a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  
-                  <!-- plan 4 : 대인관계 -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">대인관계</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  
-                  <!-- plan 5 : 가족관계 -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">가족관계</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <!-- 나만의 고민 -->
-                  <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">나만의 고민</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
-                      </li>
-                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <!--자유게시판  -->
-                  <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">자유게시판</a>
-                    <!-- RD Navbar Dropdown-->
+<!--                    <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자존감</a> -->
+<!--                     RD Navbar Dropdown -->
 <!--                     <ul class="rd-navbar-dropdown"> -->
 <!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
 <!--                       </li> -->
@@ -221,6 +115,112 @@
 <!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
 <!--                       </li> -->
 <!--                     </ul> -->
+<!--                   </li> -->
+                  
+                  <!-- plan 2: 사랑/이별 -->
+<!--                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">사랑/이별 </a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
+                  
+                  
+                  
+<!--                   plan 3: 학업 /취업 -->
+<!--                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">학업 /취업 </a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
+                  
+                  
+                  <!-- plan 4 : 대인관계 -->
+<!--                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">대인관계</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+                  </li>
+                  
+                  
+                  <!-- plan 5 : 가족관계 -->
+<!--                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">가족관계</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
+                  
+                  <!-- 나만의 고민 -->
+<!--                   <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">나만의 고민</a> -->
+<!--                     RD Navbar Dropdown -->
+<!--                     <ul class="rd-navbar-dropdown"> -->
+<!--                       <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a> -->
+<!--                       </li> -->
+<!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
+<!--                       </li> -->
+<!--                     </ul> -->
+<!--                   </li> -->
+                  
+                  <!--커뮤니티  -->
+                  <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">커뮤니티</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="/HappyRing/view/community/freeBoard/freeBoardList.jsp">자유게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/worryBoard/worryBoardList.jsp">고민게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/supportBoard/supportBoardList.jsp">웅원게시판</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/before&after/before&afterList.jsp">비포&애프터</a>
+                      </li>
+                      <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a>
+                      </li>
+                    </ul>
                   </li>
                   
                   
