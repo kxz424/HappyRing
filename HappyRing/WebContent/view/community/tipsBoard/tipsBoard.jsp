@@ -8,15 +8,13 @@
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
  
+<!-- communityBoard 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/community/communityBoard.css">
+  
 <!-- 에디터 -->
 <link href="/HappyRing/summernote/summernote-0.8.9.css" rel="stylesheet">
 <link href="/HappyRing/css/common/editor/commonEditor.css" rel="stylesheet">
 <!-- 에디터 -->
-
-<!-- communityBoard 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/theory/theoryBoard.css">
-
- 
 
 
 
@@ -45,22 +43,22 @@
 	   
 	   
 	         <!-- ----------------------################### START -->
-<!-- 	          	기초심리학 작성페이지 -->
+<!-- 	          	고민게시판 작성페이지 -->
 	          	
 	         <!-- ### detail-div : 심리학 detail START -->
-	         <div class="thd-div">
+	         <div class="cd-div">
 				<!-- ## detail-div-inline START -->
-				<div class="thd-div-inline">
+				<div class="cd-div-inline">
 					
 					
-					<!-- # 닉네임, 등록일 div START -->
+					<!-- # 카테고리,닉네임 div START -->
 					<div class="row">
 					   <!-- 닉네임 -->	
 					   <div class="col-md-9 col-nickName">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">심리학지식</a></span></td>
+				                	<td><span class=""><a href="">팁&노하우</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
 		                        </tr>
@@ -83,8 +81,8 @@
 					
 					<hr/>
 					
-					<div class="row thd-cate">
-						<div class="col-xs-3 col-sm-3 col-md-3">
+					<div class="row cd-cate">
+						<div class="col-sm-3 col-md-3">
 							<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
 			                  <option label=" "> </option>
 			                  <option value="1" selected="">연애</option>
@@ -93,7 +91,7 @@
 			                  <option value="4">학업</option>
 			                </select>
 						</div>
-						<div class="col-xs-9 col-md-9">
+						<div class="col-sm-9 col-md-9">
 							<form class="rd-mailform rd-mailform-inline rd-mailform-sm" method="post">
 					         <div class="rd-mailform-inline-inner">
 					           <div class="form-wrap">
@@ -113,21 +111,17 @@
 					
 					
 					<!-- 버튼들 -->
-					<div class="row ">
+					<div class="row">
 					  <div class="col-md-4"></div>
-					  <div class="col-md-5 theory-write-btns">
-					    <input class="btn btn-primary theory-write" type="button" id="write" value="등록">
-					    <input class="btn btn-primary theory-write" type="button" id="write" value="임시저장">
-					    <input class="btn btn-primary theory-write" type="button" id="write" value="취소">
+					  <div class="col-md-5 community-write-btns">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="등록">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="임시저장">
+					    <input class="btn btn-primary community-write" type="button" id="write" value="취소">
 					  </div> 
 					  <div class="col-md-3"></div> 
 				    </div>
-					
-				
-				
-				
-				
-				
+				    
+				    
 				</div>
 	         	 <!-- detail-div-inline END -->
 	         </div>
@@ -135,7 +129,7 @@
 	          	
 	          	
 	         
-	         <!-- ----------------------################### END -->
+	         <!------------------------################### END -->
 	   
 	   
 	   
@@ -170,7 +164,7 @@
 	
 
  <!-- 에디터 -->
-	<script src="/HappyRing/summernote/summernote-0.8.9.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script src="/HappyRing/js/common/editor/board-editor.js"></script>
  <!-- 에디터 -->
