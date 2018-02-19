@@ -113,6 +113,15 @@
 					
 					
 					<!-- 버튼들 -->
+					<div class="row ">
+					  <div class="col-md-4"></div>
+					  <div class="col-md-5 theory-write-btns">
+					    <input class="btn btn-primary theory-write" type="button" id="write" value="등록">
+					    <input class="btn btn-primary theory-write" type="button" id="write" value="임시저장">
+					    <input class="btn btn-primary theory-write" type="button" id="write" value="취소">
+					  </div> 
+					  <div class="col-md-3"></div> 
+				    </div>
 					
 				
 				
