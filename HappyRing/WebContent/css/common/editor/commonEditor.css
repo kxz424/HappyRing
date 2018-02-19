@@ -2,9 +2,9 @@
 
 
 .panel-heading .note-btn {
-	width: auto !important;
+/* 	width: auto !important; */
 	height: auto !important;
-	padding: 7px 8px 7px 10px !important;
+	padding: 7px 8px 7px 10px;
 	font-size: 10px;
 }
 
@@ -15,7 +15,18 @@
 	font-size: 12px;
 }
 
+/* .note-editor .note-toolbar.panel-heading .note-btn-group>.note-btn { */
+/* 	border-radius: 8px; */
+/* } */
 
+.note-editor .note-toolbar.panel-heading .note-btn-group>.note-btn.note-current-color-button {
+	border-radius: 35px 0 0 35px;
+}
+
+.note-editor .note-toolbar.panel-heading .note-btn-group>.note-btn.note-current-color-button~.dropdown-toggle {
+	border-radius: 0 35px 35px 0;
+	width: 19px;
+}
 
 
 

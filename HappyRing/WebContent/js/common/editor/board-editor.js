@@ -22,7 +22,7 @@ $(function() {
 			['para', ['paragraph']],
 		    ['height', ['height']],
 //		    ['table', ['table']],
-		    ['insert', ['link', 'picture', 'video', 'hr']],
+		    ['insert', ['picture', 'video', 'hr']],
 // 				    ['misc', ['fullscreen', 'codeview', 'undo', 'redo', 'help']]
 		    ['misc', ['fullscreen', 'undo', 'redo']]
 		],
