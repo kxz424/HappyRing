@@ -56,7 +56,7 @@
 					<!-- # 닉네임, 등록일 div START -->
 					<div class="row">
 					   <!-- 닉네임 -->	
-					   <div class="col-md-9">
+					   <div class="col-md-9 col-nickName">
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
@@ -68,7 +68,7 @@
 		                  </table>
 					   </div>
 					   <!-- 등록일 -->	
-					   <div class="col-md-3" style="text-align: right;">
+					   <div class="col-md-3 col-date" style="text-align: right;">
 						  <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 								<tr>
