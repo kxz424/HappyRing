@@ -15,9 +15,13 @@
 	min-width: 144px;
 }
 
-
 /* text-area 크기 조정 */
 .info-simple-info-div .text-spacing-sm{
+    margin-top: 20px;
+}
+
+/* text-area 크기 조정 */
+.info-simple-info-div .text-spacing-sm textarea {
     margin-top: 20px;
 }
 
@@ -91,50 +95,8 @@
     margin-top: 12px;
 }
 
-/* 카테고리 위치 지정 */
-.info-cate {
-	margin-top: 15px;
-}
-/* 카테고리 dropdown Box 크기 조정 */
-.info-cate .select2-selection--single {
-	height: 35px;
-	line-height: 32px;
-	font-size: 13px;
-	border-radius: 35px 0 0 35px;
-}
-/* 카테고리 option창 글씨크기 조절 및 카테고리 간 간격조정 */
-.select2-results li{
-	font-size: 13px;
-	padding: 5px 20px;
-}
 
 
-
-
-
-/* 제목 입력창 크기 조정 */
-.info-cate .rd-mailform-inline.rd-mailform-sm .rd-mailform-inline-inner::before{
-	min-height: 35px;
-	height: 35px;
-}
-/* 제목 입력창 크기 및 위치 조정 */
-.info-cate .form-wrap {
-	width: 50%; 
-	height: 35px; 
-	margin-top: 0px;
-}
-/* 제목 입력창 크기 및 위치 조정 */
-.info-cate .form-wrap .form-input {
-	min-width: 100%;
-	height: 35px; 
-	min-height: 35px; 
-	margin-top: 14.5px; 
-	border-radius: 0px 35px 35px 0;
-}
-/* 제목 입력창 크기 및 위치 조정 */
-.info-cate .form-wrap .form-label {
-	top: 33px;
-}
 
 
 /* 에디터 z-index 조정 */

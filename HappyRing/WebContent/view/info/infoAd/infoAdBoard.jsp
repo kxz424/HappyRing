@@ -87,13 +87,7 @@
 						<div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
 				            <div class="cell-md-4 cell-lg-5 cell-xl-4">
 				              <div class="produinfo-single-preview" style="background-color: red; height: 258px; ">
-<!-- 				                <div class="unit unit-sm-horizontal unit-sm-middle unit-spacing-md-midle unit--inverse unit-sm"> -->
-<!-- 				                  <div class="unit-right produinfo-single-image"> -->
-<!-- 				                    <div class="produinfo-single-image-element"> -->
-<!-- 				                     <img class="produinfo-image-area animateImageIn" src="/HappyRing/img/main/honor.png" alt=""> -->
-<!-- 				                    </div> -->
-<!-- 				                  </div> -->
-<!-- 				                </div> -->
+								<input type="file" class="hidden"/>
 
 
 
@@ -104,7 +98,7 @@
 				              <h4 class="hn">아낌없이 주는 나무 상담소</h4>
 				              <div class="divider divider-default"></div>
 				              <div class="text-spacing-sm">
-				               <textarea rows="8" cols="44"></textarea>
+				               <textarea></textarea>
 				              </div>
 				              <ul class="inline-list">
 				                <li class="preview-btn"><a class="button button-sm button-default-outline button-nina" href="#">미리보기</a></li>
