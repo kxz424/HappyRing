@@ -7,11 +7,16 @@
 }
 
 
-/**/
+/* 헤더 dropdown list width 조절 */
 
-.rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown{
+.rd-navbar-static .rd-navbar-nav > li:nth-child(3) > .rd-navbar-dropdown, .rd-navbar-fullwidth .rd-navbar-nav > li:nth-child(3) > .rd-navbar-dropdown {
+	width: 280px;
+}
+.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-fullwidth .rd-navbar-dropdown, 
+.rd-navbar-static .rd-navbar-nav > li > .rd-navbar-dropdown, .rd-navbar-fullwidth .rd-navbar-nav > li > .rd-navbar-dropdown {
 	width: 216px;
 }
+
 
 
 
@@ -179,7 +184,20 @@
 
 
 
+@media (min-width: 992px){
+	.modal-account .modal-body-inner {
+	    max-width: 370px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+}
 
+/* 회원가입 및 가입확인 창 숨기기 */
+.sign-up-modal, .sign-in-modal {
+	display: none;
+}
 /* modal창 회원가입 및 아이디/비밀번호 찾기 버튼 */
 #login-modal .row, #sign-up-modal .row {
 	margin-top: 15px;
