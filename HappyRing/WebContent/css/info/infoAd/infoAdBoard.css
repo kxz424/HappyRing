@@ -1,40 +1,15 @@
 @charset "UTF-8";
 
 
-/* 버튼에 주어져 있는 margin 없앰*/
-.info-div-inline .info-simple-info-div .inline-list .preview-btn{
-	margin-top: 10px;
-    margin-left: 212px;
-	margin-right: 0px;
-}
-
-/*  */
-.info-div-inline .info-simple-info-div .inline-list .preview-btn .button-sm{
-	padding: 5px 10px; 
-	border-radius: 6px; 
-	min-width: 144px;
-}
-
-/* text-area 크기 조정 */
-.info-simple-info-div .text-spacing-sm{
-    margin-top: 20px;
-}
-
-/* text-area 크기 조정 */
-.info-simple-info-div .text-spacing-sm textarea {
-    width: 100%;
-    height: 65px;
-}
-
 /* detail div */
-.info-div{
+.infoabo-div{
     margin-top: 15px;
     padding: 6px;
     background-color: white;
 }
 
 /* detail-div-inline */
-.info-div-inline{
+.infoabo-div-inline{
 	padding-top: 11px;
     padding-bottom: 30px;
 /*      padding-bottom: 85px; */
@@ -43,7 +18,7 @@
 
 
 /* row에 주어진 -값 없애는 조정*/
-.info-div-inline .row {
+.infoabo-div-inline .row {
 	margin-left: 0px; 
     margin-right: 0px;
 }
@@ -51,12 +26,12 @@
 
 /* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
 @media (min-width: 992px){
-	.info-div-inline .row .col-md-9 {
+	.infoabo-div-inline .row .col-md-9 {
 	   padding-left: 5px;
 	}
 }
 @media (min-width: 992px){
-	.info-div-inline .row .col-md-3 {
+	.infoabo-div-inline .row .col-md-3 {
 	    text-align: right;
 	    padding-right: 5px;
 /* 	    padding-left: 52px; */
@@ -65,7 +40,7 @@
 
 /* 카테고리,닉네임 부분 padding 부여 */
 @media (min-width: 992px){
-	.info-div-inline .col-md-9.col-nickName{
+	.infoabo-div-inline .col-md-9.col-nickName{
 	    padding-left: 16px !important;
 	}
 }
@@ -73,46 +48,100 @@
 
 /*등록일 부분 padding 부여 */
 @media (min-width: 992px){
-	.info-div-inline .col-date{
+	.infoabo-div-inline .col-date{
 		padding-left: 34px !important;
 	}
 }
    
 /* icon 크기 조정 */
-.info-div-inline .icon {
+.infoabo-div-inline .icon {
     font-size: 13px;
     padding-top: 7px;
     padding-right: 0px
 }
 
 /* 아이콘 색 조정 */
-.info-div-inline .icon-primary {
+.infoabo-div-inline .icon-primary {
     color: #981df0;
 }
 
 /* hr태그 margin 없애기*/
-.info-div-inline hr{
+.infoabo-div-inline hr{
     margin-top: 12px;
 }
 
 
 
 
+/* 상담소개 : top 간략 설명 부분 css START */
+/* 간략설명부분 전체 div */
+.infoabo-div-inline .infoabo-simple-info-div{
+	background-color: #ffc0cb87; 
+	padding:22px;
+	margin: 2px;
+}
+/* 메인 이미지 패딩줘서 크기 줄임 */
+.infoabo-div-inline .infoabo-simple-info-div .unit-right.product-single-image{
+	padding: 20px
+}
+
+/* 수상아이콘 크기 늘리기 */
+.infoabo-div-inline .infoabo-simple-info-div .inline-list .text-center .icon{
+	font-size: 20px;
+}
+
+/* 버튼에 주어져 있는 margin 없앰*/
+.infoabo-div-inline .infoabo-simple-info-div .inline-list .text-middle{
+	margin-top: 0px; 
+	margin-left: 26px;
+	margin-right: 0px;
+}
+
+/*  */
+.infoabo-div-inline .infoabo-simple-info-div .inline-list .text-middle .button-sm{
+	padding: 5px 10px; 
+	border-radius: 6px; 
+	min-width: 144px;
+}
+
+/*  */
+.infoabo-div-inline .infoabo-simple-info-div .infoabo-preview-btn{
+	padding: 5px 10px; 
+	border-radius: 6px; 
+	min-width: 144px;
+	float: right;
+	margin-top: 15px;
+}
+/* 이미지 첨부하는 이미지 부분 cursor pointer로 변경 */
+.infoabo-simple-info-div .produinfo-single-preview {
+	cursor: pointer;
+}
+/* text-area 크기 조정 */
+.infoabo-simple-info-div .text-spacing-sm{
+    margin-top: 20px;
+}
+/* text-area 크기 조정 */
+.infoabo-simple-info-div .text-spacing-sm textarea {
+    width: 100%;
+    height: 65px;
+}
+
+/* 상담소개 : top 간략 설명 부분 css END */
 
 /* 에디터 z-index 조정 */
-.info-div-inline .panel-heading.note-toolbar{
+.infoabo-div-inline .panel-heading.note-toolbar{
     z-index: 1;
 }
 
 
 /* 등록 / 임시저장 / 취소 버튼  _ 버튼들 위치 조정*/
-.info-div-inline  .community-write-btns{
+.infoabo-div-inline  .community-write-btns{
 	padding-left: 4px;
 	margin-top: 12px;
 }
 
 /* 등록 / 임시저장 / 취소 버튼  _ 각 버튼들 css 수정 */
-.info-div-inline .community-write {
+.infoabo-div-inline .community-write {
     height: 35px;
     padding: 8px 20px;
     border-radius: 10px;

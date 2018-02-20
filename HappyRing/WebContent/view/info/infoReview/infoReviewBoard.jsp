@@ -7,7 +7,7 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
-
+ 
 <!-- infoAdBoard 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/info/infoReview/infoReviewBoard.css">
   
@@ -43,12 +43,12 @@
 	   
 	   
 	         <!-- ----------------------################### START -->
-<!-- 	          	팁&노하우 작성페이지 -->
+<!-- 	          	상담후기 작성페이지 -->
 	          	
 	         <!-- ### detail-div  START -->
-	         <div class="cd-div">
+	         <div class="inforbo-div">
 				<!-- ## detail-div-inline START -->
-				<div class="cd-div-inline">
+				<div class="inforbo-div-inline">
 					
 					
 					<!-- # 카테고리,닉네임 div START -->
@@ -58,9 +58,9 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">고민</a></span></td>
+				                	<td><span class=""><a href="">상담후기</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
-			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
+			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;상담자1</td>
 		                        </tr>
 		                    </tbody>
 		                  </table>
@@ -81,7 +81,7 @@
 					
 					<hr/>
 					
-					<div class="row cd-cate">
+					<div class="row inforbo-cate">
 						<div class="col-sm-3 col-md-3">
 							<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
 			                  <option label=" "> </option>

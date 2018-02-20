@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+/* detail div */
+.inforbo-div{
+    margin-top: 15px;
+    padding: 6px;
+    background-color: white;
+}
+
+/* detail-div-inline */
+.inforbo-div-inline{
+	padding-top: 11px;
+    padding-bottom: 30px;
+/*      padding-bottom: 85px; */
+    border: solid rgb(234, 234, 234);
+}
+
+
+/* row에 주어진 -값 없애는 조정*/
+.inforbo-div-inline .row {
+	margin-left: 0px; 
+    margin-right: 0px;
+}
+
+
+/* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
+@media (min-width: 992px){
+	.inforbo-div-inline .row .col-md-9 {
+	   padding-left: 5px;
+	}
+}
+@media (min-width: 992px){
+	.inforbo-div-inline .row .col-md-3 {
+	    text-align: right;
+	    padding-right: 5px;
+/* 	    padding-left: 52px; */
+	}
+}
+
+/* 카테고리,닉네임 부분 padding 부여 */
+@media (min-width: 992px){
+	.inforbo-div-inline .col-md-9.col-nickName{
+	    padding-left: 16px !important;
+	}
+}
+
+
+/*등록일 부분 padding 부여 */
+@media (min-width: 992px){
+	.inforbo-div-inline .col-date{
+		padding-left: 34px;
+	}
+}
+   
+/* icon 크기 조정 */
+.inforbo-div-inline .icon {
+    font-size: 13px;
+    padding-top: 7px;
+    padding-right: 0px
+}
+
+/* 아이콘 색 조정 */
+.inforbo-div-inline .icon-primary {
+    color: #981df0;
+}
+
+/* hr태그 margin 없애기*/
+.inforbo-div-inline hr{
+    margin-top: 12px;
+}
+
+/* 카테고리 위치 지정 */
+.inforbo-cate {
+	margin-top: 15px;
+}
+/* 카테고리 dropdown Box 크기 조정 */
+.inforbo-cate .select2-selection--single {
+	height: 35px;
+	line-height: 32px;
+	font-size: 13px;
+	border-radius: 35px 0 0 35px;
+}
+/* 카테고리 option창 글씨크기 조절 및 카테고리 간 간격조정 */
+.select2-results li{
+	font-size: 13px;
+	padding: 5px 20px;
+}
+
+
+
+
+
+/* 제목 입력창 크기 조정 */
+.inforbo-cate .rd-mailform-inline.rd-mailform-sm .rd-mailform-inline-inner::before{
+	min-height: 35px;
+	height: 35px;
+}
+/* 제목 입력창 크기 및 위치 조정 */
+.inforbo-cate .form-wrap {
+	width: 50%; 
+	height: 35px; 
+	margin-top: 0px;
+}
+/* 제목 입력창 크기 및 위치 조정 */
+.inforbo-cate .form-wrap .form-input {
+	min-width: 100%;
+	height: 35px; 
+	min-height: 35px; 
+	margin-top: 14.5px; 
+	border-radius: 0px 35px 35px 0;
+}
+/* 제목 입력창 크기 및 위치 조정 */
+.inforbo-cate .form-wrap .form-label {
+	top: 33px;
+}
+
+
+/* 에디터 z-index 조정 */
+.inforbo-div-inline .panel-heading.note-toolbar{
+    z-index: 1;
+}
+
+
+/* 등록 / 임시저장 / 취소 버튼  _ 버튼들 위치 조정*/
+.inforbo-div-inline  .community-write-btns{
+	padding-left: 4px;
+	margin-top: 12px;
+}
+
+/* 등록 / 임시저장 / 취소 버튼  _ 각 버튼들 css 수정 */
+.inforbo-div-inline .community-write {
+    height: 35px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #3f3f6d;
+    border-color: #3f3f6d;
+}
+
+

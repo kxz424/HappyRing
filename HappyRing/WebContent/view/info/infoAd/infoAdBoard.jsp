@@ -47,9 +47,9 @@
 <!-- 	          	팁&노하우 작성페이지 -->
 	          	
 	         <!-- ### detail-div  START -->
-	         <div class="info-div">
+	         <div class="infoabo-div">
 				<!-- ## detail-div-inline START -->
-				<div class="info-div-inline">
+				<div class="infoabo-div-inline">
 					
 					
 					<!-- # 카테고리,닉네임 div START -->
@@ -83,16 +83,17 @@
 					<hr/>
 					
 					<!-- ## 상담소 소개 : top 간략 설명 부분 START -->
-					<div class="info-simple-info-div">
+					<div class="infoabo-simple-info-div">
 						<div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
 				            <div class="cell-md-4 cell-lg-5 cell-xl-4" style="top: -27px; position: relative;">
-				              <div class="produinfo-single-preview" style="background-color: red; height: 169px;">
-								<input type="file" style="display: none;"/>
-								<img src="/HappyRing/img/info/디즈니영화.jpg" style="margin: auto;"/>
-
-
-
+				              <div class="produinfo-single-preview" style="background-image: url(/HappyRing/img/info/disney.jpg); height: 169px; background-size: contain; background-repeat: no-repeat; background-position: center;">
+								
 				              </div>
+				              <input type="file" style="display: none;"/>
+				              
+				              
+				              
+				              
 				            </div>
 				            <div class="cell-md-6 cell-lg-5 cell-xl-5 text-center text-md-left">
 				              <div class="hn" style="margin-bottom: 3px; color:#0d9785f5;"><span class="icon mdi mdi-map-marker"></span>서울시 금천구 가산동</div>
@@ -101,9 +102,7 @@
 				              <div class="text-spacing-sm">
 				               <textarea></textarea>
 				              </div>
-				              <ul class="inline-list">
-				                <li class="preview-btn"><a class="button button-sm button-default-outline button-nina" href="#">미리보기</a></li>
-				              </ul>
+				              <a class="button button-sm button-default-outline button-nina infoabo-preview-btn" href="#">미리보기</a>
 				            </div>
 				          </div>
 					   </div>
@@ -171,6 +170,29 @@
 	<script src="/HappyRing/js/community/summernote-ko-KR.js"></script>
 	<script src="/HappyRing/js/common/editor/board-editor.js"></script>
  <!-- 에디터 -->
+ 
+ 
+ <script type="text/javascript">
+ $(function(){
+	//이미지 첨부하기 위해 이미지 클릭시
+	$('.infoabo-simple-info-div .produinfo-single-preview').click(function(){
+		$(this).next().click();		//이미지 첨부기능 실행
+	});
+	//이미지 첨부시 이미지 변경할 경우 이벤트
+	$('.infoabo-simple-info-div .produinfo-single-preview~input:file').change(function(){
+		var img_btn = $(this);		//클릭된 자기 자신(태그)을 변수에 저장
+		var file = this.files[0];		//선택된 이미지 파일을 변수에 저장
+		var reader = new FileReader();	//파일을 읽는 클래스의 생성자를 호출하여 객체 생성
+		reader.onload = function(e){	//파일을 읽는 객체가 로드되었을때 실행할 함수 선언
+			img_btn.prev().css('background-image', 'url(' + e.target.result + ')');		//현재 선택한 이미지로 변경
+		};
+		reader.readAsDataURL(file);	//이미지 파일의 경로를 dataURL로 읽음(?)
+		
+	});
+	
+	
+ });
+ </script>
 
 
 </body>
