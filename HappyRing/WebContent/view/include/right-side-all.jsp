@@ -17,7 +17,9 @@
 	   <div class="rs-btn-group">
 		 <div class="row">
 		   
-		   	<button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6">심리<br>자가측정<br>테스트</button>
+<!-- 		   	<button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6">심리<br>자가측정<br>테스트</button> -->
+			<!-- 임시 마이페이지 버튼 -->
+			<a href="/HappyRing/view/myPage/myPageList.jsp"><button type="button" class="btn btn-success col-xs-3 col-sm-6 col-md-6">My<br>Page</button></a>
 		   		
 		    <button type="button" class="btn btn-info col-xs-3 col-sm-6 col-md-6"> 매일 목표 <br> 처방받기</button>
 		   	
