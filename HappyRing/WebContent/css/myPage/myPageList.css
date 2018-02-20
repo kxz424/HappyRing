@@ -61,8 +61,8 @@
 /* dropBox height 및 글자위치 조정 */
 .my-list-block .select2-container--bootstrap .select2-selection--single{
 	text-align: left;
-    height: 33px;
-    line-height: 32px;
+    height: 29px;
+    line-height: 29px;
     padding: 0 44px 0 24px;
 }
 
@@ -72,13 +72,158 @@
 /*     border: 1px solid #f2f3f9; */
     border-radius: 5px;
 /*     color: #29293a; */
-    font-size: 17px;
+    font-size: 13px;
 /*     font-weight: 300; */
 /*     line-height: 24px; */
 /*     outline: 0;	 */
 }
 
 /* dropBox select div board-radius 조정 */
+
+
+/* dropBox_select div height 조정*/
+.select2-container--bootstrap .select2-results > .select2-results__options{
+    max-height: 310px;	
+}
+
+.select2-dropdown{
+	border-radius: 7px;
+}
+
+/* dropBox_select item 글자크기 조정*/
+.select2-results__option{
+/* 	padding: 10px 20px; */
+    font-size: 13px;
+/*     transition: .3s; */
+/*     user-select: none; */
+/*     color: #29293a; */
+/*     -webkit-user-select: none; */
+}
+
+
+/* checkBox div padding 조정 */
+@media (min-width: 992px){
+	.checkbox-div{
+/* 		padding-left: 37px; */
+		padding-left: 18px;
+	}
+}
+
+/* checkBox 크기 조정 */
+@media (min-width: 992px){
+	.my-list-block .checkbox-inline .checkbox-custom-dummy{
+	    width: 15px;
+	    height: 14px;
+	    margin-top: 3px;	
+	}
+}
+
+/* checkBox 와 글자(lebel) 간격 조정 */
+@media (min-width: 992px){
+	.my-list-block .checkbox-inline{
+		padding-left: 19px;
+		font-size: 13px;
+	}
+}
+
+
+/* 마이페이지_dropBox select-1 : 심리이론 게시물 list START */
+
+
+
+
+
+
+
+/*list article border에 색 넣어주기*/
+.value1 .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 article >img 크기 조정 */
+.value1 .post-blog .post-blog-image {
+   min-height: 0px;
+}
+.f-section-1  .post-blog .post-blog-image img{
+/* min-height: 10px !important; */
+	width: 100%;
+/*     width: 211px; */
+/*     height: 115px; */
+	height: 130px;
+    object-fit: initial;
+}
+
+
+
+
+
+
+
+
+
+
+/* article tag 좌우 padding 수정*/
+@media (min-width: 992px){
+	.value1 .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right:11px;
+	    border-top: dotted #80808026;
+	}
+}
+.value1 .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+/* article header에 게시글 no. 글자크기 수정 */
+.value1 .post-blog-caption-header .post-comment{
+	font-size: 11px;
+}	
+
+/* article title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.value1 .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	    text-align: left;
+	}
+}
+
+/* article title 위 아래 padding 수정*/
+.value1  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+
+
+/* article footer font-size 수정*/
+@media (min-width: 992px){
+	.value1 .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
+	}
+}
+
+
+/* article footer icon size 수정 */
+.value1 .glyphicon-heart {
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+/* 마이페이지_dropBox select-1 : 심리이론 게시물 list END */
+
 
 
 
