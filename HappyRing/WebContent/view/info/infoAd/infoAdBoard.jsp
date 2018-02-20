@@ -83,11 +83,12 @@
 					<hr/>
 					
 					<!-- ## 상담소 소개 : top 간략 설명 부분 START -->
-					<div class="info-simple-info-div" >
+					<div class="info-simple-info-div">
 						<div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
-				            <div class="cell-md-4 cell-lg-5 cell-xl-4">
-				              <div class="produinfo-single-preview" style="background-color: red; height: 258px; ">
-								<input type="file" class="hidden"/>
+				            <div class="cell-md-4 cell-lg-5 cell-xl-4" style="top: -27px; position: relative;">
+				              <div class="produinfo-single-preview" style="background-color: red; height: 169px;">
+								<input type="file" style="display: none;"/>
+								<img src="/HappyRing/img/info/디즈니영화.jpg" style="margin: auto;"/>
 
 
 
