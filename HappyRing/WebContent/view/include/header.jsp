@@ -169,7 +169,7 @@
 <!--                       <li><a href="/HappyRing/view/community/tipsBoard/tipsBoardList.jsp">팁&노하우</a> -->
 <!--                       </li> -->
 <!--                     </ul> -->
-                  </li>
+<!--                   </li> -->
                   
                   
                   <!-- plan 5 : 가족관계 -->
@@ -265,9 +265,13 @@
                   <li><a href="index.html">정보방</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="/HappyRing/view/info/infoAd/infoAdList.jsp">상담소 홍보(기업)</a>
+                      <li><a href="/HappyRing/view/info/infoAd/infoAdList.jsp">오프라인 상담소 홍보(기업)</a>
                       </li>
-                      <li><a href="/HappyRing/view/info/infoReview/infoReviewList.jsp">상담 후기(개인)</a>
+                      <li><a href="/HappyRing/view/info/infoAd/infoAdList.jsp">온라인 상담소 홍보(기업)</a>
+                      </li>
+                      <li><a href="/HappyRing/view/info/infoReview/infoReviewList.jsp">오프라인 상담 후기(개인)</a>
+                      </li>
+                      <li><a href="/HappyRing/view/info/infoReview/infoReviewList.jsp">온라인 상담 후기(개인)</a>
                       </li>
                     </ul>
                   </li>
@@ -422,7 +426,9 @@
               <figure class="modal-account-image"><img src="/HappyRing/img/header/registration-modal-01-510x807.jpg" alt="" width="510" height="807"/>
               </figure>
             </div>
-            <div class="modal-body-inner">
+            
+            
+            <div class="modal-body-inner login-modal">
               <h4 class="modal-title">로그인</h4>
               <!-- RD Mailform-->
               <form class="rd-mailform form-novi">
@@ -447,6 +453,74 @@
               	</div>
               </div>
             </div>
+            
+            
+            
+            <div class="modal-body-inner sign-up-modal">
+              <h4 class="modal-title">회원가입</h4>
+              <!-- RD Mailform-->
+              <form class="rd-mailform form-novi">
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Required">
+                  <label class="form-label" for="forms-email2">E-mail</label>
+                </div>
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="forms-login-name">Nickname</label>
+                </div>
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="forms-login-password2" type="password" name="password" data-constraints="@Required">
+                  <label class="form-label" for="forms-login-password2">Password</label>
+                </div>
+                <div class="form-wrap form-wrap-validation">
+                  <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required">
+                  <label class="form-label" for="forms-login-confirm">Confirm Password</label>
+                </div>
+                <div class="form-button">
+                  <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button>
+                </div>
+              </form>
+              <div class="row">
+              	<div class="col-md-offset-1 col-md-5">
+              		<a class="h-sign-up-login">로그인</a>
+              	</div>
+              	<div class="col-md-6">
+              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
+              	</div>
+              </div>
+            </div>
+            
+            
+            
+            <div class="modal-body-inner sign-in-modal">
+              <h4 class="modal-title">회원가입 완료</h4>
+<!--               RD Mailform -->
+<!--               <form class="rd-mailform form-novi"> -->
+<!--                 <div class="form-wrap form-wrap-validation"> -->
+<!--                   <input class="form-input" id="forms-email3" type="email" name="email" data-constraints="@Required"> -->
+<!--                   <label class="form-label" for="forms-email3">E-mail</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"> -->
+<!--                   <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required"> -->
+<!--                   <label class="form-label" for="forms-login-name">Nickname</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"> -->
+<!--                   <input class="form-input" id="forms-login-password" type="password" name="password" data-constraints="@Required"> -->
+<!--                   <label class="form-label" for="forms-login-password">Password</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"> -->
+<!--                   <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required"> -->
+<!--                   <label class="form-label" for="forms-login-confirm">Confirm Password</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-button"> -->
+<!--                   <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button> -->
+<!--                 </div> -->
+<!--               </form> -->
+            </div>
+            
+            
+            
+            
           </div>
         </div>
       </div>

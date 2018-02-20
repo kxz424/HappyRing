@@ -48,9 +48,9 @@
 	          	기초심리학 작성페이지
 	          	
 	         <!-- ### detail-div : 심리학 detail START -->
-	         <div class="thd-div">
+	         <div class="thbo-div">
 				<!-- ## detail-div-inline START -->
-				<div class="thd-div-inline">
+				<div class="thbo-div-inline">
 					
 					
 					<!-- # 닉네임, 등록일 div START -->
@@ -83,7 +83,7 @@
 					
 					<hr/>
 					
-					<div class="row thd-cate">
+					<div class="row thbo-cate">
 						<div class="col-xs-3 col-sm-3 col-md-3">
 							<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
 			                  <option label=" "> </option>

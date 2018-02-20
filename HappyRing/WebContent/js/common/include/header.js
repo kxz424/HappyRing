@@ -12,21 +12,18 @@ $(function(){
 	$('.h-login-modal-btn').click(function(){
 		$('.form-novi')[0].reset();		//모달창에 있는 모든 입력창 초기화
 		$('.form-wrap-validation').removeClass('has-error');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
-//		$('#login-modal input').oninvalid = function(e){
-//			if (!e.target.validity.valid) {
-//                e.target.setCustomValidity("Please enter Room Topic Title");
-//            }
-//		}
-//		$('#login-modal input').oninvalid = function(e){
-//			e.target.setCustomValidity("");
-//		}
+
 		$('#login-modal').modal();		//해당 모달창을 화면에 출력
+		
 	});
 	
 	//로그인 모달창에서 회원가입 버튼 클릭 시
 	$('.h-sign-up').click(function(){
-		$('#login-modal').find('.close').click();	//로그인 모달창 닫기
-		$('#sign-up-modal').modal();		//회원가입 모달창 열기
+//		$('#login-modal').find('.close').click();	//로그인 모달창 닫기
+//		$('#sign-up-modal').modal();		//회원가입 모달창 열기
+		
+		$('.login-modal').css('display', 'none');
+		$('.sign-up-modal').css('display', 'block');
 	});
 	
 	//회원가입 모달창에서 가입하기 버튼 클릭 시
