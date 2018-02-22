@@ -9,7 +9,34 @@
 
 <!-- 공통 전용 paging css -->
 <link rel="stylesheet" href="/HappyRing/css/paging/paging2.css">
+<style type="text/css">
 
+
+.fr-paging-search .fr-paging #pageNum a,
+.fr-paging-search .fr-paging li{
+	min-width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+
+.fr-paging-search .fr-paging #pageNum a,
+.fr-paging-search .fr-paging #write{
+    font-size: 8.5px;
+	
+}
+
+.pagination-custom > li > a,
+.pagination-custom > li{
+	border-radius: 7px;
+}
+.fr-paging-search{
+	padding-left: 63px;
+}
+
+
+</style>
 </head>
 <body>
 	<div class="fr-paging-search" style="padding-top: 12px; margin-top: 6px;">

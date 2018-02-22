@@ -127,12 +127,13 @@
 }
 
 
-/* 마이페이지_dropBox select-1 : 심리이론 게시물 list START */
+/* ## 마이페이지_my게시물_dropBox select-1 : 심리이론 게시물 list START */
 
-
-
-
-
+/*select-1 article div (value1) 마진 조정 */
+.row.value1{
+	margin-right: 61px; 
+	margin-left: 27px;
+}
 
 
 /*list article border에 색 넣어주기*/
@@ -152,12 +153,6 @@
 	height: 130px;
     object-fit: initial;
 }
-
-
-
-
-
-
 
 
 
@@ -219,19 +214,306 @@
     color: red;
 }
 
-
-
-
 /* 마이페이지_dropBox select-1 : 심리이론 게시물 list END */
 
 
 
 
+/* ## 마이페이지_my게시물_dropBox select-2 : 심리이론>지식나눔방>묻고답하기 게시물 list START */
+
+/* select-2 article div (value2) 마진 조정  */
+.row.value2{
+	margin-right: 61px; 
+	margin-left: 27px;
+	margin-top: 4%;
+}
+
+/* .row.value2{ */
+/* 	padding-right: 26px; */
+/*     padding-top: 1px; */
+/*     padding-left: 26px; */
+/*     background-color: #f2f3f9; */
+/*     margin-right: 22px; */
+/*     margin-left: 2px; */
+/*     margin-top: 19px; */
+/* } */
 
 
 
 
+/*td 안 row에 패딩주기 */
+.td-row{
+	padding: 6px 22px 0px 22px;
+	padding-top: 0px;
+}
+
+/*td - border 적용 */
+.table-list .table > tbody > tr > td{
+/* 	padding: 8px; */
+/*     line-height: 1.42857; */
+/*     vertical-align: top; */
+    border-bottom: 1px dashed #ddd;
+    border-top: 1px dashed #ddd;
+}
+
+/*리스트 내 checkBox 들어가는 공간(col-md-1) 패딩 및 width 조정*/
+.td-row .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
+}
+
+.td-row .col-md-10{
+	padding-left: 0px;
+	width: 95.5%;
+}
+
+/* 리스트 상단 제목에 css 주기*/
+.td-row .col-md-10 span{
+	font-size: 14.5px;
+	color: black;
+}
+
+/* 리스트 중간 내용에 css 주기*/
+.td-row .col-md-10 p {
+	margin: 0;
+	font-size: 12px;
+	margin-top: 1%;
+	
+}
+
+.td-row .col-md-10 .glyphicon{
+	font-size: 11px;
+    float: right;
+    line-height: 24px;
+    color: #0000004f;
+}
+
+    
+    
+
+/*td 안 row에 패딩주기 */
+.td-row2{
+	padding: 0px 22px 5px 22px;
+}
+.td-row2 .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
+}
+
+/* 리스트 하단 부가정보에 css 주기*/
+.td-row2 .col-md-11 {
+	font-size: 11px;
+	margin-top: 1%;
+	padding-left: 0px;
+	width: 95.5%;
+}
+
+
+/* # 마이페이지_dropBox select-3 : 커뮤니티  list START */
+/* select-3 article div (value3) 마진 조정  */
+.row.value3{
+	margin-right: 61px; 
+	margin-left: 27px;
+	margin-top: 4%;
+}
+
+
+/**/
+@media (min-width: 992px){
+.row.value3 .myComuunityList-Img{
+	    padding-right: 0px;
+    	padding-left: 0px;
+	}
+}
+
+
+.row.value3 .myComuunityList-col-md-10{
+	padding-left: 0px;
+    width: 84.5%;
+    padding-right: 4px;
+}
+/*  마이페이지_dropBox select-3 : 커뮤니티  list END */
+
+
+/* # 마이페이지_dropBox select-4 : 상담홍보  list START */
+
+/*select-1 article div (value1) 마진 조정 */
+.row.value4{
+	margin-right: 61px; 
+	margin-left: 27px;
+}
+
+
+/*list article border에 색 넣어주기*/
+.value1 .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 article >img 크기 조정 */
+.value4 .post-blog .post-blog-image {
+   min-height: 0px;
+}
+.f-section-1  .post-blog .post-blog-image img{
+/* min-height: 10px !important; */
+	width: 100%;
+/*     width: 211px; */
+/*     height: 115px; */
+	height: 130px;
+    object-fit: initial;
+}
+
+
+
+
+/* article tag 좌우 padding 수정*/
+@media (min-width: 992px){
+	.value4 .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right:11px;
+	    border-top: dotted #80808026;
+	}
+}
+.value4 .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+/* article header에 게시글 no. 글자크기 수정 */
+.value4 .post-blog-caption-header .post-comment{
+	font-size: 11px;
+}	
+
+/* article title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.value4 .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	    text-align: left;
+	}
+}
+
+/* article title 위 아래 padding 수정*/
+.value4  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+
+
+/* article footer font-size 수정*/
+@media (min-width: 992px){
+	.value4 .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
+	}
+}
+
+
+/* article footer icon size 수정 */
+.value4 .glyphicon-heart {
+    font-size: 12px;
+    color: red;
+}
+
+/* 마이페이지_dropBox select-4 : 상담홍보 list END */
+
+
+/* # 마이페이지_dropBox select-5 : 상담후기  list START */
+/* select-5 article div (value5) 마진 조정  */
+.row.value5{
+	margin-right: 61px; 
+	margin-left: 27px;
+	margin-top: 4%;
+}
+
+
+/**/
+.glyphicon-map-marker{
+	font-size: 9px;
+}
+
+
+.row.value5 .myInfoReviewList-col-md-10{
+	padding-left: 0px;
+    width: 84.5%;
+    padding-right: 4px;
+}
+
+@media (min-width: 992px){
+.row.value5 .myInfoReviewList-Img{
+	    padding-right: 0px;
+    	padding-left: 0px;
+	}
+}
+/*  마이페이지_dropBox select-5 : 상담후기list  list END */
+
+
+/* # 마이페이지_dropBox select-6 : 관리자에게  list START */
+/* select-6 article div (value5) 마진 조정  */
+.row.value6{
+	margin-right: 61px; 
+	margin-left: 27px;
+/* 	margin-top: 2%; */
+}
+
+
+.value6 .mdi-email-outline {
+/* 	font-size: 44px; */
+/* 	line-height: 0.77; */
+ font-size: 32px;
+    line-height: 1.5;
+}
+
+.value6 .box-info-title {
+    margin-top: 11px;
+    font-size: 17px;
+}
+
+
+.box-info p{
+	font-size: 13px;
+}
+
+.box-info-name {
+	padding-bottom: 10px;
+}
+
+.box-info-name  p{
+	    font-size: 12px;
+}
+
+.box-info-footer{
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box-info-footer .mdi{
+	font-size: 13px;
+	color: #a9a9a9;
+/*     padding-right: 0px; */
+}
+/* # 마이페이지_dropBox select-6 : 관리자에게  list END */
 
 /* tab pane_1 : 내 정보 css END*/
 
 /* 마이페이지 list div END */
+
+.mdi-delete{
+font-size: 15px;}
+
+
+
+
+
+
+
+
