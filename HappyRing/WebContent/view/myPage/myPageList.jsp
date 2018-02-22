@@ -12,9 +12,10 @@
 
 <!-- thoeryList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/myPage/myPageList.css">
-<!-- worryBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css">
-
+<!-- <!-- worryBoardList 전용 css --> -->
+<!--   <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css"> -->
+<!-- <!-- thoeryList 전용 css --> -->
+<!--   <link rel="stylesheet" href="/HappyRing/css/theory/theoryList.css"> -->
   
 </head>
 <body>
@@ -142,75 +143,37 @@
               <!-- dropBox & checkBox row END --> 
 			  
 			  
-			  <!-- # 마이페이지_dropBox select-1 : 심리이론 게시물 list START --> 
-			  <div class="row value1" style="margin-right: 61px; margin-left: 27px;">
-                      
-                    <c:forEach var="i" begin="0" end="2">
-                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 22px;padding-right: 0px;">
-                         <article class="post-blog box-shadow">
-			              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
-			              	</a>
-			                <div class="post-blog-caption-header">
-			                  <ul class="post-blog-tags">
-			                    <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
-			                  </ul>	
-			                  <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
-			                </div>
-			                <div class="post-blog-caption-body">
-			                  <h7>
-			                    <a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			                   	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-			                    </a>
-			                  </h7>
-			                </div>
-			                <div class="post-blog-caption-footer">
-			                  <time datetime="2017">2018-01-30</time>
-			                  <a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span>
-			                  </a>
-			                </div>
-			             </article>
-                    </div>
-                    </c:forEach>
-                    
-                    <c:forEach var="i" begin="0" end="2">
-                    <div class="col-xs-12 col-sm-6 col-md-4" style="margin-top: 22px;padding-right: 0px;">
-                         <article class="post-blog box-shadow">
-			              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
-			              	</a>
-			                <div class="post-blog-caption-header">
-			                  <ul class="post-blog-tags">
-			                    <li><a class="button-tags" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">Tips &amp; Tricks</a></li>
-			                  </ul>	
-			                  <span class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">no.123</span>
-			                </div>
-			                <div class="post-blog-caption-body">
-			                  <h7>
-			                    <a class="post-blog-title" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			                   	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-			                    </a>
-			                  </h7>
-			                </div>
-			                <div class="post-blog-caption-footer">
-			                  <time datetime="2017">2018-01-30</time>
-			                  <a class="post-comment" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
-			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span>
-			                  </a>
-			                </div>
-			             </article>
-                    </div>
-                 	</c:forEach>
+			  <!-- # 마이페이지_dropBox select-1 : 심리이론>지식나눔방>심리학지식 게시물 list START --> 
+			  <div class="row value1" style="display: none;">
+                   <jsp:include page="/view/myPage/myArticle/list/myTheoryShareList.jsp"></jsp:include>	
               </div>
-			  <!-- 마이페이지_dropBox select-1 : 심리이론 게시물 list END --> 
+			 
+			  <!-- #마이페이지_dropBox select-2 : 심리이론>지식나눔방>묻고답하기 게시물 list START -->
+              <div class="row value2" style="display: none;">
+             		<jsp:include page="/view/myPage/myArticle/list/myTheoryQnAList.jsp"></jsp:include>
+              </div>   	 
 			   
-			  <!-- # 마이페이지 list 하단 paging START -->
-			   <jsp:include page="/view/paging/paging3.jsp"></jsp:include>			
-		      <!-- 마이페이지 list 하단 paging END -->
-                 	 
-			   
-			   
+			  <!-- #마이페이지_dropBox select-3 : 커뮤니티  list START -->
+              <div class="row value3" style="display: none;">
+             		<jsp:include page="/view/myPage/myArticle/list/myCommunityList.jsp"></jsp:include>
+              </div>   	 
+			  
+			  <!-- #마이페이지_dropBox select-4 : 홍보방  list START -->
+              <div class="row value4" style="display: none;">
+             		<jsp:include page="/view/myPage/myArticle/list/myInfoAdList.jsp"></jsp:include>
+              </div>   	
+              
+              <!-- #마이페이지_dropBox select-5 : 상담후기  list START -->
+              <div class="row value5" style="display: none">
+             		<jsp:include page="/view/myPage/myArticle/list/myInfoReviewList.jsp"></jsp:include>
+              </div>   	  
+			  
+			  <!-- #마이페이지_dropBox select-6 : 상담후기  list START -->
+              <div class="row value6">
+             		<jsp:include page="/view/myPage/myArticle/list/myToNoticeList.jsp"></jsp:include>
+              </div>  	
+			   	
+			   	
 			   	
              </div>
              
