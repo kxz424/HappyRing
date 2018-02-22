@@ -12,6 +12,7 @@ $(function(){
 	$('.h-login-modal-btn').click(function(){
 		$('.form-novi')[0].reset();		//모달창에 있는 모든 입력창 초기화
 		$('.form-wrap-validation').removeClass('has-error');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
+		$('.form-validation').text('');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
 
 		$('.login-modal').css('display', 'block');		//모달창에 로그인 부분 보여주기(로그인 버튼 클릭시 항상 로그인 화면을 보여주기 위해서)
 		$('.sign-up-modal').css('display', 'none');		//모달창에 회원가입 부분 숨기기
@@ -25,6 +26,9 @@ $(function(){
 	$('.h-sign-up').click(function(){
 //		$('#login-modal').find('.close').click();	//로그인 모달창 닫기
 //		$('#sign-up-modal').modal();		//회원가입 모달창 열기
+		$('.form-novi')[0].reset();		//모달창에 있는 모든 입력창 초기화
+		$('.form-wrap-validation').removeClass('has-error');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
+		$('.form-validation').text('');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
 		
 		$('.login-modal').css('display', 'none');		//모달창에 로그인 부분 숨기기
 		$('.sign-up-modal').css('display', 'block');	//모달창에 회원가입 부분 보이기
@@ -37,6 +41,7 @@ $(function(){
 		
 		$('.form-novi')[0].reset();		//모달창에 있는 모든 입력창 초기화
 		$('.form-wrap-validation').removeClass('has-error');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
+		$('.form-validation').text('');	//모달 안의 입력창에 이전에 표시되었던 유효성 메시지 삭제
 		
 		$('.sign-in-modal').css('display', 'block');	//모달창에 회원가입 부분 보이기
 		$('.login-modal').css('display', 'none');		//모달창에 로그인 부분 숨기기

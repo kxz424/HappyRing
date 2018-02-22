@@ -121,9 +121,11 @@
     margin-top: 20px;
 }
 /* text-area 크기 조정 */
-.infoabo-simple-info-div .text-spacing-sm textarea {
+.infoabo-simple-info-div .text-spacing-sm>div {
     width: 100%;
     height: 65px;
+    background-color: white;
+    overflow: scroll;
 }
 
 /* 상담소개 : top 간략 설명 부분 css END */

@@ -47,6 +47,6 @@ $(function() {
 		
 		$('.note-current-fontsize').text(fontsize);
 	});
-
+	
 
 });

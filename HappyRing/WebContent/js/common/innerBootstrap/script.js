@@ -549,24 +549,43 @@ $document.ready(function () {
       })
       .regula('bind');
 
+//    var regularConstraintsMessages = [
+//      {
+//        type: regula.Constraint.Required,
+//        newMessage: "The text field is required."
+//      },
+//      {
+//        type: regula.Constraint.Email,
+//        newMessage: "The email is not a valid email."
+//      },
+//      {
+//        type: regula.Constraint.Numeric,
+//        newMessage: "Only numbers are required"
+//      },
+//      {
+//        type: regula.Constraint.Selected,
+//        newMessage: "Please choose an option."
+//      }
+//    ];
+    
     var regularConstraintsMessages = [
-      {
-        type: regula.Constraint.Required,
-        newMessage: "The text field is required."
-      },
-      {
-        type: regula.Constraint.Email,
-        newMessage: "The email is not a valid email."
-      },
-      {
-        type: regula.Constraint.Numeric,
-        newMessage: "Only numbers are required"
-      },
-      {
-        type: regula.Constraint.Selected,
-        newMessage: "Please choose an option."
-      }
-    ];
+        {
+          type: regula.Constraint.Required,
+          newMessage: "아무 내용도 입력되지 않았습니다. 다시 입력해주세요."
+        },
+        {
+          type: regula.Constraint.Email,
+          newMessage: "이메일 형식과 맞지 않습니다."
+        },
+        {
+          type: regula.Constraint.Numeric,
+          newMessage: "숫자만 입력 가능합니다."
+        },
+        {
+          type: regula.Constraint.Selected,
+          newMessage: "Please choose an option."
+        }
+      ];
 
 
     for (var i = 0; i < regularConstraintsMessages.length; i++) {

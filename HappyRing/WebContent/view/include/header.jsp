@@ -461,7 +461,7 @@
               <!-- RD Mailform-->
               <form class="rd-mailform form-novi">
                 <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Required">
+                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Email">
                   <label class="form-label" for="forms-email2">E-mail</label>
                 </div>
                 <div class="form-wrap form-wrap-validation">
