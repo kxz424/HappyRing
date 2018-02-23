@@ -134,9 +134,13 @@
                               <h6 class="box-info-title hn">심리학 기초 오타</h6>
                               <p>심리학 기초의 OO게시물에 오타가 있습니다. 수정 부탁드려요</p>
                             </div>
+                            <div class="box-info-name row">
+                            	<div class="col-md-6" style="padding-left: 27px; padding-right: 0px; width: 59%;"><p>by.닉네임이여덟글자</p></div>
+                            	<div class="col-md-6" style="width: 41%; padding-left: 0px; padding-right: 14px;margin-right: 0px;"><span class="hn" style="float: right; font-size: 14px; padding-right: 12px; display: none;">[답변완료<span class="icon mdi-flower mdi"></span>]</span></div>
+                            </div>
                             <div class="box-info-footer">
                               <ul class="list-inline-md">
-                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-22 14:30</span></li>
+<!--                                 <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-22 14:30</span></li> -->
                                 <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">심리학이란</span></li>
                                 <li class="box-inline"><span class="icon icon-primary mdi mdi-comment-check-outline"></span><span class="no-writer">2</span></li>
                               </ul>

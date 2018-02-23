@@ -37,7 +37,7 @@
 }
 /* notice 게시판 list block부분 height 조정 */
 .no-list .box-info>.box-info-inner {
-	min-height: auto;
+/* 	min-height: auto; */
 }
 /* notice 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .no-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
@@ -109,7 +109,7 @@
 }
 /* 공지사항 list 카테고리 버튼(isotope) height 영역 설정 */
 .no-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
-	height: 20px;
+	height: 42px;
 }
 /* 공지사항 list block의 메인 아이콘 크기 */
 .no-list .box-info .mdi-bullhorn, .no-list .box-info .mdi-email-outline {
@@ -118,6 +118,62 @@
 .no-list .box-info-footer .no-date-created, .no-list .box-info-footer .no-writer {
 	font-size: 13px;
 }
+
+
+
+
+
+
+
+/* # 마이페이지_dropBox select-6 : 관리자에게  list START */
+/* select-6 article div (value5) 마진 조정  */
+.row.no-list{
+	margin-right: 61px; 
+	margin-left: 27px;
+/* 	margin-top: 2%; */
+}
+
+
+.no-list .mdi-email-outline {
+/* 	font-size: 44px; */
+/* 	line-height: 0.77; */
+ font-size: 32px;
+    line-height: 1.5;
+}
+
+.no-list .box-info-title {
+    margin-top: 11px;
+    font-size: 17px;
+}
+
+
+.no-list .box-info p{
+	font-size: 13px;
+}
+
+.no-list .box-info-name {
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.no-list .box-info-name  p{
+	    font-size: 12px;
+}
+
+.no-list .box-info-footer{
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+.no-list .box-info-footer .mdi{
+	font-size: 13px;
+	color: #a9a9a9;
+/*     padding-right: 0px; */
+}
+/* # 마이페이지_dropBox select-6 : 관리자에게  list END */
+
+
+
 
 
 

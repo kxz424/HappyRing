@@ -479,24 +479,24 @@
 }
 
 
-.box-info p{
+.value6 .box-info p{
 	font-size: 13px;
 }
 
-.box-info-name {
+.value6 .box-info-name {
 	padding-bottom: 10px;
 }
 
-.box-info-name  p{
+.value6 .box-info-name  p{
 	    font-size: 12px;
 }
 
-.box-info-footer{
+.value6 .box-info-footer{
 	padding-left: 5px;
     padding-right: 5px;
 }
 
-.box-info-footer .mdi{
+.value6 .box-info-footer .mdi{
 	font-size: 13px;
 	color: #a9a9a9;
 /*     padding-right: 0px; */
