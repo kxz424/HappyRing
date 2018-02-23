@@ -12,9 +12,10 @@
 
 <!-- thoeryList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/myPage/myPageList.css">
-<!-- worryBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css">
-
+<!-- <!-- worryBoardList 전용 css --> -->
+<!--   <link rel="stylesheet" href="/HappyRing/css/community/worryBoard/worryBoardList.css"> -->
+<!-- <!-- thoeryList 전용 css --> -->
+<!--   <link rel="stylesheet" href="/HappyRing/css/theory/theoryList.css"> -->
   
 </head>
 <body>
@@ -40,15 +41,14 @@
 	   
 	   
 	   
-	         <!-- ----------------------################### START -->
 	          
 	   
-	   <!-- ## 게시물 title : 기초심리학 START -->
-	   			<div class="my-title">
+	           <!-- ## 게시물 title : 마이페이지 START -->
+	   		   <div class="my-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
-	                     <h4 class="hn">Theory Share</h4>
+	                     <h4 class="hn">My Page2</h4>
 	                  </div>
 	                  <div class="col-md-6"></div>
 	                </div>
@@ -62,248 +62,228 @@
 	                  </div>
 	                  <div class="col-md-1"></div>	
 	                </div>
-	   			</div>
-	   <!-- 게시물 title : 기초심리학 END -->
+	   		   </div>
+	           <!-- 게시물 title : 마이페이지 END -->
 	   
 	   
-	   <!-- ## 게시물 list : 기초심리학 START -->
+	   <!-- ## 마이페이지 list  START -->
 	   <div class="my-list-block">
 	   
 	   
-	              <!-- Isotope Filters-->
-                  <div class="row" style="padding-right: 0px;margin-top: 38px;s">
-                  
-                  <div class="col-md-9">
-                  
-                    <ul class="isotope-filters isotope-filters-horizontal">
-                      <li class="block-top-level">
-                        <!-- Isotope Filters-->
-                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
-                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
-                          <li><a class="button-nina active" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">즐겨찾기</a></li>
-                          <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">관심목록</a></li>
-                          <li><a class="button-nina" data-isotope-filter="type 3" data-isotope-group="gallery3" href="#">내가 쓴 글</a></li>
-                          <li><a class="button-nina" data-isotope-filter="type 4" data-isotope-group="gallery3" href="#">내가 쓴 댓글</a></li>
-                          <li><a class="button-nina" data-isotope-filter="type 5" data-isotope-group="gallery3" href="#">회원정보수정</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>    
-                  
-                  <div class="col-md-3">  
-                  
-                    </div>
-                    
-                    
-                  </div>
-                  
-                  <div style="padding-bottom: 33px;  padding-right: 14px;	border: 1px dashed #80808082;  padding-top: 20px;  border-radius: 8px;">
-                  
-                  <div class="row innerCate">
-                         <div class="col-md-6"> </div> 
-                        	<div class="col-md-3">  
-                    <!-- dropBox -->
-		              <div class="form-wrap box-width-1">
-		                <!-- Select 2-->
-		                <select class="form-control select-filter" data-placeholder="선택해주세요" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
-		                  <option label=" "> </option>
-		                  <option value="1">심리이론</option>
-		                  <option value="2">고민게시판</option>
-		                  <option value="3">응원게시판</option>
-		                  <option value="4">비포&애프터</option>
-		                  <option value="5">팁&노하우</option>
-		                  <option value="6">자유게시판</option>
-		                  <option value="7">정보방</option>
-		                  <option value="8">공지사항</option>
-		                </select>
-		              </div>
-                    </div>
-                    
-                    
-                   	   <div class="col-md-3">
-		                    <input class="btn btn-primary btnSelectAll" type="button" id="write" value="전체선택">
-		                    <input class="btn btn-primary btnDelete" type="button" id="write" value="선택삭제">
-                       </div>
-                       </div>      
-		            
-                  <!-- Isotope Content-->
-                    <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
-                      <div class="row">
-                      
-                        <c:forEach var="i" begin="0" end="2">
-                        <div class="col-xs-12 col-sm-6 col-md-3 isotope-item" data-filter="type 1">
-                        
-                             
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-			                     <div class="post-blog-caption-check">
-	                                 <label class="checkbox-inline">
-					                  <input type="checkbox" checked="" name="check-1">
-					                  <a href=""><span class="icon glyphicon glyphicon-trash"></span></a>
-					                </label>
-	                             </div>           
-                             
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
-				              	</a>
-			                  <div class="post-blog-caption-header">
-			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">Tips &amp; Tricks</a></li>
-			                    </ul>	
-			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
-			                    
-			                  </div>
-			                  <div class="post-blog-caption-body">
-			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-			                    </a></h7>
-			                  </div>
-			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
-			                  </div>
-			                 </article>
-                 
-			                  
-                        </div>
-                        </c:forEach>
-                        
-                        <c:forEach var="i" begin="0" end="2">
-                         <div class="col-xs-12 col-sm-6 col-md-3 isotope-item" data-filter="type 2">
-                             
-                             
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-				              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
-				              	</a>
-			                  <div class="post-blog-caption-header">
-			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">Tips &amp; Tricks</a></li>
-			                    </ul>	
-			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
-			                    
-			                  </div>
-			                  <div class="post-blog-caption-body">
-			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-			                    </a></h7>
-			                  </div>
-			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
-			                  </div>
-			                  <div class="post-blog-caption-footer">
-			                    <label class="checkbox-inline">
-					                  <input type="checkbox" checked="" name="check-1">
-					                  <a href=""><span class="icon glyphicon glyphicon-trash"></span></a>
-					            </label>
-			                  </div>
-			                 </article>
-                        </div>
-                     	</c:forEach>
-                     	
-                     	<c:forEach var="i" begin="0" end="2">
-                        <div class="col-xs-12 col-sm-6 col-md-3 isotope-item" data-filter="type 3">
-                        
-                        
-                        
-                             
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
-				              	</a>
-			                  <div class="post-blog-caption-header">
-			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">Tips &amp; Tricks</a></li>
-			                    </ul>	
-			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
-			                    
-			                  </div>
-			                  <div class="post-blog-caption-body">
-			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
-			                    </a></h7>
-			                  </div>
-			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
-			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
-			                  </div>
-			                 </article>
-                 
-			                  
-                        </div>
-                        </c:forEach>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                       
-
-
-			     <c:forEach var="i" begin="0" end="2">
-                        
-                        
-                        
-                             
-                            <div class="row">
-                  <div class="col-md-12 table-list isotope-item" data-filter="type 4">
-
-
-                     <table class="table table-hover">
-                        <tbody>
-                              <tr>
-                                 <td class="t1">
-                                 	<div class="row">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                </div>
-		                                <div class="col-md-2">
-		                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
-	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-	                                 		<span style="float: right;">고민</span>
-	                                 	</div>
-                                 	</div>
-                                 </td>
-                              </tr>
-                        </tbody>
-                     </table>
-                  </div>
+	     <!-- # 마이페이지 tabs START -->
+	     <div class="tabs-custom tabs-vertical tabs-line" id="tabs-myPage">
+           <!-- Nav tabs-->
+           <ul class="nav nav-tabs">
+             <li class="hn"><a href="#tabs-my-Info" data-toggle="tab">내 정보</a></li>
+             <li class="active hn"><a href="#tabs-my-article" data-toggle="tab">my 게시물 </a></li>
+             <li class="hn"><a href="#tabs-my-comment" data-toggle="tab">my 댓글 </a></li>
+             <li class="hn"><a href="#tabs-my-answer" data-toggle="tab">my 답변 </a></li>
+             <li class="hn"><a href="#tabs-my-like" data-toggle="tab">나의 보관함</a></li>
+           </ul>
+           <!-- Tab panes-->
+           <div class="tab-content">
+           
+           	 <!-- ### tab pane_1 : 내 정보 -->
+             <div class="tab-pane fade" id="tabs-my-Info">
+               <!--# dropBox START-->
+               <div class="range range-sm-left">
+	              <div class="cell-sm-5 cell-lg-3">
+	                 <div class="form-wrap box-width-1">
+		               <select class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
+		                 <option label=" "> </option>
+		                 <option value="1" selected="">심리학지식</option>
+		                 <option value="2">묻고답하기</option>
+		                 <option value="3">커뮤니티</option>
+		                 <option value="4">상담홍보</option>
+		                 <option value="5">상담후기</option>
+		                 <option value="6">관리자에게</option>
+		               </select>
+	                 </div>
+	              </div>
                </div>
-                 
-			                  
-                        </c:forEach>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                      </div>
+			   <!-- dorpBox END -->	
+             </div>
+             
+             
+             <!-- ### tab pane_2 : my게시물 -->
+             <div class="tab-pane fade in active" id="tabs-my-article">
+             
+             
+              <!-- ## dropBox & checkBox row START -->
+              <div class="row">
+	             <!--# dropBox START-->
+	             <div class="col-md-3">
+	               <select id="selectOption" onchange="onChangeValue()" class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
+	                 <option label=" "> </option>
+	                 <option value="1" selected="">심리학지식</option>
+	                 <option value="2">묻고답하기</option>
+	                 <option value="3">커뮤니티</option>
+	                 <option value="4">상담홍보</option>
+	                 <option value="5">상담후기</option>
+	                 <option value="6">관리자에게</option>
+	               </select>
+	             </div>  
+	             <!-- dorpBox END -->
+	             <div class="col-md-6"></div>
+
+	             <!-- # checkBox START -->		
+	             <div class="col-md-3 checkbox-div">
+	               <div class="form-wrap">
+	                <label class="checkbox-inline">
+	                  <input type="checkbox" checked="" name="check-1">전체선택
+	                </label>
+	                <label class="checkbox-inline">
+	                  <input type="checkbox" checked="" name="check-1">선택삭제
+	                </label>
+	               </div>
+	             </div>
+	             <!-- checkBox END -->		
+              </div> 
+              <!-- dropBox & checkBox row END --> 
+			  
+			  
+			  <!-- # 마이페이지_dropBox select-1 : 심리이론>지식나눔방>심리학지식 게시물 list START --> 
+			  <div id="value1" class="row value1" style="display: blcok;">
+                   <jsp:include page="/view/myPage/myArticle/list/myTheoryShareList.jsp"></jsp:include>	
+              </div>
+			 
+			  <!-- #마이페이지_dropBox select-2 : 심리이론>지식나눔방>묻고답하기 게시물 list START -->
+              <div id="value2" class="row value2">
+             		<jsp:include page="/view/myPage/myArticle/list/myTheoryQnAList.jsp"></jsp:include>
+              </div>   	 
+			   
+			  <!-- #마이페이지_dropBox select-3 : 커뮤니티  list START -->
+              <div id="value3" class="row value3">
+             		<jsp:include page="/view/myPage/myArticle/list/myCommunityList.jsp"></jsp:include>
+              </div>   	 
+			  
+			  <!-- #마이페이지_dropBox select-4 : 홍보방  list START -->
+              <div id="value4" class="row value4">
+             		<jsp:include page="/view/myPage/myArticle/list/myInfoAdList.jsp"></jsp:include>
+              </div>   	
+              
+              <!-- #마이페이지_dropBox select-5 : 상담후기  list START -->
+              <div id="value5" class="row value5" >
+             		<jsp:include page="/view/myPage/myArticle/list/myInfoReviewList.jsp"></jsp:include>
+              </div>   	  
+			  
+			  <!-- #마이페이지_dropBox select-6 : 상담후기  list START -->
+              <div id="value6" class="row value6">
+             		<jsp:include page="/view/myPage/myArticle/list/myToNoticeList.jsp"></jsp:include>
+              </div>  	
+			   	
+			   	
+			   	
+             </div>
+             
+             
+             <!-- ### tab pane_3 : my댓글 -->
+             <div class="tab-pane fade" id="tabs-my-comment">
+               <div class="box-width-2">
+                 <p>In the digital age, we are marketing ourselves on the web.  That is why we aim to make it as easy and affordable for everyone to take charge of their web presence.  Words like tweet and yelp should be part of your marketing campaign, and not part of your stress.</p>
+                 <!-- Quote minimal-->
+                 <article class="quote-minimal">
+                   <p class="quote-minimal-text">We strive to create a memorable web image for everyone.</p>
+                 </article>
+                 <p>We establish a relationship with all of our clients, and we feel it is our responsibility to help them grow and harness the opportunity of their presence on the Internet.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
+               </div>
+             </div>
+             
+             
+             
+             
+             <!-- ### tab pane_4 : my답변 -->
+             <div class="tab-pane fade" id="tabs-my-answer">
+               <!-- Card info-->
+               <article class="card-info">
+                 <div class="card-info-aside"><img class="card-info-image" src="images/roy-henry-150x150.jpg" alt="" width="150" height="150"/>
+                 </div>
+                 <div class="card-info-main">
+                   <h5 class="card-info-title">Roy Henry</h5>
+                   <p class="card-info-subtitle">Founder</p>
+                   <p>Roy is the main person behind Brave. He is the multitalented manager and a former UX designer who is a true mine of creative ideas for everyone at our team.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
+                 </div>
+               </article>
+             </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             <!-- ### tab pane_5 : 나의 보관함 -->
+             <div class="tab-pane fade" id="tabs-my-like">
+               
+                <div class="row my-favorite">
+                   <div class="col-md-6 col-sm-12">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading dark-blue">
+                                    <div class="icon mdi-star mdi"></div>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+                                <div class="circle-tile-description text-faded">
+                                    Users
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    265
+                                    <span id="sparklineA"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>[]
+                        </div>
                     </div>
-	         <!-- ----------------------################### END -->
-	   			</div>
+	                <div class="col-md-6 col-sm-12">
+	                    <div class="circle-tile">
+	                        <a href="#">
+	                            <div class="circle-tile-heading green">
+	                                <div class="icon mdi-bookmark mdi"></div>
+	                            </div>
+	                        </a>
+	                        <div class="circle-tile-content green">
+	                            <div class="circle-tile-description text-faded">
+	                                Revenue
+	                            </div>
+	                            <div class="circle-tile-number text-faded">
+	                                $32,384
+	                            </div>
+	                            <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+	                        </div>
+	                    </div>
+	                </div>
+                 </div>
+               
+             </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+           </div>
+         </div> 
+	     <!-- 마이페잊 tabs END -->
+	   
 	    </div>
-	    <!-- 게시물 list : 기초 심리학 END -->
+	    
+	    
+	    
+	    
+	    <!-- 마이페이지 list END -->
 	   
 	   
-	    <!-- # 게시물 list 하단 paging START -->
-		   <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			
-	    <!-- 게시물 list 하단 paging END -->
+<!-- 	    # 마이페이지 list 하단 paging START -->
+<%-- 		   <jsp:include page="/view/paging/paging2.jsp"></jsp:include>			 --%>
+<!-- 	    마이페이지 list 하단 paging END -->
 	   
 	   
 	   
@@ -345,6 +325,38 @@
 <!-- page END -->
 	
 
-
+<script type="text/javascript">
+	
+	function onChangeValue(){
+		var selectValue =  document.getElementById("selectOption");	
+		var value1 = document.getElementById("value1");
+		var value2 = document.getElementById("value2");
+		var value3 = document.getElementById("value3");
+		var value4 = document.getElementById("value4");
+		var value5 = document.getElementById("value5");
+		var value6 = document.getElementById("value6");
+		var index = selectValue.options[selectValue.selectedIndex].value;
+            	   value1.style.display = "none";
+            	   value2.style.display = "none";
+            	   value3.style.display = "none";
+            	   value4.style.display = "none";
+            	   value5.style.display = "none";
+            	   value6.style.display = "none";
+            	   switch (index) {
+            	   case "1": value1.style.display = "block";
+   					break;
+            	   case "2": value2.style.display = "block";
+   					break;
+            	   case "3": value3.style.display = "block";
+  					break;
+            	   case "4": value4.style.display = "block";
+  					break;
+            	   case "5": value5.style.display = "block";
+  					break;
+            	   case "6": value6.style.display = "block";
+  					break;	
+            	   }
+	}
+               </script>
 </body>
 </html>
