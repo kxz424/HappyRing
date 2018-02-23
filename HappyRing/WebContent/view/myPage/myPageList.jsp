@@ -48,7 +48,7 @@
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
-	                     <h4 class="hn">My Page</h4>
+	                     <h4 class="hn">My Page2</h4>
 	                  </div>
 	                  <div class="col-md-6"></div>
 	                </div>
@@ -113,7 +113,7 @@
               <div class="row">
 	             <!--# dropBox START-->
 	             <div class="col-md-3">
-	               <select class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
+	               <select id="selectOption" onchange="onChangeValue()" class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
 	                 <option label=" "> </option>
 	                 <option value="1" selected="">심리학지식</option>
 	                 <option value="2">묻고답하기</option>
@@ -124,7 +124,6 @@
 	               </select>
 	             </div>  
 	             <!-- dorpBox END -->
-
 	             <div class="col-md-6"></div>
 
 	             <!-- # checkBox START -->		
@@ -144,32 +143,32 @@
 			  
 			  
 			  <!-- # 마이페이지_dropBox select-1 : 심리이론>지식나눔방>심리학지식 게시물 list START --> 
-			  <div class="row value1" style="display: none;">
+			  <div id="value1" class="row value1" style="display: blcok;">
                    <jsp:include page="/view/myPage/myArticle/list/myTheoryShareList.jsp"></jsp:include>	
               </div>
 			 
 			  <!-- #마이페이지_dropBox select-2 : 심리이론>지식나눔방>묻고답하기 게시물 list START -->
-              <div class="row value2" style="display: none;">
+              <div id="value2" class="row value2">
              		<jsp:include page="/view/myPage/myArticle/list/myTheoryQnAList.jsp"></jsp:include>
               </div>   	 
 			   
 			  <!-- #마이페이지_dropBox select-3 : 커뮤니티  list START -->
-              <div class="row value3" style="display: none;">
+              <div id="value3" class="row value3">
              		<jsp:include page="/view/myPage/myArticle/list/myCommunityList.jsp"></jsp:include>
               </div>   	 
 			  
 			  <!-- #마이페이지_dropBox select-4 : 홍보방  list START -->
-              <div class="row value4" style="display: none;">
+              <div id="value4" class="row value4">
              		<jsp:include page="/view/myPage/myArticle/list/myInfoAdList.jsp"></jsp:include>
               </div>   	
               
               <!-- #마이페이지_dropBox select-5 : 상담후기  list START -->
-              <div class="row value5" style="display: none">
+              <div id="value5" class="row value5" >
              		<jsp:include page="/view/myPage/myArticle/list/myInfoReviewList.jsp"></jsp:include>
               </div>   	  
 			  
 			  <!-- #마이페이지_dropBox select-6 : 상담후기  list START -->
-              <div class="row value6">
+              <div id="value6" class="row value6">
              		<jsp:include page="/view/myPage/myArticle/list/myToNoticeList.jsp"></jsp:include>
               </div>  	
 			   	
@@ -189,6 +188,11 @@
                  <p>We establish a relationship with all of our clients, and we feel it is our responsibility to help them grow and harness the opportunity of their presence on the Internet.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
                </div>
              </div>
+             
+             
+             
+             
+             <!-- ### tab pane_4 : my답변 -->
              <div class="tab-pane fade" id="tabs-my-answer">
                <!-- Card info-->
                <article class="card-info">
@@ -201,16 +205,70 @@
                  </div>
                </article>
              </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             <!-- ### tab pane_5 : 나의 보관함 -->
              <div class="tab-pane fade" id="tabs-my-like">
-               <div class="box-width-2">
-                 <p>In the digital age, we are marketing ourselves on the web.  That is why we aim to make it as easy and affordable for everyone to take charge of their web presence.  Words like tweet and yelp should be part of your marketing campaign, and not part of your stress.</p>
-                 <!-- Quote minimal-->
-                 <article class="quote-minimal">
-                   <p class="quote-minimal-text">We strive to create a memorable web image for everyone.</p>
-                 </article>
-                 <p>We establish a relationship with all of our clients, and we feel it is our responsibility to help them grow and harness the opportunity of their presence on the Internet.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
-               </div>
+               
+                <div class="row my-favorite">
+                   <div class="col-md-6 col-sm-12">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading dark-blue">
+                                    <div class="icon mdi-star mdi"></div>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+                                <div class="circle-tile-description text-faded">
+                                    Users
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    265
+                                    <span id="sparklineA"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>[]
+                        </div>
+                    </div>
+	                <div class="col-md-6 col-sm-12">
+	                    <div class="circle-tile">
+	                        <a href="#">
+	                            <div class="circle-tile-heading green">
+	                                <div class="icon mdi-bookmark mdi"></div>
+	                            </div>
+	                        </a>
+	                        <div class="circle-tile-content green">
+	                            <div class="circle-tile-description text-faded">
+	                                Revenue
+	                            </div>
+	                            <div class="circle-tile-number text-faded">
+	                                $32,384
+	                            </div>
+	                            <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+	                        </div>
+	                    </div>
+	                </div>
+                 </div>
+               
              </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
            </div>
          </div> 
 	     <!-- 마이페잊 tabs END -->
@@ -267,6 +325,38 @@
 <!-- page END -->
 	
 
-
+<script type="text/javascript">
+	
+	function onChangeValue(){
+		var selectValue =  document.getElementById("selectOption");	
+		var value1 = document.getElementById("value1");
+		var value2 = document.getElementById("value2");
+		var value3 = document.getElementById("value3");
+		var value4 = document.getElementById("value4");
+		var value5 = document.getElementById("value5");
+		var value6 = document.getElementById("value6");
+		var index = selectValue.options[selectValue.selectedIndex].value;
+            	   value1.style.display = "none";
+            	   value2.style.display = "none";
+            	   value3.style.display = "none";
+            	   value4.style.display = "none";
+            	   value5.style.display = "none";
+            	   value6.style.display = "none";
+            	   switch (index) {
+            	   case "1": value1.style.display = "block";
+   					break;
+            	   case "2": value2.style.display = "block";
+   					break;
+            	   case "3": value3.style.display = "block";
+  					break;
+            	   case "4": value4.style.display = "block";
+  					break;
+            	   case "5": value5.style.display = "block";
+  					break;
+            	   case "6": value6.style.display = "block";
+  					break;	
+            	   }
+	}
+               </script>
 </body>
 </html>

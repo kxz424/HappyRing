@@ -479,24 +479,24 @@
 }
 
 
-.value6 .box-info p{
+.box-info p{
 	font-size: 13px;
 }
 
-.value6 .box-info-name {
+.box-info-name {
 	padding-bottom: 10px;
 }
 
-.value6 .box-info-name  p{
+.box-info-name  p{
 	    font-size: 12px;
 }
 
-.value6 .box-info-footer{
+.box-info-footer{
 	padding-left: 5px;
     padding-right: 5px;
 }
 
-.value6 .box-info-footer .mdi{
+.box-info-footer .mdi{
 	font-size: 13px;
 	color: #a9a9a9;
 /*     padding-right: 0px; */
@@ -515,8 +515,7 @@ font-size: 15px;}
 
 
 
-
-/** ************************************************* tab 5 : 나의 보관함 */
+/** *************************************************my 보관함 */
 
 
 /* my-favorite */
@@ -599,8 +598,4 @@ font-size: 15px;}
     color: rgba(255,255,255,0.5);
     background-color: rgba(0,0,0,0.2);
 }
-
-
-
-
 
