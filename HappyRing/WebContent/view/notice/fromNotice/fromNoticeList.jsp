@@ -130,14 +130,17 @@
                           <div class="box-info">
                             <div class="box-info-inner">
                               <span class="mdi mdi-bullhorn"></span>
-                              <span class="box-info-title hn" style="float: right;">[type1]</span><br/>
-                              <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
-                              <p>1. 도전그룹방 신설</p>
+                              <span class="box-info-title hn" style="float: right; font-size: 15px;">[개인정보]</span><br/>
+                              <h6 class="box-info-title hn" style="color: black;">고민게시판 관련</h6>
+                              <p>심리학 기초의 OO게시물에 오타가 있습니다. 수정 부탁드려요</p>
+                            </div>
+                            <div class="box-info-name row">
+                            	<div class="col-md-6" style="padding-left: 27px; padding-right: 0px; width: 59%;"><p>by.해피링</p></div>
                             </div>
                             <div class="box-info-footer">
                               <ul class="list-inline-md">
-                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">HappyRing</span></li>
+                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"> 2018-02-01 11:30</span></li>
+                                <li class="box-inline" style="margin-left: 15px;"><span class="icon mdi-emoticon icon-primary mdi"> 13</span></li>
                               </ul>
                             </div>
                           </div>
@@ -149,14 +152,17 @@
                           <div class="box-info">
                             <div class="box-info-inner">
                               <span class="mdi mdi-bullhorn"></span>
-                              <span class="box-info-title hn" style="float: right;">[type2]</span><br/>
-                              <h6 class="box-info-title hn">ver.2 변경사항 공지</h6>
-                              <p>1. 도전그룹방 신설</p>
+                              <span class="box-info-title hn" style="float: right;font-size: 15px; color: #a9a9a9;">[업데이트]</span><br/>
+                              <h6 class="box-info-title hn" style="color: black;">불법,상업광고 관련</h6>
+                              <p>이 사이트 덕분에 심리학에 흥미가 생긴 사람입니다. 심리학 관련 정보가 더 추가되었으면 좋겠습니다.</p>
+                            </div>
+                            <div class="box-info-name row">
+                            	<div class="col-md-6" style="padding-left: 27px; padding-right: 0px; width: 59%;"><p>by.해피링</p></div>
                             </div>
                             <div class="box-info-footer">
                                  <ul class="list-inline-md">
-                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-25 12:30</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">HappyRing</span></li>
+                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"> 2018-02-01 11:301</span></li>
+                                   <li class="box-inline" style="margin-left: 15px;"><span class="icon mdi-emoticon icon-primary mdi"> 13</span></li>
                                  </ul>
                             </div>
                           </div>

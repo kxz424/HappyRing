@@ -82,19 +82,27 @@
                            <c:forEach var="i" begin="1" end="10">
                               <tr>
                                  <td class="t1">
-                                 	<div class="row">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                </div>
-		                                <div class="col-md-2">
-		                                	<img alt="Before&After게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+                                 	<div class="row td-row">
+                                		<div class="col-md-1" style="line-height: 0px;">
+						                </div>
+                                		<div class="col-md-10 myComuunityList-col-md-10">
+	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
+	                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
+	                                 		<br/>
+	                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+	                                    </div>
+		                                <div class="col-md-1 myComuunityList-Img">
+			                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
 	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>홍길동</span> | <span>1분전</span> | <span>115</span>
-	                                 		<span style="float: right;">Before&After</span>
+	                                </div>
+	                                <div class="row td-row2">
+	                                 	<div class="col-md-1">
 	                                 	</div>
-                                 	</div>
+	                                 	<div class="col-md-11">
+	                                 		<span>[Before&After]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span>
+	                                 		<span style="float: right;">2018-02-12 12:00</span>
+	                                 	</div>
+                                	</div>
                                  </td>
                               </tr>
                            </c:forEach>

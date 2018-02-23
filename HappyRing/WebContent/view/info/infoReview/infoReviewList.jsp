@@ -45,7 +45,7 @@
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
-	                     <h4 class="hn">After Consulting</h4>
+	                     <h4 class="hn">Consulting Review</h4>
 	                  </div>
 	                  <div class="col-md-6"></div>
 	                </div>
@@ -86,50 +86,67 @@
                      <table class="table table-hover">
                      
                          <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
-                           <tr>
-                              <td class="t1">
-                                <c:forEach var="i" begin="1" end="3">
+                         	<c:forEach var="i" begin="1" end="3">
+	                           <tr>
+	                              <td class="isotope-item" data-filter="type 1">
+                                
                            
-                                 	<div class="row isotope-item" data-filter="type 1">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+<!--                                  	<div class="isotope-item" data-filter="type 1"> -->
+                                 		<div class="row td-row">
+	                                		<div class="col-md-1" style="line-height: 0px;">
+							                </div>
+	                                		<div class="col-md-10 myInfoReviewList-col-md-10">
+		                                 		<span><strong>상담후기 관련 myStory</strong></span>
+		                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
+		                                 		<br/>
+		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+		                                    </div>
+			                                <div class="col-md-1 myInfoReviewList-Img">
+				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+		                                 	</div>
 		                                </div>
-		                                <div class="col-md-2">
-		                                	<img alt="상담후기 프로필이미지" src="/HappyRing/img/main/beforeN.png">
-	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>닉네임</span> | <span>조회수</span> | <span>서울시 금천구 가산동</span> | <span>2018-02-12</span> | <span>가정문제</span>
-	                                 		<span class="icon glyphicon glyphicon-star"style="float: right;">
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star-empty"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star-empty"></span>
-	                                 		</span>
-	                                 	</div>
-                                 	</div>
-                                 	
-                                 	<div class="row isotope-item" data-filter="type 2">
-                                 		<div class="col-md-10">
-	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span><br/>
-	                                 		<p style="margin: 0;">네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+		                                <div class="row td-row2">
+		                                 	<div class="col-md-1">
+		                                 	</div>
+		                                 	<div class="col-md-11">
+		                                 		<span>[대인관계]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span> | <span class="icon glyphicon glyphicon-map-marker"></span>서울시 금천구 가산동
+		                                 		<span style="float: right;">2018-02-12 12:00</span>
+		                                 	</div>
+	                                	</div>
+<!--                                  	</div> -->
+	                              </td>
+	                          	</tr>
+	                          	</c:forEach>
+	                          	<c:forEach var="i" begin="1" end="3">
+                                <tr>
+	                              <td class="isotope-item" data-filter="type 2">
+<!--                                  	<div class="isotope-item" data-filter="type 2"> -->
+                                 		<div class="row td-row">
+	                                		<div class="col-md-1" style="line-height: 0px;">
+							                </div>
+	                                		<div class="col-md-10 myInfoReviewList-col-md-10">
+		                                 		<span><strong>상담후기 관련 myStory</strong></span>
+		                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
+		                                 		<br/>
+		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+		                                    </div>
+			                                <div class="col-md-1 myInfoReviewList-Img">
+				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+		                                 	</div>
 		                                </div>
-		                                <div class="col-md-2">
- 		                                	<img alt="상담후기 프로필이미지" src="/HappyRing/img/main/beforeN.png">
-	                                 	</div>
-	                                 	<div class="col-md-12">
-	                                 		<span>닉네임</span> | <span>조회수</span> | <span>서울시 강남구 삼성동</span> | <span>2018-02-12</span> | <span>대인관계</span>
-	                                 		<span class="icon glyphicon glyphicon-star"style="float: right;">
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 			<span  class="icon glyphicon glyphicon-star"></span>
-	                                 		</span>
-	                                 	</div>
-                                 	</div>
-                                 </c:forEach>   	
-                                </td>
-							 </tr>                                 	
+		                                <div class="row td-row2">
+		                                 	<div class="col-md-1">
+		                                 	</div>
+		                                 	<div class="col-md-11">
+		                                 		<span>[대인관계]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span> | <span class="icon glyphicon glyphicon-map-marker"></span>서울시 금천구 가산동
+		                                 		<span style="float: right;">2018-02-12 12:00</span>
+		                                 	</div>
+	                                	</div>
+<!--                                  	</div> -->
+                                    	
+	                                </td>
+								 </tr>    
+							 </c:forEach>                             	
                           </tbody>
                            
                      </table>

@@ -113,7 +113,7 @@
 }
 /* 공지사항 list block의 메인 아이콘 크기 */
 .no-list .box-info .mdi-bullhorn, .no-list .box-info .mdi-email-outline {
-	font-size: 40px;
+/* 	font-size: 40px; */
 }
 .no-list .box-info-footer .no-date-created, .no-list .box-info-footer .no-writer {
 	font-size: 13px;
@@ -125,8 +125,8 @@
 
 
 
-/* # 마이페이지_dropBox select-6 : 관리자에게  list START */
-/* select-6 article div (value5) 마진 조정  */
+/* # 관리자에게  list START */
+/* article div 마진 조정  */
 .row.no-list{
 	margin-right: 61px; 
 	margin-left: 27px;
@@ -134,10 +134,8 @@
 }
 
 
-.no-list .mdi-email-outline {
-/* 	font-size: 44px; */
-/* 	line-height: 0.77; */
- font-size: 32px;
+.no-list .mdi-email-outline, .no-list .mdi-bullhorn {
+	font-size: 32px;
     line-height: 1.5;
 }
 
@@ -154,6 +152,10 @@
 .no-list .box-info-name {
 	padding-bottom: 10px;
 	margin-bottom: 0px;
+}
+/* 닉네임에 걸려있던 margin-top 수정 */
+.no-list .box-info-name .col-md-6{
+	margin-top: 0;
 }
 
 .no-list .box-info-name  p{

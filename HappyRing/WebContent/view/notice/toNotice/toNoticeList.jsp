@@ -130,8 +130,8 @@
                           <div class="box-info">
                             <div class="box-info-inner">
                               <span class="mdi mdi-email-outline"></span>
-                              <span class="box-info-title hn" style="float: right;">[수정요청]</span><br/>
-                              <h6 class="box-info-title hn">심리학 기초 오타</h6>
+                              <span class="box-info-title hn" style="float: right; font-size: 15px;">[수정요청]</span><br/>
+                              <h6 class="box-info-title hn" style="color: black;">고민게시판 관련</h6>
                               <p>심리학 기초의 OO게시물에 오타가 있습니다. 수정 부탁드려요</p>
                             </div>
                             <div class="box-info-name row">
@@ -140,9 +140,8 @@
                             </div>
                             <div class="box-info-footer">
                               <ul class="list-inline-md">
-<!--                                 <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-01-22 14:30</span></li> -->
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">심리학이란</span></li>
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-comment-check-outline"></span><span class="no-writer">2</span></li>
+                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"> 2018-02-01 11:30</span></li>
+                                <li class="box-inline" style="margin-left: 15px;"><span class="icon mdi-emoticon icon-primary mdi"> 13</span></li>
                               </ul>
                             </div>
                           </div>
@@ -154,15 +153,18 @@
                           <div class="box-info">
                             <div class="box-info-inner">
                               <span class="mdi mdi-email-outline"></span>
-                              <span class="box-info-title hn" style="float: right;">[바라는점]</span><br/>
-                              <h6 class="box-info-title hn">심리학 관련 정보추가 요청</h6>
+                              <span class="box-info-title hn" style="float: right;font-size: 15px; color: #a9a9a9;">[바라는점]</span><br/>
+                              <h6 class="box-info-title hn" style="color: black;">불법,상업광고 관련</h6>
                               <p>이 사이트 덕분에 심리학에 흥미가 생긴 사람입니다. 심리학 관련 정보가 더 추가되었으면 좋겠습니다.</p>
+                            </div>
+                            <div class="box-info-name row">
+                            	<div class="col-md-6" style="padding-left: 27px; padding-right: 0px; width: 59%;"><p>by.닉네임이여덟글자</p></div>
+                            	<div class="col-md-6" style="width: 41%; padding-left: 0px; padding-right: 14px;margin-right: 0px;"><span class="hn" style="float: right; font-size: 14px; padding-right: 12px; color: #00c8ca;">[답변완료<span class="icon mdi-flower mdi"></span>]</span></div>
                             </div>
                             <div class="box-info-footer">
                                  <ul class="list-inline-md">
-                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span class="no-date-created">2018-02-01 11:30</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-account"></span><span class="no-writer">심리학이란</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-comment-check-outline"></span><span class="no-writer">3</span></li>
+                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"> 2018-02-01 11:301</span></li>
+                                   <li class="box-inline" style="margin-left: 15px;"><span class="icon mdi-emoticon icon-primary mdi"> 13</span></li>
                                  </ul>
                             </div>
                           </div>

@@ -34,12 +34,12 @@
 
 
 /* 블록 형식의 list div */
-.th-list-block{
-    padding-top: 25px;
+.th-list {
+    /* padding-top: 25px; */
     margin-top: 15px;
     padding-bottom: 30px;
-    padding-left: 9px;
-    padding-right: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: white;
     /* border: solid red; */
 }
@@ -394,6 +394,136 @@
 /* 모바일 화면 기준 묻고답하기 게시판 css END */
 
 
+
+
+
+
+
+
+
+/*istope버튼 css*/
+.isotope-filters-list.isotope-filters-list-buttons{
+	margin-left: 300px;
+}
+/* 카테고리(isotope) 버튼 크기 및 radius 설정 */
+.th-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a {
+		 border-radius: 8px;
+		 padding: 5px 19px;
+}
+/* 카테고리(isotope) 버튼 크기 및 radius 설정 */
+.th-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		color: #fff;
+	    background: rgb(0, 200, 202);
+	    border-color: rgb(0, 200, 202);
+}
+/* list 카테고리 버튼(isotope) 오른쪽 정렬 */
+.th-list .isotope-filters-horizontal {
+	float: right;
+}
+/* list 카테고리 버튼(isotope) height 영역 설정 */
+.th-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+	height: 42px;
+}
+
+
+/* 묻고답하기 리스트 테두리 선 */
+.th-list .table-list .table > tbody > tr > td{
+/* 	padding: 8px; */
+/*     line-height: 1.42857; */
+/*     vertical-align: top; */
+    border-bottom: 1px dashed #ddd;
+    border-top: 0;
+}
+
+.th-list .row {
+	margin-bottom: 0;
+}
+.th-list [data-isotope-layout] .row > [class*="col-"] {
+	margin-top: 0;
+}
+
+
+
+
+
+
+/*리스트 내 checkBox 들어가는 공간(col-md-1) 패딩 및 width 조정*/
+.td-row .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
+}
+
+.td-row .col-md-10{
+	padding-left: 0px;
+/* 	width: 95.5%; */
+}
+
+/* 리스트 상단 제목에 css 주기*/
+.td-row .col-md-10 span{
+	font-size: 14.5px;
+	color: black;
+}
+
+/* 리스트 중간 내용에 css 주기*/
+.td-row .col-md-10 p {
+	margin: 0;
+	font-size: 12px;
+	margin-top: 1%;
+	
+}
+
+.td-row .col-md-10 .glyphicon{
+	font-size: 11px;
+    float: right;
+    line-height: 24px;
+    color: #0000004f;
+}
+
+
+
+/*td 안 row에 패딩주기 */
+.td-row2{
+/* 	padding: 0px 22px 5px 22px; */
+}
+.td-row2 .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
+}
+
+/* 리스트 하단 부가정보에 css 주기*/
+.td-row2 .col-md-11 {
+	font-size: 11px;
+	margin-top: 1%;
+	padding-left: 0px;
+	width: 95.5%;
+}
+
+/* # 묻고답하기 list START */
+/* article div (value5) 마진 조정  */
+
+/**/
+.glyphicon-map-marker{
+	font-size: 9px;
+}
+
+
+.th-list .td-row .myInfoReviewList-col-md-10{
+	padding-left: 0px;
+    width: 84.5%;
+    padding-right: 4px;
+}
+
+@media (min-width: 992px){
+.th-list .td-row .myInfoReviewList-Img{
+	    padding-right: 0px;
+    	padding-left: 0px;
+	}
+}
+/* 묻고답하기list  list END */
 
 
 

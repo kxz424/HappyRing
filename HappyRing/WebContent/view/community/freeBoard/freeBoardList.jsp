@@ -42,7 +42,7 @@
 	   	  
 	   	  
 	   	  <!-- ## 게시물 title : 기초심리학 START -->
-	   			<div class="fr-title">
+	   			<div class="cd-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
@@ -65,7 +65,7 @@
 	      
 	      
 	      <!-- 자유게시판 list START -->
-              <div class="fr-list">
+              <div class="cd-list">
               <div class="row table-list">
                   <div class="col-md-12">
 
@@ -73,25 +73,35 @@
                      <table class="table table-hover">
                         <thead>
                            <tr>
-                              <th class="t1">번호</th>
-                              <th class="t2">게시판</th>
-                              <th class="t3">제목</th>
-                              <th class="t4">작성자</th>
-                              <th class="t5">작성일</th>
-                              <th class="t6">엔젤링</th>
-                              <th class="t7">조회수</th>
+                              <th class="t1">자유게시판</th>
                            </tr>
                         </thead>
                         <tbody>
                            <c:forEach var="i" begin="1" end="10">
                               <tr>
-                                 <td class="t1">${i}</td>
-                                 <td class="t2">[자유게시판]</td>
-                                 <td class="t3">테스트${i}</td>
-                                 <td class="t4">kjs${i}</td>
-                                 <td class="t5">2017-12-28</td>
-                                 <td class="t6">${i}</td>
-                                 <td class="t7">10</td>
+                                 <td class="t1">
+                                 	<div class="row td-row">
+                                		<div class="col-md-1" style="line-height: 0px;">
+						                </div>
+                                		<div class="col-md-10 myComuunityList-col-md-10">
+	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
+	                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
+	                                 		<br/>
+	                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+	                                    </div>
+		                                <div class="col-md-1 myComuunityList-Img">
+			                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+	                                 	</div>
+	                                </div>
+	                                <div class="row td-row2">
+	                                 	<div class="col-md-1">
+	                                 	</div>
+	                                 	<div class="col-md-11">
+	                                 		<span>[자유게시판]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span>
+	                                 		<span style="float: right;">2018-02-12 12:00</span>
+	                                 	</div>
+                                	</div>
+                                 </td>
                               </tr>
                            </c:forEach>
                         </tbody>
@@ -104,7 +114,7 @@
               
               
               <!-- 자유게시판 list START -->
-              <div class="fr-xs-list">
+              <div class="cd-xs-list">
               <div class="row table-list">
                   <div class="col-md-12">
 
@@ -127,7 +137,7 @@
 		                                
 		                                 
 		                                <div class="col-xs-2">
-	                                 		<button class="btn btn-primary fr-xs-count-btn">2</button>
+	                                 		<button class="btn btn-primary cd-xs-count-btn">2</button>
 	                                 	</div>
                                  	</div>
                                  	
@@ -140,7 +150,7 @@
                      
                      <!-- 글쓰기 버튼 START -->
                      <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-			         	<button class="btn btn-primary fr-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
+			         	<button class="btn btn-primary cd-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
 			         </a>
 			         <!-- 글쓰기 버튼 END -->
                   </div>
