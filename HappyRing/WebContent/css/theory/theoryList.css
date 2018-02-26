@@ -34,12 +34,12 @@
 
 
 /* 블록 형식의 list div */
-.th-list {
-    /* padding-top: 25px; */
+.th-list-block{
+    padding-top: 25px;
     margin-top: 15px;
     padding-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 9px;
+    padding-right: 14px;
     background-color: white;
     /* border: solid red; */
 }
@@ -143,15 +143,6 @@
            margin-top: 0px;
 	}
 }
-/* istope 버튼그룹 위치 조정 */
-@media (min-width: 992px){
-	.th-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
-	.isotope-filters-list.isotope-filters-list-buttons{
-		  margin-left: 460px;
-	}
-}
-
-
 
 /* istope 버튼 radius 및 크기(padding)조정  */
 @media (min-width: 992px){
@@ -401,46 +392,55 @@
 
 
 
+
+
+
+
 /*istope버튼 css*/
 .isotope-filters-list.isotope-filters-list-buttons{
 	margin-left: 300px;
 }
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .thq-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a, 
+	.th-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a {
 		 border-radius: 8px;
 		 padding: 5px 19px;
 }
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .thq-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a.active, 
+	.th-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a.active {
 		color: #fff;
 	    background: rgb(0, 200, 202);
 	    border-color: rgb(0, 200, 202);
 }
 /* list 카테고리 버튼(isotope) 오른쪽 정렬 */
-.thq-list .isotope-filters-horizontal {
+.thq-list .isotope-filters-horizontal, .th-list .isotope-filters-horizontal, .th-list-block .isotope-filters-horizontal, .th-list .isotope-filters-horizontal {
 	float: right;
 }
 /* list 카테고리 버튼(isotope) height 영역 설정 */
-.thq-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+.thq-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12, .th-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12, .th-list-block .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
 	height: 42px;
 }
 
 
 /* 묻고답하기 리스트 테두리 선 */
-.thq-list .table-list .table > tbody > tr > td{
-/* 	padding: 8px; */
-/*     line-height: 1.42857; */
-/*     vertical-align: top; */
+.thq-list .table-list .table > tbody > tr > td, .th-list .table-list .table > tbody > tr > td{
+	padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
     border-bottom: 1px dashed #ddd;
     border-top: 0;
+    width: 100%;
 }
 
-.thq-list .row {
+.thq-list .table-list .row, .th-list .table-list .row {
 	margin-bottom: 0;
 }
-.thq-list [data-isotope-layout] .row > [class*="col-"] {
+.thq-list [data-isotope-layout] .row > [class*="col-"], .th-list [data-isotope-layout] .row > [class*="col-"] {
 	margin-top: 0;
 }
 
@@ -453,29 +453,29 @@
 .td-row .col-md-1:first-child {
     padding-left: 0px;
     padding-right: 0px;
-    width: 4.5%;	
+    width: 3.5%;	
 }
 
-.td-row .col-md-10{
+.td-row .col-md-11{
 	padding-left: 0px;
-/* 	width: 95.5%; */
+	width: 95.5%;
 }
 
 /* 리스트 상단 제목에 css 주기*/
-.td-row .col-md-10 span{
+.td-row .col-md-11 span{
 	font-size: 14.5px;
 	color: black;
 }
 
 /* 리스트 중간 내용에 css 주기*/
-.td-row .col-md-10 p {
+.td-row .col-md-11 p {
 	margin: 0;
 	font-size: 12px;
 	margin-top: 1%;
 	
 }
 
-.td-row .col-md-10 .glyphicon{
+.td-row .col-md-11 .glyphicon{
 	font-size: 11px;
     float: right;
     line-height: 24px;
@@ -491,7 +491,7 @@
 .td-row2 .col-md-1:first-child {
     padding-left: 0px;
     padding-right: 0px;
-    width: 4.5%;	
+    width: 3.5%;	
 }
 
 /* 리스트 하단 부가정보에 css 주기*/
@@ -511,19 +511,21 @@
 }
 
 
-.thq-list .td-row .myInfoReviewList-col-md-10{
+.thq-list .td-row .myInfoReviewList-col-md-10, .th-list .td-row .myInfoReviewList-col-md-10{
 	padding-left: 0px;
     width: 84.5%;
     padding-right: 4px;
 }
 
 @media (min-width: 992px){
-.thq-list .td-row .myInfoReviewList-Img{
+.thq-list .td-row .myInfoReviewList-Img, .th-list .td-row .myInfoReviewList-Img{
 	    padding-right: 0px;
     	padding-left: 0px;
 	}
 }
 /* 묻고답하기list  list END */
+
+
 
 
 

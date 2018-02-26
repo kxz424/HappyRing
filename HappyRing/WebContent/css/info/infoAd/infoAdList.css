@@ -107,14 +107,6 @@
            margin-top: 0px;
 	}
 }
-/* istope 버튼그룹 위치 조정 */
-@media (min-width: 992px){
-	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
-	.isotope-filters-list.isotope-filters-list-buttons{
-/* 		  margin-left: 460px; */
-   		  margin-left: 338px;
-	}
-}
 
 
 
@@ -147,6 +139,15 @@
 	    border-color: rgb(0, 200, 202);
 	}
 
+}
+
+/* list 카테고리 버튼(isotope) 오른쪽 정렬 */
+.ct-list-block .isotope-filters-horizontal {
+	float: right;
+}
+/* list 카테고리 버튼(isotope) height 영역 설정 */
+.ct-list-block .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+	height: 42px;
 }
 
 

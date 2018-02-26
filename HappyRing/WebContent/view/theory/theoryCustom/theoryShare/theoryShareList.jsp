@@ -140,7 +140,7 @@
 	   
 	   
 	              <!-- Isotope Filters-->
-                  <div class="cell-lg-12" style="padding-right: 0px;margin-top: 38px;s">
+                  <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12" style="padding-right: 0px;margin-top: 38px;s">
                     <ul class="isotope-filters isotope-filters-horizontal">
                       <li class="block-top-level">
                         <!-- Isotope Filters-->

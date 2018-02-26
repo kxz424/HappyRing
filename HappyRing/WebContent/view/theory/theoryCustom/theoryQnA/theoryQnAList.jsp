@@ -68,31 +68,35 @@
               	<div class="row table-list">
                   <div class="col-md-12">
                   
-                  
+                  <!-- Isotope Filters-->
+                    <ul class="isotope-filters isotope-filters-horizontal">
+                      <li class="block-top-level">
+                        <!-- Isotope Filters-->
+                        <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-3" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
+                        <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-3">
+                          <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="gallery3" href="#">전체</a></li>
+                          <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">추천순</a></li>
+                          <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">조회순</a></li>
+                        </ul>
+                      </li>
+                    </ul>
 
 
                      <table class="table table-hover">
                            
                                  
-                         <tbody>
+                         <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
                            <c:forEach var="i" begin="1" end="4">
 	                           <tr>
-	                              <td>
+	                              <td class="isotope-item" data-filter="type 1">
                                 	<div class="row td-row">
                                 		<div class="col-md-1" style="line-height: 0px;">
-	                                		<label class="checkbox-inline">
-							                  <input type="checkbox" checked="" name="check-1">
-							                </label>
 						                </div>
-                                		<div class="col-md-10">
+                                		<div class="col-md-11">
 	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
-	                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
 	                                 		<br/>
 	                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 	                                    </div>
-		                                <div class="col-md-1">
-	<!-- 		                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png"> -->
-	                                 	</div>
 	                                </div>
 	                                <div class="row td-row2">
 	                                 	<div class="col-md-1">
@@ -104,7 +108,32 @@
                                 	</div>
 	                              </td>
 								</tr>   
-							</c:forEach>                               	
+							</c:forEach>   
+							<c:forEach var="i" begin="1" end="4">
+	                           <tr>
+	                              <td class="isotope-item" data-filter="type 2">
+                                	<div class="row td-row">
+                                		<div class="col-md-1" style="line-height: 0px;">
+						                </div>
+                                		<div class="col-md-11">
+	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
+	                                 		<br/>
+	                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+	                                    </div>
+	                                </div>
+	                                <div class="row td-row2">
+	                                 	<div class="col-md-1">
+	                                 	</div>
+	                                 	<div class="col-md-11">
+	                                 		<span>[아동심리학]</span> | <span>1분전</span> | <span>답변 0</span> | <span>내공 10</span>
+	                                 		<span style="float: right;">2018-02-12</span>
+	                                 	</div>
+                                	</div>
+	                              </td>
+								</tr>   
+							</c:forEach>
+
+                           	
                           </tbody>
                            
                      </table>

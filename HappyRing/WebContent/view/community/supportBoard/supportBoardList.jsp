@@ -101,13 +101,12 @@
                                  		<div class="row td-row">
 	                                		<div class="col-md-1" style="line-height: 0px;">
 							                </div>
-	                                		<div class="col-md-10 myInfoReviewList-col-md-10">
+	                                		<div class="col-md-10 myComuunityList-col-md-10">
 		                                 		<span><strong>OO고민 응원합니다</strong></span>
-		                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
 		                                 		<br/>
 		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 		                                    </div>
-			                                <div class="col-md-1 myInfoReviewList-Img">
+			                                <div class="col-md-1 myComuunityList-Img">
 				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
 		                                 	</div>
 		                                </div>
@@ -130,13 +129,12 @@
                                  		<div class="row td-row">
 	                                		<div class="col-md-1" style="line-height: 0px;">
 							                </div>
-	                                		<div class="col-md-10 myInfoReviewList-col-md-10">
+	                                		<div class="col-md-10 myComuunityList-col-md-10">
 		                                 		<span><strong>OO고민 응원합니다</strong></span>
-		                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
 		                                 		<br/>
 		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 		                                    </div>
-			                                <div class="col-md-1 myInfoReviewList-Img">
+			                                <div class="col-md-1 myComuunityList-Img">
 				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
 		                                 	</div>
 		                                </div>
