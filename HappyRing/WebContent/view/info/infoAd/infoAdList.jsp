@@ -105,7 +105,7 @@
 	   
 	   
 	              <!-- Isotope Filters-->
-                  <div class="cell-lg-12" style="padding-right: 0px;margin-top: 38px;s">
+                  <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12" style="padding-right: 0px;">
                     <ul class="isotope-filters isotope-filters-horizontal">
                       <li class="block-top-level">
                         <!-- Isotope Filters-->
@@ -114,7 +114,6 @@
                           <li><a class="button-nina active" data-isotope-filter="*" data-isotope-group="gallery3" href="#">전체</a></li>
                           <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">추천순</a></li>
                           <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">조회순</a></li>
-                          <li><a class="button-nina" data-isotope-filter="type 3" data-isotope-group="gallery3" href="#">댓글순</a></li>
                         </ul>
                       </li>
                     </ul>

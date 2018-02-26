@@ -85,7 +85,6 @@
 						                </div>
                                 		<div class="col-md-10 myComuunityList-col-md-10">
 	                                 		<span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
-	                                 		<span class="icon glyphicon glyphicon-remove">삭제</span>
 	                                 		<br/>
 	                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 	                                    </div>
