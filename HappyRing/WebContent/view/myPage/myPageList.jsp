@@ -89,10 +89,10 @@
              <li class="hn"><a href="#tabs-my-Info" data-toggle="tab">내 정보</a></li>
              <li class="hn"><a href="#tabs-my-article" data-toggle="tab">my 게시물 </a></li>
              <li class="hn"><a href="#tabs-my-comment" data-toggle="tab">my 댓글 </a></li>
-             <li class="hn"><a href="#tabs-my-answer" data-toggle="tab">my 답변 </a></li>
+             <li class="hn active"><a href="#tabs-my-answer" data-toggle="tab">my 답변 </a></li>
              <li class="hn"><a href="#tabs-my-like" data-toggle="tab">나의 보관함</a></li>
 <!--              <li class="hn"><a href="#tabs-my-bookmark" data-toggle="tab">임시)북마크</a></li> -->
-			 <li class="hn active"><a href="#tabs-my-favorite" data-toggle="tab">임시)즐겨찾기</a></li>
+			 <li class="hn"><a href="#tabs-my-favorite" data-toggle="tab">임시)즐겨찾기</a></li>
            </ul>
            <!-- Tab panes-->
            <div class="tab-content">
@@ -210,7 +210,7 @@
               
                
                	<div class="my-comment-div">
-		        		<jsp:include page="/view/myPage/myComment/list/myCommentList.jsp"></jsp:include>
+		        		<jsp:include page="/view/myPage/myComment/myCommentList.jsp"></jsp:include>
 			   </div>
 
 
@@ -222,17 +222,44 @@
              
              
              <!-- ### tab pane_4 : my답변 -->
-             <div class="tab-pane fade" id="tabs-my-answer">
-               <!-- Card info-->
-               <article class="card-info">
-                 <div class="card-info-aside"><img class="card-info-image" src="images/roy-henry-150x150.jpg" alt="" width="150" height="150"/>
-                 </div>
-                 <div class="card-info-main">
-                   <h5 class="card-info-title">Roy Henry</h5>
-                   <p class="card-info-subtitle">Founder</p>
-                   <p>Roy is the main person behind Brave. He is the multitalented manager and a former UX designer who is a true mine of creative ideas for everyone at our team.</p><a class="button button-default-outline button-nina" href="#">learn more</a>
-                 </div>
-               </article>
+             <div class="tab-pane fade in active" id="tabs-my-answer">
+             
+               <div class="row">
+		             <!--# dropBox START-->
+<!-- 		             <div class="col-md-3"> -->
+<!-- 		               <select id="selectOption" onchange="onChangeValue()" class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city"> -->
+<!-- 		                 <option label=" "> </option> -->
+<!-- 		                 <option value="1" selected="">심리학지식</option> -->
+<!-- 		                 <option value="2">묻고답하기</option> -->
+<!-- 		                 <option value="3">커뮤니티</option> -->
+<!-- 		                 <option value="4">상담홍보</option> -->
+<!-- 		                 <option value="5">상담후기</option> -->
+<!-- 		                 <option value="6">관리자에게</option> -->
+<!-- 		               </select> -->
+<!-- 		             </div>   -->
+		             <!-- dorpBox END -->
+		             <div class="col-md-9"><p>내가 답변한 게시글 리스트</p></div>
+	
+		             <!-- # checkBox START -->		
+		             <div class="col-md-3 checkbox-div">
+		               <div class="form-wrap">
+		                <label class="checkbox-inline">
+		                  <input type="checkbox" checked="" name="check-1">전체선택
+		                </label>
+		                <label class="checkbox-inline">
+		                  <input type="checkbox" checked="" name="check-1">선택삭제
+		                </label>
+		               </div>
+		             </div>
+		             <!-- checkBox END -->		
+	             </div> 
+              
+               
+               	<div class="my-answer-div">
+		        		<jsp:include page="/view/myPage/myAnswer/myAnswerList.jsp"></jsp:include>
+			   </div>
+
+
              </div>
              
              
@@ -362,7 +389,7 @@
              	 
              	 
              	 <!-- 임시 : ### tab pane_7 : 즐겨찾기  -->
-             	 <div class="tab-pane fade in active" id="tabs-my-favorite">
+             	 <div class="tab-pane fade" id="tabs-my-favorite">
 
 
 				    <div class="row my-following">

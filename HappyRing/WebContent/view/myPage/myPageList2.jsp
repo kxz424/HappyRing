@@ -210,7 +210,7 @@
               
                
                	<div class="my-comment-div">
-		        		<jsp:include page="/view/myPage/myComment/list/myCommentList.jsp"></jsp:include>
+		        		<jsp:include page="/view/myPage/myComment/myCommentList.jsp"></jsp:include>
 			   </div>
 
 
