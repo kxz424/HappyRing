@@ -40,28 +40,28 @@
 
 		           	 <!-- Comment-->
 		            <c:forEach var="i" begin="1" end="2">
-	                <div style="border-top: dashed 1px; border-bottom: dashed 1px; padding: 8px 0px 12px 0px;">
+	                <div class="comment-inner-div">
 		                <article class="comment">
-			               <div class="comment-avatar" style="line-height: 0.8;">
+			               <div class="comment-avatar">
 				                <label class="checkbox-inline">
 				                  <input type="checkbox" checked="" name="check-1">
 				                </label>
 			               </div>
-		                   <div class="comment-body" style="padding-left: 15px;">
+		                   <div class="comment-body">
 			                    <div class="row">
 			                      <div class="col-md-11">
 					                <div class="comment-header">
-					                    <p class="comment-title" style="font-size: 14px;">[고민게시판]</p>
-					                    <time class="comment-time" datetime="2018" style="font-size: 12px;">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
-					                    <span class="comment-reply" style="font-size: 13px;">새로운유저입니다 님</span>
+					                    <p class="comment-title">[고민게시판]</p>
+					                    <time class="comment-time" datetime="2018">2018-02-07 <span>&nbsp;&nbsp;10:30</span></time>
+					                    <span class="comment-reply">새로운유저입니다 님</span>
 					                </div>
 			                      </div>
-			                      <div class="col-md-1" style="padding-top: 7px;">
+			                      <div class="col-md-1">
 			                      	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span></a>
 			                      </div>
 			                    </div>
 		                    
-			                    <div class="comment-text" style="font-size: 15px; margin-top: 0px;">
+			                    <div class="comment-text">
 				                    <p> Thank you for your comment! I will publish more tips on social communication as well as 
 				                    some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 				                    </p>
@@ -72,28 +72,28 @@
 	                
 	                
 	                <!-- Comment-->
-	                <div style="border-top: dashed 1px; border-bottom: dashed 1px; padding: 8px 0px 12px 0px;">
+	                <div class="comment-inner-div">
 		                <article class="comment">
-			               <div class="comment-avatar" style="line-height: 0.8;">
+			               <div class="comment-avatar">
 				                <label class="checkbox-inline">
 				                  <input type="checkbox" checked="" name="check-1">
 				                </label>
 			               </div>
-		                   <div class="comment-body" style="padding-left: 15px;">
+		                   <div class="comment-body">
 			                    <div class="row">
 			                      <div class="col-md-11">
 					                <div class="comment-header">
-					                    <p class="comment-title" style="font-size: 14px;">[심리이론]</p>
-					                    <time class="comment-time" datetime="2018" style="font-size: 12px;">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
-					                    <span class="comment-reply" style="font-size: 13px;">새로운유저입니다 님</span>
+					                    <p class="comment-title">[심리이론]</p>
+					                    <time class="comment-time" datetime="2018">2018-02-07 <span>&nbsp;&nbsp;10:30</span></time>
+					                    <span class="comment-reply">새로운유저입니다 님</span>
 					                </div>
 			                      </div>
-			                      <div class="col-md-1" style="padding-top: 7px;">
+			                      <div class="col-md-1">
 			                      	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span></a>
 			                      </div>
 			                    </div>
 		                    
-			                    <div class="comment-text" style="font-size: 15px; margin-top: 0px;">
+			                    <div class="comment-text">
 				                    <p> Thank you for your comment! I will publish more tips on social communication as well as 
 				                    some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 				                    </p>
