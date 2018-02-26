@@ -565,7 +565,6 @@
 	margin-top: 0px;
 }
 
-/**/
 
 
 /* # tab pane_2 : my댓글 css END*/
@@ -574,6 +573,89 @@
 
 
 /*################ tab pane_4 : my답변 css START*/
+
+
+
+/*my답글 div*/
+.my-answer-div{
+	margin-right: 61px;  
+	margin-left: 27px; 
+	margin-top: 4%;
+}
+
+/* myAnserList.jsp파일 내에 comment div css */
+.answer-inner-div{
+	border-top: solid 1px; 
+	border-bottom: solid 1px; 
+	padding: 12px 0px 16px 0px;
+}
+
+/* checkBox 위치 조정 */
+.answer-inner-div .comment-avatar{
+	line-height: 0;
+}
+
+/* 답글 padding 주기 */
+.answer-inner-div .comment-body{
+/* 	padding-left: 15px; */
+    padding-left: 2px;
+	padding-top: 4px;
+}
+
+/* 답글 header title font-size 조정 */
+.answer-inner-div .comment-title{
+	font-size: 14px;
+}
+
+/* 답글 header title > 제목 */
+.answer-inner-div .comment-title span{
+    color: black;
+    font-size: 13px;
+}
+
+
+/* 댓글 날짜 font-size 조정 */
+.answer-inner-div .comment-time{
+	font-size: 12px;
+}
+
+
+/* 댓글 날짜 입력 칸 col-md-2 패딩 조정 */
+@media (min-width: 992px){
+	.answer-inner-div .comment-time.col-md-4{
+		padding-left: 14px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+}
+
+
+/* 댓글 날짜 입력 칸 col-md-2 패딩 조정 */
+@media (min-width: 992px){
+	.answer-inner-div .comment-time.col-md-2{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 0px;
+	}
+}
+
+/* 날짜 표시란 안에 시간효시 font-size 조정 */
+.answer-inner-div .comment-time span:first-child{
+	font-size: 11px;
+}
+
+
+/* 삭제버튼 icon 위치 조정 */
+.answer-inner-div .comment-body .col-md-1{
+	padding-top: 7px;
+}
+
+/* 댓글 내용 text-size 및 css 조정 */
+.answer-inner-div .comment-text{
+	font-size: 15px; 
+	margin-top: 0px;
+}
+
 
 /* # tab pane_4 : my답변 css END*/
 
