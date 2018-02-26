@@ -209,7 +209,7 @@
 	             </div> 
               
                
-               	<div class="my-comment-div" style="margin-right: 61px;  margin-left: 27px; margin-top: 4%;">
+               	<div class="my-comment-div">
 		        		<jsp:include page="/view/myPage/myComment/list/myCommentList.jsp"></jsp:include>
 			   </div>
 
@@ -251,7 +251,7 @@
                         <div class="circle-tile">
                             <a href="#">
                                 <div class="circle-tile-heading dark-blue">
-                                    <div class="icon mdi-star mdi" style="color: yellow;"></div>
+                                    <div class="icon mdi-star mdi"></div>
                                 </div>
                             </a>
                             <div class="circle-tile-content dark-blue">
@@ -270,7 +270,7 @@
 	                    <div class="circle-tile">
 	                        <a href="#">
 	                            <div class="circle-tile-heading green">
-	                                <div class="icon mdi-bookmark mdi" style="color: yellow;"></div>
+	                                <div class="icon mdi-bookmark mdi"></div>
 	                            </div>
 	                        </a>
 	                        <div class="circle-tile-content green">
@@ -378,9 +378,9 @@
 				                </div>
 				                <div class="info">
 				                    <div class="title">
-				                        <a target="_blank" href="http://www.doweb.in/">ZICO</a>
+				                        <a target="_blank" href="http://www.doweb.in/">ZICOㅇㅇ2</a>
 				                    </div>
-				                    <div class="desc"># 모두가 행복했으면 좋겠다</div>
+				                    <div class="desc"># 모두가 행복했으면 좋겠다ㄴㅇㄻㄴㅇ</div>
 				                    <div class="desc">게시글 110   |   답변 12   |   댓글 20 </div>
 				                     <div class="desc">새글 <span class="icon glyphicon glyphicon-bell"></span></div>
 				                </div>
