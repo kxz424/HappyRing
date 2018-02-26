@@ -250,6 +250,55 @@
 }
 
 
+/** ## 버튼들  css START */ 
+
+.thd-div-buttons{
+    /* border: solid #f2f3f9; */
+    /* padding-top: 30px; */
+    padding-top: 30px;
+    padding-bottom: 22px;
+    margin: 0 20px 30px 20px;
+    height: auto;
+    background-color: #f2f3f9;
+}
+/* 각종 표현 버튼 중앙에 위치 */
+.thd-div-buttons .center {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 60%;
+  height: 100px;
+  top: 25%;
+}
+/* 각종 표현 버튼 각각 위치 및 크기 조정 */
+.thd-div-buttons .smile {
+  position: relative;
+  width: 16.5%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+/* 각종 표현 버튼 중 이미지 부분 */
+.thd-div-buttons .smile>img{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+}
+/* 각종 표현 버튼 중 글자 부분 */
+.thd-div-buttons .smile>label>span{
+	font-size: 12px;
+	color: #83838691;
+}
+.thd-div-buttons .smile>label {
+	line-height: 18px;
+}
+
+
+
+
+/** 버튼들 css END */
+
 
 
 /** 같이보면 좋을 list css END */
@@ -261,7 +310,7 @@
 	height: 28px;
 	margin-top: 65px;
     margin-bottom: 9px;
-    padding-right: 10px;
+/*     padding-right: 10px; */
 }
 
 .thd-div-etc-buttons .bottom-etc-buttons{
@@ -281,6 +330,12 @@
     color: #838386;
 }
 
+/* comment(댓글 버튼) */
+.thd-div-etc-buttons .btn-comment:hover, .thd-div-etc-buttons .btn-comment.btn-active {
+    color: black;
+	background-color: #0080ff;
+	border-color: #0080ff;
+    }
 /* heart(좋아요 버튼) */
 .thd-div-etc-buttons .btn-heart:hover, .thd-div-etc-buttons .btn-heart.btn-active {
     color: black;
@@ -295,12 +350,40 @@
 	border-color: #e5da00;
     }
     
+/* bookmark (북마크 버튼) */
+.thd-div-etc-buttons .btn-bookmark:hover, .thd-div-etc-buttons .btn-bookmark.btn-active {
+    color: black;
+	background-color: #cb7100;
+	border-color: #cb7100;
+    }   
+    
 /* share (공유 버튼) */
 .thd-div-etc-buttons .btn-share:hover, .thd-div-etc-buttons .btn-share.btn-active {
     color: black;
 	background-color: #57ca00;
 	border-color: #57ca00;
     }    
+    
+/* pencil (글쓰기 버튼) */
+.thd-div-etc-buttons .btn-pencil:hover, .thd-div-etc-buttons .btn-pencil.btn-active {
+    color: black;
+	background-color: #7f7f7f;
+	border-color: #7f7f7f;
+    }  
+    
+/* edit (수정 버튼) */
+.thd-div-etc-buttons .btn-erase:hover, .thd-div-etc-buttons .btn-erase.btn-active {
+    color: black;
+	background-color: #808000;
+	border-color: #808000;
+    }
+   
+/* edit (수정 버튼) */
+.thd-div-etc-buttons .btn-trash:hover, .thd-div-etc-buttons .btn-trash.btn-active {
+    color: black;
+	background-color: #ff4a39;
+	border-color: #ff4a39;
+    } 
     
 /* list(목록 버튼) */
 .thd-div-etc-buttons .btn-list:hover {

@@ -116,31 +116,19 @@
 		                	 <tbody><tr valign="top">
 		                        <td class="td-nick no-div-etc-buttons">
 		                        
-			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-										   <button type="button" class="btn btn-heart btn-xs">
-											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-										   </button>
-										   	
-										   <button type="button" class="btn btn-star btn-xs">
-											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-										   </button>
+			                        <!-- ## 조회수, 좋아요, 북마크 등 버튼 css START -->
+									<button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+								   </button>
+								   	
+								   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+								   </button>
+								   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+									 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+								   </button>
 										   
-										   <button type="button" class="btn btn-share btn-xs">
-											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-										   </button>
-										   
-<!-- 										   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 										   </button> -->
-										   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
-											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-										   </a>
-										   
-<!-- 										   <button type="button" class="btn btn-correction btn-xs"> -->
-<!-- 											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의 -->
-<!-- 										   </button> -->
-										   
-									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+									<!-- 조회수, 좋아요, 북마크 등 버튼 css END -->
 		                        
 		                        
 		                        
@@ -222,49 +210,44 @@
 					<!-- 같이보면 좋을 list END -->		
 					
 					
-					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="no-div-etc-buttons">
-					  <div class="bottom-etc-buttons">
-						   <button type="button" class="btn btn-heart btn-xs">
-							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-						   </button>
-						   	
-						   <button type="button" class="btn btn-star btn-xs">
-							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-						   </button>
-						   
-						   <button type="button" class="btn btn-share btn-xs">
-							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-						   </button>
-						   
-<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 						   </button> -->
-						   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
-							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-						   </a>
-						   
-<!-- 						   <button type="button" class="btn btn-correction btn-xs"> -->
-<!-- 							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 수정건의 -->
-<!-- 						   </button> -->
-					  </div>	
-					  
+					<!-- ## 댓글, 나도궁금, 신고 등 버튼 css START -->
+					<div class="no-div-etc-buttons row">
+						<div class="col-md-6">
+							<div class="infoad-div-bottom-btn">
+							   <button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+							   </button>
+							   	
+							   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+							   </button>
+							   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+								 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+							   </button>
+							   <button type="button" class="btn btn-share btn-xs" data-toggle="tooltip" data-placement="top" title="공유하기">
+								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+							   </button>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bottom-etc-buttons">
+								<button type="button" class="btn btn-pencil btn-xs" data-toggle="tooltip" data-placement="top" title="글쓰기">
+								 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+							   	</button>
+							   	
+							   	<button type="button" class="btn btn-erase btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
+								 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+							   	</button>
+							   	<button type="button" class="btn btn-trash btn-xs" data-toggle="tooltip" data-placement="top" title="삭제">
+								 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+							   	</button>
+								<a href="theoryBasicList.jsp" class="btn btn-list btn-xs" data-toggle="tooltip" data-placement="top" title="목록으로">
+								 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+							   	</a>
+					  		</div>	
+						</div>
 					</div>
 					
-					<div class="correction-send no-send-none">
-					  	
-					  <div class="row" style="padding-top: 20px; border: solid;">
-					  	<div class="col-md-12">
-					  		<textarea class="form-input txtComment"></textarea>
-					  	</div>
-					  	
-					  	<div class="col-md-offset-10 col-md-2">
-					  		<button class="btn btn-primary">건의요청</button>
-					    </div>
-					  </div>
-					  
-					  
-				    </div>
 					<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
 								
 					

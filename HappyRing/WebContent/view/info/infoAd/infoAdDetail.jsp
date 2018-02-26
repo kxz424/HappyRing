@@ -39,7 +39,7 @@
 	   
 	         
 	         <!-- ## 게시글 title START -->
-   			 <div class="info-title">
+   			 <div class="infoad-title">
    				<!-- # 타이틀  -->
 				<div class="row">
                   <div class="col-md-6">
@@ -62,9 +62,9 @@
 	         
 	         
 	         <!-- ### detail-div : 심리학 detail START -->
-	         <div class="info-div">
+	         <div class="infoad-div">
 				<!-- ## detail-div-inline START -->
-				<div class="info-div-inline">
+				<div class="infoad-div-inline">
 					
 					
 					<!-- # 카테고리, 등록일 div START -->
@@ -101,7 +101,7 @@
 				
 				
 				<!-- ## 상담소 소개 : top 간략 설명 부분 START -->
-				<div class="info-simple-info-div" >
+				<div class="infoad-simple-info-div" >
 					<div class="range range-ten range-xs-center range-md-justify range-30 range-md-middle">
 			            <div class="cell-md-4 cell-lg-5 cell-xl-4">
 			              <div class="produinfo-single-preview">
@@ -188,38 +188,86 @@
 					<!-- 본문 제목, 내용 END  -->
 					
 					
-					
-					
-					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="info-div-etc-buttons">
-					  <div class="bottom-etc-buttons">
-						   <button type="button" class="btn btn-heart btn-xs">
-							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-						   </button>
-						   	
-						   <button type="button" class="btn btn-star btn-xs">
-							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-						   </button>
-						   
-						   <button type="button" class="btn btn-share btn-xs">
-							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-						   </button>
-						   
-<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 						   </button> -->
-						   <a href="theoryShareList.jsp" class="btn btn-list btn-xs">
-							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-						   </a>
-						   
-						   <button type="button" class="btn btn-correction btn-xs">
-							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고하기
-						   </button>
-					  </div>	
+					<!-- ## 버튼들 START -->
+					<div class="infoad-div-buttons">
 					  
+					  <div class="center" style="">
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin7.png"/><br/>
+						  	<label><strong>2</strong><br/><span>저도그랬어요</span></label>
+						  </div>
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin1.png"/><br/>
+						  	<label><strong>3</strong><br/><span>괜찮아요</span></label>
+						  </div>
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin6.png"/><br/>
+						  	<label><strong>4</strong><br/><span>위로드려요</span></label>
+						  </div>
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin4.png"/><br/>
+						  	<label><strong>5</strong><br/><span>슬퍼요</span></label>
+						  </div>
+						  <div class="smile">
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin2.png"/><br/>
+						  	<label><strong>6</strong><br/><span>화나요</span></label>
+						  </div>
+						  <div class="smile">
+						  
+						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin3.png"/><br/>
+						  	<label><strong>6</strong><br/><span>이후의 이야기원해요</span></label>
+						  </div>
+					  </div>
+				  
+					</div>
+					<!-- 버튼들 END -->
+					
+					
+					<!-- ## 댓글, 나도궁금, 신고 등 버튼 css START -->
+					<div class="infoad-div-etc-buttons row">
+						<div class="col-md-6">
+							<div class="infoad-div-bottom-btn">
+							   <button type="button" class="btn btn-xs btn-comment" data-toggle="tooltip" data-placement="top" title="댓글">
+								 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 5
+							   </button>
+							   <button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+							   </button>
+							   	
+							   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+							   </button>
+							   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+								 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+							   </button>
+							   <button type="button" class="btn btn-share btn-xs" data-toggle="tooltip" data-placement="top" title="공유하기">
+								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+							   </button>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bottom-etc-buttons">
+								<button type="button" class="btn btn-pencil btn-xs" data-toggle="tooltip" data-placement="top" title="글쓰기">
+								 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+							   	</button>
+							   	
+							   	<button type="button" class="btn btn-erase btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
+								 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+							   	</button>
+							   	<button type="button" class="btn btn-trash btn-xs" data-toggle="tooltip" data-placement="top" title="삭제">
+								 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+							   	</button>
+								<a href="theoryBasicList.jsp" class="btn btn-list btn-xs" data-toggle="tooltip" data-placement="top" title="목록으로">
+								 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+							   	</a>
+							   	<button type="button" class="btn btn-correction btn-xs">
+								 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
+							   	</button>
+					  		</div>	
+						</div>
 					</div>
 					
-					<div class="correction-send info-send-none">
+					<div class="correction-send infoad-send-none">
 					  	
 					  <div class="row" style="padding-top: 20px; border: solid;">
 					  	<div class="col-md-12">
@@ -237,7 +285,7 @@
 								
 					
 					<!--## 댓글 SATART -->
-					<div class="info-div-comment">
+					<div class="infoad-div-comment">
 					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
@@ -270,13 +318,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply infoad-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group info-none">
+		                  <div class="comment-group infoad-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
@@ -294,7 +342,7 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply infoad-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    <hr>
@@ -315,13 +363,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply infoad-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    <!--# 댓글 입력 -->
 					
-							<form class="rd-mailform info-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform infoad-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -377,12 +425,12 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply infoad-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                  
 		                  <!-- 대댓글 영역 START -->
-		                  <div class="comment-group info-none">
+		                  <div class="comment-group infoad-none">
 		                    <!-- Comment-->
 		                    <article class="comment">
 		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
@@ -400,13 +448,13 @@
 		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
 		                         </p>
 		                        </div>
-		                         <div class="comment-footer"><a class="comment-link-reply info-reply-btn" href="#">Reply</a></div>
+		                         <div class="comment-footer"><a class="comment-link-reply infoad-reply-btn" href="#">Reply</a></div>
 		                      </div>
 		                    </article>
 		                    
 		                    
 		                    <!--# 댓글 입력 -->
-							<form class="rd-mailform info-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+							<form class="rd-mailform infoad-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
 			                  <div class="range range-20">
 			                    
 			                    <!-- 닉네임입력 -->
@@ -464,7 +512,7 @@
 			                <label class="checkbox-inline">
 			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 			                </label>
-  							<div class="tooltip-custom info-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+  							<div class="tooltip-custom infoad-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
 							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
 							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
 							</div>
@@ -476,7 +524,7 @@
 	                    <!-- 댓글 내용 입력칸 --> 
 	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 	                      <div class="form-wrap form-wrap-validation">
-	                      	<div contentEditable="true" class="form-input txtComment info-img"></div>
+	                      	<div contentEditable="true" class="form-input txtComment infoad-img"></div>
 	                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 	                      </div>
 	                    </div>
@@ -576,7 +624,7 @@
 	   
 	   
 	   		 <!-- ## 다음글/이전글 list START  -->	
-	   		 <div class="info-bottom-list-div">
+	   		 <div class="infoad-bottom-list-div">
 	   		 	 <table class="table table-hover">
                   <tbody>
                     <tr>

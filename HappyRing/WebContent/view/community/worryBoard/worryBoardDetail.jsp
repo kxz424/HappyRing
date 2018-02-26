@@ -116,31 +116,19 @@
 		                	 <tbody><tr valign="top">
 		                        <td class="td-nick cd-div-etc-buttons">
 		                        
-			                        <!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-										   <button type="button" class="btn btn-heart btn-xs">
-											 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-										   </button>
-										   	
-										   <button type="button" class="btn btn-star btn-xs">
-											 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-										   </button>
+			                        <!-- ## 조회수, 좋아요, 북마크 등 버튼 css START -->
+									<button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+								   </button>
+								   	
+								   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+								   </button>
+								   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+									 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+								   </button>
 										   
-										   <button type="button" class="btn btn-share btn-xs">
-											 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-										   </button>
-										   
-<!-- 										   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 										   </button> -->
-										   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
-											 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-										   </a>
-										   
-										   <button type="button" class="btn btn-correction btn-xs">
-											 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
-										   </button>
-										   
-									<!-- 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css END -->
+									<!-- 조회수, 좋아요, 북마크 등 버튼 css END -->
 		                        
 		                        
 		                        
@@ -201,44 +189,113 @@
 					  	 </div> 
 					  	 <!-- 본문 내용 END -->   
 					
+					
+					
+						<!-- ## 버튼들 START -->
+						<div class="cd-div-buttons">
+						  
+						  <div class="center" style="">
+							  <div class="smile">
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin7.png"/><br/>
+							  	<label><strong>2</strong><br/><span>저도그랬어요</span></label>
+							  </div>
+							  <div class="smile">
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin1.png"/><br/>
+							  	<label><strong>3</strong><br/><span>괜찮아요</span></label>
+							  </div>
+							  <div class="smile">
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin6.png"/><br/>
+							  	<label><strong>4</strong><br/><span>위로드려요</span></label>
+							  </div>
+							  <div class="smile">
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin4.png"/><br/>
+							  	<label><strong>5</strong><br/><span>슬퍼요</span></label>
+							  </div>
+							  <div class="smile">
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin2.png"/><br/>
+							  	<label><strong>6</strong><br/><span>화나요</span></label>
+							  </div>
+							  <div class="smile">
+							  
+							  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin3.png"/><br/>
+							  	<label><strong>6</strong><br/><span>이후의 이야기원해요</span></label>
+							  </div>
+						  </div>
+					  
+						</div>
+						<!-- 버튼들 END -->
+					
+					
+					
+					
 					</article>
 					<!-- 본문 제목, 내용 END  -->
 					
 					
-					
-					
 				   
 					
+					<!-- ## 같이보면 좋을 list START  -->
+					<div class="cd-div-recommend-list">
+				      <p>해피링관리자님이 추천하는  <span>읽으면 </span>&nbsp;<span>도움되는 글</span></p>
+				      <ul class="list-marked list-marked-secondary">
+		                <li><a href="#">January 2017</a></li>
+		                <li><a href="#">February 2017</a></li>
+		                <li><a href="#">March 2017</a></li>
+		                <li><a href="#">April 2017</a></li>
+		                <li><a href="#">May 2017</a></li>
+		              </ul>
 					
 					
-					<!-- ## 조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START -->
-					<div class="cd-div-etc-buttons">
-					  <div class="bottom-etc-buttons">
-						   <button type="button" class="btn btn-heart btn-xs">
-							 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-						   </button>
-						   	
-						   <button type="button" class="btn btn-star btn-xs">
-							 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
-						   </button>
-						   
-						   <button type="button" class="btn btn-share btn-xs">
-							 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 공유
-						   </button>
-						   
-<!-- 						   <button type="button" class="btn btn-list btn-xs"> -->
-<!-- 							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로 -->
-<!-- 						   </button> -->
-						   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
-							 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-						   </a>
-						   
-						   <button type="button" class="btn btn-correction btn-xs">
-							 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
-						   </button>
-					  </div>	
-					  
 					</div>
+					<!-- 같이보면 좋을 list END -->	
+					
+					
+					<!-- ## 댓글, 나도궁금, 신고 등 버튼 css START -->
+					<div class="cd-div-etc-buttons row">
+						<div class="col-md-6">
+							<div class="cd-div-bottom-btn">
+							   <button type="button" class="btn btn-xs btn-comment" data-toggle="tooltip" data-placement="top" title="댓글">
+								 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 5
+							   </button>
+							   <button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+							   </button>
+							   	
+							   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+							   </button>
+							   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+								 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+							   </button>
+							   <button type="button" class="btn btn-share btn-xs" data-toggle="tooltip" data-placement="top" title="공유하기">
+								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
+							   </button>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bottom-etc-buttons">
+								<button type="button" class="btn btn-pencil btn-xs" data-toggle="tooltip" data-placement="top" title="글쓰기">
+								 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+							   	</button>
+							   	
+							   	<button type="button" class="btn btn-erase btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
+								 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+							   	</button>
+							   	<button type="button" class="btn btn-trash btn-xs" data-toggle="tooltip" data-placement="top" title="삭제">
+								 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+							   	</button>
+								<a href="theoryBasicList.jsp" class="btn btn-list btn-xs" data-toggle="tooltip" data-placement="top" title="목록으로">
+								 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
+							   	</a>
+							   	<button type="button" class="btn btn-correction btn-xs">
+								 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고
+							   	</button>
+					  		</div>	
+						</div>
+					</div>
+					
+					
+					
 					
 					<div class="correction-send cd-send-none">
 					  	
@@ -262,41 +319,7 @@
 					
 					
 					
-					 <!-- ## 버튼들 START -->
-					<div class="cd-div-buttons">
-					  
-					  <div class="center" style="">
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin7.png"/><br/>
-						  	<label><strong>2</strong><br/><span>저도그랬어요</span></label>
-						  </div>
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin1.png"/><br/>
-						  	<label><strong>3</strong><br/><span>괜찮아요</span></label>
-						  </div>
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin6.png"/><br/>
-						  	<label><strong>4</strong><br/><span>위로드려요</span></label>
-						  </div>
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin4.png"/><br/>
-						  	<label><strong>5</strong><br/><span>슬퍼요</span></label>
-						  </div>
-						  <div class="smile">
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin2.png"/><br/>
-						  	<label><strong>6</strong><br/><span>화나요</span></label>
-						  </div>
-						  <div class="smile">
-						  
-						  	<img alt="" src="/HappyRing/img/community/worryBoard/penguin3.png"/><br/>
-						  	<label><strong>6</strong><br/><span>이후의 이야기원해요</span></label>
-						  </div>
-					  </div>
-					  
-					  
-					  
-					</div>
-					<!-- 버튼들 END -->
+					 
 					
 					
 					

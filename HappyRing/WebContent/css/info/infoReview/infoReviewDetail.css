@@ -6,7 +6,7 @@
 
 /* 심리이론 게시물 타이틀 div START*/
 
-.ctr-title{
+.inford-title{
 	margin-top: 12px;
 /* 	border: solid; */
 	background-color: white;
@@ -16,16 +16,16 @@
 
 
 /* 심리이론 게시물 타이틀 대제목 col-md padding 조정 */
-.ctr-title .row .col-md-6{
+.inford-title .row .col-md-6{
 	padding-left: 4%; 
 	margin-bottom: 2%;
 }
 
 /*심리이론 명언 text 글자 크기 조정*/
-.ctr-title .row .col-md-10 .sub-text{
+.inford-title .row .col-md-10 .sub-text{
 	font-size: 14px;
 }
-.ctr-title .row .col-md-10 .sub-text-small{
+.inford-title .row .col-md-10 .sub-text-small{
 	
 	font-size: 10px
 }
@@ -35,14 +35,14 @@
 
 
 /* detail div */
-.ctr-div{
+.inford-div{
     margin-top: 15px;
     padding: 6px;
     background-color: white;
 }
 
 /* detail-div-inline */
-.ctr-div-inline{
+.inford-div-inline{
 	padding-top: 11px;
 /*     padding-bottom: 85px; */
     border: solid rgb(234, 234, 234);
@@ -50,7 +50,7 @@
 
 
 /* row에 주어진 -값 없애는 조정*/
-.ctr-div-inline .row {
+.inford-div-inline .row {
 	margin-left: 0px; 
     margin-right: 0px;
 }
@@ -58,12 +58,12 @@
 
 /* 등록일 작성 col-md-9, col-md-3 에 패딩 줌 */
 @media (min-width: 992px){
-	.ctr-div-inline .row .col-md-9 {
+	.inford-div-inline .row .col-md-9 {
 	   padding-left: 5px !important;
 	}
 }
 @media (min-width: 992px){
-	.ctr-div-inline .row .col-md-3 {
+	.inford-div-inline .row .col-md-3 {
 	    text-align: right;
 	    padding-right: 5px;
 	    padding-left: 52px;
@@ -71,30 +71,30 @@
 }
    
 /* icon 크기 조정 */
-.ctr-div-inline .icon {
+.inford-div-inline .icon {
     font-size: 13px;
     padding-top: 7px;
     padding-right: 0px
 }
 
 /* 아이콘 색 조정 */
-.ctr-div-inline .icon-primary {
+.inford-div-inline .icon-primary {
     color: #981df0;
 }
 
 /* 닉네임, 등록일, 택스 담고 있는 text padding 조정 */
-/* .ctr-div-inline p{ */
+/* .inford-div-inline p{ */
 /* 	padding-right: 20px; */
 /* } */
 
 /* hr태그 margin 없애기*/
-.ctr-div-inline hr{
+.inford-div-inline hr{
     margin-top: 12px;
 }
 
 
 /* 닉네임 들어있는 table의 td padding 조정 */
-.ctr-div-inline .td-nick {
+.inford-div-inline .td-nick {
 	padding-left: 7px;
 	padding-top: 11px;
 }
@@ -103,16 +103,16 @@
 
 
 /* 닉네임, 버튼들   패딩조정 */
-.ctr-div-inline .name-and-buttons{
+.inford-div-inline .name-and-buttons{
 	padding-left: 10px;
     padding-right: 13px;
 }
 
-.ctr-div-inline .writer-name {
+.inford-div-inline .writer-name {
 	float: left;
 }
 
-.ctr-div-inline .etc-btns {
+.inford-div-inline .etc-btns {
 	float: right;
 }
 
@@ -123,7 +123,7 @@
 
 
 /* post-blog-article : article 전체 윤곽 */
-.ctr-div-inline .post-blog-article{
+.inford-div-inline .post-blog-article{
 	text-align: center;
 /* 	padding-top: 75px; */
 	padding-top: 126px;
@@ -131,13 +131,13 @@
 
 
 /* articel header 글자  조정 */
-.ctr-div-inline .post-blog-article .post-blog-article-title{
+.inford-div-inline .post-blog-article .post-blog-article-title{
     letter-spacing: 0.1em;
     font-size: 33px;
 }
 
 /* article 내용 padding 조정 */
-.ctr-div-inline .post-blog-article .post-blog-article-body{
+.inford-div-inline .post-blog-article .post-blog-article-body{
 	padding: 25px;
 	padding-top: 53px;
 /* 	border: solid; */
@@ -155,25 +155,26 @@
 
 /** ## 버튼들  css START */ 
 
-.ctr-div-buttons{
-/* 	border: solid blue; */
-/* 	padding-top: 30px; */
-	padding-top: 140px;
-	padding-bottom: 30px;
-	height: auto;
+.inford-div-buttons{
+    /* border: solid #f2f3f9; */
+    /* padding-top: 30px; */
+    padding-top: 30px;
+    padding-bottom: 22px;
+    margin: 0 20px 30px 20px;
+    height: auto;
+    background-color: #f2f3f9;
 }
 /* 각종 표현 버튼 중앙에 위치 */
-.ctr-div-buttons .center {
+.inford-div-buttons .center {
   display: block;
   margin: 0 auto;
   position: relative;
-  width: 66%;
+  width: 60%;
   height: 100px;
   top: 25%;
-  margin-left: 19%;
 }
 /* 각종 표현 버튼 각각 위치 및 크기 조정 */
-.ctr-div-buttons .smile {
+.inford-div-buttons .smile {
   position: relative;
   width: 16.5%;
   height: 100%;
@@ -182,17 +183,17 @@
   cursor: pointer;
 }
 /* 각종 표현 버튼 중 이미지 부분 */
-.ctr-div-buttons .smile>img{
+.inford-div-buttons .smile>img{
 	width: 50px;
 	height: 50px;
 	margin-bottom: 10px;
 }
 /* 각종 표현 버튼 중 글자 부분 */
-.ctr-div-buttons .smile>label>span{
+.inford-div-buttons .smile>label>span{
 	font-size: 12px;
 	color: #83838691;
 }
-.ctr-div-buttons .smile>label {
+.inford-div-buttons .smile>label {
 	line-height: 18px;
 }
 
@@ -206,47 +207,47 @@
 
 
 /** ## 같이보면 좋을 list css START */
-.ctr-div-recommend-list {
+.inford-div-recommend-list {
 /* 	border: solid green; */
 	padding: 105px 30px 25px 30px;
 	height: auto;
 }
 
 /* 리스트 타이틀 글자 ('~님이 추천하는') css */
-.ctr-div-recommend-list p:nth-child(1){
+.inford-div-recommend-list p:nth-child(1){
 	font-size: 15px;
 }
 
 /* 리스트 타이틀 글자 ('읽으면') css */
-.ctr-div-recommend-list span:nth-child(1){
+.inford-div-recommend-list span:nth-child(1){
 	color: red;
 	font-weight: bold;
 }
 
 /* 리스트 타이틀 글자 ('도움되는 글') css */
-.ctr-div-recommend-list span:nth-child(2){
+.inford-div-recommend-list span:nth-child(2){
 	font-weight: bold;
 }
 
 /* 리스트 li 간격 조정 */
-.ctr-div-recommend-list .list-marked > li + li {
+.inford-div-recommend-list .list-marked > li + li {
     margin-top: 3px;
 }
 
 /* 리스트  > 아이콘 위치 조정  */
-.ctr-div-recommend-list .list-marked > li:before {
+.inford-div-recommend-list .list-marked > li:before {
     top: 0.2em;
 }
 
 /* 리스티 li>a 글자크기 조정*/
-.ctr-div-recommend-list .list-marked-secondary a {
+.inford-div-recommend-list .list-marked-secondary a {
 /*     color: #ed1c94; */
     color: #27272e;
     font-size: 14px;
 }
 
 /* 리스트 padding-left 조정 */
-.ctr-div-recommend-list .list-marked{
+.inford-div-recommend-list .list-marked{
 	padding-left: 0px;
 }
 
@@ -257,20 +258,20 @@
 
 
 /** ##조회수, 좋아요, 북마크, 쪽지, 공유링크, 수정요청 등 버튼 css START */ 
-.ctr-div-etc-buttons {
+.inford-div-etc-buttons {
 /* 	border: solid green; */
 	height: 28px;
 	margin-top: 65px;
     margin-bottom: 9px;
-    padding-right: 10px;
+/*     padding-right: 10px; */
 }
 
-.ctr-div-etc-buttons .bottom-etc-buttons{
+.inford-div-etc-buttons .bottom-etc-buttons{
     float:right;
 }
 
 /* 버튼들 radius, padding 조정 */
-.ctr-div-etc-buttons .btn {
+.inford-div-etc-buttons .btn {
 	padding: 5px 10px;
 	border-radius: 6px;
     font-family: "Oswald", Helvetica, Arial, sans-serif;
@@ -282,36 +283,70 @@
     color: #838386;
 }
 
+/* comment(댓글 버튼) */
+.inford-div-etc-buttons .btn-comment:hover, .inford-div-etc-buttons .btn-comment.btn-active {
+    color: black;
+	background-color: #0080ff;
+	border-color: #0080ff;
+    }
 /* heart(좋아요 버튼) */
-.ctr-div-etc-buttons .btn-heart:hover, .ctr-div-etc-buttons .btn-heart.btn-active {
+.inford-div-etc-buttons .btn-heart:hover, .inford-div-etc-buttons .btn-heart.btn-active {
     color: black;
 	background-color: #ff56b3;
 	border-color: #ff56b3;
     }
 
 /* star(즐겨찾기 버튼) */
-.ctr-div-etc-buttons .btn-star:hover, .ctr-div-etc-buttons .btn-star.btn-active {
+.inford-div-etc-buttons .btn-star:hover, .inford-div-etc-buttons .btn-star.btn-active {
     color: black;
 	background-color: #e5da00;
 	border-color: #e5da00;
     }
     
+/* bookmark (북마크 버튼) */
+.inford-div-etc-buttons .btn-bookmark:hover, .inford-div-etc-buttons .btn-bookmark.btn-active {
+    color: black;
+	background-color: #cb7100;
+	border-color: #cb7100;
+    }   
+    
 /* share (공유 버튼) */
-.ctr-div-etc-buttons .btn-share:hover, .ctr-div-etc-buttons .btn-share.btn-active {
+.inford-div-etc-buttons .btn-share:hover, .inford-div-etc-buttons .btn-share.btn-active {
     color: black;
 	background-color: #57ca00;
 	border-color: #57ca00;
     }    
     
+/* pencil (글쓰기 버튼) */
+.inford-div-etc-buttons .btn-pencil:hover, .inford-div-etc-buttons .btn-pencil.btn-active {
+    color: black;
+	background-color: #7f7f7f;
+	border-color: #7f7f7f;
+    }  
+    
+/* edit (수정 버튼) */
+.inford-div-etc-buttons .btn-erase:hover, .inford-div-etc-buttons .btn-erase.btn-active {
+    color: black;
+	background-color: #808000;
+	border-color: #808000;
+    }
+   
+/* edit (수정 버튼) */
+.inford-div-etc-buttons .btn-trash:hover, .inford-div-etc-buttons .btn-trash.btn-active {
+    color: black;
+	background-color: #ff4a39;
+	border-color: #ff4a39;
+    } 
+    
 /* list(목록 버튼) */
-.ctr-div-etc-buttons .btn-list:hover {
+.inford-div-etc-buttons .btn-list:hover {
     color: black;
 	background-color: #00c8ca;
 	border-color: #00c8ca;
     } 
 
 /* btn-correction(수정건의 버튼) */
-.ctr-div-etc-buttons .btn-correction:hover, .ctr-div-etc-buttons .btn-correction.btn-active {
+.inford-div-etc-buttons .btn-correction:hover, .inford-div-etc-buttons .btn-correction.btn-active {
     color: black;
 	background-color: #ca005e;
 	border-color: #ca005e;
@@ -356,23 +391,24 @@
 
 /* ## 댓글 css START */
 
-.ctr-div-comment {
+.inford-div-comment {
 /* 	border: solid pink;  */
 	border-top: 2px dashed rgba(131, 131, 134, 0.1);
 	padding: 25px;
 /* 	margin-top: 230px; */
+	display: none;
 }
 
 
 /* 댓글 압룍 검싸고 있는 form css*/
-.ctr-div-comment .rd-mailform {
+.inford-div-comment .rd-mailform {
 /*     margin-top: 13px; */
 /*     margin-bottom: 38px; */
 }
 
 
 /* 댓글 list css*/
-.ctr-div-comment .comment-group {
+.inford-div-comment .comment-group {
 	border-radius: 9px;
     padding: 20px;
 /*     text-align: left; */
@@ -385,7 +421,7 @@
 }
 
 /* 닉네임 입력칸 css 조정 */
-.ctr-div-comment .form-input.txtName{
+.inford-div-comment .form-input.txtName{
     display: block;
     width: 100%;
     min-height: 28px;
@@ -405,7 +441,7 @@
 
 /* 댓글 비밀여부 css */
 @media (min-width: 992px){
-.ctr-div-comment .checkbox-inline .checkbox-custom-dummy{
+.inford-div-comment .checkbox-inline .checkbox-custom-dummy{
 	width: 20px;
     height: 20px;
 	}
@@ -413,7 +449,7 @@
 
 /* 댓글 비밀여부 마진, 패딩 주기  */
 @media (min-width: 992px){
-	.ctr-div-comment .checkbox, .ctr-div-comment .checkbox-inline {
+	.inford-div-comment .checkbox, .inford-div-comment .checkbox-inline {
 	    padding-left: 27px;
 	    margin-top: 7px;
 	    padding-right: 143px;
@@ -421,7 +457,7 @@
 }
 
 @media (max-width: 492px){
-.ctr-div-comment .checkbox, .ctr-div-comment .checkbox-inline {
+.inford-div-comment .checkbox, .inford-div-comment .checkbox-inline {
     padding-left: 38px;
     margin-right: 123px;
 }
@@ -431,12 +467,12 @@
 
 
 /* 이미지 아이콘 그림에 마진 주기 */
-.ctr-div-comment .form-wrap img:nth-child(1){
+.inford-div-comment .form-wrap img:nth-child(1){
     margin-right: 25px;
 
 }
 
-.ctr-div-comment .form-wrap .tooltip-custom + .tooltip .tooltip-inner {
+.inford-div-comment .form-wrap .tooltip-custom + .tooltip .tooltip-inner {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	max-width: 253px;
 	padding: 5px 12px;
@@ -447,24 +483,24 @@
 	background: rgb(0, 200, 202);
 }
 
-.ctr-div-comment .form-wrap .tooltip-custom + .tooltip.top .tooltip-arrow {
+.inford-div-comment .form-wrap .tooltip-custom + .tooltip.top .tooltip-arrow {
 	bottom: -2px;
 	margin-left: -7px;
 	border-width: 7px 7px 0;
 	border-top-color: rgb(0, 200, 202);
 }
 
-.ctr-div-comment .reply-cate>span:nth-child(1){
+.inford-div-comment .reply-cate>span:nth-child(1){
 	color: red;
 }
 
-.ctr-div-comment .reply-cate>span:nth-child(3), .ctr-div-comment .reply-cate>span:nth-child(5){
+.inford-div-comment .reply-cate>span:nth-child(3), .inford-div-comment .reply-cate>span:nth-child(5){
 	font-size: 14px;
 }
 
 
 /* 댓글 list 아이콘(ˇ) */
-.ctr-div-comment .reply-cate .glyphicon {
+.inford-div-comment .reply-cate .glyphicon {
     font-size: 10px;
     top: 0px;
     color: #2e2e2e;
@@ -472,7 +508,7 @@
 
 
 /* 댓글 입력칸 css  */
-.ctr-div-comment .form-input.txtComment {
+.inford-div-comment .form-input.txtComment {
 	display: block;
     width: 100%;
     min-height: 126px;
@@ -493,7 +529,7 @@
 }
 
 /* text 입력칸 height 조정*/
-.ctr-div-comment  textarea.form-input {
+.inford-div-comment  textarea.form-input {
     height: 126px;
     min-height: 89px;
     max-height: 255px;
@@ -502,14 +538,14 @@
 }
 
 /* 댓글 입력창에 추가되는 이미지 크기 지정 */
-.ctr-div-comment .ctr-img>.ctr-img-add {
+.inford-div-comment .inford-img>.inford-img-add {
 	width: auto;
 }
 
 
 /* 댓글 입력 text area maring 조정*/
 @media (min-width: 480px){
-.ctr-div-comment .cell-sm-10{
+.inford-div-comment .cell-sm-10{
 	    -webkit-flex-basis: 100%;
 	    -ms-flex-preferred-size: 100%;
 	     flex-basis: 100%;
@@ -518,7 +554,7 @@
 	}
 }
 @media (min-width: 480px){
-.ctr-div-comment .cell-sm-2 {
+.inford-div-comment .cell-sm-2 {
 	    -webkit-flex-basis: 100%;
 	    -ms-flex-preferred-size: 100%;
 	     flex-basis: 100%;
@@ -530,7 +566,7 @@
 
 
 /* 댓글 입력 버튼 (종상) */
-.ctr-div-comment .button {
+.inford-div-comment .button {
 	min-width: 100%;
 	height: 100%;
     font-size: 14px;
@@ -541,21 +577,21 @@
     border-radius: 0px 15px 15px 0px;
 }
 /* 댓글 입력 버튼 높이 조절 */
-.ctr-div-comment .form-button {
+.inford-div-comment .form-button {
 	height: 100%;
 }
 
 
 /* 대댓글 숨김 처리 (종상) */
-.ctr-div-comment .ctr-none {
+.inford-div-comment .inford-none {
 	display: none;
 }
 /* 대댓글 입력창 바탕색 (종상) */
-.ctr-div-comment .ctr-txt-bg-color .range {
+.inford-div-comment .inford-txt-bg-color .range {
 	background-color: white;
 	padding-bottom: 20px;
 }
-.ctr-div-comment .comment-group .rd-mailform {
+.inford-div-comment .comment-group .rd-mailform {
 /* 	margin-top: 30px; */
 	margin-top: 47px;
 }
@@ -574,13 +610,13 @@
 	}
 }
 /* 닉네임 text-size 조정 */
-.ctr-div-comment  .comment-reply {
+.inford-div-comment  .comment-reply {
     font-size: 12px;ㄴ
 }
 
 
 /* comment-header안에 수정/삭제 아이콘 margin 조정*/
-.ctr-div-comment .comment-header .iconTrash{
+.inford-div-comment .comment-header .iconTrash{
 	    margin-left: 13px;
 }
 
@@ -589,7 +625,7 @@
 
 
 /* 댓글 스티커 선택버튼 */
-.ctr-div-comment .choose-sticker {
+.inford-div-comment .choose-sticker {
     overflow: visible;
     position: absolute;
     top: 92.8%;
@@ -602,19 +638,19 @@
 }
 
 @media (min-width: 954px){
-	.ctr-div-comment .choose-sticker {
+	.inford-div-comment .choose-sticker {
 	    left: 62%;
 	    display: none;
 	    
 	}
 }
 
-.ctr-div-comment .table-custom td:first-child {
+.inford-div-comment .table-custom td:first-child {
     padding: 5px;
     height: 73.2px;
 }
 
-.ctr-div-comment .table-custom td {
+.inford-div-comment .table-custom td {
     border-bottom: 0px solid #ededed;
 }
 
@@ -623,7 +659,7 @@
 
 
 /** 다음글/이전글 list css START */
-.ctr-bottom-list-div{
+.inford-bottom-list-div{
     margin-top: 15px;
 /*     padding: 6px; */
 	padding: 2px;
@@ -631,62 +667,62 @@
     height: auto;
 }
 /* 다음글/이전글 list margin 설정 */
-.ctr-bottom-list-div .table-hover {
+.inford-bottom-list-div .table-hover {
 	margin-bottom: 0;
 	font-size: 13px;
 }
 /* 다음글/이전글 list td에 border 설정 */
-.ctr-bottom-list-div .table-hover tr > td{
+.inford-bottom-list-div .table-hover tr > td{
 	text-align: center;
 	border-bottom: 1px solid #ddd;
 }
 /* 다음글/이전글 list 짝수번째 td 넓이 설정 */
-/* .ctr-bottom-list-div .table-hover tr > td:nth-child(2n) { */
+/* .inford-bottom-list-div .table-hover tr > td:nth-child(2n) { */
 /* 	padding-left: 0; */
 /* 	padding-right: 0; */
 /* 	width: 1%; */
 /* } */
 /* 다음글/이전글 list 이전글/다음글 td 넓이 설정 */
-/* .ctr-bottom-list-div .table-hover tr > td:nth-child(1) { */
+/* .inford-bottom-list-div .table-hover tr > td:nth-child(1) { */
 /* 	width: 10%; */
 /* } */
 /* 다음글/이전글 list 제목 td 넓이 설정 */
-/* .ctr-bottom-list-div .table-hover tr > td:nth-child(3) { */
+/* .inford-bottom-list-div .table-hover tr > td:nth-child(3) { */
 /* 	width: 50%; */
 /* 	text-align: left; */
 /* } */
 /* 다음글/이전글 list 작성자 td 넓이 설정 */
-/* .ctr-bottom-list-div .table-hover tr > td:nth-child(5) { */
+/* .inford-bottom-list-div .table-hover tr > td:nth-child(5) { */
 /* 	width: 17%; */
 /* } */
 /* 다음글/이전글 list 작성일(/하트개수) td 넓이 설정 */
-/* .ctr-bottom-list-div .table-hover tr > td:nth-child(7) { */
+/* .inford-bottom-list-div .table-hover tr > td:nth-child(7) { */
 /* 	width: 19%; */
 /* } */
 
 /* 다음글/이전글 list 이전글/다음글 td 넓이 설정 */
-.ctr-bottom-list-div .table-hover tr > td:nth-child(1) {
+.inford-bottom-list-div .table-hover tr > td:nth-child(1) {
 	width: 10%;
 }
 /* 다음글/이전글 list 제목 td 넓이 설정 */
-.ctr-bottom-list-div .table-hover tr > td:nth-child(2) {
+.inford-bottom-list-div .table-hover tr > td:nth-child(2) {
 	width: 50%;
 	text-align: left;
 }
 /* 다음글/이전글 list | td 넓이 설정 */
-.ctr-bottom-list-div .table-hover tr > td:nth-child(3), .ctr-bottom-list-div .table-hover tr > td:nth-child(5) {
+.inford-bottom-list-div .table-hover tr > td:nth-child(3), .inford-bottom-list-div .table-hover tr > td:nth-child(5) {
 	width: 1%;
 }
 /* 다음글/이전글 list 작성자 td 넓이 설정 */
-.ctr-bottom-list-div .table-hover tr > td:nth-child(4) {
+.inford-bottom-list-div .table-hover tr > td:nth-child(4) {
 	width: 17%;
 }
 /* 다음글/이전글 list 작성일(/하트개수) td 넓이 설정 */
-.ctr-bottom-list-div .table-hover tr > td:nth-child(6) {
+.inford-bottom-list-div .table-hover tr > td:nth-child(6) {
 	width: 19%;
 }
 
-/* .ctr-bottm-list-div-inline { */
+/* .inford-bottm-list-div-inline { */
 /*     padding-top: 11px; */
 /*     padding-bottom: 85px; */
 /*     border: solid rgb(234, 234, 234); */
