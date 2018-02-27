@@ -4,19 +4,19 @@ $(function(){
 	$(".cd-reply-btn").click(function(e){
 		e.preventDefault();		//현재 클릭한 태그에서 진행중인 이벤트를 중지 (예: a태그의 href)
 		var reply = $(this).parent().parent().parent().next();	//보여질 대댓글의 위치를 찾아 변수에 저장
-		if(reply.attr('class') == 'comment-group thd-none'){	//대댓글의 클래스명이 thd-none 이
-			reply.attr('class', 'comment-group thd-block');		//대댓글의 클래스명을 thd-block로 변경
+		if(reply.css('display') == 'none'){	//대댓글의 클래스명이 cd-none 이
+			reply.css('display', 'block');		//대댓글의 클래스명을 cd-block로 변경
 		}else{	//그롷지 않으면
-			reply.attr('class', 'comment-group thd-none');	//대댓글의 클래스명을 thd-none로 변경 혹은 유지
+			reply.css('display', 'none');	//대댓글의 클래스명을 cd-none로 변경 혹은 유지
 		}
 	});
 	
 	//댓글 및 답글에 이미지 첨부시 이벤트
-	$('.cd-comment-div .cd-img-file>img, .reply-send .cd-img-file>img, .cd-comment-comment-div .cd-img-file>img').click(function(){
+	$('.cd-comment-div .cd-img-file>img, .cd-comment-comment-div .cd-img-file>img').click(function(){
 		$(this).next().click();	//클릭이 발생한 태그의 다음 형제에게 클릭이벤트 부여
 	});
 	//이미지 첨부시 이미지 변경
-	$('.cd-comment-div .cd-img-file>input:file, .reply-send .cd-img-file>input:file, .cd-comment-comment-div .cd-img-file>input:file').change(function(){
+	$('.cd-comment-div .cd-img-file>input:file, .cd-comment-comment-div .cd-img-file>input:file').change(function(){
 		url(this, $(this));	//url 함수를 실행하는데 클릭한 자신을 데이터로 보냄
 	});
 	
@@ -26,15 +26,13 @@ $(function(){
 	function url(value, tag) {
 		var tagClass = tag.parent().parent().parent().parent().attr('class');
 		var tagName = '';
-		if(tagClass.match(/reply-send/)){
-			tagName = '.reply-send';
-		}else if(tagClass.match(/thd-comment-comment-div/)){
+		if(tagClass.match(/cd-comment-comment-div/)){
 			tagName = '.cd-comment-comment-div';
-		}else if(tagClass.match(/thd-comment-div/)){
+		}else if(tagClass.match(/cd-comment-div/)){
 			tagName = '.cd-comment-div';
 		}
 		if (value.files && value.files[0]) {
-			var img = $('<img class="thd-img-add" src="#"/>');	//이미지 태그 생성
+			var img = $('<img class="cd-img-add" src="#"/>');	//이미지 태그 생성
 			$(tagName+' .cd-img').html(img);	//생성한 이미지 태그를 원하는 태그 안으로 추가
 			var reader = new FileReader();	//파일을 읽는 클래스의 생성자를 호출하여 객체 생성
 			reader.onload = function(e){	//파일을 읽는 객체가 로드되었을때 실행할 함수 선언

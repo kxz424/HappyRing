@@ -317,19 +317,6 @@
 					<!--## 댓글 SATART -->
 					<div class="cd-div-comment">
 					
-					
-					
-					 
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					<h5 class="reply-cate"> 댓글 
 					  <span>3</span> 
 					  <span>&nbsp;|&nbsp;</span>
@@ -413,8 +400,8 @@
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 cd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
@@ -506,8 +493,8 @@
 		                    
 		                    <!--# 댓글 입력 -->
 							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 cd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
@@ -557,7 +544,7 @@
 		            <h5> 댓글쓰기 </h5>
 					<!--# 댓글 입력 -->
 					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-	                  <div class="range range-20">
+	                  <div class="range range-20 cd-comment-div">
 	                    
 	                    <!-- 닉네임입력 -->
 	                    <div class="cell-sm-4">
