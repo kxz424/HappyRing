@@ -507,71 +507,34 @@ max-width: 1052px;
             
             
             <div class="modal-body-inner login-modal">
-              <h4 class="modal-title">로그인</h4>
-              <form class="rd-mailform form-novi">
+              
+              
+              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
+              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+                <div class="row"> 
+    			   <div class="col-md-12">            
+	                 <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" style="width: 192px;" />
+	               </div>  
+              	</div>
+              <form class="rd-mailform form-novi hn">
                 <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email1" type="email" name="email" data-constraints="@Required">
-                  <label class="form-label" for="forms-email1">E-mail</label>
+                  <input class="form-input hn" id="forms-email1" type="email" name="email" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+                  <label class="form-label hn" for="forms-email1" style="top: 22px;">E-mail</label>
                 </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-password1" type="password" name="password" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-password1">Password</label>
+                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+                  <input class="form-input hn" id="forms-login-password1" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+                  <label class="form-label hn" for="forms-login-password1" style="top: 22px;">Password</label>
                 </div>
                 <div class="form-button">
-                  <button class="button button-block button-secondary button-nina" type="submit">Login</button>
+                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">Login</button>
                 </div>
               </form>
               <div class="row">
-              	<div class="col-md-offset-1 col-md-5">
-              		<a class="h-sign-up">회원가입</a>
-              	</div>
-              	<div class="col-md-6">
-              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
+              	<div class="col-md-12" style="text-align: center;font-size: 13px;">
+              		<a class="h-sign-up hn" style="color:#027e7f">회원가입</a>&nbsp;&nbsp;<span style="color:#027e7f">|</span>&nbsp;
+              		<a class="h-find-id-pw hn" style="color:#027e7f">아이디/비밀번호 찾기</a>
               	</div>
               </div>
-
-
-<!-- <div class="wrapper fadeInDown"> -->
-<!--   <div id="formContent"> -->
-<!--     Tabs Titles -->
-<!--     <h2 class="active"> 로그인 </h2> -->
-<!--     <h2 class="inactive underlineHover"><a class="h-sign-up"> 회원가입 </a></h2> -->
-
-<!--     Icon -->
-<!--     <div class="fadeIn first"> -->
-<!--       <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
-<!--     </div> -->
-
-<!--     Login Form -->
-<!--     <form> -->
-<!--       <input type="text" id="login" class="fadeIn second" name="login" placeholder="Id"> -->
-<!--       <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password"> -->
-<!--       <input type="submit" class="fadeIn fourth" value="로그인"> -->
-<!--     </form> -->
-
-<!--     Remind Passowrd -->
-<!--     <div id="formFooter"> -->
-<!--       <a class="underlineHover" href="#">아이디/비밀번호찾기</a> -->
-<!--     </div> -->
-
-<!--   </div> -->
-<!-- </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
             
