@@ -393,26 +393,34 @@
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 cd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
-		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name" data-constraints="@Required">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
 		                      	  </div>
 			                    </div>
 			                    <!-- 댓글 비밀여부 check box -->
 			                    <div class="cell-sm-8">
 			                   	  <div class="form-wrap">
 					                <label class="checkbox-inline">
-					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할래요</span>
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 					                </label>
+		  							<div class="tooltip-custom cd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+									   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+									   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+									</div>
+									<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+					                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+					                </div>
 					              </div>
 			                    </div>
 			                    <!-- 댓글 내용 입력칸 --> 
 			                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 			                      <div class="form-wrap form-wrap-validation">
-			                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
+			                      	<div contentEditable="true" class="form-input txtComment cd-img"></div>
+			                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 			                      </div>
 			                    </div>
 			                    <!-- 댓글 등록 버튼  -->
@@ -478,30 +486,38 @@
 		                    
 		                    <!--# 댓글 입력 -->
 							<form class="rd-mailform cd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 cd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
-		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name" data-constraints="@Required">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
 		                      	  </div>
 			                    </div>
 			                    <!-- 댓글 비밀여부 check box -->
 			                    <div class="cell-sm-8">
 			                   	  <div class="form-wrap">
 					                <label class="checkbox-inline">
-					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할래요</span>
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
 					                </label>
+		  							<div class="tooltip-custom cd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+									   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+									   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+									</div>
+									<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+					                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+					                </div>
 					              </div>
 			                    </div>
 			                    <!-- 댓글 내용 입력칸 --> 
-			                    <div class="cell-xs-10 cell-sm-10">
+			                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
 			                      <div class="form-wrap form-wrap-validation">
-			                        <textarea class="form-input txtComment" id="form-comment-message" name="message" data-constraints="@Required"></textarea>
+			                      	<div contentEditable="true" class="form-input txtComment cd-img"></div>
+			                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
 			                      </div>
 			                    </div>
 			                    <!-- 댓글 등록 버튼  -->
-			                    <div class="cell-sm-2">
+			                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
 			                      <div class="form-button">
 			                        <button class="button button-secondary button-nina" type="submit">등록</button>
 			                      </div>
@@ -521,7 +537,7 @@
 		            <h5> 댓글쓰기 </h5>
 					<!--# 댓글 입력 -->
 					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-	                  <div class="range range-20">
+	                  <div class="range range-20 cd-comment-div">
 	                    
 	                    <!-- 닉네임입력 -->
 	                    <div class="cell-sm-4">

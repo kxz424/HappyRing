@@ -105,10 +105,10 @@
 						<table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
 		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;가방주인</td>
-		                        </tr class="td-answer">
+		                        </tr>
 		                        <tr>
-		                        	<td>
-		                        		<span>답변요청 &nbsp;&nbsp;&nbsp;:</span>
+		                        	<td class="td-answer">
+		                        		<span class="icon mdi mdi-account-alert"></span> <span>답변요청</span> &nbsp;:&nbsp; 
 		                        	</td>
 		                	 		<td>
 									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> <span>누구나</span> &nbsp;
@@ -130,25 +130,21 @@
 		                	 	
 		                        <td class="td-nick thd-div-etc-buttons">
 		                        
-			                        <!-- ## 누구나, Angel, human, 목록으로 등 버튼 css START -->
-<!-- 								   <button type="button" class="btn btn-heart btn-xs"> -->
-									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> <span>누구나</span> &nbsp;
-<!-- 								   </button> -->
+								   
+								   <!-- ## 조회수, 좋아요, 북마크 등 버튼 css START -->
+									<button type="button" class="btn btn-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+								   </button>
 								   	
-<!-- 								   <button type="button" class="btn btn-star btn-xs"> -->
-									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span>Angel</span> &nbsp;
-<!-- 								   </button> -->
-								   
-<!-- 								   <button type="button" class="btn btn-share btn-xs"> -->
-									 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> <span>human</span> &nbsp;
-<!-- 								   </button> -->
-								   
-								   <a href="theoryBasicList.jsp" class="btn btn-list btn-xs">
-									 <span class="glyphicon glyphicon-list" aria-hidden="true"></span> 목록으로
-								   </a>
+								   <button type="button" class="btn btn-star btn-xs" data-toggle="tooltip" data-placement="top" title="즐겨찾기">
+									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 11
+								   </button>
+								   <button type="button" class="btn btn-bookmark btn-xs" data-toggle="tooltip" data-placement="top" title="북마크">
+									 <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 12
+								   </button>
 										   
+									<!-- 조회수, 좋아요, 북마크 등 버튼 css END -->
 										   
-									<!-- 누구나, Angel, human, 목록으로 등 버튼 css END -->
 		                        
 		                        
 		                        
@@ -215,11 +211,11 @@
 							   <button type="button" class="btn btn-share btn-xs" data-toggle="tooltip" data-placement="top" title="공유하기">
 								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span>
 							   </button>
-							   <button type="button" class="btn btn-share btn-xs btn-reply">
+							   <button type="button" class="btn btn-xs btn-reply">
 								 <span class="icon mdi mdi-comment-processing" aria-hidden="true"></span> 답변작성
 							   </button>
 							   <button type="button" class="btn btn-question btn-xs">
-								 <span class="icon mdi mdi-comment-question-outline" aria-hidden="true"></span> 나도궁금해요
+								 <span class="icon mdi mdi-comment-question-outline" aria-hidden="true"></span> 나도궁금해요 13
 							   </button>
 							</div>
 						</div>
@@ -667,18 +663,24 @@
 					<div class="thd-div-etc-buttons row">
 						<div class="col-md-6">
 							<div class="thd-div-reply-comment-btn">
-							   <button type="button" class="btn btn-heart btn-xs">
-								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 댓글
+							   <button type="button" class="btn reply-comment-btn btn-xs" data-toggle="tooltip" data-placement="top" title="답변 댓글">
+								 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 3
 							   </button>
+							   <button type="button" class="btn btn-reply-heart btn-xs" data-toggle="tooltip" data-placement="top" title="엔젤링">
+								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
+							   </button>
+								<button type="button" class="btn btn-reply-check btn-xs">
+								 <span class="icon mdi mdi-seal" aria-hidden="true"></span> 답변채택 21
+							   	</button>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="bottom-etc-buttons">
-								<button type="button" class="btn btn-heart btn-xs">
-								 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 40
-							   </button>
-								<button type="button" class="btn btn-star btn-xs">
-								 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 답변채택
+								<button type="button" class="btn reply-erase-btn btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
+								 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+							   	</button>
+							   	<button type="button" class="btn reply-trash-btn btn-xs" data-toggle="tooltip" data-placement="top" title="삭제">
+								 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 							   	</button>
 							   <button type="button" class="btn btn-correction btn-xs">
 								 <span class="glyphicon glyphicon-bell" aria-hidden="true"></span> 신고하기
@@ -688,6 +690,356 @@
 					</div>
 					
 					<!-- 댓글, 나도궁금, 신고 등 버튼 css END -->
+					
+					
+					
+					<!--## 댓글 SATART -->
+					<div class="thd-div-reply-comment">
+					
+					<h5 class="reply-cate"> 댓글 
+					  <span>3</span> 
+					  <span>&nbsp;|&nbsp;</span>
+					  <span> 공감순 
+					    <span class="glyphicon glyphicon-chevron-down"></span> 
+					  </span> 
+					  <span>&nbsp;|&nbsp;</span>
+					  <span> 최신순 
+					    <span class="glyphicon glyphicon-chevron-down"></span> 
+					  </span> 
+					  <span>&nbsp;|&nbsp;</span>
+					</h5>
+					
+					 <!-- 댓글 리스트  -->
+				      <div class="comment-group">
+		                  <!-- Comment-->
+		                  <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">새로운유저입니다</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                  
+		                  
+		                  <!-- 대댓글 영역 START -->
+		                  <div class="comment-group thd-none">
+		                    <!-- Comment-->
+		                    <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">대박나세요</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                          <span class="comment-reply">새로운유저입니다 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                    <hr>
+		                    <!-- Comment-->
+		                    <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/yeyGif.gif" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">대박나세요</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;11:00</span></time>
+		                          <span class="comment-reply">대박나세요 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                    
+		                    <!--# 댓글 입력 -->
+					
+							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+			                  <div class="range range-20 thd-comment-comment-div">
+			                    
+			                    <!-- 닉네임입력 -->
+			                    <div class="cell-sm-4">
+			                      <div class="form-wrap form-wrap-validation">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
+		                      	  </div>
+			                    </div>
+			                    <!-- 댓글 비밀여부 check box -->
+			                    <div class="cell-sm-8">
+			                   	  <div class="form-wrap">
+					                <label class="checkbox-inline">
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
+					                </label>
+		  							<div class="tooltip-custom thd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+									   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+									   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+									</div>
+									<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+					                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+					                </div>
+					              </div>
+			                    </div>
+			                    <!-- 댓글 내용 입력칸 --> 
+			                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
+			                      <div class="form-wrap form-wrap-validation">
+			                      	<div contentEditable="true" class="form-input txtComment thd-img"></div>
+			                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
+			                      </div>
+			                    </div>
+			                    <!-- 댓글 등록 버튼  -->
+			                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
+			                      <div class="form-button">
+			                        <button class="button button-secondary button-nina" type="submit">등록</button>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </form>
+			                
+			                
+			                
+			                
+		                    
+		                  </div>
+		                  <!-- 대댓글 영역 END -->
+		                  
+		                  
+		                  <!-- Comment-->
+		                  <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">test입니당</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                  
+		                  <!-- 대댓글 영역 START -->
+		                  <div class="comment-group thd-none">
+		                    <!-- Comment-->
+		                    <article class="comment">
+		                      <div class="comment-avatar"><img src="/HappyRing/img/main/comfort.png" alt="" width="80" height="80"/>
+		                      </div>
+		                      <div class="comment-body">
+		                        <div class="comment-header">
+		                          <p class="comment-title">test입니당님하염</p>
+		                          <time class="comment-time" datetime="2018">2018-02-07 <span style="font-size: 11px;">&nbsp;&nbsp;10:30</span></time>
+		                          <span class="comment-reply">test입니당 님</span>
+		                           <a href="#"><span class="icon glyphicon glyphicon-edit"></span></a>
+		                           <a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-trash"></span></a>
+		                        </div>
+		                        <div class="comment-text">
+		                        <p> Thank you for your comment! I will publish more tips on social communication as well as 
+		                        some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
+		                         </p>
+		                        </div>
+		                         <div class="comment-footer"><a class="comment-link-reply thd-reply-btn" href="#">Reply</a></div>
+		                      </div>
+		                    </article>
+		                    
+		                    
+		                    <!--# 댓글 입력 -->
+					
+							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+			                  <div class="range range-20 thd-comment-comment-div">
+			                    
+			                    <!-- 닉네임입력 -->
+			                    <div class="cell-sm-4">
+			                      <div class="form-wrap form-wrap-validation">
+		                        	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
+		                      	  </div>
+			                    </div>
+			                    <!-- 댓글 비밀여부 check box -->
+			                    <div class="cell-sm-8">
+			                   	  <div class="form-wrap">
+					                <label class="checkbox-inline">
+					                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
+					                </label>
+		  							<div class="tooltip-custom thd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+									   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+									   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+									</div>
+									<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+					                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+					                </div>
+					              </div>
+			                    </div>
+			                    <!-- 댓글 내용 입력칸 --> 
+			                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
+			                      <div class="form-wrap form-wrap-validation">
+			                      	<div contentEditable="true" class="form-input txtComment thd-img"></div>
+			                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
+			                      </div>
+			                    </div>
+			                    <!-- 댓글 등록 버튼  -->
+			                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
+			                      <div class="form-button">
+			                        <button class="button button-secondary button-nina" type="submit">등록</button>
+			                      </div>
+			                    </div>
+			                  </div>
+			                </form>
+		                  </div>
+		                  <!-- 대댓글 영역 END -->
+		                  
+		                <!-- 댓글 페이징 START -->
+		                <jsp:include page="/view/paging/onlyPaging.jsp"></jsp:include>			
+		                <!-- 댓글 페이징 END -->
+		            </div>
+		                
+		                
+		                
+		            <h5> 댓글쓰기 </h5>
+					<!--# 댓글 입력 -->
+					
+					<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+	                  <div class="range range-20 thd-comment-div">
+	                    
+	                    <!-- 닉네임입력 -->
+	                    <div class="cell-sm-4">
+	                      <div class="form-wrap form-wrap-validation">
+	                       	<input class="form-input txtName" id="form-comment-name" type="text" name="name"  placeholder="닉네임을 넣어주세요">
+	                     	  </div>
+	                    </div>
+	                    <!-- 댓글 비밀여부 check box -->
+	                    <div class="cell-sm-8">
+	                   	  <div class="form-wrap">
+			                <label class="checkbox-inline">
+			                  <input type="checkbox" checked="" name=""><span>비밀 댓글로 할게요</span>
+			                </label>
+	 							<div class="tooltip-custom thd-img-file" data-toggle="tooltip" data-placement="top" title="이미지 첨부">
+							   <img src="/HappyRing/img/main/galleryIcon2.png" alt="" width="25" height="25"/>
+							   <input type="file" accept="image/gif,image/jpeg,image/png" style="display: none;"/>
+							</div>
+							<div class="tooltip-custom" data-toggle="tooltip" data-placement="top" title="속마음 스티커 첨부">
+			                   <img class="sicker-btn" src="/HappyRing/img/main/emogiSticker.png" alt="" width="25" height="25"/>
+			                </div>
+			              </div>
+	                    </div>
+	                    <!-- 댓글 내용 입력칸 --> 
+	                    <div class="cell-xs-9 cell-sm-10 cell-md-10">
+	                      <div class="form-wrap form-wrap-validation">
+	                      	<div contentEditable="true" class="form-input txtComment thd-img"></div>
+	                        <textarea class="form-input txtComment hidden" id="form-comment-message" name="message" placeholder="예쁜 댓글을 넣어주세요:-)"></textarea>
+	                      </div>
+	                    </div>
+	                    <!-- 댓글 등록 버튼  -->
+	                    <div class="cell-xs-3 cell-sm-2 cell-md-2">
+	                      <div class="form-button">
+	                        <button class="button button-secondary button-nina" type="submit">등록</button>
+	                      </div>
+	                    </div>
+	                  </div>
+	                </form>
+		                
+		           <div class="choose-sticker">
+							<table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/interesting.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                        <img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+			                
+			                <table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+									<img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/sick.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+			                
+			                <table class="table-custom table-hover" style="float: left; width: 33.3%;">
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/wow.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                      	<img alt="" src="/HappyRing/img/theory/theoryBasic/touched.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                       <img alt="" src="/HappyRing/img/theory/theoryBasic/educated.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                     </td>
+			                    </tr>
+			                    <tr>
+			                      <td>
+			                       <img alt="" src="/HappyRing/img/theory/theoryBasic/sad.png" width="40px" height="40px" style="margin-left: auto; margin-right: auto; display: block;" />
+			                      </td>
+			                    </tr>
+			                </table>
+
+		                
+		                </div>
+		                
+		                
+					</div>	
+					<!-- 댓글 END -->		
 					
 					
 					

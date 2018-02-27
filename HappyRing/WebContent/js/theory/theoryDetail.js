@@ -80,6 +80,27 @@ $(function(){
 			}else if($(this).attr('class').match(/btn-correction/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
 				$('.thd-div-etc-buttons .btn-correction').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
 				
+			}else if($(this).attr('class').match(/btn-comment/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-comment').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-bookmark/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-bookmark').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-pencil/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-pencil').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-erase/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-erase').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-trash/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-trash').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-reply/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-reply').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
+			}else if($(this).attr('class').match(/btn-question/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-question').addClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 추가
+				
 			}
 			
 		}else{
@@ -95,6 +116,27 @@ $(function(){
 				
 			}else if($(this).attr('class').match(/btn-correction/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
 				$('.thd-div-etc-buttons .btn-correction').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-comment/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-comment').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-bookmark/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-bookmark').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-pencil/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-pencil').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-erase/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-erase').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-trash/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-trash').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-reply/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-reply').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
+				
+			}else if($(this).attr('class').match(/btn-question/)){		//클릭한 버튼의 클래스명에 btn-correction이 포함되어 있는지 확인
+				$('.thd-div-etc-buttons .btn-question').removeClass('btn-active');	//btn-correction 버튼에 클래스명 btn-active 삭제
 				
 			}
 			
@@ -120,6 +162,15 @@ $(function(){
 			$('.thd-div-comment').css('display', 'block');		//댓글창을 보여줌
 		}else{													//그렇지 않은 경우
 			$('.thd-div-comment').css('display', 'none');		//댓글창을 숨김
+		}
+	});
+	
+	//답글의 숨겨진 댓글창 여닫기
+	$('.thd-div-etc-buttons .reply-comment-btn').click(function(){
+		if($('.thd-div-reply-comment').css('display') == 'none'){		//댓글창이 숨겨져 있을 경우
+			$('.thd-div-reply-comment').css('display', 'block');		//댓글창을 보여줌
+		}else{													//그렇지 않은 경우
+			$('.thd-div-reply-comment').css('display', 'none');		//댓글창을 숨김
 		}
 	});
 	

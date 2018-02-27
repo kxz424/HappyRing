@@ -99,7 +99,13 @@
 	padding-top: 11px;
 }
 /* 답볌요청 부분 padding 조정 */
-/* thd-div-inline */
+.thd-div-inline .name-and-buttons .td-answer {
+	padding-left: 2%;
+}
+.thd-div-inline .name-and-buttons .td-answer .mdi {
+	font-size: 19px;
+	padding-top: 0;
+}
 
 
 
@@ -332,13 +338,13 @@
 }
 
 /* comment(댓글 버튼) */
-.thd-div-etc-buttons .btn-comment:hover, .thd-div-etc-buttons .btn-comment.btn-active {
+.thd-div-etc-buttons .btn-comment:hover, .thd-div-etc-buttons .btn-comment.btn-active, .thd-div-etc-buttons .reply-comment-btn:hover, .thd-div-etc-buttons .reply-comment-btn.btn-active {
     color: black;
 	background-color: #0080ff;
 	border-color: #0080ff;
     }
 /* heart(좋아요 버튼) */
-.thd-div-etc-buttons .btn-heart:hover, .thd-div-etc-buttons .btn-heart.btn-active {
+.thd-div-etc-buttons .btn-heart:hover, .thd-div-etc-buttons .btn-heart.btn-active, .thd-div-etc-buttons .btn-reply-heart:hover, .thd-div-etc-buttons .btn-reply-heart.btn-active {
     color: black;
 	background-color: #ff56b3;
 	border-color: #ff56b3;
@@ -373,18 +379,39 @@
     }  
     
 /* edit (수정 버튼) */
-.thd-div-etc-buttons .btn-erase:hover, .thd-div-etc-buttons .btn-erase.btn-active {
+.thd-div-etc-buttons .btn-erase:hover, .thd-div-etc-buttons .btn-erase.btn-active, .thd-div-etc-buttons .reply-erase-btn:hover, .thd-div-etc-buttons .reply-erase-btn.btn-active {
     color: black;
 	background-color: #808000;
 	border-color: #808000;
     }
    
-/* edit (수정 버튼) */
-.thd-div-etc-buttons .btn-trash:hover, .thd-div-etc-buttons .btn-trash.btn-active {
+/* trash (삭제 버튼) */
+.thd-div-etc-buttons .btn-trash:hover, .thd-div-etc-buttons .btn-trash.btn-active, .thd-div-etc-buttons .reply-trash-btn:hover, .thd-div-etc-buttons .reply-trash-btn.btn-active {
     color: black;
 	background-color: #ff4a39;
 	border-color: #ff4a39;
     } 
+    
+/* question (답변작성 버튼) */
+.thd-div-etc-buttons .btn-reply:hover, .thd-div-etc-buttons .btn-reply.btn-active {
+    color: black;
+	background-color: #ff67be;
+	border-color: #ff67be;
+    } 
+    
+/* question (나도궁금해요 버튼) */
+.thd-div-etc-buttons .btn-question:hover, .thd-div-etc-buttons .btn-question.btn-active {
+    color: black;
+	background-color: #cbef75;
+	border-color: #cbef75;
+    } 
+/* reply-check (답변채택 버튼) */
+.thd-div-etc-buttons .btn-reply-check:hover, .thd-div-etc-buttons .btn-reply-check.btn-active {
+    color: black;
+	background-color: #00c1c4;
+	border-color: #00c1c4;
+    } 
+    
     
 /* list(목록 버튼) */
 .thd-div-etc-buttons .btn-list:hover {
@@ -443,7 +470,7 @@
 
 /* ## 댓글 css START */
 
-.thd-div-comment {
+.thd-div-comment, .thd-div-reply-comment {
 /* 	border: solid pink;  */
 	border-top: 2px dashed rgba(131, 131, 134, 0.1);
 	padding: 25px;
@@ -453,14 +480,14 @@
 
 
 /* 댓글 압룍 검싸고 있는 form css*/
-.thd-div-comment .rd-mailform {
+.thd-div-comment .rd-mailform, .thd-div-reply-comment .rd-mailform {
 /*     margin-top: 13px; */
 /*     margin-bottom: 38px; */
 }
 
 
 /* 댓글 list css*/
-.thd-div-comment .comment-group {
+.thd-div-comment .comment-group, .thd-div-reply-comment .comment-group {
 	border-radius: 9px;
     padding: 20px;
 /*     text-align: left; */
@@ -473,7 +500,7 @@
 }
 
 /* 닉네임 입력칸 css 조정 */
-.thd-div-comment .form-input.txtName{
+.thd-div-comment .form-input.txtName, .thd-div-reply-comment .form-input.txtName {
     display: block;
     width: 100%;
     min-height: 28px;
@@ -493,7 +520,7 @@
 
 /* 댓글 비밀여부 css */
 @media (min-width: 992px){
-.thd-div-comment .checkbox-inline .checkbox-custom-dummy{
+.thd-div-comment .checkbox-inline .checkbox-custom-dummy, .thd-div-reply-comment .checkbox-inline .checkbox-custom-dummy{
 	width: 20px;
     height: 20px;
 	}
@@ -501,7 +528,7 @@
 
 /* 댓글 비밀여부 마진, 패딩 주기  */
 @media (min-width: 992px){
-	.thd-div-comment .checkbox, .thd-div-comment .checkbox-inline {
+	.thd-div-comment .checkbox, .thd-div-comment .checkbox-inline, .thd-div-reply-comment .checkbox, .thd-div-reply-comment .checkbox-inline {
 	    padding-left: 27px;
 	    margin-top: 7px;
 	    padding-right: 143px;
@@ -509,7 +536,7 @@
 }
 
 @media (max-width: 492px){
-.thd-div-comment .checkbox, .thd-div-comment .checkbox-inline {
+.thd-div-comment .checkbox, .thd-div-comment .checkbox-inline, .thd-div-reply-comment .checkbox, .thd-div-reply-comment .checkbox-inline {
     padding-left: 38px;
     margin-right: 123px;
 }
@@ -519,12 +546,12 @@
 
 
 /* 이미지 아이콘 그림에 마진 주기 */
-.thd-div-comment .form-wrap img:nth-child(1){
+.thd-div-comment .form-wrap img:nth-child(1), .thd-div-reply-comment .form-wrap img:nth-child(1){
     margin-right: 25px;
 
 }
 
-.thd-div-comment .form-wrap .tooltip-custom + .tooltip .tooltip-inner {
+.thd-div-comment .form-wrap .tooltip-custom + .tooltip .tooltip-inner, .thd-div-reply-comment .form-wrap .tooltip-custom + .tooltip .tooltip-inner {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
 	max-width: 253px;
 	padding: 5px 12px;
@@ -535,24 +562,24 @@
 	background: rgb(0, 200, 202);
 }
 
-.thd-div-comment .form-wrap .tooltip-custom + .tooltip.top .tooltip-arrow {
+.thd-div-comment .form-wrap .tooltip-custom + .tooltip.top .tooltip-arrow, .thd-div-reply-comment .form-wrap .tooltip-custom + .tooltip.top .tooltip-arrow {
 	bottom: -2px;
 	margin-left: -7px;
 	border-width: 7px 7px 0;
 	border-top-color: rgb(0, 200, 202);
 }
 
-.thd-div-comment .reply-cate>span:nth-child(1){
+.thd-div-comment .reply-cate>span:nth-child(1), .thd-div-reply-comment .reply-cate>span:nth-child(1){
 	color: red;
 }
 
-.thd-div-comment .reply-cate>span:nth-child(3), .thd-div-comment .reply-cate>span:nth-child(5){
+.thd-div-comment .reply-cate>span:nth-child(3), .thd-div-comment .reply-cate>span:nth-child(5), .thd-div-reply-comment .reply-cate>span:nth-child(3), .thd-div-reply-comment .reply-cate>span:nth-child(5){
 	font-size: 14px;
 }
 
 
 /* 댓글 list 아이콘(ˇ) */
-.thd-div-comment .reply-cate .glyphicon {
+.thd-div-comment .reply-cate .glyphicon, .thd-div-reply-comment .reply-cate .glyphicon {
     font-size: 10px;
     top: 0px;
     color: #2e2e2e;
@@ -560,7 +587,7 @@
 
 
 /* 댓글 입력칸 css  */
-.thd-div-comment .form-input.txtComment {
+.thd-div-comment .form-input.txtComment, .thd-div-reply-comment .form-input.txtComment {
 	display: block;
     width: 100%;
     min-height: 126px;
@@ -581,7 +608,7 @@
 }
 
 /* text 입력칸 height 조정*/
-.thd-div-comment  textarea.form-input {
+.thd-div-comment  textarea.form-input, .thd-div-reply-comment  textarea.form-input {
     height: 126px;
     min-height: 89px;
     max-height: 255px;
@@ -590,14 +617,14 @@
 }
 
 /* 댓글 입력창에 추가되는 이미지 크기 지정 */
-.thd-div-comment .thd-img>.thd-img-add {
+.thd-div-comment .thd-img>.thd-img-add, .thd-div-reply-comment .thd-img>.thd-img-add {
 	width: auto;
 }
 
 
 /* 댓글 입력 text area maring 조정*/
 @media (min-width: 480px){
-.thd-div-comment .cell-sm-10{
+.thd-div-comment .cell-sm-10, .thd-div-reply-comment .cell-sm-10{
 	    -webkit-flex-basis: 100%;
 	    -ms-flex-preferred-size: 100%;
 	     flex-basis: 100%;
@@ -606,7 +633,7 @@
 	}
 }
 @media (min-width: 480px){
-.thd-div-comment .cell-sm-2 {
+.thd-div-comment .cell-sm-2, .thd-div-reply-comment .cell-sm-2 {
 	    -webkit-flex-basis: 100%;
 	    -ms-flex-preferred-size: 100%;
 	     flex-basis: 100%;
@@ -618,7 +645,7 @@
 
 
 /* 댓글 입력 버튼 (종상) */
-.thd-div-comment .button {
+.thd-div-comment .button, .thd-div-reply-comment .button {
 	min-width: 100%;
 	height: 100%;
     font-size: 14px;
@@ -629,21 +656,21 @@
     border-radius: 0px 15px 15px 0px;
 }
 /* 댓글 입력 버튼 높이 조절 */
-.thd-div-comment .form-button {
+.thd-div-comment .form-button, .thd-div-reply-comment .form-button {
 	height: 100%;
 }
 
 
 /* 대댓글 숨김 처리 (종상) */
-.thd-div-comment .thd-none {
+.thd-div-comment .thd-none, .thd-div-reply-comment .thd-none {
 	display: none;
 }
 /* 대댓글 입력창 바탕색 (종상) */
-.thd-div-comment .thd-txt-bg-color .range {
+.thd-div-comment .thd-txt-bg-color .range, .thd-div-reply-comment .thd-txt-bg-color .range {
 	background-color: white;
 	padding-bottom: 20px;
 }
-.thd-div-comment .comment-group .rd-mailform {
+.thd-div-comment .comment-group .rd-mailform, .thd-div-reply-comment .comment-group .rd-mailform {
 /* 	margin-top: 30px; */
 	margin-top: 47px;
 }
@@ -662,13 +689,13 @@
 	}
 }
 /* 닉네임 text-size 조정 */
-.thd-div-comment  .comment-reply {
+.thd-div-comment  .comment-reply, .thd-div-reply-comment  .comment-reply {
     font-size: 12px;ㄴ
 }
 
 
 /* comment-header안에 수정/삭제 아이콘 margin 조정*/
-.thd-div-comment .comment-header .iconTrash{
+.thd-div-comment .comment-header .iconTrash, .thd-div-reply-comment .comment-header .iconTrash{
 	    margin-left: 13px;
 }
 
@@ -677,7 +704,7 @@
 
 
 /* 댓글 스티커 선택버튼 */
-.thd-div-comment .choose-sticker {
+.thd-div-comment .choose-sticker, .thd-div-reply-comment .choose-sticker {
     overflow: visible;
     position: absolute;
     top: 92.8%;
@@ -690,19 +717,19 @@
 }
 
 @media (min-width: 954px){
-	.thd-div-comment .choose-sticker {
+	.thd-div-comment .choose-sticker, .thd-div-reply-comment .choose-sticker {
 	    left: 62%;
 	    display: none;
 	    
 	}
 }
 
-.thd-div-comment .table-custom td:first-child {
+.thd-div-comment .table-custom td:first-child, .thd-div-reply-comment .table-custom td:first-child {
     padding: 5px;
     height: 73.2px;
 }
 
-.thd-div-comment .table-custom td {
+.thd-div-comment .table-custom td, .thd-div-reply-comment .table-custom td {
     border-bottom: 0px solid #ededed;
 }
 
