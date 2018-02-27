@@ -105,7 +105,17 @@
 						<table cellspacing="0" cellpadding="0" border="0">
 		                    <tbody><tr valign="top">
 		                        <td class="td-nick"><span class="icon glyphicon glyphicon-user"></span>&ensp;가방주인</td>
-		                        </tr>
+		                        </tr class="td-answer">
+		                        <tr>
+		                        	<td>
+		                        		<span>답변요청 &nbsp;&nbsp;&nbsp;:</span>
+		                        	</td>
+		                	 		<td>
+									 <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> <span>누구나</span> &nbsp;
+									 <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <span>Angel</span> &nbsp;
+									 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> <span>human</span> &nbsp;
+		                	 		</td>
+		                	 	</tr>
 	                        </tbody>
 	                    </table>
 					   </div>
@@ -113,7 +123,11 @@
 					   <!-- 카테고리 -->	
 					    <div class="etc-btns">
 					      <table cellspacing="0" cellpadding="0" border="0">
-		                	 <tbody><tr valign="top">
+		                	 <tbody>
+		                	 
+		                	 <tr valign="top">
+		                	 	
+		                	 	
 		                        <td class="td-nick thd-div-etc-buttons">
 		                        
 			                        <!-- ## 누구나, Angel, human, 목록으로 등 버튼 css START -->
@@ -140,6 +154,7 @@
 		                        
 		                        </td>
 		                        </tr>
+		                        
 	                        </tbody>
 		                  </table>
 					  </div>
@@ -203,8 +218,8 @@
 							   <button type="button" class="btn btn-share btn-xs btn-reply">
 								 <span class="icon mdi mdi-comment-processing" aria-hidden="true"></span> 답변작성
 							   </button>
-							   <button type="button" class="btn btn-share btn-xs">
-								 <span class="glyphicon glyphicon-share" aria-hidden="true"></span> 나도궁금해요
+							   <button type="button" class="btn btn-question btn-xs">
+								 <span class="icon mdi mdi-comment-question-outline" aria-hidden="true"></span> 나도궁금해요
 							   </button>
 							</div>
 						</div>
