@@ -56,7 +56,131 @@
 }
 
 
-/* # tab pane_1 : 내 정보 css START*/
+/* ############################################ tab pane_1 : 내 정보 css START*/
+
+.my-info-div{
+	margin-right: 61px;  
+	margin-left: 27px; 
+	margin-top: 4%;
+}
+
+.my-info-registration .mdi-flower{
+	font-size: 70px;
+	
+}
+
+
+.my-info-registration .my-info-form {
+	background-color: #f2f3f9;
+	height: 44px;
+	line-height: 2.8;
+	border-radius: 8px;
+	margin-top: 9px;
+	font-size: 15px;
+}
+
+/* .my-info-registration .my-info-form:first-child { */
+/* 	margin-top: 0px; */
+/* } */
+
+.my-info-registration .my-info-form label:first-child{
+	padding-left: 23px;
+}
+
+
+
+
+
+
+
+
+
+#profile-widget.panel{
+	border: 1px solid #00000029;
+}
+
+
+#profile-widget .panel-heading {
+    min-height: 200px;
+    background: #fff url(http://4hdwallpapers.com/wp-content/uploads/2013/04/The-Lion-King-Desktop-1024x640.jpg) no-repeat top center;
+    background-size: cover;
+/*     background-image: url("img/myPage/sample.jpg"); */
+}
+#profile-widget .media-heading {
+    color: #5B5147;
+    font-size: 22px;
+}
+#profile-widget .panel-body {
+/*     padding: 20px; */
+	padding: 20px 20px 20px 10px;
+}
+#profile-widget .panel-body .img-circle {
+    height: 90px;
+    width: 90px;
+    padding: 8px;
+    border: 1px solid #e2dfdc;
+}
+#profile-widget .panel-footer {
+    padding: 0px;
+    border: none;
+}
+#profile-widget .panel-footer .btn-group .btn {
+    border: none;
+    border-radius: 0px;
+    font-size: 1.2em;
+    background-color: #F6F1ED;
+    color: #BAACA3;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 15px 0;
+}
+#profile-widget .panel-footer .btn-group .btn:hover {
+    color: #F6F1ED;
+    background-color: #8F7F70;
+	border-radius: 0px;
+}
+#profile-widget .panel-footer .btn-group>.btn:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+#profile-widget .panel-footer .btn-group .highlight {
+    color: #E56E4C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tab pane_1 : 내 정보 css END */
+
+
+/* ############################################ tab pane_2 : my게시물 css START*/
 
 /* dropBox height 및 글자위치 조정 */
 .my-list-block .select2-container--bootstrap .select2-selection--single{
@@ -605,6 +729,7 @@
 /* 답글 header title font-size 조정 */
 .answer-inner-div .comment-title{
 	font-size: 14px;
+	padding-left: 25px;
 }
 
 /* 답글 header title > 제목 */
@@ -617,13 +742,15 @@
 /* 댓글 날짜 font-size 조정 */
 .answer-inner-div .comment-time{
 	font-size: 12px;
+	font-style: normal;
 }
 
 
 /* 댓글 날짜 입력 칸 col-md-2 패딩 조정 */
 @media (min-width: 992px){
 	.answer-inner-div .comment-time.col-md-4{
-		padding-left: 14px;
+/* 		padding-left: 14px; */
+	    padding-left: 8px;
 		padding-right: 0px;
 		margin-top: 0px;
 	}
@@ -656,6 +783,10 @@
 	margin-top: 0px;
 }
 
+/* 댓글 내용 text 위치(padding) 조정 */
+.answer-inner-div .comment-text p{
+	padding-left: 10px;
+}
 
 /* # tab pane_4 : my답변 css END*/
 

@@ -8,7 +8,7 @@
  
 
 <!-- 헤더 전용 styleSheet -->
-<link rel="stylesheet" href="/HappyRing/css/common/include/header.css">
+<link rel="stylesheet" href="/HaㄱppyRing/css/common/include/header.css">
 
 <!-- 공통 전용 styleSheet : frame.css -->
 <link rel="stylesheet" href="/HappyRing/css/common/include/frame.css">
@@ -18,78 +18,136 @@
 
 
 <style type="text/css">
+.register-div .nav-tabs {
+	border-bottom: 2px solid #DDD;
+}
 
+.register-div .nav-tabs> .register-div li.active>a, .register-div .nav-tabs> .register-div li.active>a:focus, .register-div .nav-tabs> .register-div li.active>a:hover
+	{
+	border-width: 0;
+}
 
+.register-div .nav-tabs>li>a {
+	border: none;
+	color: #ffffff;
+	background: #5a4080;
+}
 
+.register-div .nav-tabs>.register-div li.active>a, .register-div .nav-tabs>li>a:hover {
+	border: none;
+	color: #5a4080 !important;
+	background: #fff;
+}
 
+.register-div .nav-tabs>li>a::after {
+	content: "";
+	background: #5a4080;
+	height: 2px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: -1px;
+	transition: all 250ms ease 0s;
+	transform: scale(0);
+}
 
+.register-div .nav-tabs>li.active>a::after, .register-div .nav-tabs>li:hover>a::after {
+	transform: scale(1);
+}
 
+.register-div .tab-nav>li>a::after {
+	background: ##5a4080 none repeat scroll 0% 0%;
+	color: #fff;
+}
+
+.register-div .tab-pane {
+	padding: 15px 0;
+}
+
+.register-div .tab-content {
+	padding: 20px
+}
+
+.register-div .nav-tabs>li {
+	width: 20%;
+	text-align: center;
+}
+
+.register-div .card {
+	background: #FFF none repeat scroll 0% 0%;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+}
+
+@media all and (max-width:724px) {
+	.register-div .nav-tabs>li>a>span {
+		display: none;
+	}
+	.register-div .nav-tabs>li>a {
+		padding: 5px 5px;
+	}
+}
 
 /**********************/
 
-
 /* 모달 크기 */
-.modal-account .modal-dialog{
-max-width: 1052px;
+.modal-account .modal-dialog {
+	max-width: 1052px;
 }
 
-
 /* 모달창 우측 x버튼 영역 width 조정 */
-@media(min-width: 992px){
-	.modal-content:before{
-/* 		position: absolute; */
-/* 	    top: 0; */
-/* 	    bottom: 0; */
-/* 	    right: 0; */
-	    width: 44px;
-/* 	    content: ""; */
-/* 	    display: inline-block; */
-/* 	    background-color: #f2f3f9; */
+@media ( min-width : 992px) {
+	.modal-content:before {
+		/* 		position: absolute; */
+		/* 	    top: 0; */
+		/* 	    bottom: 0; */
+		/* 	    right: 0; */
+		width: 44px;
+		/* 	    content: ""; */
+		/* 	    display: inline-block; */
+		/* 	    background-color: #f2f3f9; */
 	}
 }
 
 /* 모달창 우측 x버튼 영역 padding 조정 */
-@media (min-width: 992px){
+@media ( min-width : 992px) {
 	.modal-custom .modal-content {
-	    position: relative;
-	    overflow: hidden;
-    	padding:  0px 145px 0px 0px;
-	  
+		position: relative;
+		overflow: hidden;
+		padding: 0px 145px 0px 0px;
 	}
 }
 
 /*x버튼 크기 조정*/
-@media (min-width: 992px){
+@media ( min-width : 992px) {
 	.modal-custom .close {
-	    top: 15px;
-	    right: 2px;
+		top: 15px;
+		right: 13px;
 	}
 }
 
 /* 모달 내 img랑 로그인 화면 포함한 부분 margin 없애기*/
-@media (min-width: 992px){
+@media ( min-width : 992px) {
 	.modal-account .modal-body-inner {
-/* 	    max-width: 370px; */
-	    margin-left: 0px;
-	    margin-right: -8px;
-/* 	    padding-top: 15px; */
-/* 	    padding-bottom: 15px; */
+		/* 	    max-width: 370px; */
+		margin-left: 0px;
+		margin-right: -8px;
+		/* 	    padding-top: 15px; */
+		/* 	    padding-bottom: 15px; */
 	}
 }
 
-
 /**/
-.modal-custom * + form{
+.modal-custom *+form {
 	margin-top: 21px;
 }
 
-
 .modal-content {
-    padding-right: 124px;
+	padding-right: 124px;
 }
 
-.modal-body-inner.modal-img{
-	    border-right: dashed 2px #8080803b;
+.modal-body-inner.modal-img {
+	border-right: dashed 2px #8080803b;
 }
 </style>
 </head>
@@ -506,6 +564,8 @@ max-width: 1052px;
             </div>
             
             
+            
+            
             <div class="modal-body-inner login-modal">
               
               
@@ -540,38 +600,79 @@ max-width: 1052px;
             
             
             
+            
             <div class="modal-body-inner sign-up-modal">
-              <h4 class="modal-title">회원가입</h4>
+              <h3 class="hn" style="color:#00c8ca;margin-bottom: -7px;">회원가입</h3>              
+              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+            
               <!-- RD Mailform-->
-              <form class="rd-mailform form-novi">
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Email">
-                  <label class="form-label" for="forms-email2">E-mail</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-name">Nickname</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-password2" type="password" name="password" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-password2">Password</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-confirm">Confirm Password</label>
-                </div>
-                <div class="form-button">
-                  <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button>
-                </div>
-              </form>
-              <div class="row">
-              	<div class="col-md-offset-1 col-md-5">
-              		<a class="h-sign-up-login">로그인</a>
-              	</div>
-              	<div class="col-md-6">
-              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
-              	</div>
-              </div>
+<!--               <form class="rd-mailform form-novi"> -->
+<!--                 <div class="form-wrap form-wrap-validation"> -->
+<!--                   <input class="form-input hn" id="forms-email2" type="email" name="email" data-constraints="@Email" style="height: 44px;min-height: 30px;"> -->
+<!--                   <label class="form-label hn" for="forms-email2" style="top: 22px;">E-mail</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"  style="margin-top: 9px;"> -->
+<!--                   <input class="form-input hn" id="forms-login-name" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;"> -->
+<!--                   <label class="form-label hn" for="forms-login-name" style="top: 22px;">Nickname</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"  style="margin-top: 9px;"> -->
+<!--                   <input class="form-input hn" id="forms-login-password2" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;"> -->
+<!--                   <label class="form-label hn" for="forms-login-password2" style="top: 22px;">Password</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-wrap form-wrap-validation"  style="margin-top: 9px;"> -->
+<!--                   <input class="form-input hn" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required" style="height: 44px;min-height: 30px;"> -->
+<!--                   <label class="form-label hn" for="forms-login-confirm" style="top: 22px;">Confirm Password</label> -->
+<!--                 </div> -->
+<!--                 <div class="form-button"> -->
+<!--                   <button class="button button-block button-secondary button-nina h-sign-in-btn hn" type="submit" -->
+<!--                   style="background-color: #00c8ca; border-color: #00c8ca">Sign In</button> -->
+<!--                 </div> -->
+<!--               </form> -->
+<!--               <div class="row"> -->
+<!--               	<div class="col-md-12" style="text-align: center;font-size: 13px; color:#027e7f;"> -->
+<!--               		<a class="h-sign-up-login hn" style="color:#027e7f">로그인</a>&nbsp;&nbsp;<span style="color:#027e7f">|</span>&nbsp; -->
+<!--               		<a class="h-find-id-pw hn" style="color:#027e7f">아이디/비밀번호 찾기</a> -->
+<!--               	</div>	 -->
+<!--               </div> -->
+
+<div class="register-div">                
+      <!-- Nav tabs -->
+      <div class="card">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-home"></i>  <span>Home</span></a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-user"></i>  <span>Profile</span></a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-envelope-o"></i>  <span>Messages</span></a></li>
+          <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-cog"></i>  <span>Settings</span></a></li>
+          <li role="presentation"><a href="#extra" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-plus-square-o"></i>  <span>extra</span></a></li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+          <div role="tabpanel" class="tab-pane" id="profile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+          <div role="tabpanel" class="tab-pane" id="messages">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+          <div role="tabpanel" class="tab-pane" id="settings">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
+          <div role="tabpanel" class="tab-pane" id="extra">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
             
             
