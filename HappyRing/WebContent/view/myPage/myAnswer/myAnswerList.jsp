@@ -39,7 +39,7 @@
 <body>
 
 		           	 <!-- Comment-->
-		            <c:forEach var="i" begin="1" end="2">
+		            <c:forEach var="i" begin="1" end="3">
 	                <div class="answer-inner-div">
 		                <article class="comment">
 			               <div class="comment-avatar">
@@ -49,46 +49,7 @@
 			               </div>
 		                   <div class="comment-body" style="width: 100%">
 			                    <div class="row">
-					                    <p class="comment-title col-md-10"> [묻고답하기]<span>&nbsp;&nbsp;&nbsp;<strong>Q.</strong>&nbsp;</span>
-					                    		<span style="12px">너무 날씬해서 고민이에요-라고 말하고 싶은데 현실은 그렇지 않다</span></p>
-					                    <p class="comment-time col-md-2">2018-02-07 <span>&nbsp;10:30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- 					                    	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span>삭제</a> -->
-					                    </p>
-			                    </div>
-		                    
-		                  </div>
-		                </article>
-		                
-		                <div style="padding-left: 24px;margin-top: 13px;">
-			                    <div class="row" style="border-top: dashed 1.5px #80808045; margin-right: 7px;  padding-top: 9px;">
-					                    <p class="comment-title col-md-8"><span><strong>Answer.</strong></span></p>
-					                    <p class="comment-time col-md-4">
-					                    <span>답변일 &nbsp;&nbsp;&nbsp;</span>
-					                    2018-02-07 <span>&nbsp;10:30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					                    	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span>삭제</a>
-					                    </p>
-			                    </div>
-		                    
-			                    <div class="comment-text">
-				                    <p> Thank you for your comment! I will publish more tips on social communication as well as 
-				                    some useful negotiation tricks so stay tuned!&nbsp; &nbsp;
-				                    </p>
-			                    </div>
-		                </div>
-	                </div>
-	                
-	                
-	                <!-- Comment-->
-	                <div class="answer-inner-div">
-		                <article class="comment">
-			               <div class="comment-avatar">
-				                <label class="checkbox-inline">
-				                  <input type="checkbox" checked="" name="check-1">
-				                </label>
-			               </div>
-		                   <div class="comment-body" style="width: 100%">
-			                    <div class="row">
-					                    <p class="comment-title col-md-10"> [묻고답하기]<span>&nbsp;&nbsp;&nbsp;<strong>Q.</strong>&nbsp;</span>
+					                    <p class="comment-title col-md-10"><span>1234</span>&nbsp;&nbsp;[묻고답하기]<span>&nbsp;&nbsp;&nbsp;<strong>Q.</strong>&nbsp;</span>
 					                    		<span style="12px">너무 날씬해서 고민이에요-라고 말하고 싶은데 현실은 그렇지 않다</span></p>
 					                    <p class="comment-time col-md-2">2018-02-07 <span>&nbsp;10:30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- 					                    	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span>삭제</a> -->
@@ -102,7 +63,7 @@
 			                    <div class="row" style="border-top: dashed 1.5px #80808045; margin-right: 7px;  padding-top: 9px;">
 					                    <p class="comment-title col-md-8"><span><strong>내가 등록한 답변</strong></span></p>
 					                    <p class="comment-time col-md-4">
-					                    <span>답변일 &nbsp;&nbsp;&nbsp;</span>
+					                    <span>답변등록일 &nbsp;&nbsp;&nbsp;</span>
 					                    2018-02-07 <span>&nbsp;10:30</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					                    	<a href="#" class="iconTrash"><span class="icon glyphicon glyphicon-remove"></span>삭제</a>
 					                    </p>

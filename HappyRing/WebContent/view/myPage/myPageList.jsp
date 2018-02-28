@@ -86,10 +86,10 @@
 	     <div class="tabs-custom tabs-vertical tabs-line" id="tabs-myPage">
            <!-- Nav tabs-->
            <ul class="nav nav-tabs">
-             <li class="hn"><a href="#tabs-my-Info" data-toggle="tab">내 정보</a></li>
+             <li class="hn active"><a href="#tabs-my-Info" data-toggle="tab">내 정보</a></li>
              <li class="hn"><a href="#tabs-my-article" data-toggle="tab">my 게시물 </a></li>
              <li class="hn"><a href="#tabs-my-comment" data-toggle="tab">my 댓글 </a></li>
-             <li class="hn active"><a href="#tabs-my-answer" data-toggle="tab">my 답변 </a></li>
+             <li class="hn"><a href="#tabs-my-answer" data-toggle="tab">my 답변 </a></li>
              <li class="hn"><a href="#tabs-my-like" data-toggle="tab">나의 보관함</a></li>
 <!--              <li class="hn"><a href="#tabs-my-bookmark" data-toggle="tab">임시)북마크</a></li> -->
 			 <li class="hn"><a href="#tabs-my-favorite" data-toggle="tab">임시)즐겨찾기</a></li>
@@ -98,8 +98,11 @@
            <div class="tab-content">
            
            	 <!-- ### tab pane_1 : 내 정보 -->
-             <div class="tab-pane fade" id="tabs-my-Info">
-
+             <div class="tab-pane fade in active" id="tabs-my-Info">
+				
+				<div class="my-info-div">
+		        		<jsp:include page="/view/myPage/myInfo/myInfoList.jsp"></jsp:include>
+			    </div>
 
              </div>
              
@@ -211,7 +214,7 @@
                
                	<div class="my-comment-div">
 		        		<jsp:include page="/view/myPage/myComment/myCommentList.jsp"></jsp:include>
-			   </div>
+			    </div>
 
 
 
@@ -222,7 +225,7 @@
              
              
              <!-- ### tab pane_4 : my답변 -->
-             <div class="tab-pane fade in active" id="tabs-my-answer">
+             <div class="tab-pane fade" id="tabs-my-answer">
              
                <div class="row">
 		             <!--# dropBox START-->
