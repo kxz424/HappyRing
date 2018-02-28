@@ -2,7 +2,7 @@
 
 
 /* ## 상담소홍보 게시물 타이틀 div */
-.ct-title{
+.infoad-title{
 	margin-top: 12px;
 /* 	border: solid; */
 	background-color: white;
@@ -13,16 +13,16 @@
 
 
 /* 상담소홍보 게시물 타이틀 대제목 col-md padding 조정 */
-.ct-title .row .col-md-6{
+.infoad-title .row .col-md-6{
 	padding-left: 4%; 
 	margin-bottom: 2%;
 }
 
 /* 상담소홍보 명언 text 글자 크기 조정*/
-.ct-title .row .col-md-10 .sub-text{
+.infoad-title .row .col-md-10 .sub-text{
 	font-size: 14px;
 }
-.ct-title .row .col-md-10 .sub-text-small{
+.infoad-title .row .col-md-10 .sub-text-small{
 	
 	font-size: 10px
 }
@@ -33,7 +33,7 @@
 
 
 /* 블록 형식의 list div */
-.ct-list-block{
+.infoad-list-block{
     padding-top: 1px;
     margin-top: 15px;
     padding-bottom: 30px;
@@ -94,14 +94,14 @@
 
 
 /* istope css */
-.ct-list-block .isotope .isotope-item{
+.infoad-list-block .isotope .isotope-item{
 	padding-right:6px;
 }
 
 
 /* istope 구별버튼 li 간격 조정 */
 @media (min-width: 992px){
-	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.infoad-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons > * {
            margin-left: 1px;
            margin-top: 0px;
@@ -112,7 +112,7 @@
 
 /* istope 버튼 radius 및 크기(padding)조정  */
 @media (min-width: 992px){
-	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.infoad-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a {
 		 border-radius: 8px;
 		 padding: 5px 19px;
@@ -121,7 +121,7 @@
 
 /* istope 버튼 active시 색 조정  */
 @media (min-width: 992px){
-	.ct-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.infoad-list-block .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a.active {
 		color: #fff;
 	    background: rgb(0, 200, 202);
@@ -133,7 +133,7 @@
 
 /* istope 버튼 마우스 hover시 색 조정  */
 @media (min-width: 992px){
-	.ct-list-block .isotope-filters-list.isotope-filters-list-buttons a:hover {
+	.infoad-list-block .isotope-filters-list.isotope-filters-list-buttons a:hover {
 		color: #fff;
 	    background: rgb(0, 200, 202);
 	    border-color: rgb(0, 200, 202);
@@ -142,18 +142,18 @@
 }
 
 /* list 카테고리 버튼(isotope) 오른쪽 정렬 */
-.ct-list-block .isotope-filters-horizontal {
+.infoad-list-block .isotope-filters-horizontal {
 	float: right;
 }
 /* list 카테고리 버튼(isotope) height 영역 설정 */
-.ct-list-block .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+.infoad-list-block .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
 	height: 42px;
 }
 
 
 
 /*istope 안에 들어갔기 때문에 생긴 img animation 죽이기*/
-.ct-list-block .gallery-item img {
+.infoad-list-block .gallery-item img {
     position: inherit;
     left: 0%;
     transform: none;
@@ -161,12 +161,12 @@
 
 
 /*list article border에 색 넣어주기*/
-.ct-list-block .post-blog {
+.infoad-list-block .post-blog {
     border: solid #80808024;
 }
 
 /* 리스트 article >img 크기 조정 */
-.ct-list-block .post-blog .post-blog-image {
+.infoad-list-block .post-blog .post-blog-image {
    min-height: 0px;
 }
 .f-section-1  .post-blog .post-blog-image img{
@@ -181,13 +181,13 @@
 
 /* article tag 좌우 padding 수정*/
 @media (min-width: 992px){
-	.ct-list-block .post-blog-caption-header {
+	.infoad-list-block .post-blog-caption-header {
 		padding-left: 9px;
 	    padding-right:11px;
 	    border-top: dotted #80808026;
 	}
 }
-.ct-list-block .post-blog-caption-header .button-tags{
+.infoad-list-block .post-blog-caption-header .button-tags{
 	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
 	padding: 4px 8px;
 	letter-spacing: .02em;
@@ -197,13 +197,13 @@
 
 
 /* article header에 게시글 no. 글자크기 수정 */
-.ct-list-block .post-blog-caption-header .post-comment{
+.infoad-list-block .post-blog-caption-header .post-comment{
 	font-size: 11px;
 }	
 
 /* article title 좌우 padding 수정*/
 @media (min-width: 992px){
-	.ct-list-block .post-blog-caption-body{
+	.infoad-list-block .post-blog-caption-body{
 		padding-left: 14px;
 	    padding-right: 14px;
 	    text-align: left;
@@ -211,7 +211,7 @@
 }
 
 /* article title 위 아래 padding 수정*/
-.ct-list-block  .post-blog-caption-body {
+.infoad-list-block  .post-blog-caption-body {
     padding-top: 6px;
     padding-bottom: 12px;
 }
@@ -219,7 +219,7 @@
 
 /* article footer font-size 수정*/
 @media (min-width: 992px){
-	.ct-list-block .post-blog-caption-footer{
+	.infoad-list-block .post-blog-caption-footer{
 		font-size: 10px;
 		padding-left: 14px;
 	    padding-right: 14px;
@@ -231,7 +231,7 @@
 
 
 /* article footer icon size 수정 */
-.ct-list-block .glyphicon-heart {
+.infoad-list-block .glyphicon-heart {
     font-size: 12px;
     color: red;
 }

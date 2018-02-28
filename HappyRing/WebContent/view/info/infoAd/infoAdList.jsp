@@ -39,7 +39,7 @@
 	   
 	   
 	   <!-- ## 게시물 title : 상담소홍보 START -->
-	   			<div class="ct-title">
+	   			<div class="infoad-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-12">
@@ -61,7 +61,7 @@
 	   
 	   
 	   <!-- ## 게시물 list : 상담소홍보 START -->
-	   <div class="ct-list-block">
+	   <div class="infoad-list-block">
 	   
 	   
 	   <!-- ## 고정 공지사항 list START  -->	
@@ -129,19 +129,19 @@
                              
                              
                              <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+				              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
 				              	</a>
 			                  <div class="post-blog-caption-header">
 			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">새나라어린이상담소</a></li>
+			                      <li><a class="button-tags" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">새나라어린이상담소</a></li>
 			                    </ul>	
 			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
+			                    <span class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">no.123</span>
 			                    
 			                  </div>
 			                  <div class="post-blog-caption-body">
-			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+			                    <h7><a class="post-blog-title" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
 			                    </a></h7>
 			                  </div>
@@ -152,7 +152,7 @@
 			                  </div>
 			                  <!-- 등록일, 좋아요 -->
 			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
 			                  </div>
 			                 </article>
@@ -166,19 +166,19 @@
                              
                              
                              <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+				              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
 				              	</a>
 			                  <div class="post-blog-caption-header">
 			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">마음편한상담소</a></li>
+			                      <li><a class="button-tags" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">마음편한상담소</a></li>
 			                    </ul>	
 			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
+			                    <span class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">no.123</span>
 			                    
 			                  </div>
 			                  <div class="post-blog-caption-body">
-			                    <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+			                    <h7><a class="post-blog-title" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 			                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
 			                    </a></h7>
 			                  </div>
@@ -189,7 +189,7 @@
 			                  </div>
 			                  <!-- 등록일, 좋아요 -->
 			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
 			                  </div>
 			                 </article>
@@ -280,6 +280,9 @@
 </div>
 <!-- page END -->
 	
+	
+<!-- communityList 전용 js --> 
+   <script src="/HappyRing/js/info/infoAdList.js"></script> 
 
 
 </body>

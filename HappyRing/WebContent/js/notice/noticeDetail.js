@@ -138,33 +138,38 @@ $(function(){
         var state = $('.choose-sticker').css('display'); // state 변수에 ID가 moreMenu인 요소의 display의 속성을 '대입'
 //        if(state == 'none'){ // state가 none 상태일경우 
 //            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
-        var popover1 = $('.choose-sticker').wrap('<div/>').parent().html();
+        var popover1 = $('.choose-sticker').wrap('<div/>').parent().html();		//이모티콘을 가지고 있는 태그 변수에 저장
 //        alert(popover1);
 //        var aaa = popover1.html();
 //        console.log(typeof popover1);
 //        $('.popover-test').attr('data-content', $(popover1)[0].outerHTML).popover('show');
-        $('.popover-sticker').popover({
-    		html: true,
-    		title: "하하하2",
-    		content: function(){
-    			return $('.choose-sticker').html();
+        $('.popover-sticker').popover({		//팝오버 실행
+    		html: true,						//html 코드 허용(html코드를 텍스트가 아닌 html로 인식한다)
+    		title: "하하하2",					//팝오버의 제목
+    		content: function(){			//팝오버의 내용
+    			return $('.choose-sticker').html();		//html코드를 content 부분에 추가
     		},
-    		top: $('.sicker-btn').offset().top,
-    		left: $('.sicker-btn').offset().left,
-    		placement: "right"
+    		top: $('.sicker-btn').offset().top,			//세로기준 위치 지정(적용안됨)
+    		left: $('.sicker-btn').offset().left,		//가로기준 위치 지정(적용안됨)
+    		placement: "right"							//팝오버를 오른쪽에 띄운다
     	});
-        $('.popover-sticker~.popover.fade.right.in>arrow').css('top', $('.sicker-btn').offset().top);
-        $('.popover-sticker~.popover.fade.right.in').css('top', $('.sicker-btn').offset().top);
-        $('.popover-sticker').popover('show');
+        $('.popover-sticker~.popover.fade.right.in>arrow').css('top', $('.sicker-btn').offset().top);		//팝오버 화살표의 위치 조정(적용안됨)
+        $('.popover-sticker~.popover.fade.right.in').css('top', $('.sicker-btn').offset().top);				//팝오버 위치 조정(적용안됨)
+        $('.popover-sticker').popover('show');																//팝오버 보여주기
 //        }else{ // 그 외에는
 //            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
 //        }
     });
 	
-	$('.popover.fade.right.in table td').click(function(){
-		alert('!!!!');
-		var img = $(this).find('img').attr('src');
-		alert(img);
+	$(document).on('click', '.popover-content table td', function(){		//팝오버 안의 이모티콘 클릭이벤트(동적으로 생성된 태크이기 때문에 .on이벤트를 씀)
+		var img = $(this).find('img').attr('src');		//선택한 이모티콘 이미지 주소 변수에 저장
+		var img_tag = $('<img />', {					//댓글 입력창에 띄울 이미지 태그 생성
+			id: 'sticker-img',							
+			width: 40,
+			height: 40
+		});
+		img_tag.attr('src', img);			//새로만든 이미지 태그에 선택한 이모티콘 이미지 주소 저장
+		$('.no-img').append(img_tag);		//댓글 입력창에 이모티콘 이미지가 추가된 이미지 태그 추가
 	});
 	//댓글창 스터커 넣기 js END
 	

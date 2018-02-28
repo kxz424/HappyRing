@@ -562,6 +562,10 @@
 	     padding-left: 0px;
 	}
 }
+/* 댓글에 입력된 이모티콘의 margin 조정 */
+.no-div-comment .form-input.txtComment #sticker-img {
+	margin-right: 10px;
+}
 
 
 
