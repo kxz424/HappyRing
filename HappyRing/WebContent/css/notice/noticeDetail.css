@@ -636,11 +636,18 @@
     border: 1px solid #288ce3;
     background-color: white;
 }
+.no-div-comment .popover-sticker~.popover.fade.right.in {
+	width: 100%;
+}
+.no-div-comment .popover-sticker~.popover.fade.right.in>.arrow {
+	display: none;
+}
 
 @media (min-width: 954px){
 	.no-div-comment .choose-sticker {
 	    left: 62%;
 	    display: none;
+		
 	    
 	}
 }

@@ -4,10 +4,10 @@ $(function(){
 	$(".no-reply-btn").click(function(e){
 		e.preventDefault();		//현재 클릭한 태그에서 진행중인 이벤트를 중지 (예: a태그의 href)
 		var reply = $(this).parent().parent().parent().next();	//보여질 대댓글의 위치를 찾아 변수에 저장
-		if(reply.attr('class') == 'comment-group thd-none'){	//대댓글의 클래스명이 thd-none 이
-			reply.attr('class', 'comment-group thd-block');		//대댓글의 클래스명을 thd-block로 변경
+		if(reply.css('display') == 'none'){	//대댓글의 클래스명이 cd-none 이
+			reply.css('display', 'block');		//대댓글의 클래스명을 cd-block로 변경
 		}else{	//그롷지 않으면
-			reply.attr('class', 'comment-group thd-none');	//대댓글의 클래스명을 thd-none로 변경 혹은 유지
+			reply.css('display', 'none');	//대댓글의 클래스명을 cd-none로 변경 혹은 유지
 		}
 	});
 	
@@ -133,14 +133,39 @@ $(function(){
 	});
 	
 	//댓글창 스티커 넣기 js START
+	
 	$('.sicker-btn').click(function(){ // ID가 toggleButton인 요소를 클릭하면
         var state = $('.choose-sticker').css('display'); // state 변수에 ID가 moreMenu인 요소의 display의 속성을 '대입'
-        if(state == 'none'){ // state가 none 상태일경우 
-            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
-        }else{ // 그 외에는
-            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
-        }
+//        if(state == 'none'){ // state가 none 상태일경우 
+//            $('.choose-sticker').show(); // ID가 moreMenu인 요소를 show();
+        var popover1 = $('.choose-sticker').wrap('<div/>').parent().html();
+//        alert(popover1);
+//        var aaa = popover1.html();
+//        console.log(typeof popover1);
+//        $('.popover-test').attr('data-content', $(popover1)[0].outerHTML).popover('show');
+        $('.popover-sticker').popover({
+    		html: true,
+    		title: "하하하2",
+    		content: function(){
+    			return $('.choose-sticker').html();
+    		},
+    		top: $('.sicker-btn').offset().top,
+    		left: $('.sicker-btn').offset().left,
+    		placement: "right"
+    	});
+        $('.popover-sticker~.popover.fade.right.in>arrow').css('top', $('.sicker-btn').offset().top);
+        $('.popover-sticker~.popover.fade.right.in').css('top', $('.sicker-btn').offset().top);
+        $('.popover-sticker').popover('show');
+//        }else{ // 그 외에는
+//            $('.choose-sticker').hide(); // ID가 moreMenu인 요소를 hide();         
+//        }
     });
+	
+	$('.popover.fade.right.in table td').click(function(){
+		alert('!!!!');
+		var img = $(this).find('img').attr('src');
+		alert(img);
+	});
 	//댓글창 스터커 넣기 js END
 	
 	

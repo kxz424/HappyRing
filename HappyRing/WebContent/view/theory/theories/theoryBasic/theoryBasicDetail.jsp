@@ -390,8 +390,8 @@
 		                    <!--# 댓글 입력 -->
 					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 thd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
@@ -482,10 +482,9 @@
 		                    
 		                    
 		                    <!--# 댓글 입력 -->
-					
 							<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-			                  <div class="range range-20">
-			                    
+			                  <div class="range range-20 thd-comment-comment-div">
+	                    
 			                    <!-- 닉네임입력 -->
 			                    <div class="cell-sm-4">
 			                      <div class="form-wrap form-wrap-validation">
@@ -534,9 +533,8 @@
 		                
 		            <h5> 댓글쓰기 </h5>
 					<!--# 댓글 입력 -->
-					
-					<form class="rd-mailform thd-txt-bg-color" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-	                  <div class="range range-20">
+					<form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+	                  <div class="range range-20 thd-comment-div">
 	                    
 	                    <!-- 닉네임입력 -->
 	                    <div class="cell-sm-4">

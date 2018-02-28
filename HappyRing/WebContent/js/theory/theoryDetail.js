@@ -1,13 +1,14 @@
 $(function(){
+
 	
 	//댓글에 reply 버튼 클릭시 해당되는 대댓글 화면에 나타내기 (종상)
 	$(".thd-reply-btn").click(function(e){
 		e.preventDefault();		//현재 클릭한 태그에서 진행중인 이벤트를 중지 (예: a태그의 href)
 		var reply = $(this).parent().parent().parent().next();	//보여질 대댓글의 위치를 찾아 변수에 저장
-		if(reply.attr('class') == 'comment-group thd-none'){	//대댓글의 클래스명이 thd-none 이
-			reply.attr('class', 'comment-group thd-block');		//대댓글의 클래스명을 thd-block로 변경
+		if(reply.css('display') == 'none'){	//대댓글의 클래스명이 cd-none 이
+			reply.css('display', 'block');		//대댓글의 클래스명을 cd-block로 변경
 		}else{	//그롷지 않으면
-			reply.attr('class', 'comment-group thd-none');	//대댓글의 클래스명을 thd-none로 변경 혹은 유지
+			reply.css('display', 'none');	//대댓글의 클래스명을 cd-none로 변경 혹은 유지
 		}
 	});
 	
