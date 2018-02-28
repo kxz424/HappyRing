@@ -257,6 +257,9 @@
 </div>
 <!-- page END -->
 	
+	
+<!-- communityList 전용 js --> 
+   <script src="/HappyRing/js/community/communityList.js"></script> 
 
 
 </body>
