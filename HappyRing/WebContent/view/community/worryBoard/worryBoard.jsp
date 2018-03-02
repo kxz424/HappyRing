@@ -8,8 +8,8 @@
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
-<!-- infoAdBoard 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/info/infoReview/infoReviewBoard.css">
+<!-- communityBoard 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/community/communityBoard.css">
   
 <!-- 에디터 -->
 <link href="/HappyRing/summernote/summernote-0.8.9.css" rel="stylesheet">

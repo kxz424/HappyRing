@@ -267,17 +267,17 @@
 						</div>
 						<div class="col-md-6">
 							<div class="bottom-etc-buttons">
-								<button type="button" class="btn btn-pencil btn-xs" data-toggle="tooltip" data-placement="top" title="글쓰기">
+								<a href="freeBoard.jsp" class="btn btn-pencil btn-xs" data-toggle="tooltip" data-placement="top" title="글쓰기">
 								 <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-							   	</button>
+							   	</a>
 							   	
-							   	<button type="button" class="btn btn-erase btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
+							   	<a href="freeBoard.jsp" class="btn btn-erase btn-xs" data-toggle="tooltip" data-placement="top" title="수정">
 								 <span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
-							   	</button>
+							   	</a>
 							   	<button type="button" class="btn btn-trash btn-xs" data-toggle="tooltip" data-placement="top" title="삭제">
 								 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
 							   	</button>
-								<a href="theoryBasicList.jsp" class="btn btn-list btn-xs" data-toggle="tooltip" data-placement="top" title="목록으로">
+								<a href="freeBoardList.jsp" class="btn btn-list btn-xs" data-toggle="tooltip" data-placement="top" title="목록으로">
 								 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
 							   	</a>
 							   	<button type="button" class="btn btn-correction btn-xs">

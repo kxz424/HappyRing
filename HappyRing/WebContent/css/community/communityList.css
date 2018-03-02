@@ -92,6 +92,11 @@
 	.isotope-filters-list.isotope-filters-list-buttons a {
 		 border-radius: 8px;
 		 padding: 5px 19px;
+		 height: 35px;
+}
+.cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+	.isotope-filters-list.isotope-filters-list-buttons a span{
+		 top: -2px;
 }
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 

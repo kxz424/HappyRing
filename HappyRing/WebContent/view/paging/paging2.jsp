@@ -12,7 +12,7 @@
 
 </head>
 <body>
-	<div class="fr-paging-search" style="padding-top: 12px; margin-top: 6px;">
+	<div class="fr-paging-search" style="padding-top: 12px;">
 		<div class="fr-paging">
 	       <div class="row">
 	<!-- 					                       페이징 -->

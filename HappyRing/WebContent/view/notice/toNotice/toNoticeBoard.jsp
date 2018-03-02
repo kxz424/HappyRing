@@ -7,9 +7,9 @@
 
 <!-- bootstrap.css, style.css 등 공통 css -->
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
- 
-<!-- communityBoard 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityBoard.css">
+
+<!-- noticeBoard 전용 css -->
+  <link rel="stylesheet" href="/HappyRing/css/notice/noticeBoard.css">
   
 <!-- 에디터 -->
 <link href="/HappyRing/summernote/summernote-0.8.9.css" rel="stylesheet">
@@ -43,11 +43,12 @@
 	   
 	   
 	         <!-- ----------------------################### START -->
+<!-- 	          	팁&노하우 작성페이지 -->
 	          	
 	         <!-- ### detail-div  START -->
-	         <div class="cd-div">
+	         <div class="no-div">
 				<!-- ## detail-div-inline START -->
-				<div class="cd-div-inline">
+				<div class="no-div-inline">
 					
 					
 					<!-- # 카테고리,닉네임 div START -->
@@ -57,7 +58,7 @@
 					      <table cellspacing="0" cellpadding="0" border="0">
 		                	<tbody>
 		                	    <tr valign="top">
-				                	<td><span class=""><a href="">응원</a></span></td>
+				                	<td><span class=""><a href="">관리자에게</a></span></td>
 			                        <td>&nbsp; | &nbsp; </td>
 			                        <td><span class="icon glyphicon glyphicon-user"></span>&ensp;해피링관리자</td>
 		                        </tr>
@@ -80,7 +81,7 @@
 					
 					<hr/>
 					
-					<div class="row cd-cate">
+					<div class="row no-cate">
 						<div class="col-sm-3 col-md-3">
 							<select class="form-control select-filter mainCate" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="mainCate">
 			                  <option label=" "> </option>
