@@ -87,7 +87,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
                              
                              
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+                             <article class="post-blog box-shadow gallery-item">
 				              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
 				              	</a>
@@ -118,7 +118,7 @@
                          <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
                              
                              
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+                             <article class="post-blog box-shadow gallery-item">
 				              	<a class="post-blog-image" href="/HappyRing/view/theory/theories/theoryBasic/theoryBasicDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
 				              	</a>

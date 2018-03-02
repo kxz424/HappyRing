@@ -242,6 +242,9 @@
 <!-- page END -->
 	
 
+<!-- theoryList 전용 js --> 
+   <script src="/HappyRing/js/theory/theoryList.js"></script> 
+
 
 </body>
 </html>
