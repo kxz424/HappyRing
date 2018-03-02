@@ -450,11 +450,11 @@ $document.ready(function () {
 
       Array.prototype.slice.call(btn.childNodes).forEach(function (el, count) {
     	  //main 탭버튼 이미지 부분 수정함
-//    	  for(var i = 0; i < count; i++){
-//    		  if(el != document.getElementsByClassName('imgTab')[i]){
+    	  for(var i = 0; i < count; i++){
+    		  if(el != document.getElementsByClassName('imgTab')[i]){
         		  el.style.transition = 'opacity .22s ' + 0.03 * count + 's,' + ' transform .22s ' + 0.03 * count + 's' + ', color .22s';
-//              }
-//    	  }
+              }
+    	  }
     	  
     	  
     	  //main 탭버튼 이미지 부분 수정함
@@ -465,11 +465,11 @@ $document.ready(function () {
       btn.getElementsByClassName('button-original-content')[0].style.transition = 'background .22s, color .22s, transform .22s ' + delay + 's';
       //main 탭버튼 이미지 부분 수정함
 //      alert(btn.childNodes.length);
-//      for(var i = 0; i < btn.childNodes.length; i++){
-//	      if(btn.lastChild.firstChild == document.getElementsByClassName('imgTab')[i]){
+      for(var i = 0; i < btn.childNodes.length; i++){
+	      if(btn.lastChild.firstChild == document.getElementsByClassName('imgTab')[i]){
 	    	  btn.lastChild.firstChild.style.visibility = 'hidden';
-//	      }
-//      }
+	      }
+      }
       //main 탭버튼 이미지 부분 수정함
       btn.addEventListener('mouseenter', function(e) {
         e.stopPropagation();

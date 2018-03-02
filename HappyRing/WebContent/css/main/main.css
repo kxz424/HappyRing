@@ -71,6 +71,13 @@
 	 color: white;
 	 padding: 11px 20px;	
 	 border-top: 0px;
+	 height: 110px;
+	 line-height: 0.5;
+}
+/* 탭 버튼의 이미지 위치 조정 */
+.mainTab-1-div .tabs-custom.tabs-buttons .nav-tabs li a img{
+	position: relative;
+	top: -11px;
 }
 
 /* 탭 버튼 마우스 오버시 글자색 조정 및 탭 버튼 마우스 hover시 배경색 변경*/
