@@ -50,7 +50,7 @@
                  <!-- 탭 nav-->
                   <ul class="nav nav-tabs">
                      <li> <a class="button" href="#beforeN" data-toggle="tab">
-                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/><span>주요심리학2</span></a>
+                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>주요심리학2</a>
                      </li>
                      <li class="active"><a class="button" href="#cheerUp" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/cheering.png" width="63px"><br/>자존감</a>
