@@ -78,6 +78,7 @@
 	           <!-- 게시물 title : 마이페이지 END -->
 	   
 	   
+	   
 	   <!-- ## 마이페이지 list  START -->
 	   <div class="my-list-block">
 	   
@@ -98,7 +99,7 @@
            <div class="tab-content">
            
            	 <!-- ### tab pane_1 : 내 정보 -->
-             <div class="tab-pane fade in active" id="tabs-my-Info">
+             <div class="tab-pane fade in active" id="tabs-my-Info" style="    padding-bottom: 59px;">
 				
 				<div class="my-info-div">
 		        		<jsp:include page="/view/myPage/myInfo/myInfoList.jsp"></jsp:include>

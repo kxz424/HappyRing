@@ -90,6 +90,7 @@
 .my-info-registration .my-account-open .btn{
     min-width: 100%;
     padding: 5px;
+    border-radius: 6px;
 }
 
 .my-info-registration .my-account-open .btn .glyphicon{
