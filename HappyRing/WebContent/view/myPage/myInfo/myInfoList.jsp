@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="/HappyRing/css/paging/paging2.css">
 <style type="text/css">
 
-
 .fr-paging-search .fr-paging #pageNum a,
 .fr-paging-search .fr-paging li{
 	min-width: 25px;
@@ -34,7 +33,96 @@
 }
 
 </style>
-  
+ 
+ 
+<style type="text/css">
+/* profile : tooltip css */
+
+.tooltip-profile {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.tooltip-profile .tooltiptext {
+    visibility: hidden;
+    width: 358px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    /* left: 50%; */
+    left: -1444.5%;
+    margin-left: -60px;
+    line-height: 2;
+    
+}
+
+
+.tooltip-profile:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+
+/*  registration : tooltip css */
+
+.tooltip-registration {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.tooltip-registration .tooltiptext {
+    visibility: hidden;
+    width: 358px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    /* left: 50%; */
+    left: -1444.5%;
+    margin-left: -60px;
+    line-height: 2;
+    
+}
+
+
+.tooltip-registration:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>  
 </head>
 <body>
 
@@ -106,8 +194,10 @@
 				   <div class="col-md-12" style="margin-bottom: 14px;">
 					  <div style="background-color: #00c8ca; padding: 7px; border-radius: 5px;padding-left: 38%;">
 					  	<h6 class="hn" style="text-align: center;color: #ffec17;">프로필카드
-					  	<span class="icon mdi mdi-help-circle tooltip-custom" data-toggle="tooltip" data-placement="right" title="Tooltip text" 
-					  	 style="padding-left: 86px;font-size: 16px;color: #f2f3f9;"></span></h6>
+					  	<span class="icon mdi mdi-help-circle tooltip-profile"
+					  	 style="margin-left: 86px;font-size: 16px;color: #f2f3f9;">
+					  	 	 <span class="tooltiptext">네이버에서의 '나'를 표현하는 프로필 정보입니다. <br>수정 화면에서 프로필 사진과 별명을 변경하세요.</span>
+					  	 </span></h6>
 					  </div>
 				   </div>
 				 </div>  
@@ -156,8 +246,19 @@
 					   <div class="col-md-12" style="margin-bottom: 14px;">
 						  <div style="background-color: #00c8ca; padding: 7px; border-radius: 5px;padding-left: 35%;">
 						  	<h6 class="hn" style="text-align: center;color: white;">회원가입정보
-						  	<span class="icon mdi mdi-help-circle tooltip-custom" data-toggle="tooltip" data-placement="right" title="Tooltip text" 
-						  	 style="padding-left: 77px;font-size: 16px;color: #f2f3f9;"></span></h6>
+						  	<span class="icon mdi mdi-help-circle tooltip-registration"  
+						  	 style="padding-left: 77px;font-size: 16px;color: #f2f3f9;">
+						  	 	<span class="tooltiptext">네이버에서의 '나'를 표현하는 프로필 정보입니다. <br>수정 화면에서 프로필 사진과 별명을 변경하세요.</span>
+						  	</span></h6>
+						  	 
+						  	 
+						  	 
+						
+						  	 
+						  	 
+						  	 
+						  	 
+						  	 
 						  </div>
 					   </div>
 					 </div>  

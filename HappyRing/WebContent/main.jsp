@@ -49,19 +49,19 @@
             <div class="tabs-custom tabs-horizontal tabs-buttons" id="">
                  <!-- 탭 nav-->
                   <ul class="nav nav-tabs">
-                     <li> <a class="button-nina" href="#beforeN" data-toggle="tab">
-                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>주요심리학</a>
+                     <li> <a class="button" href="#beforeN" data-toggle="tab">
+                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>주요심리학22</a>
                      </li>
-                     <li class="active"><a class="button-nina" href="#cheerUp" data-toggle="tab">
+                     <li class="active"><a class="button" href="#cheerUp" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/cheering.png" width="63px"><br/>자존감</a>
                      </li>
-                     <li><a class="button-nina" href="#honor" data-toggle="tab">
+                     <li><a class="button" href="#honor" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/honor.png" width="63px"><br/>사랑/이별</a>
                      </li>
-                     <li><a class="button-nina" href="#trainning" data-toggle="tab">
+                     <li><a class="button" href="#trainning" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/trainning.png" width="63px"><br/>나만의고민</a>
                      </li>
-                     <li><a class="button-nina" href="#tips" data-toggle="tab">
+                     <li><a class="button" href="#tips" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/tips.png" width="63px"><br/>멋진응원 한마디</a>
                     </li>
                   </ul>
