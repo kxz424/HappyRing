@@ -253,6 +253,8 @@
 <!-- page END -->
 	
 
+<!-- infoReviewList 전용 js --> 
+   <script src="/HappyRing/js/info/infoReviewList.js"></script> 
 
 </body>
 </html>

@@ -128,7 +128,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
                              
                              
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+                             <article class="post-blog box-shadow gallery-item">
 				              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
 				              	</a>
@@ -165,7 +165,7 @@
                          <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
                              
                              
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
+                             <article class="post-blog box-shadow gallery-item">
 				              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/baby.jpg" alt="">
 				              	</a>
@@ -201,20 +201,20 @@
                         <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 3">
                              
                              
-                             <article class="post-blog box-shadow gallery-item" data-lightgallery="group-item">
-				              	<a class="post-blog-image" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+                             <article class="post-blog box-shadow gallery-item">
+				              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
 				              	</a>
 			                  <div class="post-blog-caption-header">
 			                    <ul class="post-blog-tags">
-			                      <li><a class="button-tags" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">대한민국만세상담소</a></li>
+			                      <li><a class="button-tags" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">대한민국만세상담소</a></li>
 			                    </ul>	
 			                    
-			                    <span class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">no.123</span>
+			                    <span class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">no.123</span>
 			                    
 			                  </div>
 			                  <div class="post-blog-caption-body">
-				                 <h7><a class="post-blog-title" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+				                 <h7><a class="post-blog-title" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 				                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
 				                    </a>
 				                 </h7>
@@ -226,7 +226,7 @@
 			                  </div>
 			                  <!-- 등록일, 좋아요 -->
 			                  <div class="post-blog-caption-footer">
-			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/theory/theoryCustom/theoryShare/theoryShareDetail.jsp">
+			                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
 			                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
 			                  </div>
 			                  
@@ -281,7 +281,7 @@
 <!-- page END -->
 	
 	
-<!-- communityList 전용 js --> 
+<!-- infoAdList 전용 js --> 
    <script src="/HappyRing/js/info/infoAdList.js"></script> 
 
 

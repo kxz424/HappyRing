@@ -234,6 +234,10 @@
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
 </div>
 <!-- page END -->
+
+
+<!-- noticeList 전용 js --> 
+   <script src="/HappyRing/js/notice/noticeList.js"></script> 
 	
 
 
