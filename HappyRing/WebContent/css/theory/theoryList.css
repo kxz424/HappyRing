@@ -17,6 +17,11 @@
 	margin-bottom: 2%;
 }
 
+/*심리이론 명언 가운데 정렬*/
+.th-title .row .col-md-10{
+	text-align: center;
+}
+
 /*심리이론 명언 text 글자 크기 조정*/
 .th-title .row .col-md-10 .sub-text{
 	font-size: 14px;
@@ -279,6 +284,11 @@
 	background-color: white;
 	padding-bottom: 10px;
     padding-top: 10px;
+}
+
+/*묻고답하기 명언 가운데 정렬*/
+.thq-title .row .col-md-10{
+	text-align: center;
 }
 
 

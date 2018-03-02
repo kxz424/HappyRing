@@ -44,7 +44,7 @@
 	          	
 	          	
 	         <!-- ## 게시물 title : 삼담소후기 START -->
-	   			<div class="ctr-title">
+	   			<div class="inforl-title">
 	   				<!-- # 타이틀  -->
 					<div class="row">
 	                  <div class="col-md-6">
@@ -67,7 +67,7 @@
 	      
 	      
 	      <!-- 삼담소후기 list START -->
-              <div class="ctr-list">
+              <div class="inforl-list">
               	<div class="row table-list">
                   <div class="col-md-12">
                   
@@ -159,7 +159,7 @@
               
               
               <!-- 작은화면 삼담소후기 list START -->
-              <div class="ctr-xs-list">
+              <div class="inforl-xs-list">
 	              <div class="row table-list">
 	                  <div class="col-md-12">
 	
@@ -182,7 +182,7 @@
 			                                
 			                                 
 			                                <div class="col-xs-2">
-		                                 		<button class="btn btn-primary ctr-xs-count-btn">2</button>
+		                                 		<button class="btn btn-primary inforl-xs-count-btn">2</button>
 		                                 	</div>
 	                                 	</div>
 	                                 	
@@ -195,7 +195,7 @@
 	                     
 	                     <!-- 글쓰기 버튼 START -->
 	                     <a href="/HappyRing/view/community/freeBoard/freeBoardWrite.jsp">
-				         	<button class="btn btn-primary ctr-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
+				         	<button class="btn btn-primary inforl-xs-write" type="button" id="write"><span class="glyphicon glyphicon-pencil"></span></button>
 				         </a>
 				         <!-- 글쓰기 버튼 END -->
 	                  </div>

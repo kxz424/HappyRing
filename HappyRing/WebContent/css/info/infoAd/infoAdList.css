@@ -11,6 +11,11 @@
     padding-left: 29px;
 }
 
+/*명언 가운데 정렬*/
+.infoad-title .row .col-md-10{
+	text-align: center;
+}
+
 
 /* 상담소홍보 게시물 타이틀 대제목 col-md padding 조정 */
 .infoad-title .row .col-md-6{
