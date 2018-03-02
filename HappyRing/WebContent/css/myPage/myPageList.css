@@ -64,9 +64,256 @@
 	margin-top: 4%;
 }
 
-.my-info-registration .mdi-flower{
+
+
+/*  ## 내 정보 상단(top) START  */
+.my-info-div .my-info-top{
+	margin-bottom: 27px;
+}
+
+
+.my-info-div .my-info-top .my-info-top-inner {
+	border: solid 3px #b8b8b8;
+	border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px 15px;
+}
+
+.my-info-top .my-info-top-inner .inner-img-div{
+	text-align: center;
+}
+
+.my-info-top .my-info-top-inner .inner-img-div label{
 	font-size: 70px;
+}
+
+.my-info-top .my-info-top-inner .inner-label-div{
+    padding-left: 0px;	
+}
+
+.my-info-top .my-info-top-inner .inner-label-div label{
+	margin-left: 0;
+}
+
+.my-info-top .my-info-top-inner .inner-label-div label .button{
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    font-size: 10px;
+    height: 22px;
+    /* line-height: 3; */
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    min-width: 76px;
+    border-radius: 3px;
+    margin-top: -4.5px;
+    color: #222;
+    background-color: #eede27;
+    border-color: #eede27;
+} 
+
+
+.my-info-top .my-info-top-inner .inner-label-div p{
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+.my-info-top .my-info-top-inner .inner-label-div p .inner-label-detail-top{
+	color:red;
+}
+
+.my-info-top .my-info-top-inner .inner-label-div p .inner-label-detail-bottom{
+	color:#00b000;
+}
+
+/* 내 정보 상단(top) END  */
+
+
+
+/*  ## 내 정보 main(middle)-1 : 프로필카드 START  */
+/* # title CSS  */
+
+.my-info-profile .title-profile-card .col-md-12{
+	margin-bottom: 14px;
+}
+
+.my-info-profile .title-profile-card .col-md-12 .title-profile-card-inner {
+	background-color: #00c8ca;
+	padding: 7px;
+	border-radius: 5px;
+	padding-left: 38%;
+}
+
+.my-info-profile .title-profile-card-inner h6{
+	text-align: center;
+	color: #ffec17;
+}
+
+.my-info-profile .title-profile-card-inner h6 span.tooltip-profile{
+	margin-left: 86px;
+	font-size: 16px;
+	color: #f2f3f9;
 	
+}
+
+/* 프로필카드 tooltip css*/
+.tooltip-profile {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.tooltip-profile .tooltiptext {
+    visibility: hidden;
+    width: 358px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-size: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    /* left: 50%; */
+    left: -1444.5%;
+    margin-left: -60px;
+    line-height: 2;
+    
+}
+
+.tooltip-profile:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* 프로필카드 내용 CSS */
+
+.my-info-profile .content-profile-card #profile-widget.panel{
+	border: 1px solid #00000029;
+}
+
+
+.my-info-profile .content-profile-card #profile-widget .panel-heading {
+    min-height: 200px;
+    background: #fff url(http://4hdwallpapers.com/wp-content/uploads/2013/04/The-Lion-King-Desktop-1024x640.jpg) no-repeat top center;
+    background-size: cover;
+}
+.my-info-profile .content-profile-card #profile-widget .media-heading {
+    color: #5B5147;
+    font-size: 22px;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-body {
+	padding: 20px 20px 20px 10px;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-body .img-circle {
+    height: 90px;
+    width: 90px;
+    padding: 8px;
+    border: 1px solid #e2dfdc;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-footer {
+    padding: 0px;
+    border: none;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-footer .btn-group .btn {
+    border: none;
+    border-radius: 0px;
+    font-size: 1.2em;
+    background-color: #F6F1ED;
+    color: #BAACA3;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 15px 0;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-footer .btn-group .btn:hover {
+    color: #F6F1ED;
+    background-color: #8F7F70;
+	border-radius: 0px;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-footer .btn-group>.btn:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+.my-info-profile .content-profile-card #profile-widget .panel-footer .btn-group .highlight {
+    color: #E56E4C;
+}
+
+
+/*  내 정보 main(middle)-1 : 프로필카드 END  */
+
+
+/*  ## 내 정보 main(middle)-2 : 회원가입정보 START  */
+
+/* # title CSS  */
+.my-info-registration {
+	border-left: dashed 3px #80808040;
+}
+
+.my-info-registration .title-profile-registration .col-md-12{
+	margin-bottom: 14px;
+}
+
+
+.title-profile-registration-inner {
+	background-color: #00c8ca;
+	padding: 7px;
+	border-radius: 5px;
+	padding-left: 35%;
+}
+
+
+.title-profile-registration-inner h6{
+   text-align: center;
+   color: white;
+}
+
+.title-profile-registration-inner h6 span.tooltip-registration{
+	margin-left: 77px;
+	font-size: 16px;
+	color: #f2f3f9;	
+}
+
+/* 회원가입정보 tooltip css */
+.tooltip-registration {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.tooltip-registration .tooltiptext {
+    visibility: hidden;
+    width: 358px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-size: 10px;
+    line-height: 2;
+    
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -1427%;
+    margin-left: -60px;
+}
+
+.tooltip-registration:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+/* 회원가입시 사용자 정보 css */
+.my-info-registration .user-information{
+	border-bottom: dashed 1px; 
+	padding-bottom: 17px;
 }
 
 
@@ -87,89 +334,144 @@
 	padding-left: 23px;
 }
 
-.my-info-registration .my-account-open .btn{
+
+.my-info-registration .my-info-form2{
+	margin-top: 9px;
+}
+
+.my-info-registration .my-info-form2 .col-md-8{
+	padding-right: 0px
+}
+
+.my-info-form2 .my-info-form .icon-insert{
+	margin-left: 24px;
+}
+
+.my-info-form2 .my-info-form .icon-insert span.mdi-lock{
+	margin-left: 47px;
+}
+
+.my-info-form2 .col-md-4{
+	padding-left: 4px;
+}
+
+.my-info-form2 .col-md-4 .button {
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 8.5px;
+	padding-bottom: 12.5px;
+	min-width: 90px;
+	font-size: 11px;
+	max-height: 43.3px;
+	border-radius: 8px;
+	background-color: #b7b8bb; 
+	border-color: #b7b8bb;
+}
+
+
+/* 회원가입정보 공개여부   */
+.my-info-registration .my-account-open{
+	margin-top: 18px;
+}
+
+.my-info-registration .my-account-open .col-md-12{
+	padding-bottom: 12px;
+}
+
+.my-account-open .col-md-12 p{
+	color:#00c8ca;
+}
+
+.my-account-open .col-md-12 p span.tooltip-registration-open{
+	color:#838386; 
+	margin-left: 152px;
+	font-size: 16px;
+}
+
+
+/* 회원가입정보 공개여부 알림 tooltip */
+.tooltip-registration-open {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  
+}
+
+.tooltip-registration-open .tooltiptext {
+    visibility: hidden;
+    width: 358px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-size: 10px;
+    line-height: 2;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -1691%;
+    margin-left: -60px;
+}
+
+.tooltip-registration-open:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+/* 공개여부 버튼 css*/
+
+.my-account-open .col-md-4.open-all{
+	padding-right: 2.5px;
+}
+
+.my-account-open .col-md-4.open-limit{
+	padding-left: 2.5px; 
+	padding-right: 2.5px;
+}
+
+.my-account-open .col-md-4.close-all{
+	padding-left: 2.5px;
+}
+
+
+.my-account-open .btn{
     min-width: 100%;
     padding: 5px;
     border-radius: 6px;
 }
 
-.my-info-registration .my-account-open .btn .glyphicon{
+.my-account-open .btn .glyphicon{
 	font-size: 26px;
 }
 
 
-
-
-
-
-
-#profile-widget.panel{
-	border: 1px solid #00000029;
+.my-account-open .btn.btn-info, .my-account-open .btn.btn-warning{
+	border-color: #d3d2d0;
+	background-color: #d3d2d0;	
 }
 
+/*  내 정보 main(middle)-2 : 회원가입정보 END  */
 
-#profile-widget .panel-heading {
-    min-height: 200px;
-    background: #fff url(http://4hdwallpapers.com/wp-content/uploads/2013/04/The-Lion-King-Desktop-1024x640.jpg) no-repeat top center;
-    background-size: cover;
-/*     background-image: url("img/myPage/sample.jpg"); */
-}
-#profile-widget .media-heading {
-    color: #5B5147;
-    font-size: 22px;
-}
-#profile-widget .panel-body {
-/*     padding: 20px; */
-	padding: 20px 20px 20px 10px;
-}
-#profile-widget .panel-body .img-circle {
-    height: 90px;
-    width: 90px;
-    padding: 8px;
-    border: 1px solid #e2dfdc;
-}
-#profile-widget .panel-footer {
-    padding: 0px;
-    border: none;
-}
-#profile-widget .panel-footer .btn-group .btn {
-    border: none;
-    border-radius: 0px;
-    font-size: 1.2em;
-    background-color: #F6F1ED;
-    color: #BAACA3;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    padding: 15px 0;
-}
-#profile-widget .panel-footer .btn-group .btn:hover {
-    color: #F6F1ED;
-    background-color: #8F7F70;
-	border-radius: 0px;
-}
-#profile-widget .panel-footer .btn-group>.btn:not(:first-child) {
-    border-left: 1px solid #fff;
-}
-#profile-widget .panel-footer .btn-group .highlight {
-    color: #E56E4C;
+
+
+/*  ## 내 정보 하단(botton) : 이용내역/회원탈퇴 START */
+.my-info-others{
+	padding-top: 20px;
 }
 
+.my-info-others p{
+	font-size: 12px;
+}
 
+.my-info-others p a span{
+	color: blue;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 내 정보 하단(botton) : 이용내역/회원탈퇴 END */
 
 
 
