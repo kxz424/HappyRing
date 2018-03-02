@@ -51,7 +51,21 @@
 					 		
 					 		</div>
 					 		<div class="col-md-10" style="    padding-left: 0px;">
-					 		 <label style="margin-left: 0;">Level 1  </label>
+					 		 <label style="margin-left: 0;">Level 새싹회원 <button class="button button-secondary button-nina hn" style="    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    font-size: 10px;
+    height: 22px;
+    /* line-height: 3; */
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    min-width: 76px;
+    border-radius: 3px;
+    margin-top: -4.5px;
+    color: #222;
+    background-color: #eede27;
+    border-color: #eede27;">등급표 보기</button> </label>
 					 		 <p style="font-size: 12px;margin-top: 0px;"> 
 					 		
 					 		  가입일 : 2018-02-28 | 총 방문 <span style="color:red;"> 12 </span>회 | 
@@ -92,7 +106,8 @@
 				   <div class="col-md-12" style="margin-bottom: 14px;">
 					  <div style="background-color: #00c8ca; padding: 7px; border-radius: 5px;padding-left: 38%;">
 					  	<h6 class="hn" style="text-align: center;color: #ffec17;">프로필카드
-					  	<span class="icon mdi mdi-help-circle" style="padding-left: 86px;font-size: 16px;color: #f2f3f9;"></span></h6>
+					  	<span class="icon mdi mdi-help-circle tooltip-custom" data-toggle="tooltip" data-placement="right" title="Tooltip text" 
+					  	 style="padding-left: 86px;font-size: 16px;color: #f2f3f9;"></span></h6>
 					  </div>
 				   </div>
 				 </div>  
@@ -141,7 +156,8 @@
 					   <div class="col-md-12" style="margin-bottom: 14px;">
 						  <div style="background-color: #00c8ca; padding: 7px; border-radius: 5px;padding-left: 35%;">
 						  	<h6 class="hn" style="text-align: center;color: white;">회원가입정보
-						  	<span class="icon mdi mdi-help-circle" style="padding-left: 77px;font-size: 16px;color: #f2f3f9;"></span></h6>
+						  	<span class="icon mdi mdi-help-circle tooltip-custom" data-toggle="tooltip" data-placement="right" title="Tooltip text" 
+						  	 style="padding-left: 77px;font-size: 16px;color: #f2f3f9;"></span></h6>
 						  </div>
 					   </div>
 					 </div>  
@@ -176,10 +192,25 @@
 							          </div>  
 						            </div>
 						            
-						            <div class="my-info-form">
-					                  <label class="hn"> Nick name  	</label>  
-						              <label class="hn" style="margin-left: 20px;"> :&nbsp;&nbsp;여기는무중력지대  </label>
+						            
+						            
+						            <div class="row" style="margin-top: 9px;">
+							          <div class="col-md-8" style="padding-right: 0px;     width: 70%;">  
+							            <div class="my-info-form">
+						                  <label class="hn"> Nick name 	</label>  
+							              <label class="hn" style="margin-left: 20px;"> :&nbsp;&nbsp;여기는무중력지대  </label>
+							            </div>
+							          </div>
+							          <div class="col-md-4" style="padding-left: 4px; width: 30%;">
+							          	<button class="button button-secondary button-nina" type="submit" 
+							          	style=" padding-right: 8px; padding-left: 8px; padding-top:8.5px; padding-bottom:12.5px; 
+							          	min-width: 90px; font-size: 11px; max-height: 43.3px;border-radius: 8px; 
+							          	background-color: #b7b8bb; border-color: #b7b8bb;">닉네임 변경</button>
+							          </div>  
 						            </div>
+						            
+						            
+						            
 						            
 						            <div class="my-info-form">
 					                  <label class="hn"> gender    	</label>  
@@ -195,18 +226,21 @@
 					       <div class="row my-account-open" style="margin-top: 18px;">
 					       	
 					       	<div class="col-md-12" style="padding-bottom: 12px;"> 
-					       		<p>회원가입정보 공개여부 <span class="icon mdi mdi-help-circle" style="padding-left: 152px;font-size: 16px;"></span></p>
+					       		<p style="color:#00c8ca"><strong>회원가입정보 공개여부</strong> 
+					       			<span class="icon mdi mdi-help-circle tooltip-custom" data-toggle="tooltip" data-placement="right" title="Tooltip text" 
+					       			style="color:#838386; padding-left: 152px;font-size: 16px;"></span>
+					       		</p>
 					       	</div>
 					       	
 					       	<div class="col-md-4" style="padding-right: 2.5px;">
-					       		<a href="#" class="btn btn-sq-lg btn-warning">
+					       		<a href="#" class="btn btn-sq-lg btn-warning" style="border-color: #d3d2d0;background-color: #d3d2d0;">
 					              <span class="icon glyphicon glyphicon-eye-open"></span><br/>
 					              	전체공개
 					            </a>
 					       	</div>
 					       	
 					       	<div class="col-md-4" style="padding-left: 2.5px; padding-right: 2.5px;">
-					       		<a href="#" class="btn btn-sq-lg btn-info">
+					       		<a href="#" class="btn btn-sq-lg btn-info" style="border-color: #d3d2d0;background-color: #d3d2d0;">
 					              <span class="icon glyphicon glyphicon-user"></span><br/>
 					              	친구공개 
 					            </a>
@@ -215,17 +249,9 @@
 					       	<div class="col-md-4" style="padding-left: 2.5px;">
 					       		<a href="#" class="btn btn-sq-lg btn-success">
 					              <span class="icon glyphicon glyphicon-eye-close"></span><br/>
-					              	비공개 2
+					              	비공개
 					            </a>
 					       	</div>
-					       	
-					       	
-					       	
-					       	
-					       	
-					       
-					       	
-					       	
 					       	
 					       
 					       </div>
@@ -238,10 +264,11 @@
 					  
 					  <div class="col-md-12">
 					  	<div style="    padding-top: 20px;">
-					  		<p class="hn" style="font-size: 12px;"> 소중한 개인정보 이용내역이 궁금하시다면  <span style="color: blue;">개인정보 이용내역 보기</span>
+					  		<p class="hn" style="font-size: 12px;"> 소중한 개인정보 이용내역이 궁금하시다면  
+					  		<a href=""><span style="color: blue;">개인정보 이용내역 보기</span></a>
 					  	
 							<span style="    padding-left: 20px;    padding-right: 20px;">|</span>								
-					  		더 이상 해피링을 사용하지 않으실거라면 <span style="color: blue;">회원탈퇴 바로가기 </span></p>
+					  		더 이상 해피링을 사용하지 않으실거라면 <a href=""><span style="color: blue;">회원탈퇴 바로가기 </span></a></p>
 					  	</div>
 					  </div>
 					  
@@ -258,52 +285,7 @@
 					
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					   <!-- # 마이페이지 list 하단 paging START -->
-<!-- 					   <div class="fr-paging-search" style="padding-top: 12px;"> -->
-<!-- 							<div class="fr-paging"> -->
-<!-- 						       <div class="row"> -->
-<!-- 						페이징 -->
-<!-- 						          <div class="col-sm-offset-3 col-md-offset-3 col-xs-7 col-md-7" style=" padding-right: 0px;padding-top: 10px;"> -->
-<!-- 						                  <ul class="pagination-custom" id="pageNum"> -->
-<!-- 						                       <li><a href="">◀◀</a></li> -->
-<!-- 						                       <li><a href="">◀</a></li> -->
-<%-- 						                          <c:forEach var="i" begin="1" end="3"> --%>
-<%-- 						                       <li><a href="">${i}</a></li> --%>
-<%-- 						                           </c:forEach> --%>
-<!-- 						                       <li><a href="">▶</a></li> -->
-<!-- 						                       <li><a href="">▶▶</a></li> -->
-<!-- 						                    </ul> -->
-<!-- 						          </div> -->
-						
-<!-- 						           <div class="col-xs-3 col-md-0"></div> -->
-<!-- 							  </div> -->
-<!-- 							</div> -->
-						    
-<!-- 					  </div> -->
-						
-						
-<!-- 					  <div class="fr-xs-paging-search"> -->
-<!-- 							<div class="fr-xs-paging"> -->
-<!-- 					           <div class="row"> -->
-					              
-<!-- 					              페이징 -->
-<!-- 						          <div class="col-xs-12"> -->
-<!-- 						              <a class="button button-default-outline button-nina button-block button-blog" href="#">Load more posts</a> -->
-<!-- 						          </div> -->
-<!-- 						          페이징 -->
-								
-<!-- 						          <div class="col-xs-3 col-md-0"></div> -->
-<!-- 							  </div> -->
-<!-- 							</div> -->
-<!-- 					  </div>	 -->
-				      <!-- 마이페이지 list 하단 paging END -->
+					  
 					
 					
 					
