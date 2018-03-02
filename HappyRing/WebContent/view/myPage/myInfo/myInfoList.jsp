@@ -41,24 +41,47 @@
 		           	<!-- myInfo-->
 					<div class="row">
 					
-<!-- 					 <div class="col-md-12" style="border: solid 2px red; margin-bottom: 40px;"> -->
+					 <div class="col-md-12" style=" margin-bottom: 27px;">
+					 <div style="border: solid 3px #b8b8b8;border-radius: 5px;    border-radius: 5px; padding: 20px 15px;">
 					 
-<!-- 					 	<div class="row"> -->
-<!-- 					 		<div class="col-md-4"> -->
-<!-- 					 		 <label class="icon mdi mdi-flower"> -->
-<!-- 						    		 </label>   -->
+					   <div class="row">
+					 		<div class="col-md-2" style="    text-align: center;">
+					 		 <label class="icon mdi mdi-flower" style="    font-size: 70px;">
+						    		 </label>  
 					 		
-<!-- 					 		</div> -->
-<!-- 					 		<div class="col-md-8"> -->
-<!-- 					 		 <label style="margin-left: 15px;">가입일 : 2018-02-28  </label> -->
+					 		</div>
+					 		<div class="col-md-10" style="    padding-left: 0px;">
+					 		 <label style="margin-left: 0;">Level 1  </label>
+					 		 <p style="font-size: 12px;margin-top: 0px;"> 
 					 		
-<!-- 					 		</div>					 		 -->
+					 		  가입일 : 2018-02-28 | 총 방문 <span style="color:red;"> 12 </span>회 | 
+					 		  총 게시글  <span style="color:red;"> 100 </span>개  | 
+					 		  총 답글  <span style="color:red;"> 1 </span>개  |
+					 		  총 댓글  <span style="color:red;"> 23 </span>개 
+					 		 <br>
+					 		 총 엔젤링 <span style="color:green"> 1344 </span> 개 | 
+					 		 보유 엔젤링 <span style="color:green"> 1004 </span> 개 |   
+					 		 나눔 엔젤링 <span style="color:green"> 777 </span> 개 | 
+					 		 받은 엔젤링 <span style="color:green;"> 37 </span> 개 
+					 		 </p> 
+					 		
+					 		</div>					 		
 					 	
-<!-- 					 	</div> -->
+					 	</div>
+					 
+					 </div>
+					 	
+					 	
+					 	
+					 	
+					 	
+					 	
+					 	
+					 	
 					 
 					 
 					 
-<!-- 					 </div>	 -->
+					 </div>	
 					
 					
 					
@@ -124,7 +147,7 @@
 					 </div>  
 
 
-					      <div class="row">
+					      <div class="row" style="border-bottom: dashed 1px; padding-bottom: 17px;">
 					      
 						      	<div class="col-md-12">
 						      	
@@ -169,11 +192,15 @@
 					      
 					       </div>
 					       
-					       <div class="row my-account-open" style="margin-top: 50px;">
+					       <div class="row my-account-open" style="margin-top: 18px;">
+					       	
+					       	<div class="col-md-12" style="padding-bottom: 12px;"> 
+					       		<p>회원가입정보 공개여부 <span class="icon mdi mdi-help-circle" style="padding-left: 152px;font-size: 16px;"></span></p>
+					       	</div>
 					       	
 					       	<div class="col-md-4" style="padding-right: 2.5px;">
 					       		<a href="#" class="btn btn-sq-lg btn-warning">
-					              <span class="icon glyphicon glyphicon-user"></span><br/>
+					              <span class="icon glyphicon glyphicon-eye-open"></span><br/>
 					              	전체공개
 					            </a>
 					       	</div>
@@ -187,7 +214,7 @@
 					       	
 					       	<div class="col-md-4" style="padding-left: 2.5px;">
 					       		<a href="#" class="btn btn-sq-lg btn-success">
-					              <span class="icon glyphicon glyphicon-user"></span><br/>
+					              <span class="icon glyphicon glyphicon-eye-close"></span><br/>
 					              	비공개 2
 					            </a>
 					       	</div>
@@ -206,6 +233,20 @@
 					      
 			            
 					  </div>
+					  
+					  
+					  
+					  <div class="col-md-12">
+					  	<div style="    padding-top: 20px;">
+					  		<p class="hn" style="font-size: 12px;"> 소중한 개인정보 이용내역이 궁금하시다면  <span style="color: blue;">개인정보 이용내역 보기</span>
+					  	
+							<span style="    padding-left: 20px;    padding-right: 20px;">|</span>								
+					  		더 이상 해피링을 사용하지 않으실거라면 <span style="color: blue;">회원탈퇴 바로가기 </span></p>
+					  	</div>
+					  </div>
+					  
+					  
+					  
 					  
 					  
 					  
