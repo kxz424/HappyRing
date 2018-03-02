@@ -16,6 +16,213 @@
 <!-- 공통 전용 font css -->
 <link rel="stylesheet" href="/HappyRing/css/googleFont/font.css">
 
+
+<style type="text/css">
+
+
+
+.snip1434 {
+	font-family: 'Raleway', Arial, sans-serif;
+	/*   border: none; */
+	/*   border-radius: 5px; */
+	border: solid 2px white;
+	border-radius: 0px !important;
+	overflow: hidden;
+	color: #ffffff;
+	cursor: pointer;
+	/*   padding: 0px 25px 0px 70px; */
+	/*   padding: 0px 21px 0px 30px; */
+	padding: 0px 12px 0px 16px;
+	text-align: center;
+	display: inline-block;
+	margin: 12px 25px;
+	font-weight: 600;
+	outline: none;
+	position: relative;
+	/*   font-size: 18px; */
+	font-size: 13px;
+	/*   line-height: 50px; */
+	line-height: 41px;
+/* 	background-color: #00c8ca; */
+	background:linear-gradient(to right, #ffec17 -30%, #00c8ca 86%);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+/* 버튼 col-md-3 margin 지우기*/
+.snip1434.col-md-3 {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.snip1434 i {
+	font-size: 2.5em;
+	width: 55px;
+	line-height: 50px;
+	position: absolute;
+	/*   left: -5px; */
+	/*   top: 5px; */
+	left: -18px;
+	top: 9px;
+	-webkit-transform: rotate(-25deg) scale(1);
+	transform: rotate(-25deg) scale(1);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.snip1434:hover, .snip1434.hover {
+	color: #ffffff;
+	background-color: #ac203f;
+}
+
+.snip1434:hover i, .snip1434.hover i {
+	-webkit-transform: rotate(-20deg) scale(1.3);
+	transform: rotate(-20deg) scale(1.3);
+}
+
+.registration-tab .snip1434:active{
+background-color: yellow;
+}
+
+
+
+/************************/
+.regist-inner-div {
+	margin-top:20px;
+	margin-right: -17px;
+	margin-left: -15px;
+	min-height: 500px !important;
+/* 	border: solid blue; */
+	
+}
+
+
+/*체크박스 css 조정 */
+@media (min-width: 992px){
+	.regist-inner-div .agree-checkBox .checkbox-inline .checkbox-custom-dummy{
+	/* 	left: 0; */
+	    width: 20px;
+	    height: 20px;
+	    margin-top: -10px; 
+	/*     margin-left: 0; */
+	/*     pointer-events: none; */
+	    border-radius: 23px;
+	/*     transition: .22s; */
+	}
+}
+
+
+@media (min-width: 992px){
+	.regist-inner-div .gender-check .checkbox-inline .checkbox-custom-dummy{
+		margin-top: 11px;
+    	width: 18px;
+    	height: 18px;
+	}
+}
+
+
+#regist-certification .form-validation{
+	display: none;
+
+}
+
+
+
+.button-secondary2:hover, .button-secondary2:active, .button-secondary2:hover{
+	color: #fff ;
+    background-color: #ed1c94;
+    border-color: #ed1c94 ;
+}
+
+.button-secondary2 {
+	color: #fff;
+    background-color: #981df0;
+    border-color: #981df0;
+}
+
+
+
+#regist-complete img{
+	height: 249px;
+}
+
+
+
+
+
+/*가입 정보 입력 form padding 주기*/
+.regist-inner-div .rd-mailform {
+/*     position: relative; */
+/*     text-align: left; */
+/*     margin-top: 20px; */
+}
+
+/**********************/
+
+/* 모달 크기 */
+.modal-account .modal-dialog {
+	max-width: 1052px;
+}
+
+/* 모달창 우측 x버튼 영역 width 조정 */
+@media ( min-width : 992px) {
+	.modal-content:before {
+		/* 		position: absolute; */
+		/* 	    top: 0; */
+		/* 	    bottom: 0; */
+		/* 	    right: 0; */
+		width: 44px;
+		/* 	    content: ""; */
+		/* 	    display: inline-block; */
+		/* 	    background-color: #f2f3f9; */
+	}
+}
+
+/* 모달창 우측 x버튼 영역 padding 조정 */
+@media ( min-width : 992px) {
+	.modal-custom .modal-content {
+		position: relative;
+		overflow: hidden;
+		padding: 0px 145px 0px 0px;
+	}
+}
+
+/*x버튼 크기 조정*/
+@media ( min-width : 992px) {
+	.modal-custom .close {
+		top: 15px;
+		right: 2px;
+	}
+}
+
+/* 모달 내 img랑 로그인 화면 포함한 부분 margin 없애기*/
+@media ( min-width : 992px) {
+	.modal-account .modal-body-inner {
+		/* 	    max-width: 370px; */
+		margin-left: 0px;
+		margin-right: -8px;
+		/* 	    padding-top: 15px; */
+		/* 	    padding-bottom: 15px; */
+	}
+}
+
+/**/
+.modal-custom *+form {
+	margin-top: 21px;
+}
+
+.modal-content {
+	padding-right: 124px;
+}
+
+.modal-body-inner.modal-img {
+	border-right: dashed 2px #8080803b;
+}
+</style>
 </head>
 <body>
 
@@ -392,7 +599,9 @@
               <!-- 헤더 검색창 END-->
               <!-- ### 헤더 로그인 START -->
               <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-shop rd-navbar-login"><a class="rd-navbar-shop-icon mdi mdi-login h-login-modal-btn" href="#"><span class="veil reveal-lg-inline">Login </span></a></div>
+                <div class="rd-navbar-shop rd-navbar-login">
+                 	<a class="rd-navbar-shop-icon mdi mdi-login h-login-modal-btn" href="#"><span class="veil reveal-lg-inline">Login </span></a>
+                 </div>
               </div>
               
               
@@ -418,104 +627,259 @@
     <div class="modal modal-custom modal-account fade" id="login-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header" style="padding-right: 124px">
             <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
           </div>
           <div class="modal-body text-center">
-            <div class="modal-body-inner">
-              <figure class="modal-account-image"><img src="/HappyRing/img/header/registration-modal-01-510x807.jpg" alt="" width="510" height="807"/>
+            <div class="modal-body-inner modal-img">
+              <figure class="modal-account-image"><img src="/HappyRing/img/IMG2.jpg" alt="" width="400" height="617" />
               </figure>
             </div>
             
             
             <div class="modal-body-inner login-modal">
-              <h4 class="modal-title">로그인</h4>
-              <!-- RD Mailform-->
-              <form class="rd-mailform form-novi">
+              
+              
+              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
+              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+                <div class="row"> 
+    			   <div class="col-md-12">            
+	                 <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" style="width: 192px;" />
+	               </div>  
+              	</div>
+              <form class="rd-mailform form-novi hn">
                 <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email1" type="email" name="email" data-constraints="@Required">
-                  <label class="form-label" for="forms-email1">E-mail</label>
+                  <input class="form-input hn" id="forms-email1" type="email" name="email" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+                  <label class="form-label hn" for="forms-email1" style="top: 22px;">E-mail</label>
                 </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-password1" type="password" name="password" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-password1">Password</label>
+                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+                  <input class="form-input hn" id="forms-login-password1" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+                  <label class="form-label hn" for="forms-login-password1" style="top: 22px;">Password</label>
                 </div>
                 <div class="form-button">
-                  <button class="button button-block button-secondary button-nina" type="submit">Login</button>
+                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">Login</button>
                 </div>
               </form>
               <div class="row">
-              	<div class="col-md-offset-1 col-md-5">
-              		<a class="h-sign-up">회원가입</a>
-              	</div>
-              	<div class="col-md-6">
-              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
+              	<div class="col-md-12" style="text-align: center;font-size: 13px;">
+              		<a class="h-sign-up hn" style="color:#027e7f">회원가입</a>&nbsp;&nbsp;<span style="color:#027e7f">|</span>&nbsp;
+              		<a class="h-find-id-pw hn" style="color:#027e7f">아이디/비밀번호 찾기</a>
               	</div>
               </div>
+
             </div>
             
             
             
             <div class="modal-body-inner sign-up-modal">
-              <h4 class="modal-title">회원가입</h4>
+             <h4 class="hn" style="color:#00c8ca;margin-bottom: -15px;"><span style="font-size: 15px; text-transform:capitalize;">Happy<span style="text-transform:uppercase">R</span>ing</span>회원가입</h4>              
+              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+          
+          		<div class="row registration-tab" style="margin-right: -18px;">
+          		
+          		
+	          		<a href="#regist-agree" data-toggle="tab">
+	          			<button class="snip1434 col-md-3">약관동의<i class="icon mdi mdi-note-outline"></i></button>
+	          		</a>
+	          		<a href="#regist-info" data-toggle="tab">
+	          		    <button class="snip1434 col-md-3">정보입력<i class="icon mdi mdi-pencil-box-outline"></i></button>
+	          		</a>
+	          		
+	          		<a href="#regist-certification" data-toggle="tab">
+	          		    <button class="snip1434 col-md-3">가입인증<i class="icon mdi mdi-email"></i></button>
+	          		</a>
+	          		
+	          		<a href="#regist-complete" data-toggle="tab">
+	          		    <button class="snip1434 col-md-3">가입완료<i class="icon mdi mdi-checkbox-marked-outline"></i></button>
+	          		</a>
+	          		
+	          		
+	          		
+	          	</div>
               <!-- RD Mailform-->
-              <form class="rd-mailform form-novi">
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Email">
-                  <label class="form-label" for="forms-email2">E-mail</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-name">Nickname</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-password2" type="password" name="password" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-password2">Password</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-confirm">Confirm Password</label>
-                </div>
-                <div class="form-button">
-                  <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button>
-                </div>
-              </form>
-              <div class="row">
-              	<div class="col-md-offset-1 col-md-5">
-              		<a class="h-sign-up-login">로그인</a>
-              	</div>
-              	<div class="col-md-6">
-              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
-              	</div>
+              
+              
+              
+           <div class="tab-content"> 
+            <div class="tab-pane active" id="regist-agree">  
+              
+              <div class="regist-inner-div" style="border: solid; border-color: red;">
+              	
+              	
+              	<div class="row">
+	              	<div class="col-md-6">
+						<p>모두 확인, 동의합니다 </p>              	
+	              	</div>
+	              	<div class="col-md-6 agree-checkBox">
+	            		<div class="form-wrap">
+			                <label class="checkbox-inline">
+			                  <input type="checkbox" checked="" name="check-1">
+			                </label>
+	           			</div>
+	              	</div>
+				</div>
+				<hr/>
+
+
+              
+              
               </div>
+              
             </div>
+            
+            
+	            <div class="tab-pane regist" id="regist-info">
+			     
+				     <div class="regist-inner-div">
+		              <form class="rd-mailform form-novi" style="padding-top: 10px;">
+		              
+		              
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                   <input class="form-input hn" id="forms-email2" type="email" name="email" data-constraints="@Email" style="height: 44px;min-height: 30px;">
+				                  <label class="form-label hn" for="forms-email2" style="top: 22px;">E-mail</label>
+		                </div>
+		              	
+		              	<div class="row" style="margin-top: 9px;">
+		              		<div class="col-md-9" style="padding-right: 0px;">
+			              		<div class="form-wrap form-wrap-validation">
+				                  <input class="form-input hn" id="forms-login-id" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+				                  <label class="form-label hn" for="forms-login-id" style="top: 22px;">Id</label>
+				                </div>
+		              		</div>
+		              		<div class="col-md-3" style="padding-left: 4px;">
+		              			<button class="button button-secondary button-nina button-secondary2" type="submit" 
+		              			style=" padding-right: 8px; padding-left: 8px; padding-top:12px; padding-bottom:12px; min-width: 90px; font-size: 12px; max-height: 43.3px;">Id중복확인</button>
+		              		</div>
+		              	
+		              	</div>
+		                
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-password2" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-password2" style="top: 22px;">Password</label>
+		                </div>
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-confirm" style="top: 22px;">Confirm Password</label>
+		                </div>
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-name" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-name" style="top: 22px;">Nickname</label>
+		                </div>
+		                
+		                <div class="form-wrap gender-check" style="background-color: #f2f3f9; height: 44px; line-height: 2.5; border-radius: 8px; margin-top: 9px;">
+		                
+		                  <label class="checkbox-inline hn" style="padding-left: 23px;">성별 : 	</label>  
+			              <label class="checkbox-inline hn" style="padding-left: 24px;">
+			              <input type="checkbox" checked="" name="check-1">여성 
+			              </label>
+			              <label class="checkbox-inline hn" style="padding-left: 24px;">
+			              <input type="checkbox" checked="" name="check-1">남성 
+			              </label>
+			            </div>
+		                
+		                
+		                
+<!-- 	                    <div class="form-button"> -->
+<!-- 		                  <button class="button button-block button-secondary button-nina h-sign-in-btn hn" type="submit"  -->
+<!-- 		                  style="margin-left: auto; margin-top: 40px; margin-right:auto; background-color: #00c8ca; min-width: 117px; border-color: #00c8ca; width: 104px; padding-top: 10px; padding-bottom: 10px; padding-left: 28px; padding-right: 28px;"> 다음 </button> -->
+<!-- 		                </div> -->
+		                
+	                    <div class="form-button">
+		                  <button class="button button-block button-secondary button-nina h-sign-in-btn hn" type="submit" 
+		                  style="margin-top: 40px; background-color: #00c8ca;  border-color: #00c8ca;"> 다음 </button>
+		                </div>
+		                
+		              </form>
+		              
+		              
+		          
+		              
+		              
+<!-- 		              <div class="row"> -->
+<!-- 		              	<div class="col-md-12" style="text-align: center;font-size: 13px;"> -->
+<!-- 		              		<a class="h-sign-up-login hn" style="color:#027e7f">로그인</a>&nbsp;&nbsp;<span style="color:#027e7f">|</span>&nbsp; -->
+<!-- 		              		<a class="h-find-id-pw hn" style="color:#027e7f">아이디/비밀번호 찾기</a> -->
+<!-- 		              	</div> -->
+<!-- 		              </div> -->
+		              
+		              
+		              </div>
+		              
+	            </div>
+	            
+	            
+	            
+	            
+	            <!-- 가입인증 -->
+	            <div class="tab-pane regist" id="regist-certification">
+			     
+				     <div class="regist-inner-div">
+				     		
+				        <label style="font-size: 14px; padding-top: 80px;"><span class="hn" style="color: #0095ff; font-size: 20px;">happyRing@gmail.com</span><br> 인증번호를 전송하였습니다</label>		
+		                
+		                
+			                <div class="row" style="margin-top: 37px; margin-left: auto; margin-right: auto;" >
+			                    <div class="col-md-1"></div>
+			              		<div class="col-md-7" style="padding-right: 0px; padding-left: 5px;">
+				              		<div class="form-wrap form-wrap-validation">
+					                 <input class="form-input hn" id="forms-regist-certification" type="text" name="refist-email" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+			                 		 <label class="form-label hn" for="forms-regist-certification" style="top: 22px;">Nickname</label>
+					                </div>
+			              		</div>
+			              		<div class="col-md-3" style="padding-left: 4px;">
+			              			<button class="button button-secondary button-nina button-secondary2" type="submit" 
+			              			style=" padding-right: 8px; padding-left: 8px; padding-top:12.5px; padding-bottom:12.5px; min-width: 90px; font-size: 11px; max-height: 43.3px;">번호 재요청</button>
+			              		</div>
+			              		<div class="col-md-1"></div>
+			              	</div>
+			              	
+			              	
+			              	
+		                    <div class="form-button">
+			                  <button class="button button-block button-secondary button-nina h-sign-in-btn hn" type="submit" 
+			                  style="margin-top: 40px; background-color: #00c8ca;  border-color: #00c8ca;margin-top: 150px;"> 다음 </button>
+			                </div>
+				                
+				     		
+				     </div>
+				     
+				</div> 
+				
+				
+				<!-- 가입완료 -->    
+	            <div class="tab-pane regist" id="regist-complete">
+			     
+				     <div class="regist-inner-div">
+				     		
+				        <label class="hn" style="color: #0095ff; font-size: 20px; padding-top: 35px;">HappyRing 가입완료</label>		
+		                
+		                <img alt="" src="img/header/registraionImg.png">
+			                
+			              	
+			              	
+			              	
+		                    <div class="form-button">
+			                  <button class="button button-block button-secondary button-nina h-sign-in-btn hn" type="submit" 
+			                  style="background-color: #00c8ca;  border-color: #00c8ca;margin-top: 49px;"> 다음 </button>
+			                </div>
+				                
+				     		
+				     </div>
+				     
+				</div>   
+				
+				 
+	            
+            </div>
+            
+            
+              
+           </div>
             
             
             
             <div class="modal-body-inner sign-in-modal">
               <h4 class="modal-title">회원가입 완료</h4>
-<!--               RD Mailform -->
-<!--               <form class="rd-mailform form-novi"> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-email3" type="email" name="email" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-email3">E-mail</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-name">Nickname</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-password" type="password" name="password" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-password">Password</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-confirm">Confirm Password</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-button"> -->
-<!--                   <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button> -->
-<!--                 </div> -->
-<!--               </form> -->
             </div>
             
             
@@ -528,111 +892,10 @@
     <!--# login Modal END-->
     
     
+
+
     
-    
-    
-    
-    
-    
-    
-    <!--# sign up Modal START-->
-    <!-- Modal-->
-    <div class="modal modal-custom modal-account fade" id="sign-up-modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-          </div>
-          <div class="modal-body text-center">
-            <div class="modal-body-inner">
-              <figure class="modal-account-image"><img src="/HappyRing/img/header/registration-modal-01-510x807.jpg" alt="" width="510" height="807"/>
-              </figure>
-            </div>
-            <div class="modal-body-inner">
-              <h4 class="modal-title">회원가입</h4>
-              <!-- RD Mailform-->
-              <form class="rd-mailform form-novi">
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-email2" type="email" name="email" data-constraints="@Required">
-                  <label class="form-label" for="forms-email2">E-mail</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-name">Nickname</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-password2" type="password" name="password" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-password2">Password</label>
-                </div>
-                <div class="form-wrap form-wrap-validation">
-                  <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required">
-                  <label class="form-label" for="forms-login-confirm">Confirm Password</label>
-                </div>
-                <div class="form-button">
-                  <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button>
-                </div>
-              </form>
-              <div class="row">
-              	<div class="col-md-offset-1 col-md-5">
-              		<a class="h-sign-up-login">로그인</a>
-              	</div>
-              	<div class="col-md-6">
-              		<a class="h-find-id-pw">아이디/비밀번호 찾기</a>
-              	</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--# sign up Modal START-->
-    
-    
-    
-    
-    <!--# sign in Modal START-->
-    <!-- Modal-->
-    <div class="modal modal-custom modal-account fade" id="sign-in-modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-          </div>
-          <div class="modal-body text-center">
-            <div class="modal-body-inner">
-              <figure class="modal-account-image"><img src="/HappyRing/img/header/registration-modal-01-510x807.jpg" alt="" width="510" height="807"/>
-              </figure>
-            </div>
-            <div class="modal-body-inner">
-              <h4 class="modal-title">회원가입 완료</h4>
-<!--               RD Mailform -->
-<!--               <form class="rd-mailform form-novi"> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-email3" type="email" name="email" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-email3">E-mail</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-name" type="text" name="name" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-name">Nickname</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-password" type="password" name="password" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-password">Password</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-wrap form-wrap-validation"> -->
-<!--                   <input class="form-input" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required"> -->
-<!--                   <label class="form-label" for="forms-login-confirm">Confirm Password</label> -->
-<!--                 </div> -->
-<!--                 <div class="form-button"> -->
-<!--                   <button class="button button-block button-secondary button-nina h-sign-in-btn" type="submit">Sign In</button> -->
-<!--                 </div> -->
-<!--               </form> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--# sign in Modal START-->
+
     
 
 

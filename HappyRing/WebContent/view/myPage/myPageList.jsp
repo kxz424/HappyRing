@@ -25,6 +25,10 @@
 	margin-top: 61px;
 	margin-bottom: 64px;
 }
+
+.select2-container { 
+     width: 200px;	 
+ }
   
   </style>
   
@@ -99,7 +103,7 @@
            <div class="tab-content">
            
            	 <!-- ### tab pane_1 : 내 정보 -->
-             <div class="tab-pane fade in active" id="tabs-my-Info" style="    padding-bottom: 59px;">
+             <div class="tab-pane fade in active" id="tabs-my-Info" style="padding-bottom: 59px;">
 				
 				<div class="my-info-div">
 		        		<jsp:include page="/view/myPage/myInfo/myInfoList.jsp"></jsp:include>
@@ -114,7 +118,7 @@
 	              <!-- ## dropBox & checkBox row START -->
 	              <div class="row">
 		             <!--# dropBox START-->
-		             <div class="col-md-3">
+		             <div class="col-md-5">
 		               <select id="selectOption" onchange="onChangeValue()" class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
 		                 <option label=" "> </option>
 		                 <option value="1" selected="">심리학지식</option>
@@ -126,7 +130,7 @@
 		               </select>
 		             </div>  
 		             <!-- dorpBox END -->
-		             <div class="col-md-6"></div>
+		             <div class="col-md-4"></div>
 	
 		             <!-- # checkBox START -->		
 		             <div class="col-md-3 checkbox-div">
@@ -184,7 +188,7 @@
               
 	              <div class="row">
 		             <!--# dropBox START-->
-		             <div class="col-md-3">
+		             <div class="col-md-3" style="width: 150px;">
 		               <select id="selectOption" onchange="onChangeValue()" class="form-control select-filter" data-placeholder="All" data-minimum-results-for-search="Infinity" data-constraints="@Selected" name="city">
 		                 <option label=" "> </option>
 		                 <option value="1" selected="">심리학지식</option>
@@ -398,26 +402,61 @@
 
 				    <div class="row my-following">
 				        <c:forEach var="i" begin="1" end="3">
-						<div class="col-md-4">
-				            <div class="card hovercard post-blog box-shadow">
-<!-- 				                <div class="cardheader" style="background:url(http://f.fwallpapers.com/images/beautiful-nature-554.jpg) no-repeat"> -->
-								<div class="cardheader">
-				                </div>
-				                <div class="avatar">
-				                    <a href="http://www.doweb.in/">
-				                    <img alt="" src="http://imgnews.naver.com/image/417/2016/11/16/2016111617318085731_1_99_20161116173708.jpg"></a>
-				                </div>
-				                <div class="info">
-				                    <div class="title">
-				                        <a target="_blank" href="http://www.doweb.in/">ZICOㅇㅇ2</a>
-				                    </div>
-				                    <div class="desc"># 모두가 행복했으면 좋겠다ㄴㅇㄻㄴㅇ</div>
-				                    <div class="desc">게시글 110   |   답변 12   |   댓글 20 </div>
-				                     <div class="desc">새글 <span class="icon glyphicon glyphicon-bell"></span></div>
-				                </div>
-				                <div class="bottom">
-				                </div>
-				            </div>
+						<div class="col-md-6">
+				            
+
+
+
+
+
+
+
+
+
+
+						<div class="row content-profile-card" >
+					       <div class="col-md-12">
+					         <div id="profile-widget" class="panel">
+					            <div class="panel-heading"></div>
+					            <div class="panel-body">
+					               <div class="media">
+					                  <a class="pull-left" href="#">
+					                  <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/flashmurphy/128.jpg">
+					                  </a>
+					                  <div class="media-body" style="padding-top: 16px;">
+					                     <h2 class="media-heading hn">여기는무중력지대</h2>
+					                     Lv.새싹회원
+					                  </div>
+					               </div>
+					            </div>
+					            <div class="panel-footer">
+					               <div class="btn-group btn-group-justified">
+					                  <a class="btn btn-default" role="button"><span class="icon mdi mdi-bookmark-outline"></span> 172</a>
+					                  <a class="btn btn-default" role="button"><span class="icon mdi mdi-heart-outline"></span> 34</a>
+					                  <a class="btn btn-default highlight" role="button"><span class="icon mdi mdi-account-off"></span></a>
+					               </div>
+					           </div>
+					         </div>
+				           </div>
+				         </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				        </div>
 				        </c:forEach>
 					</div>
