@@ -140,23 +140,6 @@
 					            </div>
 					            
 					            
-					             <!-- 비밀번호 -->
-					            <div class="row my-info-form2">
-						          <div class="col-md-8">  
-						            <div class="my-info-form">
-					                  <label class="hn"> password   	</label>  
-						              <label class="hn icon-insert"> 
-						              	:
-						              	<span class="icon mdi mdi-lock"></span>
-						              </label>
-						            </div>
-						          </div>
-						          <div class="col-md-4">
-						          	<button class="button button-secondary button-nina" type="submit">비밀번호 변경</button>
-						          </div>  
-					            </div>
-					            
-					            
 					            <!-- 닉네임 -->
 					            <div class="row my-info-form2">
 						          <div class="col-md-8" style="width: 70%;">  
@@ -253,7 +236,7 @@
 		    <div class="modal modal-custom modal-account fade" id="pw-change-modal" tabindex="-1" role="dialog">
 		      <div class="modal-dialog" role="document">
 		        <div class="modal-content">
-		          <div class="modal-header" style="padding-right: 124px">
+		          <div class="modal-header">
 		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
 		          </div>
 		          <div class="modal-body text-center">
@@ -262,24 +245,27 @@
 		            <div class="modal-body-inner pw-change-modal">
 		              
 		              
-		              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
-		              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+		              <h3 class="hn">P<span>assword</span> C<span>hange</span></h3>              
+		              <div class="divider divider-default"></div>
 
 		              <form class="rd-mailform form-novi hn">
-		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
-		                  <input class="form-input hn" id="forms-login-password" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
-		                  <label class="form-label hn" for="forms-login-password" style="top: 22px;">Password</label>
+		                <div class="form-wrap form-wrap-validation">
+		                  <input class="form-input hn" id="forms-password-now" type="password" name="password" data-constraints="@Required">
+		                  <label class="form-label hn" for="forms-password-now">Password</label>
 		                </div>
-		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
-		                  <input class="form-input hn" id="forms-login-password1" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
-		                  <label class="form-label hn" for="forms-login-password1" style="top: 22px;">New Password</label>
+		                <div class="form-wrap form-wrap-validation">
+		                  <input class="form-input hn" id="forms-password-new" type="password" name="password" data-constraints="@Required">
+		                  <label class="form-label hn" for="forms-password-new">New Password</label>
 		                </div>
-		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
-		                  <input class="form-input hn" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required" style="height: 44px;min-height: 30px;">
-		                  <label class="form-label hn" for="forms-login-confirm" style="top: 22px;">Confirm Password</label>
+		                <div class="form-wrap form-wrap-validation">
+		                  <input class="form-input hn" id="forms-password-now-confirm" type="password" name="confirm" data-constraints="@Required">
+		                  <label class="form-label hn" for="forms-password-now-confirm">Confirm Password</label>
+		                </div>
+		                <div class="validation">
+		                	<span>비밀번호가 잘못 되었습니다.</span>
 		                </div>
 		                <div class="form-button">
-		                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">확인</button>
+		                  <button class="button button-block button-secondary button-nina hn" type="submit">확인</button>
 		                </div>
 		              </form>
 		
@@ -287,14 +273,9 @@
 		            
 		           </div>
 		            
-		            
-		            
 		            <div class="modal-body-inner sign-in-modal">
 		              <h4 class="modal-title">회원가입 완료</h4>
 		            </div>
-		            
-		            
-		            
 		            
 		          </div>
 		        </div>
@@ -305,7 +286,7 @@
 		    <div class="modal modal-custom modal-account fade" id="nickname-change-modal" tabindex="-1" role="dialog">
 		      <div class="modal-dialog" role="document">
 		        <div class="modal-content">
-		          <div class="modal-header" style="padding-right: 124px">
+		          <div class="modal-header">
 		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
 		          </div>
 		          <div class="modal-body text-center">
@@ -314,20 +295,29 @@
 		            <div class="modal-body-inner nickname-change-modal">
 		              
 		              
-		              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
-		              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+		              <h3 class="hn">N<span>ickname</span> C<span>hange</span></h3>              
+		              <div class="divider divider-default"></div>
 
 		              <form class="rd-mailform form-novi hn">
 		                <div class="form-wrap form-wrap-validation">
-		                  <input class="form-input hn" id="forms-login-id" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;" disabled>
-		                  <label class="form-label hn" for="forms-login-id" style="top: 22px;">NickName</label>
+		                  <input class="form-input hn" id="forms-nickname-now" type="text" name="name" data-constraints="@Required" disabled>
+		                  <label class="form-label hn" for="forms-nickname-now">NickName</label>
 		                </div>
-		                <div class="form-wrap form-wrap-validation">
-		                  <input class="form-input hn" id="forms-login-id2" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;">
-		                  <label class="form-label hn" for="forms-login-id2" style="top: 22px;">Confirm Nickname</label>
+		                
+		                <div class="row">
+		                	<div class="form-wrap form-wrap-validation col-md-8">
+			                  <input class="form-input hn" id="forms-nickname-new" type="text" name="name" data-constraints="@Required">
+			                  <label class="form-label hn" for="forms-nickname-new">Confirm Nickname</label>
+			                </div>
+			                <div class="col-md-4">
+			                	<button class="button button-block button-secondary button-nina hn" type="button">중복확인</button>
+			                </div>
+		                </div>
+		                <div class="validation">
+		                	<span>중복된 닉네임이 존재합니다.</span>
 		                </div>
 		                <div class="form-button">
-		                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">확인</button>
+		                  <button class="button button-block button-secondary button-nina hn" type="submit">확인</button>
 		                </div>
 		              </form>
 		
@@ -335,14 +325,9 @@
 		            
 		           </div>
 		            
-		            
-		            
 		            <div class="modal-body-inner sign-in-modal">
 		              <h4 class="modal-title">회원가입 완료</h4>
 		            </div>
-		            
-		            
-		            
 		            
 		          </div>
 		        </div>

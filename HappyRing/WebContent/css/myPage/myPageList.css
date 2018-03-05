@@ -475,15 +475,92 @@
 /* 내 정보 하단(botton) : 이용내역/회원탈퇴 END */
 
 /* 내 정보 pw-confirm-modal 부분 START */
+/* modal의 오른쪽 close 버튼 영역 */
+.my-info-div .modal-content:before {
+	display: none;
+}
+/* modal의 width 조정 */
 .my-info-div #pw-change-modal .modal-dialog, .my-info-div #nickname-change-modal .modal-dialog {
 	width: 30%;
 }
+/* modal 내용 부분 padding 조정 */
 .my-info-div #pw-change-modal .modal-content, .my-info-div #nickname-change-modal .modal-content {
-	padding: 0 85px 0 16px;
+	padding: 0 16px 0 16px;
 }
+/* modal close 버튼 위치 조정 */
 .my-info-div #pw-change-modal .close, .my-info-div #nickname-change-modal .close {
-	right: 15px;
+	top: 6px;
+	right: 4px;
 }
+/* modal close 버튼 크기 조정 */
+.my-info-div #pw-change-modal .close span:before, .my-info-div #nickname-change-modal .close span:before {
+	font-size: 23px;
+}
+/* modal 상단 제목 */
+.my-info-div #pw-change-modal h3, .my-info-div #nickname-change-modal h3 {
+	color:#00c8ca;
+	margin-bottom: -15px;
+}
+/* modal 상단 제목 */
+.my-info-div #pw-change-modal h3>span, .my-info-div #nickname-change-modal h3>span {
+	font-size: 15px;
+}
+/* modal 상단 제목 밑줄 */
+.my-info-div #pw-change-modal .divider-default, .my-info-div #nickname-change-modal .divider-default {
+	background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);
+	height: 5px; 
+	max-width: 215px; 
+	margin-top: 0px;
+}
+/* modal 입력칸 margin-top */
+.my-info-div #pw-change-modal form>.form-wrap-validation, .my-info-div #nickname-change-modal form>.form-wrap-validation, .my-info-div #nickname-change-modal form>.row {
+	margin-top: 9px;
+}
+/* modal 입력칸 */
+.my-info-div #pw-change-modal .form-wrap-validation>input, .my-info-div #nickname-change-modal .form-wrap-validation>input {
+	height: 44px;
+	min-height: 30px; 
+	border-radius: 8px;
+}
+/* modal 입력칸 안쪽 label */
+.my-info-div #pw-change-modal .form-wrap-validation>label, .my-info-div #nickname-change-modal .form-wrap-validation>label {
+	top: 22px;
+}
+/* modal 새로운 닉네임 입력칸 label */
+.my-info-div #nickname-change-modal label[for=forms-nickname-new] {
+	left: 40px;
+}
+/* modal 새로운 닉네임 입력칸 padding-right */
+.my-info-div #nickname-change-modal .row>.form-wrap-validation {
+	padding-right: 0;
+}
+/* modal 새로운 닉네임 중복확인 버튼 padding-left */
+.my-info-div #nickname-change-modal .row>.form-wrap-validation~div {
+	padding-left: 4px;
+}
+/* modal 새로운 닉네임 중복확인 버튼 */
+.my-info-div #nickname-change-modal .row>.form-wrap-validation~div>button {
+	border-radius: 8px; 
+	width: 100%;
+	min-width: 50px;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+	padding: 8px 0;
+}
+/* modal 유효성 검사 부분 */
+.my-info-div #pw-change-modal .validation, .my-info-div #nickname-change-modal .validation {
+	margin-top: 9px; 
+	text-align: center; 
+	color: red;
+}
+/* modal 유효성 검사 부분 */
+.my-info-div #pw-change-modal .form-button>button, .my-info-div #nickname-change-modal .form-button>button {
+	background-color: #00c8ca; 
+	border-color: #00c8ca; 
+	border-radius: 8px;
+}
+
+
 /* 내 정보 pw-confirm-modal 부분 END */
 
 
