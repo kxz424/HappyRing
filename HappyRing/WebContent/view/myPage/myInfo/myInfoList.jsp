@@ -138,6 +138,25 @@
 						          	<button class="button button-secondary button-nina" type="submit">비밀번호 변경</button>
 						          </div>  
 					            </div>
+					            
+					            
+					             <!-- 비밀번호 -->
+					            <div class="row my-info-form2">
+						          <div class="col-md-8">  
+						            <div class="my-info-form">
+					                  <label class="hn"> password   	</label>  
+						              <label class="hn icon-insert"> 
+						              	:
+						              	<span class="icon mdi mdi-lock"></span>
+						              </label>
+						            </div>
+						          </div>
+						          <div class="col-md-4">
+						          	<button class="button button-secondary button-nina" type="submit">비밀번호 변경</button>
+						          </div>  
+					            </div>
+					            
+					            
 					            <!-- 닉네임 -->
 					            <div class="row my-info-form2">
 						          <div class="col-md-8" style="width: 70%;">  
