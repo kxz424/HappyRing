@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+
+/* 모달 크기 */
+.modal-account .modal-dialog {
+	max-width: 1052px;
+}
+
+/* 모달창 우측 x버튼 영역 width 조정 */
+@media ( min-width : 992px) {
+	.modal-content:before {
+		/* 		position: absolute; */
+		/* 	    top: 0; */
+		/* 	    bottom: 0; */
+		/* 	    right: 0; */
+		width: 44px;
+		/* 	    content: ""; */
+		/* 	    display: inline-block; */
+		/* 	    background-color: #f2f3f9; */
+	}
+}
+
+/* 모달창 우측 login영역 padding(위치) 조정 */
+@media ( min-width : 992px) {
+	 .modal-custom .modal-content {
+		position: relative;
+		overflow: hidden;
+		padding: 0px 145px 0px 0px;
+	}
+}
+
+/* x버튼 위치 조정 */
+@media ( min-width : 992px) {
+	.section.page-header .modal-custom .close {
+		top: 15px;
+		right: 15px !important;
+	}
+}
+
+/* 모달 내 img랑 로그인 form 화면, 회원가입 form 화면 포함한 부분 margin 없애기*/
+@media ( min-width : 992px) {
+	.modal-account .modal-body-inner {
+		/* 	    max-width: 370px; */
+		margin-left: 0px;
+		margin-right: -8px;
+		/* 	    padding-top: 15px; */
+		/* 	    padding-bottom: 15px; */
+	}
+}
+
+
+/* 모달 내 로그인 form 위치 조정 */
+@media ( min-width : 992px) {
+	.modal-body-inner.login-modal{
+		margin-left: 78px !important;
+	}
+}
+
+
+/* 모달 내 로그인 form Title 글씨 css */
+.modal-body-inner.login-modal h3{
+ 	color:#00c8ca;
+ 	margin-bottom: -15px;
+ }
+.modal-body-inner.login-modal h3 span{
+ 	font-size: 15px;
+ }
+
+
+/* 로그인 타이틀 아래 divider(선) css*/
+.modal-body-inner.login-modal .divider-default{
+	background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);
+	height: 5px;
+	max-width: 215px;
+	margin-top: 0px;
+}
+
+/* 로그인 타이틀 아래 이미지 크기 조정 */
+.modal-body-inner.login-modal .row.img-div .col-md-12 img{
+	width: 192px;	
+}
+
+
+/* 로그인 form css*/
+.modal-body-inner.login-modal form .email-div input{
+	height: 44px;
+	min-height: 30px;
+}
+.modal-body-inner.login-modal form .email-div label{
+	top: 22px;
+}
+.modal-body-inner.login-modal form .password-div{
+	margin-top: 9px;
+}
+.modal-body-inner.login-modal form .password-div input{
+	height: 44px;
+	min-height: 30px;
+}
+.modal-body-inner.login-modal form .password-div label{
+	top: 22px;
+}
+.modal-body-inner.login-modal form .submit-btn-div .button-secondary{
+	background-color: #00c8ca; 
+	border-color: #00c8ca;
+}
+ 
+.modal-body-inner.login-modal .bottom-label .col-md-12{
+	text-align: center;
+	font-size: 13px;	
+}
+ 
+.modal-body-inner.login-modal a.h-sign-up{
+	color:#027e7f;
+}
+
+.modal-body-inner.login-modal .bottom-label .col-md-12 span{
+	color:#027e7f;
+}
+
+.modal-body-inner.login-modal a.h-find-id-pw{
+	color:#027e7f;
+}
+
+
+
+

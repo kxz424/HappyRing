@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+
+
+
+
+
+/* 모달 내 로그인 form Title 글씨 css */
+.modal-body-inner.login-modal h3{
+ 	color:#00c8ca;
+ 	margin-bottom: -15px;
+ }
+.modal-body-inner.login-modal h3 span{
+ 	font-size: 15px;
+ }
+
+
+/* 로그인 타이틀 아래 divider(선) css*/
+.modal-body-inner.login-modal .divider-default{
+	background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);
+	height: 5px;
+	max-width: 215px;
+	margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.snip1434 {
+	font-family: 'Raleway', Arial, sans-serif;
+	/*   border: none; */
+	/*   border-radius: 5px; */
+	border: solid 2px white;
+	border-radius: 0px !important;
+	overflow: hidden;
+	color: #ffffff;
+	cursor: pointer;
+	/*   padding: 0px 25px 0px 70px; */
+	/*   padding: 0px 21px 0px 30px; */
+	padding: 0px 12px 0px 16px;
+	text-align: center;
+	display: inline-block;
+	margin: 12px 25px;
+	font-weight: 600;
+	outline: none;
+	position: relative;
+	/*   font-size: 18px; */
+	font-size: 13px;
+	/*   line-height: 50px; */
+	line-height: 41px;
+/* 	background-color: #00c8ca; */
+	background:linear-gradient(to right, #ffec17 -30%, #00c8ca 86%);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+/* 버튼 col-md-3 margin 지우기*/
+.snip1434.col-md-3 {
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.snip1434 i {
+	font-size: 2.5em;
+	width: 55px;
+	line-height: 50px;
+	position: absolute;
+	/*   left: -5px; */
+	/*   top: 5px; */
+	left: -18px;
+	top: 9px;
+	-webkit-transform: rotate(-25deg) scale(1);
+	transform: rotate(-25deg) scale(1);
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.snip1434:hover, .snip1434.hover {
+	color: #ffffff;
+	background-color: #ac203f;
+}
+
+.snip1434:hover i, .snip1434.hover i {
+	-webkit-transform: rotate(-20deg) scale(1.3);
+	transform: rotate(-20deg) scale(1.3);
+}
+
+.registration-tab .snip1434:active{
+background-color: yellow;
+}
+
+
+
+/************************/
+.regist-inner-div {
+	margin-top:20px;
+	margin-right: -17px;
+	margin-left: -15px;
+	min-height: 500px !important;
+/* 	border: solid blue; */
+	
+}
+
+
+/*체크박스 css 조정 */
+@media (min-width: 992px){
+	.regist-inner-div .agree-checkBox .checkbox-inline .checkbox-custom-dummy{
+	/* 	left: 0; */
+	    width: 20px;
+	    height: 20px;
+	    margin-top: -10px; 
+	/*     margin-left: 0; */
+	/*     pointer-events: none; */
+	    border-radius: 23px;
+	/*     transition: .22s; */
+	}
+}
+
+
+@media (min-width: 992px){
+	.regist-inner-div .gender-check .checkbox-inline .checkbox-custom-dummy{
+		margin-top: 11px;
+    	width: 18px;
+    	height: 18px;
+	}
+}
+
+
+#regist-certification .form-validation{
+	display: none;
+
+}
+
+
+
+.button-secondary2:hover, .button-secondary2:active, .button-secondary2:hover{
+	color: #fff ;
+    background-color: #ed1c94;
+    border-color: #ed1c94 ;
+}
+
+.button-secondary2 {
+	color: #fff;
+    background-color: #981df0;
+    border-color: #981df0;
+}
+
+
+
+#regist-complete img{
+	height: 249px;
+}
+
+
+
+
+/**/
+.modal-custom *+form {
+	margin-top: 21px;
+}
+
+.modal-content {
+	padding-right: 124px;
+}
+
+.modal-body-inner.modal-img {
+	border-right: dashed 2px #8080803b;
+}
