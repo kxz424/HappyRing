@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
+.modal-custom *+form {
+	margin-top: 21px;
+}
 
+.modal-content {
+	padding-right: 124px;
+}
+
+.modal-body-inner.modal-img {
+	border-right: dashed 2px #8080803b;
+}
 
 /* 모달 크기 */
 .modal-account .modal-dialog {

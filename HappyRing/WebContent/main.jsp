@@ -50,9 +50,9 @@
                  <!-- 탭 nav-->
                   <ul class="nav nav-tabs">
                      <li> <a class="button" href="#beforeN" data-toggle="tab">
-                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>주요심리학2</a>
+                         <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>교양심리학</a>
                      </li>
-                     <li class="active"><a class="button" href="#cheerUp" data-toggle="tab">
+                     <li><a class="button" href="#tips" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/cheering.png" width="63px"><br/>자존감</a>
                      </li>
                      <li><a class="button" href="#honor" data-toggle="tab">
@@ -61,7 +61,7 @@
                      <li><a class="button" href="#trainning" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/trainning.png" width="63px"><br/>나만의고민</a>
                      </li>
-                     <li><a class="button" href="#tips" data-toggle="tab">
+                     <li class="active"><a class="button" href="#cheerUp" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/tips.png" width="63px"><br/>멋진응원 한마디</a>
                     </li>
                   </ul>
@@ -72,21 +72,8 @@
                         <p>gggggggggThe layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly. Site navigation is extremely intuitive and user-friendly. You will always know where you are now.</p>
                       </div>
                      <!-- 두번째 contents: 멋진응원 -->    
-                     <div class="tab-pane fade in active" id="cheerUp">
-                        <div class="row">
-                          <c:forEach var="i" begin="0" end="5">
-                          <div class="col-xs-12 col-md-4">
-                         <a class="post-blog-quote box-shadow" href="single-post.html">
-                           <div class="quote-primary">
-                             <div class="quote-primary-text">
-                              <p class="jh">누구나 재능은 있다. 드문 것은 그 재능이 이끄는 암흑 속으로 따라 들어갈 용기다.</p>
-                             </div>
-                               <p class="quote-primary-meta"><span>by</span><span class="cite">Ronald Chen</span><span class="glyphicon glyphicon-heart-empty"></span><span class="heart-count">123</span></p>
-                           </div>
-                          </a>
-                        </div>
-                        </c:forEach>
-                       </div>
+                     <div class="tab-pane fade" id="tips">
+                        gdgdgdgd
                       </div>
                     
                       <div class="tab-pane fade" id="honor">
@@ -95,9 +82,11 @@
                       <div class="tab-pane fade" id="trainning">
                         <p>We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
                       </div>
-                      <div class="tab-pane fade" id="tips">
-                        <p>We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
-                      </div>  
+                      
+                      <!-- 멋진응원 한마디  -->
+                      <div class="tab-pane fade in active" id="cheerUp">
+                        <jsp:include page="/view/main/cheerUp/cheerUp.jsp"></jsp:include>
+                     </div>  
                   </div>  
                 </div> 
                 <!-- 메인화면 첫번째 탭 : 비포&애프터 등 포함한 tab div END -->
