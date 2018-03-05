@@ -6,17 +6,21 @@
 
 
 /* 모달 내 로그인 form Title 글씨 css */
-.modal-body-inner.login-modal h3{
+.modal-body-inner.sign-up-modal h4{
  	color:#00c8ca;
  	margin-bottom: -15px;
  }
-.modal-body-inner.login-modal h3 span{
+.modal-body-inner.sign-up-modal h4 span{
  	font-size: 15px;
+ 	text-transform:capitalize;
  }
+.modal-body-inner.sign-up-modal h4 span span{
+	text-transform:uppercase;
+} 
 
 
 /* 로그인 타이틀 아래 divider(선) css*/
-.modal-body-inner.login-modal .divider-default{
+.modal-body-inner.sign-up-modal .divider-default{
 	background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);
 	height: 5px;
 	max-width: 215px;
@@ -24,24 +28,13 @@
 }
 
 
+/* 회원가입 tab menu  */
+.sign-up-modal .registration-tab{
+	margin-right: -18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.snip1434 {
+/* 탭 메뉴 버튼 css */
+.regist-tab-btn {
 	font-family: 'Raleway', Arial, sans-serif;
 	/*   border: none; */
 	/*   border-radius: 5px; */
@@ -70,16 +63,14 @@
 	transition: all 0.3s ease;
 }
 
-
-/* 버튼 col-md-3 margin 지우기*/
-.snip1434.col-md-3 {
+/* 탭 메뉴 버튼 col-md-3 margin 지우기*/
+.regist-tab-btn.col-md-3 {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 	margin-left: 0px;
 }
-
-.snip1434 i {
+.regist-tab-btn span {
 	font-size: 2.5em;
 	width: 55px;
 	line-height: 50px;
@@ -93,24 +84,21 @@
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
-.snip1434:hover, .snip1434.hover {
+.regist-tab-btn:hover, .regist-tab-btn.hover {
 	color: #ffffff;
 	background-color: #ac203f;
 }
-
-.snip1434:hover i, .snip1434.hover i {
+.regist-tab-btn:hover span, .regist-tab-btn.hover span {
 	-webkit-transform: rotate(-20deg) scale(1.3);
 	transform: rotate(-20deg) scale(1.3);
 }
-
-.registration-tab .snip1434:active{
+.registration-tab .regist-tab-btn:active{
 background-color: yellow;
 }
 
 
+/* 회원가입 tab content  */
 
-/************************/
 .regist-inner-div {
 	margin-top:20px;
 	margin-right: -17px;
@@ -120,8 +108,147 @@ background-color: yellow;
 	
 }
 
+/* 회원가입 tab content : 약관동의 */
+.sign-up-modal #regist-agree .regist-inner-div{
+	border: solid; 
+	border-color: red;
+}
 
-/*체크박스 css 조정 */
+/* 회원가입 tab content : 정보입력  */
+.sign-up-modal #regist-info .regist-inner-div .rd-mailform{
+	padding-top: 10px;
+}
+
+/* 정보입력 css 1 : email */
+.sign-up-modal #regist-info .regist-inner-div .rd-mailform .form-regist-email{
+	margin-top: 9px;
+}
+.form-regist-email input{
+	height: 44px;
+	min-height: 30px;
+}
+.form-regist-email label{
+	top: 22px;
+}
+
+
+/* 정보입력 css 2 : id */
+.sign-up-modal #regist-info .regist-inner-div .form-regist-id{
+	margin-top: 9px;
+}
+.form-regist-id .col-md-9{
+	padding-right: 0px;
+}
+.form-regist-id .col-md-9 input{
+	height: 44px;
+	min-height: 30px;
+}
+.form-regist-id .col-md-9 label{
+	top: 22px;
+}
+.form-regist-id .col-md-3{
+	padding-left: 4px;
+}
+.form-regist-id .col-md-3 .id-submit-btn:hover, 
+.form-regist-id .col-md-3 .id-submit-btn:active, 
+.form-regist-id .col-md-3 .id-submit-btn:hover{
+	color: #fff ;
+    background-color: #ed1c94;
+    border-color: #ed1c94 ;
+}
+.form-regist-id .col-md-3 .id-submit-btn {
+	color: #fff;
+    background-color: #981df0;
+    border-color: #981df0;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	min-width: 90px;
+	font-size: 12px;
+	max-height: 43.3px;
+}
+
+
+/* 정보입력 css 3 : pw */
+.sign-up-modal #regist-info .regist-inner-div .form-regist-pw{
+	margin-top: 9px;
+}
+.form-regist-pw input{
+	height: 44px;
+	min-height: 30px;
+}
+.form-regist-pw label{
+	top: 22px;
+}
+
+
+/* 정보입력 css 4 : pw confirm*/
+.sign-up-modal #regist-info .regist-inner-div .form-regist-confirm-pw{
+	margin-top: 9px;
+}
+.form-regist-confirm-pw input{
+	height: 44px;
+	min-height: 30px;
+}
+.form-regist-confirm-pw label{
+	top: 22px;
+}
+
+
+/* 정보입력 css 5 : 닉네임 */
+.sign-up-modal #regist-info .regist-inner-div .form-regist-nick{
+	margin-top: 9px;
+}
+
+.form-regist-nick .col-md-8{
+	padding-right: 0px;
+}
+.form-regist-nick .col-md-8 input{
+	height: 44px;
+	min-height: 30px;
+}
+.form-regist-nick .col-md-8 label{
+	top: 22px;
+}
+.form-regist-nick .col-md-4{
+	padding-left: 4px;
+}
+.form-regist-nick .col-md-4 .nick-submit-btn:hover, 
+.form-regist-nick .col-md-4 .nick-submit-btn:active, 
+.form-regist-nick .col-md-4 .nick-submit-btn:hover{
+	color: #fff ;
+    background-color: #ed1c94;
+    border-color: #ed1c94 ;
+}
+.form-regist-nick .col-md-4 .nick-submit-btn {
+	color: #fff;
+    background-color: #981df0;
+    border-color: #981df0;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	min-width: 90px;
+	font-size: 12px;
+	max-height: 43.3px;
+}
+
+
+/* 정보입력 css 6 : 성별 */
+.sign-up-modal #regist-info .regist-inner-div .gender-check {
+	background-color: #f2f3f9;
+	height: 44px;
+	line-height: 2.5;
+	border-radius: 8px;
+	margin-top: 9px;
+}
+
+.sign-up-modal #regist-info .regist-inner-div .gender-check label{
+	padding-left: 23px;
+}
+
+/* 체크박스 css 조정 */
 @media (min-width: 992px){
 	.regist-inner-div .agree-checkBox .checkbox-inline .checkbox-custom-dummy{
 	/* 	left: 0; */
@@ -135,7 +262,6 @@ background-color: yellow;
 	}
 }
 
-
 @media (min-width: 992px){
 	.regist-inner-div .gender-check .checkbox-inline .checkbox-custom-dummy{
 		margin-top: 11px;
@@ -144,11 +270,110 @@ background-color: yellow;
 	}
 }
 
+#regist-info .form-button .h-sign-in-btn {
+	margin-top: 40px;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+
+}
+
+/* 회원가입 tab content : 가입인증  */
+#regist-certification .regist-inner-div label:first-child{
+	font-size: 14px; 
+	padding-top: 80px;
+}
+
+#regist-certification .regist-inner-div label:first-child span{
+	color: #0095ff; 
+	font-size: 20px;
+}
+
+#regist-certification .row {
+	margin-top: 37px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#regist-certification .row .col-md-7{
+	padding-right: 0px; 
+	padding-left: 5px;
+}
+
+#regist-certification .row .col-md-7 input{
+	height: 44px;
+	min-height: 30px;
+}
+
+#regist-certification .row .col-md-7 label{
+	top: 22px;
+}
+
+#regist-certification .row .col-md-3{
+	padding-left: 4px;
+}
+
+
+.certification-return-btn:hover, 
+.certification-return-btn:active, 
+.certification-return-btn:hover{
+	color: #fff ;
+    background-color: #ed1c94;
+    border-color: #ed1c94 ;
+}
+
+.certification-return-btn {
+	color: #fff;
+    background-color: #981df0;
+    border-color: #981df0;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	min-width: 90px;
+	font-size: 11px;
+	max-height: 43.3px;
+}
 
 #regist-certification .form-validation{
 	display: none;
 
 }
+
+#regist-certification .form-button .h-sign-in-btn{
+	margin-top: 40px;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+	margin-top: 150px;
+}
+
+/* 회원가입 tab content : 가입완료  */
+#regist-complete label{
+	color: #0095ff; 
+	font-size: 20px; 
+	padding-top: 35px;
+}
+
+
+#regist-complete img{
+	height: 249px;
+}
+
+#regist-complete .form-button .h-sign-in-btn{
+	background-color: #00c8ca;  
+	border-color: #00c8ca;
+	margin-top: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -166,22 +391,8 @@ background-color: yellow;
 
 
 
-#regist-complete img{
-	height: 249px;
-}
 
 
 
 
 /**/
-.modal-custom *+form {
-	margin-top: 21px;
-}
-
-.modal-content {
-	padding-right: 124px;
-}
-
-.modal-body-inner.modal-img {
-	border-right: dashed 2px #8080803b;
-}

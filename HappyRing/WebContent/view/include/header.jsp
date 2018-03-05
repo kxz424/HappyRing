@@ -22,6 +22,48 @@
 
 
 
+/************************/
+.regist-inner-div {
+	margin-top:20px;
+	margin-right: -17px;
+	margin-left: -15px;
+	min-height: 500px !important;
+/* 	border: solid blue; */
+	
+}
+
+
+/*체크박스 css 조정 */
+@media (min-width: 992px){
+	.regist-inner-div .agree-checkBox .checkbox-inline .checkbox-custom-dummy{
+	/* 	left: 0; */
+	    width: 20px;
+	    height: 20px;
+	    margin-top: -10px; 
+	/*     margin-left: 0; */
+	/*     pointer-events: none; */
+	    border-radius: 23px;
+	/*     transition: .22s; */
+	}
+}
+
+
+@media (min-width: 992px){
+	.regist-inner-div .gender-check .checkbox-inline .checkbox-custom-dummy{
+		margin-top: 11px;
+    	width: 18px;
+    	height: 18px;
+	}
+}
+
+
+#regist-certification .form-validation{
+	display: none;
+
+}
+
+
+
 .button-secondary2:hover, .button-secondary2:active, .button-secondary2:hover{
 	color: #fff ;
     background-color: #ed1c94;
