@@ -474,6 +474,18 @@
 
 /* 내 정보 하단(botton) : 이용내역/회원탈퇴 END */
 
+/* 내 정보 pw-confirm-modal 부분 START */
+.my-info-div #pw-change-modal .modal-dialog, .my-info-div #nickname-change-modal .modal-dialog {
+	width: 30%;
+}
+.my-info-div #pw-change-modal .modal-content, .my-info-div #nickname-change-modal .modal-content {
+	padding: 0 85px 0 16px;
+}
+.my-info-div #pw-change-modal .close, .my-info-div #nickname-change-modal .close {
+	right: 15px;
+}
+/* 내 정보 pw-confirm-modal 부분 END */
+
 
 
 

@@ -135,7 +135,7 @@
 						            </div>
 						          </div>
 						          <div class="col-md-4">
-						          	<button class="button button-secondary button-nina" type="submit">비밀번호 변경</button>
+						          	<button class="button button-secondary button-nina my-info-pw-change" type="submit">비밀번호 변경</button>
 						          </div>  
 					            </div>
 					            <!-- 닉네임 -->
@@ -147,7 +147,7 @@
 						            </div>
 						          </div>
 						          <div class="col-md-4" style="width: 30%;">
-						          	<button class="button button-secondary button-nina" type="submit">닉네임 변경</button>
+						          	<button class="button button-secondary button-nina my-info-nick-change" type="submit">닉네임 변경</button>
 						          </div>  
 					            </div>
 					            <!-- 성별 -->
@@ -222,7 +222,117 @@
 					  
 			</div>					
 			<!-- myInfo END-->		
+			
+			
+			
+			
+			
+			
+			
+			
+			<!--# pw-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="pw-change-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header" style="padding-right: 124px">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner pw-change-modal">
+		              
+		              
+		              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
+		              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+
+		              <form class="rd-mailform form-novi hn">
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-password" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-password" style="top: 22px;">Password</label>
+		                </div>
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-password1" type="password" name="password" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-password1" style="top: 22px;">New Password</label>
+		                </div>
+		                <div class="form-wrap form-wrap-validation" style="margin-top: 9px;">
+		                  <input class="form-input hn" id="forms-login-confirm" type="password" name="confirm" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-confirm" style="top: 22px;">Confirm Password</label>
+		                </div>
+		                <div class="form-button">
+		                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">확인</button>
+		                </div>
+		              </form>
+		
+		            </div>
+		            
+		           </div>
+		            
+		            
+		            
+		            <div class="modal-body-inner sign-in-modal">
+		              <h4 class="modal-title">회원가입 완료</h4>
+		            </div>
+		            
+		            
+		            
+		            
+		          </div>
+		        </div>
+		      </div>
+		    <!--# pw-change-modal Modal END-->
+		    
+		    <!--# nickname-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="nickname-change-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header" style="padding-right: 124px">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner nickname-change-modal">
+		              
+		              
+		              <h3 class="hn" style="color:#00c8ca;margin-bottom: -15px;">H<span style="font-size: 15px;">appy</span>R<span style="font-size: 15px;">ing</span></h3>              
+		              <div class="divider divider-default" style="background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);height: 5px; max-width: 215px; margin-top: 0px;"></div>
+
+		              <form class="rd-mailform form-novi hn">
+		                <div class="form-wrap form-wrap-validation">
+		                  <input class="form-input hn" id="forms-login-id" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;" disabled>
+		                  <label class="form-label hn" for="forms-login-id" style="top: 22px;">NickName</label>
+		                </div>
+		                <div class="form-wrap form-wrap-validation">
+		                  <input class="form-input hn" id="forms-login-id2" type="text" name="name" data-constraints="@Required" style="height: 44px;min-height: 30px;">
+		                  <label class="form-label hn" for="forms-login-id2" style="top: 22px;">Confirm Nickname</label>
+		                </div>
+		                <div class="form-button">
+		                  <button class="button button-block button-secondary button-nina hn" type="submit" style="background-color: #00c8ca; border-color: #00c8ca">확인</button>
+		                </div>
+		              </form>
+		
+		            </div>
+		            
+		           </div>
+		            
+		            
+		            
+		            <div class="modal-body-inner sign-in-modal">
+		              <h4 class="modal-title">회원가입 완료</h4>
+		            </div>
+		            
+		            
+		            
+		            
+		          </div>
+		        </div>
+		      </div>
+		    <!--# pw-change-modal Modal END-->
 					
+					
+				
+	
              
 </body>
 </html>

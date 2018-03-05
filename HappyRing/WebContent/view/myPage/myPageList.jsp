@@ -628,6 +628,9 @@
 	<jsp:include page="/view/include/footer.jsp"></jsp:include>
 </div>
 <!-- page END -->
+
+<!-- myInfoList 전용 js -->
+<script src="/HappyRing/js/myPage/myInfoList.js"></script>	
 	
 
 <script type="text/javascript">
@@ -663,6 +666,8 @@
             	   }
 	}
                </script>
+               
+           
                
                
                
