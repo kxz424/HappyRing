@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/* onePage 전체 div css */
+.one-page-div {
+	background-color: white;
+	padding: 15px;
+/* 	height: 500px; */
+	margin-top: 15px;
+}
+
+
+
+/* 타이틀 앞 circle img div*/
+.circle-tile-heading-img {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    color: #FFFFFF;
+    height: 40px;
+/*     margin: 0 auto -40px; */
+    position: relative;
+/*     transition: all 0.3s ease-in-out 0s; */
+    width: 40px;
+    background-color: yellow;
+    padding-left: 1px;	
+    line-height: 35px;
+}
+
+
+
+@media (min-width: 992px){
+	.head-title .col-md-1{
+		padding-right: 0px;
+	}
+	
+	.head-title .col-md-9{
+		padding-left: 0px;
+	}
+	
+	.head-title .col-md-2{
+		padding-top: 11px;
+    	padding-left: 40px;
+	}
+}
+
+/* title text */
+.head-title .col-md-9{
+	font-size: 20px;
+    padding-top: 6.5px;
+}
+.head-title .col-md-9 span{
+	font-size: 14px;
+}
+.head-title .col-md-2 p{
+	font-size: 14px;
+}
+
+
+
+/* onePage > 기초심리학 lsit(theory-basic-list)*/
+.theory-basic-area{
+	border: solid;
+}
+
+/* 블록 형식의 list div */
+.theory-basic-list{
+/*     padding-top: 25px; */
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 27px;
+    padding-right: 14px;
+    background-color: white;
+    /* border: solid red; */
+}
+/*img animation 죽이기*/
+.theory-basic-list .gallery-item img {
+    position: inherit;
+    left: 0%;
+    transform: none;
+}
+
+/*list article border에 색 넣어주기*/
+.theory-basic-list .post-blog {
+    border: solid #80808024;
+}
+
+/* 리스트 article >img 크기 조정 */
+.theory-basic-list .post-blog .post-blog-image {
+   min-height: 0px;
+}
+.f-section-1  .post-blog .post-blog-image img{
+/* min-height: 10px !important; */
+/* 	width: 100%; */
+    width: 211px;
+/*     height: 115px; */
+	height: 130px;
+    object-fit: initial;
+}
+
+
+/* article tag 좌우 padding 수정*/
+@media (min-width: 992px){
+	.theory-basic-list .post-blog-caption-header {
+		padding-left: 9px;
+	    padding-right:11px;
+	    border-top: dotted #80808026;
+	}
+}
+.theory-basic-list .post-blog-caption-header .button-tags{
+	font: 300 12px/1 "Lato", Helvetica, Arial, sans-serif;
+	padding: 4px 8px;
+	letter-spacing: .02em;
+}
+
+
+
+
+/* article header에 게시글 no. 글자크기 수정 */
+.theory-basic-list .post-blog-caption-header .post-comment{
+	font-size: 11px;
+}	
+
+/* article title 좌우 padding 수정*/
+@media (min-width: 992px){
+	.theory-basic-list .post-blog-caption-body{
+		padding-left: 14px;
+	    padding-right: 14px;
+	    text-align: left;
+	}
+}
+
+/* article title 위 아래 padding 수정*/
+.theory-basic-list  .post-blog-caption-body {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+
+
+
+/* article footer font-size 수정*/
+@media (min-width: 992px){
+	.theory-basic-list .post-blog-caption-footer{
+		font-size: 10px;
+		padding-left: 14px;
+	    padding-right: 14px;
+	    padding-top: 5px;
+    	padding-bottom: 5px;
+    	border-top: 1px solid #f2f3f9;
+	}
+}
+
+
+/* article footer icon size 수정 */
+.theory-basic-list .glyphicon-heart {
+    font-size: 12px;
+    color: red;
+}
+
+
+
+/* onePage > (임시)행동심리학 lsit(theory-basic-list)*/
+.theory-basic-area2{
+	border: solid;
+	margin-top: 35px;
+}
+
+
+/* onePage > (임시)심리학지식 lsit(theory-basic-list)*/
+.theory-basic-area3{
+	border: solid;
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

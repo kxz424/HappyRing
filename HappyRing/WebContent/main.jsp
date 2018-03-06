@@ -92,64 +92,19 @@
                 <!-- 메인화면 첫번째 탭 : 비포&애프터 등 포함한 tab div END -->
           
              
-               <!-- ## 메인화면 isotope : 카테고리별 고민 띄어주는 부분  START -->
-               <div class="coustom-isotope"> 
-          
-                   <!-- # Isotope Filters(button) START-->
-                      <div class="cell-xs-12 cell-sm-12 cell-md-12 cell-lg-12">
-                       <ul class="isotope-filters isotope-filters-horizontal">
-                         <li class="block-top-level">
-                            <button class="isotope-filters-toggle button button-xs button-primary" data-custom-toggle="#isotope-filters-list-1" data-custom-toggle-hide-on-blur="true">Filter<span class="caret"></span></button>
-                           <ul class="isotope-filters-list isotope-filters-list-buttons" id="isotope-filters-list-1">
-                             <li><a class="button-nina" data-isotope-filter="type 1" data-isotope-group="gallery3" href="#">Type 1</a></li>
-                             <li><a class="button-nina" data-isotope-filter="type 2" data-isotope-group="gallery3" href="#">Type 2</a></li>
-                           </ul>
-                         </li>
-                       </ul>
-                    </div>
-                    <!-- Isotope Filters(button) END-->
+               <!-- ## 메인화면 one-page   START -->
+               <div class="one-page"> 
+          		   
+          		   <jsp:include page="/view/main/onePage/onePage.jsp"></jsp:include>
+                   <!-- # 심리이론 START-->
+                   
+                   
+                   <!-- 심리이론 END-->
+                   
                     <!-- # isotope contents START-->
-                    <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
-                      <div class="row">
-                      <!-- type1 -->
-                      <c:forEach var="i" begin="0" end="5">
-                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 1">
-                          <div class="box-info">
-                            <div class="box-info-inner">
-                              <h7 class="box-info-title hn">senior ui/ux designer</h7>
-                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
-                            </div>
-                            <div class="box-info-footer">
-                              <ul class="list-inline-md">
-                                <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>Full Time</span></li>
-                                <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        </c:forEach>
-                        <!-- type2 -->
-                        <c:forEach var="i" begin="0" end="5">
-                        <div class="col-xs-12 col-sm-6 col-md-4 isotope-item" data-filter="type 2">
-                          <div class="box-info">
-                            <div class="box-info-inner">
-                              <h8 class="box-info-title">g호senior ui/ux designer</h8>
-                              <p>As a Senior UX/UI Product Designer you'll have the ability to design a product that will revolutionize the world of IT.</p>
-                            </div>
-                            <div class="box-info-footer">
-                                 <ul class="list-inline-md">
-                                   <li class="box-inline"><span class="icon mdi-calendar-clock icon-primary mdi"></span><span>공감순</span></li>
-                                   <li class="box-inline"><span class="icon icon-primary mdi mdi-map-marker"></span><span>New York</span></li>
-                                 </ul>
-                            </div>
-                          </div>
-                        </div>
-                        </c:forEach>
-                      </div>
-                    </div>
                     <!-- isotope contents END--> 
                 </div>  
-                <!-- 메인화면 isotope : 카테고리별 고민 띄어주는 부분  END -->  
+                <!-- 메인화면 one-page END -->  
               
       </div> 
       <!-- 비포&애프터 탭  및 isotope END-->    

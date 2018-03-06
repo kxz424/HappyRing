@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 
-/* 커뮤니티 게시판 게시물 타이틀 div */
-.cd-title{
+/* ####### 커뮤니티 게시판 게시물 타이틀 div */
+.cd-tips-title{
 	margin-top: 12px;
 /* 	border: solid; */
 	background-color: white;
@@ -12,29 +12,29 @@
 
 
 /* 커뮤니티 게시판 게시물 타이틀 대제목 col-md padding 조정 */
-.cd-title .row .col-md-6{
+.cd-tips-title .row .col-md-6{
 	padding-left: 4%; 
 	margin-bottom: 2%;
 }
 
 /*명언 가운데 정렬*/
-.cd-title .row .col-md-10{
+.cd-tips-title .row .col-md-10{
 	text-align: center;
 }
 
 /* 커뮤니티 게시판 명언 text 글자 크기 조정*/
-.cd-title .row .col-md-10 .sub-text{
+.cd-tips-title .row .col-md-10 .sub-text{
 	font-size: 14px;
 }
 
-.cd-title .row .col-md-10 .sub-text-small{
+.cd-tips-title .row .col-md-10 .sub-text-small{
 	
 	font-size: 10px;
 }
 
 
-/* 커뮤니티 게시판 list div */
-.cd-list, .cd-xs-list{
+/* ####### 커뮤니티 게시판 list div */
+.cd-tips-list, .cd-xs-list{
     /* padding-top: 25px; */
     margin-top: 15px;
     padding-bottom: 30px;
@@ -44,7 +44,7 @@
     /* border: solid red; */
 }
 /* 커뮤니티 게시판 list padding-bottom 부분 조정 */
-.cd-list {
+.cd-tips-list {
 	padding-bottom: 0;
 }
 /* 큰 화면일때 모바일 화면 기준 커뮤니티 게시판 목록 숨김 처리 */
@@ -54,7 +54,7 @@
 /* ## 모바일 화면 기준 커뮤니티 게시판 css START */
 @media(max-width: 768px){
 	/* 큰 화면 기준 커뮤니티 게시판 목록 숨김 처리 */
-	.cd-list {
+	.cd-tips-list {
 	    display: none;
 	}
 	/* 모바일 화면 기준 커뮤니티 게시판 목록 보임 처리 */
@@ -79,67 +79,91 @@
 /* 모바일 화면 기준 커뮤니티 게시판 css END */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
-.cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+.cd-tips-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a {
 		 border-radius: 8px;
 		 padding: 5px 19px;
 		 height: 35px;
 }
-.cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+.cd-tips-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a span{
 		 top: -2px;
 }
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
-.cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
+.cd-tips-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a.active {
 		color: #fff;
 	    background: rgb(0, 200, 202);
 	    border-color: rgb(0, 200, 202);
 }
 /* list 카테고리 버튼(isotope) 오른쪽 정렬 */
-.cd-list .isotope-filters-horizontal {
+.cd-tips-list .isotope-filters-horizontal {
 	float: right;
 }
 /* list 카테고리 버튼(isotope) height 영역 설정 */
-.cd-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
+.cd-tips-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
 	height: 42px;
 }
 
 
 /* 리스트 테두리 선 */
-.cd-list .table-list .table > tbody > tr > td{
-	padding: 20px 8px 22px 9px;
+.cd-tips-list .table-list .table > tbody > tr > td{
+	padding: 8px;
     line-height: 1.42857;
     vertical-align: top;
     border-bottom: 1px dashed #ddd;
     border-top: 0;
 }
 
-.cd-list .row {
+.cd-tips-list .row {
 	margin-bottom: 0;
 }
-.cd-list [data-isotope-layout] .row > [class*="col-"] {
-	margin-top: 0;
+/* .cd-tips-list [data-isotope-layout] .row > [class*="col-"] { */
+/* 	margin-top: 0; */
+/* } */
+
+
+/*리스트 내 checkBox 들어가는 공간(col-md-1) 패딩 및 width 조정*/
+.td-row .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
+}
+
+.td-row .col-md-10{
+	padding-left: 0px;
+/* 	width: 95.5%; */
 }
 
 /* 리스트 상단 제목에 css 주기*/
-.cd-row .cd-list-contents span{
-/* 	font-size: 14.5px; */
-	font-size: 17px;
+.td-row .col-md-10 span{
+	font-size: 14.5px;
 	color: black;
 }
 
 /* 리스트 중간 내용에 css 주기*/
-.cd-row .cd-list-contents p {
+.td-row .col-md-10 p {
 	margin: 0;
-/* 	font-size: 12px; */
-	font-size: 13.5px;
-	margin-top: 2%;
-	color:#000000;
+	font-size: 12px;
+	margin-top: 1%;
 	
 }
-.cd-row .cd-list-contents .glyphicon{
+
+.td-row .col-md-10 .glyphicon{
 	font-size: 11px;
     float: right;
     line-height: 24px;
@@ -147,37 +171,48 @@
 }
 
 
-.cd-row2{
-	margin-top: 2%;
+
+/*td 안 row에 패딩주기 */
+.td-row2{
+/* 	padding: 0px 22px 5px 22px; */
+}
+.td-row2 .col-md-1:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 4.5%;	
 }
 
 /* 리스트 하단 부가정보에 css 주기*/
-.cd-row2 .cd-list-profile {
+.td-row2 .col-md-11 {
 	font-size: 11px;
 	margin-top: 1%;
+	padding-left: 0px;
+	width: 95.5%;
 }
 
-/* 리스트 하단 부가정보 span 사이에 패딩 주기*/
-.cd-row2 .cd-list-profile span{
-	margin-right: 2px;
-	margin-left: 2px;
-}
 
+
+/* # list START */
+/* article div (value5) 마진 조정  */
 
 /**/
-.glyphicon-heart{
-/* 	font-size: 9px; */
+.glyphicon-map-marker{
+	font-size: 9px;
 }
 
 
-
-/* list 좌측 대표 이미지 col-md-2 공간  css */
-.cd-list-img{
+.cd-tips-list .td-row .myComuunityList-col-md-10{
 	padding-left: 0px;
-	padding-top: 7px;
+    width: 84.5%;
+    padding-right: 4px;
 }
-/* list 좌측 대표 이미지 윤곽선 주기 */
-.cd-list-img img{
-/* 	border:  solid 0.6px; */
+
+@media (min-width: 992px){
+.cd-tips-list .td-row .myComuunityList-Img{
+	    padding-right: 0px;
+    	padding-left: 0px;
+	}
 }
+/*  마이페이지_dropBox select-3 : 커뮤니티  list END */
+
 
