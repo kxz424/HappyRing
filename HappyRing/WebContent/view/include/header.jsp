@@ -487,7 +487,181 @@
 	    <jsp:include page="/view/login/login.jsp"></jsp:include>
 	    <!--# login Modal END-->
     
-    
+    	<div class="overlap-confirm">
+    	
+    		<!--# nickname-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="id-overlap-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner id-overlap-modal">
+		              
+		              
+<!-- 		              <h3 class="hn">N<span>ickname</span> C<span>hange</span></h3>               -->
+<!-- 		              <div class="divider divider-default"></div> -->
+		
+		              <form class="rd-mailform form-novi hn">
+		<!--                 <div class="form-wrap form-wrap-validation"> -->
+		<!--                   <input class="form-input hn" id="forms-nickname-now" type="text" name="name" data-constraints="@Required" disabled> -->
+		<!--                   <label class="form-label hn" for="forms-nickname-now">NickName</label> -->
+		<!--                 </div> -->
+		                
+		                <div class="validation">
+		                	<span>중복된 id가 존재합니다.</span>
+		                </div>
+		                
+		                <div class="row">
+		                	<div class="form-wrap form-wrap-validation col-md-8">
+			                  <input class="form-input hn" id="forms-id-confirm" type="text" name="name" data-constraints="@Required">
+			                  <label class="form-label hn" for="forms-id-confirm">Confirm ID</label>
+			                </div>
+			                <div class="col-md-4">
+			                	<button class="button button-block button-secondary button-nina hn" type="button">중복확인</button>
+			                </div>
+		                </div>
+		                
+		                <div class="form-button">
+		                  <button class="button button-block button-secondary button-nina hn" type="submit">확인</button>
+		                </div>
+		              </form>
+		
+		            </div>
+		            
+		           </div>
+		            
+		           <div class="modal-body-inner sign-in-modal">
+		             <h4 class="modal-title">회원가입 완료</h4>
+		           </div>
+		           
+		         </div>
+		       </div>
+		     </div>
+		    <!--# pw-change-modal Modal END-->
+		    
+    		<!--# nickname-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="nickname-overlap-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner nickname-overlap-modal">
+		              
+		              
+<!-- 		              <h3 class="hn">N<span>ickname</span> C<span>hange</span></h3>               -->
+<!-- 		              <div class="divider divider-default"></div> -->
+		
+		              <form class="rd-mailform form-novi hn">
+		<!--                 <div class="form-wrap form-wrap-validation"> -->
+		<!--                   <input class="form-input hn" id="forms-nickname-now" type="text" name="name" data-constraints="@Required" disabled> -->
+		<!--                   <label class="form-label hn" for="forms-nickname-now">NickName</label> -->
+		<!--                 </div> -->
+		                
+		                <div class="validation">
+		                	<span>중복된 닉네임이 존재합니다.</span>
+		                </div>
+		                
+		                <div class="row">
+		                	<div class="form-wrap form-wrap-validation col-md-8">
+			                  <input class="form-input hn" id="forms-nickname-confirm" type="text" name="name" data-constraints="@Required">
+			                  <label class="form-label hn" for="forms-nickname-confirm">Confirm Nickname</label>
+			                </div>
+			                <div class="col-md-4">
+			                	<button class="button button-block button-secondary button-nina hn" type="button">중복확인</button>
+			                </div>
+		                </div>
+		                
+		                <div class="form-button">
+		                  <button class="button button-block button-secondary button-nina hn" type="submit">확인</button>
+		                </div>
+		              </form>
+		
+		            </div>
+		            
+		           </div>
+		            
+		           <div class="modal-body-inner sign-in-modal">
+		             <h4 class="modal-title">회원가입 완료</h4>
+		           </div>
+		           
+		         </div>
+		       </div>
+		     </div>
+		    <!--# pw-change-modal Modal END-->
+    	</div>
+    	
+    	
+    	
+    	
+    	<div class="terms-of-use">
+    		<!--# nickname-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="terms-of-use-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		            <h3 class="hn">N<span>ickname</span> C<span>hange</span></h3>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner terms-of-use-modal">
+		              
+		              
+		                            
+<!-- 		              <div class="divider divider-default"></div> -->
+
+						<div class="" style="margin-bottom: 25px;">
+							<strong>환영합니다!</strong>
+							<p>카카오 서비스를 이용해 주셔서 감사합니다. 카카오는 다양한 인터넷과 모바일 서비스(Application)를 여러분이 가장 편안하고 친근하게 이용할 수 있는 방법으로 제공하고 있습니다. 카카오는 여러분이 카카오 서비스에 더 가깝게 다가갈 수 있도록 카카오계정을 기반으로 하는 모든 카카오 서비스에 적용될 수 있는 하나의 약관을 마련하였습니다. 여러분이 조금만 시간을 내서 약관을 읽어주신다면, 여러분과 카카오는 더욱 가까운 사이가 될 것이라고 믿습니다.</p>
+						</div>
+						
+						<div class="" style="margin-bottom: 25px;">
+							<strong>환영합니다!</strong>
+							<p>카카오는 SNS, 게시판 서비스, 온라인 콘텐츠 제공 서비스, 위치기반서비스 등 여러분이 인터넷과 모바일로 즐길 수 있는 다양한 서비스를 제공합니다. 여러분은 스마트폰의 어플리케이션 스토어 등에서 카카오 서비스를 다운받아 설치하거나 직접 PC에 설치하여 카카오 서비스를 이용할 수 있습니다. 그런데 카카오는 여러분이 원하는 다양한 서비스를 시시각각 제공하기 때문에 서비스의 자세한 내용은 별도로 알려드릴 수밖에 없습니다. 이러한 카카오의 사정을 이해하여 주시길 바라며, 카카오도 개별적인 카카오 서비스 이용방법을 어플리케이션 스토어와 각 서비스의 Q&A 센터, 해당 안내 및 고지사항에서 더 상세하게 안내하고 있으니 언제든지 확인하여 주시기 바랍니다.
+
+카카오는 여러분이 카카오 서비스를 마음껏 이용할 수 있도록 이에 필요한 소프트웨어의 개인적이고 전 세계적이며 양도불가능하고 비독점적인 무상의 라이선스를 여러분에게 제공합니다. 단, 카카오가 여러분에게 카카오 상표 및 로고를 사용할 권리를 부여하는 것은 아니라는 점은 잊지 말아주시기 바랍니다.
+
+카카오는 더 나은 카카오 서비스를 위하여 서비스에 필요한 소프트웨어의 업데이트 버전을 제공할 수 있습니다. 소프트웨어의 업데이트에는 중요한 기능의 추가 또는 불필요한 기능의 제거 등이 포함되어 있습니다. 여러분들도 카카오 서비스를 즐겁게 이용할 수 있도록 꾸준히 업데이트를 하여 주시기 바랍니다.
+
+카카오는 더 나은 카카오 서비스의 제공을 위하여 여러분에게 카카오 서비스의 이용과 관련된 각종 고지, 관리 메시지 및 기타 광고를 비롯한 다양한 정보를 카카오 서비스에 표시하거나 여러분의 메일 계정으로 직접 발송할 수 있습니다.
+
+카카오 서비스 이용 중 시스템 오류 등 문제점을 발견하신다면 언제든지 카카오 고객 센터로 알려주시기 바랍니다.
+
+여러분이 카카오 서비스를 이용하는 과정에서 Wi-Fi 무선인터넷을 사용하지 않고, 가입하신 이동통신사의 무선인터넷에 연결하여 이용하는 경우 이동통신사로부터 여러분에게 별도의 데이터 통신요금이 부과되는 점을 유의하여 주시기 바랍니다. 카카오 서비스 이용 과정에서 발생하는 데이터 통신요금은 여러분이 여러분의 비용과 책임 하에 이동통신사에 납부하셔야 합니다. 데이터 통신요금에 대한 자세한 안내는 여러분이 가입하신 이동통신사에 문의하시기 바랍니다.</p>
+						</div>
+						
+						<div class="" style="margin-bottom: 25px;">
+							<strong>환영합니다!</strong>
+							<p>카카오 서비스를 이용해 주셔서 감사합니다. 카카오는 다양한 인터넷과 모바일 서비스(Application)를 여러분이 가장 편안하고 친근하게 이용할 수 있는 방법으로 제공하고 있습니다. 카카오는 여러분이 카카오 서비스에 더 가깝게 다가갈 수 있도록 카카오계정을 기반으로 하는 모든 카카오 서비스에 적용될 수 있는 하나의 약관을 마련하였습니다. 여러분이 조금만 시간을 내서 약관을 읽어주신다면, 여러분과 카카오는 더욱 가까운 사이가 될 것이라고 믿습니다.</p>
+						</div>
+						
+						<div class="" style="margin-bottom: 25px;">
+							<strong>환영합니다!</strong>
+							<p>카카오 서비스를 이용해 주셔서 감사합니다. 카카오는 다양한 인터넷과 모바일 서비스(Application)를 여러분이 가장 편안하고 친근하게 이용할 수 있는 방법으로 제공하고 있습니다. 카카오는 여러분이 카카오 서비스에 더 가깝게 다가갈 수 있도록 카카오계정을 기반으로 하는 모든 카카오 서비스에 적용될 수 있는 하나의 약관을 마련하였습니다. 여러분이 조금만 시간을 내서 약관을 읽어주신다면, 여러분과 카카오는 더욱 가까운 사이가 될 것이라고 믿습니다.</p>
+						</div>
+		
+		              
+		
+		            </div>
+		            
+		           </div>
+		          
+		            
+		           
+		         </div>
+		       </div>
+		     </div>
+		    <!--# pw-change-modal Modal END-->
+    	</div>
 
 
     

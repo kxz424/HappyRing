@@ -216,3 +216,122 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* id, 닉네임 중복체크 modal 부분 START */
+/* modal의 오른쪽 close 버튼 영역 */
+.overlap-confirm .modal-content:before {
+	display: none;
+}
+/* modal의 width 조정 */
+.overlap-confirm #id-overlap-modal .modal-dialog, .overlap-confirm #nickname-overlap-modal .modal-dialog {
+	width: 30%;
+}
+/* modal 내용 부분 padding 조정 */
+.overlap-confirm #id-overlap-modal .modal-content, .overlap-confirm #nickname-overlap-modal .modal-content {
+	padding: 0 16px 0 16px;
+}
+/* modal close 버튼 위치 조정 */
+.overlap-confirm #id-overlap-modal .close, .overlap-confirm #nickname-overlap-modal .close {
+	top: 6px;
+	right: 4px;
+}
+/* modal close 버튼 크기 조정 */
+.overlap-confirm #id-overlap-modal .close span:before, .overlap-confirm #nickname-overlap-modal .close span:before {
+	font-size: 23px;
+}
+/* modal 상단 제목 */
+.overlap-confirm #id-overlap-modal h3, .overlap-confirm #nickname-overlap-modal h3 {
+	color:#00c8ca;
+	margin-bottom: -15px;
+}
+/* modal 상단 제목 */
+.overlap-confirm #id-overlap-modal h3>span, .overlap-confirm #nickname-overlap-modal h3>span {
+	font-size: 15px;
+}
+/* modal 상단 제목 밑줄 */
+.overlap-confirm #id-overlap-modal .divider-default, .overlap-confirm #nickname-overlap-modal .divider-default {
+	background: linear-gradient(to right, #ffec17 50%, #00c8ca 120%);
+	height: 5px; 
+	max-width: 215px; 
+	margin-top: 0px;
+}
+/* modal 입력칸 margin-top */
+.overlap-confirm #id-overlap-modal form>.form-wrap-validation, .overlap-confirm #nickname-overlap-modal form>.form-wrap-validation, .overlap-confirm #nickname-overlap-modal form>.row {
+	margin-top: 9px;
+}
+/* modal 입력칸 */
+.overlap-confirm #id-overlap-modal .form-wrap-validation>input, .overlap-confirm #nickname-overlap-modal .form-wrap-validation>input {
+	height: 44px;
+	min-height: 30px; 
+	border-radius: 8px;
+}
+/* modal 입력칸 안쪽 label */
+.overlap-confirm #id-overlap-modal .form-wrap-validation>label, .overlap-confirm #nickname-overlap-modal .form-wrap-validation>label {
+	top: 22px;
+}
+/* modal 새로운 닉네임 입력칸 label */
+.overlap-confirm #id-overlap-modal label[for=forms-id-confirm], .overlap-confirm #nickname-overlap-modal label[for=forms-nickname-confirm] {
+	left: 40px;
+}
+/* modal 새로운 닉네임 입력칸 margin-top */
+.overlap-confirm #id-overlap-modal .row, .overlap-confirm #nickname-overlap-modal .row {
+	margin-top: 9px;
+}
+/* modal 새로운 닉네임 입력칸 padding-right */
+.overlap-confirm #id-overlap-modal .row>.form-wrap-validation, .overlap-confirm #nickname-overlap-modal .row>.form-wrap-validation {
+	padding-right: 0;
+}
+/* modal 새로운 닉네임 중복확인 버튼 padding-left */
+.overlap-confirm #id-overlap-modal .row>.form-wrap-validation~div, .overlap-confirm #nickname-overlap-modal .row>.form-wrap-validation~div {
+	padding-left: 4px;
+}
+/* modal 새로운 닉네임 중복확인 버튼 */
+.overlap-confirm #id-overlap-modal .row>.form-wrap-validation~div>button, .overlap-confirm #nickname-overlap-modal .row>.form-wrap-validation~div>button {
+	border-radius: 8px; 
+	width: 100%;
+	min-width: 50px;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+	padding: 8px 0;
+}
+/* modal 유효성 검사 부분 */
+.overlap-confirm #id-overlap-modal .validation, .overlap-confirm #nickname-overlap-modal .validation {
+	margin-top: 9px; 
+	text-align: center; 
+	color: red;
+}
+/* modal 유효성 검사 부분 */
+.overlap-confirm #id-overlap-modal .form-button>button, .overlap-confirm #nickname-overlap-modal .form-button>button {
+	background-color: #00c8ca; 
+	border-color: #00c8ca; 
+	border-radius: 8px;
+}
+
+
+/* id, 닉네임 중복체크 modal 부분 END */
+
+
+
+/* 이용약관 modal 부분 START */
+#terms-of-use-modal .terms-of-use-modal {
+	text-align: left;
+	max-width: 90%;
+}
+#terms-of-use-modal .modal-body {
+	max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+/* 이용약관 modal 부분 END */
+
+
+
+
