@@ -10,7 +10,8 @@
 <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include>
 
 <!-- communityList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/communityList.css">
+<!--   <link rel="stylesheet" href="/HappyRing/css/community/communityList.css"> -->
+
 <!-- tipsBoardList 전용 css -->
   <link rel="stylesheet" href="/HappyRing/css/community/tipsBoard/tipsBoardList.css">
 
@@ -94,65 +95,54 @@
                            </tr>
                         </thead>
                         <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
-                         	<c:forEach var="i" begin="1" end="3">
-	                           <tr>
+                         	  <c:forEach var="i" begin="1" end="3">
+	                          <tr>
 	                              <td class="isotope-item" data-filter="type 1">
                                 
-                           
-<!--                                  	<div class="isotope-item" data-filter="type 1"> -->
-                                 		<div class="row td-row">
-	                                		<div class="col-md-1" style="line-height: 0px;">
-							                </div>
-	                                		<div class="col-md-10 myComuunityList-col-md-10">
-		                                 		<span><strong>OOO팁 공유합니다</strong></span>
-		                                 		<br/>
-		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                    </div>
-			                                <div class="col-md-1 myComuunityList-Img">
-				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
-		                                 	</div>
+                                 		<div class="row">
+                                 			
+	                                 		 <div class="col-md-10">
+	                                 			<div class="row cd-row">
+			                                		<div class="col-md-12 cd-list-contents">
+				                                 		<span><strong>OOO팁 공유합니다</strong></span>
+				                                 		<br/>
+				                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+				                                    </div>
+<!-- 					                                <div class="col-md-1 myComuunityList-Img"> -->
+		<!-- 				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/theory/theoryBasic/baby.jpg"> -->
+<!-- 				                                 	</div> -->
+			                                 	</div>
+			                                 	<div class="row cd-row2">
+				                                 	<div class="col-md-12 cd-list-profile">
+				                                 		<span style="color: green;margin-left: 0px;">대인관계</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | 
+				                                 		<span>댓글 10</span> | <span class="icon glyphicon glyphicon glyphicon-heart" style="color: red;"></span>&nbsp;11 | 
+				                                 		<span>No.123</span>
+		<!-- 		                                 		<span style="float: right;">2018-02-12 12:00</span> -->
+				                                 	</div>
+		                                		</div>
+			                                 </div>	
+			                                 
+			                                 <div class="col-md-2 cd-list-img">
+			                                     	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/theory/theoryBasic/baby.jpg">
+			                                 </div>
+		                                 	
 		                                </div>
-		                                <div class="row td-row2">
-		                                 	<div class="col-md-1">
-		                                 	</div>
-		                                 	<div class="col-md-11">
-		                                 		<span>[대인관계]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span> | <span class="icon glyphicon glyphicon-map-marker"></span>서울시 금천구 가산동
-		                                 		<span style="float: right;">2018-02-12 12:00</span>
-		                                 	</div>
-	                                	</div>
-<!--                                  	</div> -->
+		                                
 	                              </td>
 	                          	</tr>
 	                          	</c:forEach>
-	                          	<c:forEach var="i" begin="1" end="3">
-                                <tr>
-	                              <td class="isotope-item" data-filter="type 2">
-<!--                                  	<div class="isotope-item" data-filter="type 2"> -->
-                                 		<div class="row td-row">
-	                                		<div class="col-md-1" style="line-height: 0px;">
-							                </div>
-	                                		<div class="col-md-10 myComuunityList-col-md-10">
-		                                 		<span><strong>OOO팁 공유합니다</strong></span>
-		                                 		<br/>
-		                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
-		                                    </div>
-			                                <div class="col-md-1 myComuunityList-Img">
-				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
-		                                 	</div>
-		                                </div>
-		                                <div class="row td-row2">
-		                                 	<div class="col-md-1">
-		                                 	</div>
-		                                 	<div class="col-md-11">
-		                                 		<span>[대인관계]</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | <span>댓글 10</span> | <span class="icon glyphicon glyphicon-map-marker"></span>서울시 금천구 가산동
-		                                 		<span style="float: right;">2018-02-12 12:00</span>
-		                                 	</div>
-	                                	</div>
-<!--                                  	</div> -->
-                                    	
-	                                </td>
-								 </tr>    
-							 </c:forEach>                             	
+	                          	
+	                          	
+	                          	
+	                          	<!-- 여기넣어!!!!!!!!!!!!!! -->
+	                          	
+	                          	
+	                          	
+	                          	
+	                          	
+	                          	
+	                          	
+	                          	                           	
                           </tbody>
                      </table>
                   </div>

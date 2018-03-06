@@ -91,10 +91,9 @@
                          <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
                            <c:forEach var="i" begin="1" end="4">
                               <tr>
-                                 <td class="isotope-item" data-filter="type 1">
+                                 <td class="isotope-item" data-filter="type 1" style="padding-top: 18px;padding-bottom: 23px">
                                    <div class="row td-row">
-                                      <div class="col-md-1" style="line-height: 0px;">
-                                  </div>
+                                      <div class="col-md-1" style="line-height: 0px;"> </div>
                                       <div class="col-md-11">
                                           <span><strong>네이버 블로그 포스트 저장 방법과 시간 관련</strong></span>
                                           <br/>
@@ -110,11 +109,11 @@
                                        </div>
                                    </div>
                                  </td>
-                        </tr>   
-                     </c:forEach>   
-                     <c:forEach var="i" begin="1" end="4">
+	                         </tr>   
+	                      </c:forEach>   
+	                      <c:forEach var="i" begin="1" end="4">
                               <tr>
-                                 <td class="isotope-item" data-filter="type 2">
+                                 <td class="isotope-item" data-filter="type 2" style="padding-top: 18px;padding-bottom: 23px">
                                    <div class="row td-row">
                                       <div class="col-md-1" style="line-height: 0px;">
                                   </div>
@@ -133,11 +132,11 @@
                                        </div>
                                    </div>
                                  </td>
-                        </tr>   
-                     </c:forEach>
+	                         </tr>   
+	                      </c:forEach>
 
                               
-                          </tbody>
+                        </tbody>
                            
                      </table>
                   </div>
