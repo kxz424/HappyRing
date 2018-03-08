@@ -120,7 +120,7 @@
 											<span>카카오 서비스 약관 </span><span style="font-size: 14px;">(필수)</span>
 						              	</div>
 						              	<div class="col-md-4 agree-checkBox" style="text-align: right; font-size: 12px;">
-						              	  <input type="button" class="terms-of-use-btn" value="보기" style="margin-right: 10%;"/>
+						              	  <input type="button" class="terms-of-use-btn terms-of-use-1" value="보기" style="margin-right: 10%;"/>
 							              <label class="checkbox-inline hn" style="padding-left: 20px;">
 							              	<input type="checkbox" checked="" name="check-1" style="top: -15px; left: 20px; width: 20px; height: 20px;">
 							              </label>
@@ -133,7 +133,7 @@
 											<span>개인정보 수집 및 이용 동의 </span><span style="font-size: 14px;">(필수)</span>
 						              	</div>
 						              	<div class="col-md-4 agree-checkBox" style="text-align: right; font-size: 12px;">
-						              	  <input type="button" class="terms-of-use-btn" value="보기" style="margin-right: 10%;"/>
+						              	  <input type="button" class="terms-of-use-btn terms-of-use-2" value="보기" style="margin-right: 10%;"/>
 							              <label class="checkbox-inline hn" style="padding-left: 20px;">
 							              	<input type="checkbox" checked="" name="check-1" style="top: -15px; left: 20px; width: 20px; height: 20px;">
 							              </label>

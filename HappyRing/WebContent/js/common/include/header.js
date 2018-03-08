@@ -86,7 +86,19 @@ $(function(){
 	
 	
 	//## 회원가입 이용약관 보기 이벤트 START
+	//이용약관 보기 버튼 클릭
 	$('.terms-of-use-btn').click(function(){
+		if($(this).attr('class').match(/terms-of-use-1/)){		//클릭한 버튼이 첫번째 버튼일때
+			$('.terms-of-use-t1').removeClass('terms-of-use-title');	//이용약관 모달창의 첫번째 제목을 보여준다(숨김상태 제거)
+			$('.terms-of-use-t2').addClass('terms-of-use-title');		//이용약관 모달창의 두번째 제목을 숨긴다.
+			$('.terms-of-use-1').removeClass('terms-of-use-content');	//이용약관 모달창의 첫번째 내용을 보여준다(숨김상태 제거)
+			$('.terms-of-use-2').addClass('terms-of-use-content');		//이용약관 모달창의 두번째 내용을 숨긴다
+		}else{													//첫번째 버튼이 아니면
+			$('.terms-of-use-t2').removeClass('terms-of-use-title');	//이용약관 모달창의 두번째 제목을 보여준다(숨김상태 제거)
+			$('.terms-of-use-t1').addClass('terms-of-use-title');		//이용약관 모달창의 첫번째 제목을 숨긴다
+			$('.terms-of-use-2').removeClass('terms-of-use-content');	//이용약관 모달창의 두번재 내용을 보여준다(숨김상태 제거)
+			$('.terms-of-use-1').addClass('terms-of-use-content');		//이용약관 모달창의 첫번재 내용을 숨긴다
+		}
 		$('#terms-of-use-modal').modal();
 	});
 	//## 회원가입 이용약관 보기 이벤트 END

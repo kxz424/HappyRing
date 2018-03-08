@@ -100,7 +100,7 @@
 				              <h4 class="hn">아낌없이 주는 나무 상담소</h4>
 				              <div class="divider divider-default"></div>
 				              <div class="text-spacing-sm">
-				               <textarea></textarea>
+				               <textarea class="form-control"></textarea>
 				              </div>
 				              <a class="button button-sm button-default-outline button-nina infoabo-preview-btn" href="#">미리보기</a>
 				            </div>
@@ -136,6 +136,64 @@
 	         
 	         <!------------------------################### END -->
 	   
+	   
+	   		<!--# nickname-change-modal Modal START-->
+		    <div class="modal modal-custom modal-account fade" id="preview-modal" tabindex="-1" role="dialog">
+		      <div class="modal-dialog" role="document">
+		        <div class="modal-content">
+		          <div class="modal-header">
+		            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+		          </div>
+		          <div class="modal-body text-center">
+		            
+		            
+		            <div class="modal-body-inner preview-modal">
+                             
+                            <article class="post-blog box-shadow gallery-item">
+			              	<a class="post-blog-image" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
+			              		<img src="/HappyRing/img/theory/theoryBasic/psychology.jpg" alt="">
+			              	</a>
+		                  <div class="post-blog-caption-header">
+		                    <ul class="post-blog-tags">
+		                      <li><a class="button-tags" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">새나라어린이상담소</a></li>
+		                    </ul>	
+		                    
+		                    <span class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">no.123</span>
+		                    
+		                  </div>
+		                  <div class="post-blog-caption-body">
+		                    <h7><a class="post-blog-title" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
+		                    	고객은 항상 옳은 결정을 한다는 말이 틀린 5가지 이유
+		                    </a></h7>
+		                  </div>
+		                  <!-- 주소지 -->
+		                  <div class="post-blog-caption-footer">
+		                    <span class="icon glyphicon glyphicon-map-marker"></span>
+		                    <span>서울시 서초구 잠실동 롯데타워 110-32..</span>
+		                  </div>
+		                  <!-- 등록일, 좋아요 -->
+		                  <div class="post-blog-caption-footer">
+		                    <time datetime="2017">2018-01-30</time><a class="post-comment" href="/HappyRing/view/info/infoAd/infoAdDetail.jsp">
+		                    <span class="icon glyphicon glyphicon-heart"></span><span>12</span></a>
+		                  </div>
+		                 </article>
+		            
+		            	<div class="">
+		            		<span> 알맞은 사진 사이즈는 400 X 300 입니다.</span>
+		            	</div>
+		            </div>
+		            
+		            
+		           </div>
+		           
+		           <div class="modal-footer" style="text-align: center;">
+		           		<strong>미리보기 화면입니다</strong>
+		           </div>
+		           
+		         </div>
+		       </div>
+		     </div>
+		    <!--# pw-change-modal Modal END-->
 	   
 	   
 	   
@@ -188,6 +246,11 @@
 		};
 		reader.readAsDataURL(file);	//이미지 파일의 경로를 dataURL로 읽음(?)
 		
+	});
+	
+	
+	$('.infoabo-preview-btn').click(function(){
+		$('#preview-modal').modal();
 	});
 	
 	

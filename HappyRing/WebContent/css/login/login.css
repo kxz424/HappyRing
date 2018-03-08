@@ -5,7 +5,7 @@
 }
 
 .modal-content {
-	padding-right: 124px;
+/* 	padding-right: 124px; */
 }
 
 .modal-body-inner.modal-img {
@@ -14,7 +14,8 @@
 
 /* 모달 크기 */
 .modal-account .modal-dialog {
-	max-width: 1052px;
+/* 	max-width: 1052px; */
+	width: 69%;
 }
 
 /* 모달창 우측 x버튼 영역 width 조정 */
@@ -36,7 +37,7 @@
 	 .modal-custom .modal-content {
 		position: relative;
 		overflow: hidden;
-		padding: 0px 145px 0px 0px;
+		padding: 0px 76px 0px 0px;
 	}
 }
 

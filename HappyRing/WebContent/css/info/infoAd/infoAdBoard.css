@@ -121,11 +121,11 @@
     margin-top: 20px;
 }
 /* text-area 크기 조정 */
-.infoabo-simple-info-div .text-spacing-sm>div {
+.infoabo-simple-info-div .text-spacing-sm>textarea {
     width: 100%;
     height: 65px;
     background-color: white;
-    overflow: scroll;
+    resize: none;
 }
 
 /* 상담소개 : top 간략 설명 부분 css END */
@@ -152,6 +152,53 @@
     border-color: #3f3f6d;
 }
 
+
+
+
+
+
+/*## 미리보기 modal 부분 START */
+/* 미리보기 전체 사이즈 */
+#preview-modal .modal-dialog {
+	max-width: 370px;
+	
+}
+/* 미리보기 modal-content 부분 padding-right 조절 */
+#preview-modal .modal-content {
+	padding: 0;
+	margin: 15px;
+	border-radius: 10px;
+}
+/* 미리보기 modal-body-inner 부분 */
+#preview-modal .modal-body-inner {
+	padding-top: 30px;
+	font-size: 14px;
+}
+/* 미리보기 아래 내용들 padding 조절 */
+#preview-modal .post-blog-caption-header {
+	padding: 0 15px 0 15px;
+}
+/* 미리보기 아래 내용들 padding 조절 */
+#preview-modal .post-blog-caption-body {
+	padding: 5px 15px 5px 15px;
+	font-size: 20px;
+}
+/* 미리보기 미리보기 화면 아래 글씨 위치 조정 */
+#preview-modal .gallery-item {
+	margin-bottom: 15px;
+	max-width: 290px;
+}
+/* 미리보기 이미지 transform 애니메이션 무효처리 */
+#preview-modal .gallery-item img {
+	position: inherit;
+    left: 0%;
+    transform: none;
+}
+/* 미리보기 아래 내용들 padding 조절 */
+#preview-modal .post-blog-caption-footer {
+	padding: 5px 15px 5px 15px;
+}
+/* 미리보기 modal 부분 END */
 
 
 
