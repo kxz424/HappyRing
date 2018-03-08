@@ -6,22 +6,9 @@
 <head>
 <title>Landing Default</title>
 
-<!-- bootstrap.css, style.css 등 공통 css -->
-<%-- <jsp:include page="/view/include/innerBootstrapLink.jsp"></jsp:include> --%>
-  
-<!-- 메인  전용 css -->  
-<!--   <link rel="stylesheet" href="/HappyRing/css/main/main.css"> -->
-
 <!-- 메인 > onePage 전용 css -->  
    <link rel="stylesheet" href="/HappyRing/css/main/onePage.css">
-  <!-- thoeryList 전용 css -->
-<!--   <link rel="stylesheet" href="/HappyRing/css/theory/theoryList.css"> -->
-
-<!-- tipsBoardList 전용 css -->
-  <link rel="stylesheet" href="/HappyRing/css/community/tipsBoard/tipsBoardList.css">
-
   
-
 </head>
 <body>
 
@@ -211,35 +198,41 @@
 		<!-- 심리학지식 END -->
 		
 		<!-- ## 팁&노하우 START -->
-		<div class="theory-basic-area3">
+		<div class="theory-qna-area">
+		
+		<!-- title -->
+		   <div class="row head-title">
+		      <div class="col-md-1">
+		      	 <div class="circle-tile-heading-img">
+				   <img alt="" src="/HappyRing/img/main/onePage/big3.png">
+			   	 </div>
+		      </div>
+		      <div class="col-md-9">
+		      	 <p class="hn">묻고답하기&nbsp;<span>인기게시글</span></p>
+		      </div>	
+		      <div class="col-md-2">
+		      	 <p class="hn"> 전체보기 </p>
+		      </div>
+		   </div>
 		
 		
-		
-		
-		
-		<div class="cd-list">
+		<!-- list -->
+		<div class="th-qna-list">
               	<div class="row table-list">
                   <div class="col-md-12">
-                  	
 
-
-                     <table class="table table-hover">
-                        <thead>
-                           <tr>
-                              <th class="t1">팁&노하우</th>
-                           </tr>
-                        </thead>
+ 					<table class="table table-hover" >
                         <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
-                         	  <c:forEach var="i" begin="1" end="3">
+                           <c:forEach var="i" begin="1" end="3">
 	                          <tr>
 	                              <td class="isotope-item" data-filter="type 1">
                                 
                                  		<div class="row">
                                  			
 	                                 		 <div class="col-md-10">
-	                                 			<div class="row cd-row">
-			                                		<div class="col-md-12 cd-list-contents">
-				                                 		<span><strong>OOO팁 공유합니다</strong></span>
+	                                 			<div class="row th-qna-list-row">
+			                                		<div class="col-md-12 th-qna-list-contents">
+				                                 		<span>[묻고답하기]&nbsp;&nbsp;<strong>OOO팁 공유합니다</strong></span>
 				                                 		<br/>
 				                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
 				                                    </div>
@@ -247,17 +240,17 @@
 		<!-- 				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/theory/theoryBasic/baby.jpg"> -->
 <!-- 				                                 	</div> -->
 			                                 	</div>
-			                                 	<div class="row cd-row2">
-				                                 	<div class="col-md-12 cd-list-profile">
-				                                 		<span style="color: green;margin-left: 0px;">대인관계</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | 
-				                                 		<span>댓글 10</span> | <span class="icon glyphicon glyphicon glyphicon-heart" style="color: red;"></span>&nbsp;11 | 
+			                                 	<div class="row th-qna-list-row2">
+				                                 	<div class="col-md-12 th-qna-list-profile">
+				                                 		<span style="color: green;margin-left: 0px;">사랑·이별</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | 
+				                                 		<span>댓글 10</span> | <span style="color: blue;">답변 0</span> | <span class="icon glyphicon glyphicon glyphicon-heart" style="color: red;"></span>&nbsp;11 | 
 				                                 		<span>No.123</span>
 		<!-- 		                                 		<span style="float: right;">2018-02-12 12:00</span> -->
 				                                 	</div>
 		                                		</div>
 			                                 </div>	
 			                                 
-			                                 <div class="col-md-2 cd-list-img">
+			                                 <div class="col-md-2 th-qna-list-img">
 			                                     	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/theory/theoryBasic/baby.jpg">
 			                                 </div>
 		                                 	
@@ -266,17 +259,84 @@
 	                              </td>
 	                          	</tr>
 	                          	</c:forEach>
-	                          	
-	                          	
-	                          	
-	                          	<!-- 여기넣어!!!!!!!!!!!!!! -->
-	                          	
-	                          	
-	                          	
-	                          	
-	                          	
-	                          	
-	                          	
+	                          	                           	
+                          </tbody>
+                     </table>
+                  </div>
+               </div>
+              </div>
+              <!-- 팁&노하우 list END -->
+		</div>
+		<!-- 팁&노하우 END -->
+		
+		
+		
+		
+		
+		
+		
+		<!-- #############################커뮤니티 Sample START -->
+		<div class="theory-qna-area">
+		
+		<!-- title -->
+		   <div class="row head-title">
+		      <div class="col-md-1">
+		      	 <div class="circle-tile-heading-img">
+				   <img alt="" src="/HappyRing/img/main/onePage/big3.png">
+			   	 </div>
+		      </div>
+		      <div class="col-md-9">
+		      	 <p class="hn">고민게시판&nbsp;<span>인기게시글</span></p>
+		      </div>	
+		      <div class="col-md-2">
+		      	 <p class="hn"> 전체보기 </p>
+		      </div>
+		   </div>
+		
+		
+		<!-- list -->
+		<div class="th-qna-list">
+              	<div class="row table-list">
+                  <div class="col-md-12">
+
+ 					<table class="table table-hover" >
+                        <tbody class="isotope" data-isotope-layout="fitRows" data-isotope-group="gallery3" data-lightgallery="group">
+                           <c:forEach var="i" begin="1" end="3">
+	                          <tr>
+	                              <td class="isotope-item" data-filter="type 1">
+                                
+                                 		<div class="row">
+                                 			
+	                                 		 <div class="col-md-10">
+	                                 			<div class="row th-qna-list-row">
+			                                		<div class="col-md-12 th-qna-list-contents">
+				                                 		<span>[고민게시판]&nbsp;&nbsp;<strong>OOO팁 공유합니다</strong></span>
+				                                 		<br/>
+				                                 		<p>네이버 블로그 포스트 저장방법과 시간 관련된 포스팅인데요 어느정도 블로그 포스팅을 하다보면 숫자도 제법 쌓이고 혹시나 삭제가 된다거나 하는 불상</p>
+				                                    </div>
+<!-- 					                                <div class="col-md-1 myComuunityList-Img"> -->
+		<!-- 				                                	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/theory/theoryBasic/baby.jpg"> -->
+<!-- 				                                 	</div> -->
+			                                 	</div>
+			                                 	<div class="row th-qna-list-row2">
+				                                 	<div class="col-md-12 th-qna-list-profile">
+				                                 		<span style="color: green;margin-left: 0px;">사랑·이별</span> | <span>by.닉넴이뭘까</span> | <span> 조회수 10</span> | 
+				                                 		<span>댓글 10</span> | <span style="color: blue;">답변 0</span> | <span class="icon glyphicon glyphicon glyphicon-heart" style="color: red;"></span>&nbsp;11 | 
+				                                 		<span>No.123</span>
+		<!-- 		                                 		<span style="float: right;">2018-02-12 12:00</span> -->
+				                                 	</div>
+		                                		</div>
+			                                 </div>	
+			                                 
+			                                 <div class="col-md-2 th-qna-list-img">
+			                                     	<img alt="고민게시물 메인 이미지" src="/HappyRing/img/main/beforeN.png">
+			                                 </div>
+		                                 	
+		                                </div>
+		                                
+	                              </td>
+	                          	</tr>
+	                          	</c:forEach>
 	                          	                           	
                           </tbody>
                      </table>
@@ -285,22 +345,34 @@
               </div>
               <!-- 팁&노하우 list END -->
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		</div>
-		<!-- 팁&노하우 END -->
+		<!-- 커뮤니티 Sample END -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	

@@ -35,7 +35,7 @@
 
 /* 커뮤니티 게시판 list div */
 .cd-list, .cd-xs-list{
-    /* padding-top: 25px; */
+    padding-top: 20px;
     margin-top: 15px;
     padding-bottom: 30px;
     padding-left: 15px;
@@ -79,12 +79,22 @@
 /* 모바일 화면 기준 커뮤니티 게시판 css END */
 
 
+/* 카테고리(istope) li 간격 조정 */
+.cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg)
+ .isotope-filters-list.isotope-filters-list-buttons > *{
+  	     margin-left: 2px;
+}
+
+
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a {
 		 border-radius: 8px;
-		 padding: 5px 19px;
-		 height: 35px;
+/* 	   	 padding: 3px 19px; */
+		 padding:3px 12px;	
+	   	 height: 31px;
+	   	 font-size: 13px;
+	   	 color: grey;
 }
 .cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a span{
@@ -93,10 +103,13 @@
 /* 카테고리(isotope) 버튼 크기 및 radius 설정 */
 .cd-list .isotope-filters-horizontal:not(.isotope-filter-collapse-lg) 
 	.isotope-filters-list.isotope-filters-list-buttons a.active {
+		height: 29px;
+		padding-top: 3px;
 		color: #fff;
 	    background: rgb(0, 200, 202);
 	    border-color: rgb(0, 200, 202);
 }
+
 /* list 카테고리 버튼(isotope) 오른쪽 정렬 */
 .cd-list .isotope-filters-horizontal {
 	float: right;
@@ -104,6 +117,11 @@
 /* list 카테고리 버튼(isotope) height 영역 설정 */
 .cd-list .cell-xs-12.cell-sm-12.cell-md-12.cell-lg-12 {
 	height: 42px;
+}
+
+/* table 상단 선 */
+.cd-list .table-list .isotope {
+	border-top: 2px solid #ddd;
 }
 
 
@@ -125,7 +143,11 @@
 
 /* 리스트 상단 제목에 css 주기*/
 .cd-row .cd-list-contents span{
-/* 	font-size: 14.5px; */
+	font-size: 13px;
+/* 	font-size: 17px; */
+	color: black;
+}
+.cd-row .cd-list-contents span strong{
 	font-size: 17px;
 	color: black;
 }
@@ -179,5 +201,26 @@
 /* list 좌측 대표 이미지 윤곽선 주기 */
 .cd-list-img img{
 /* 	border:  solid 0.6px; */
+	min-width: 100%;
+	height: 87px;
 }
+
+
+
+
+
+
+/* 페이징 css */
+/* .fr-paging-search .fr-paging #pageNum a{ */
+/* 	min-width: 30px !important; */
+/*     height: 28px !important; */
+/*     vertical-align: middle !important; */
+/*     line-height: 26px !important; */
+/*     font-size: 7px !important; */
+/* } */
+
+/* .fr-paging-search .fr-paging #pageNum a.num-btn{ */
+/* 	font-size: 12px !important; */
+/* } */
+
 
