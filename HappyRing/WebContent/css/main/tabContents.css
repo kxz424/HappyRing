@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.cheerUp-main-title span{
+	background-color: #ff27a3f2;
+	color: white;
+	border-radius: 1px;
+	padding: 6px 27px 6px 2px;
+}
+
+.cheerUp-main-title span img {
+	padding-bottom: 19px;
+	height: 65px !important;
+}
+
+
+/* 응원 card detail div*/
+@media(min-width:992px){
+	.cheerUp-card{
+		padding-left: 12px;
+	}
+}
+
+
+.cheerUp-card .post-blog-quote.box-shadow {
+	height: 200px; 
+	max-height: 200px;
+}
+
+.cheerUp-card .quote-primary-text{
+   height: 106px; 
+   max-height: 106px;
+}
+
+.cheerUp-card .quote-primary-text p{
+   font-size: 19px;
+}
+
+.cheerUp-card .quote-primary-meta .glyphicon{
+	font-size: 13px;
+}
