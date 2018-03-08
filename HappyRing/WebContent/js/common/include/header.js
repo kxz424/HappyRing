@@ -54,4 +54,48 @@ $(function(){
 		$('#login-modal').modal();		//로그인 모달창 열기
 	});
 	
+	
+	
+	
+	
+	
+	
+	//## 회원가입 id, 닉네임 중복체크 이벤트 START
+	
+	//회원가입 탭(step)버튼 클릭
+	$('.regist-tab-btn').click(function(){
+		if($(this).attr('class').match(/active/)){		//클릭한 버튼의 클래스명에 active가 포함되었을때
+			$(this).removeClass('active');				//클릭한 버튼의 클래스명인 active를 지운다
+		}else{											//포함되지 않았을
+			$('.regist-tab-btn').removeClass('active');	//모든 탭버튼의 클래스명인 active를 지운다
+			$(this).addClass('active');					//클릭한 버튼의 클래스명인 active를 추가한다
+		}
+		
+	});
+	//ID 중복확인 버튼 클릭
+	$('.id-submit-btn').click(function(){
+		$('#id-overlap-modal').modal();			//ID 중복확인 모달창 띄움
+	});
+	//닉네임 중복확인 버튼 클릭
+	$('.nick-submit-btn').click(function(){
+		$('#nickname-overlap-modal').modal();	//닉네임 중복확인 모달창 띄움
+	});
+	
+	//## 회원가입 id, 닉네임 중복체크 이벤트 END
+	
+	
+	
+	//## 회원가입 이용약관 보기 이벤트 START
+	$('.terms-of-use-btn').click(function(){
+		$('#terms-of-use-modal').modal();
+	});
+	//## 회원가입 이용약관 보기 이벤트 END
+	
+	
+	
+	
+	
+	
+	
+	
 });

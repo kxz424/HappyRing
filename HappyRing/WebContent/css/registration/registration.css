@@ -57,10 +57,14 @@
 	/*   line-height: 50px; */
 	line-height: 41px;
 /* 	background-color: #00c8ca; */
-	background:linear-gradient(to right, #ffec17 -30%, #00c8ca 86%);
+	background: #b3b3b3;
 	letter-spacing: 1px;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+/* 탭 메뉴 버튼 css */
+.regist-tab-btn:hover, .regist-tab-btn.active {
+	background:linear-gradient(to right, #ffec17 -30%, #00c8ca 86%);
 }
 
 /* 탭 메뉴 버튼 col-md-3 margin 지우기*/
@@ -110,8 +114,18 @@ background-color: yellow;
 
 /* 회원가입 tab content : 약관동의 */
 .sign-up-modal #regist-agree .regist-inner-div{
-	border: solid; 
-	border-color: red;
+/* 	border: solid;  */
+/* 	border-color: red; */
+}
+#regist-agree .form-button {
+	margin-top: 6px;
+
+}
+#regist-agree .form-button .h-sign-in-btn {
+	margin-top: 6px;
+	background-color: #00c8ca;
+	border-color: #00c8ca;
+
 }
 
 /* 회원가입 tab content : 정보입력  */
@@ -245,12 +259,16 @@ background-color: yellow;
 }
 
 .sign-up-modal #regist-info .regist-inner-div .gender-check label{
-	padding-left: 23px;
+	padding-left: 30px;
+}
+
+.regist-inner-div .radio-inline span{
+	top: 2px;
 }
 
 /* 체크박스 css 조정 */
 @media (min-width: 992px){
-	.regist-inner-div .agree-checkBox .checkbox-inline .checkbox-custom-dummy{
+	.regist-inner-div .checkbox-inline .checkbox-custom-dummy{
 	/* 	left: 0; */
 	    width: 20px;
 	    height: 20px;
@@ -390,9 +408,27 @@ background-color: yellow;
 }
 
 
-
-
-
-
-
 /**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
