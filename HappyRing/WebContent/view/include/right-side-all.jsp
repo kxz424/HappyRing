@@ -33,37 +33,49 @@
 	   
 	  <!-- 공지사항 시작 --> 
 	  <div class="rs-notice">
-	    <div class="notice" style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 16px; padding-right: 10px;">
-		    <p class="hn" style="padding-bottom: 9px;">공지사항<button class="btn btn-primary notice-view-more"><span class="glyphicon glyphicon-plus"></span></button></p>
+	    <div class="notice" style="padding-left: 10px; padding-bottom: 0.3px; padding-top: 9px; padding-right: 10px;">
+		    <p class="hn" style="padding-bottom: 5px;">공지사항
+		    	<a href="/HappyRing/view/notice/fromNotice/fromNoticeList.jsp">
+			    	<button class="btn btn-primary notice-view-more">
+			    		<span class="glyphicon glyphicon-plus"></span>
+			    	</button>
+		    	</a>
+		    </p>
 		    
 
-			   <table class="table table-hover">
+			   <table class="table table-hover" style="margin-bottom: 5px;">
 				  <tbody>
 				  	  <tr>
 						<td>
-						  <span class="glyphicon glyphicon-paperclip">
-									<strong>에브리밀 닭가슴살 꼬치소시지 체험단 모집(</strong> 
-						  </span>
+						  <a href="/HappyRing/view/notice/fromNotice/fromNoticeDetail.jsp">	
+							  <span class="glyphicon glyphicon-bullhorn" style="color:#ed1c94; padding-right: 5px;"></span>
+							  <span style="color:grey;">
+							  		<strong>에브리밀 닭가슴살 꼬치소시지 체험단 모집(</strong> 
+							  </span>
+						  </a>	  
 					    </td>
 					 </tr>
 					 <tr>
 					   <td>
-						  <span class="glyphicon glyphicon-paperclip">
-									<strong>▷▶두유습관 챌린지 도전자 추가 발표◀◁</strong> 
+						  <span class="glyphicon glyphicon-bullhorn" style="color:#ed1c94; padding-right: 5px;"></span>
+						  <span>
+								<strong>두유습관 챌린지 도전자 추가 발표</strong> 
 						  </span>
 					   </td>
 				     </tr>
 					 <tr>
 					   <td>
-					     <span class="glyphicon glyphicon-paperclip">
-									<strong>단백할시간 레드 체험단 모집(01.29~02.07)</strong> 
+					     <span class="glyphicon glyphicon-bullhorn" style="color:#ed1c94; padding-right: 5px;"></span>
+						 <span>
+								<strong>단백할시간 레드 체험단 모집(01.29~02.07)</strong> 
 					     </span>
 					   </td>
 					 </tr>
 					 <tr>
 					   <td>
-					     <span class="glyphicon glyphicon-paperclip">
-									<strong>공지사항1</strong> 
+					     <span class="glyphicon glyphicon-bullhorn" style="color:#ed1c94; padding-right: 5px;"></span>
+						 <span>
+								<strong>공지사항1</strong> 
 						 </span>
 					   </td>
 					</tr>
@@ -79,7 +91,8 @@
 	      	    <!-- # 탭 nav START -->
                 <ul class="nav nav-tabs">
                   <li class="active"><a href="#tabs-2-1" data-toggle="tab"><p class="hn">상담소 정보</p></a></li>
-                  <li><a href="#tabs-2-2" data-toggle="tab"><p class="hn">상담소 랭킹</p></a></li>
+<!--                   <li><a href="#tabs-2-2" data-toggle="tab"><p class="hn">상담소 랭킹</p></a></li> -->
+				  <li><a href="#tabs-2-2" data-toggle="tab"><p class="hn">상담어플 정보</p></a></li>	
                 </ul>
                 <!-- 탭 nav END -->
                 <!-- # 탭 content START -->
@@ -97,20 +110,74 @@
                         </div>
                   </div>
                   <!-- 상담소 랭킹 content-->
-                  <div class="tab-pane fade" id="tabs-2-2">
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
-                       <div class="rs-content">
-                       		<img src="/HappyRing/img/right-side-all/add4.png"/>
+<!--                   <div class="tab-pane fade" id="tabs-2-2"> -->
+<!--                        <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span> -->
+<!--                        <div class="rs-content"> -->
+<!--                        		<img src="/HappyRing/img/right-side-all/add4.png"/> -->
+<!--                        </div> -->
+<!--                        <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span> -->
+<!--                        <div class="rs-content"> -->
+<!--                        		<img src="/HappyRing/img/right-side-all/add5.png"/> -->
+<!--                        </div> -->
+<!--                        <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span> -->
+<!--                        <div class="rs-content"> -->
+<!--                        		<img src="/HappyRing/img/right-side-all/add6.png"/> -->
+<!--                        </div> -->
+<!--                   </div> -->
+				  <!-- 상담어플 정조 content -->
+				  <div class="tab-pane fade" id="tabs-2-2">
+                       
+                       <div class="row">
+	                       	<div class="col-md-6" style="padding-right: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 마인드카페</span>
+	                       	</div>
+	                       	<div class="col-md-6" style="padding-left: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp6.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 헬로마인드케어</span>
+	                       	</div>
+	                       	
+	                       	<div class="col-md-6" style="padding-right: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp2.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 카운스링</span>
+	                       	</div>
+	                       	<div class="col-md-6" style="padding-left: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp3.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 삼성심리상담</span>
+	                       	</div>
+	                       	
+	                       	<div class="col-md-6" style="padding-right: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp4.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 마음치유연구소</span>
+	                       	</div>
+	                       	<div class="col-md-6" style="padding-left: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp5.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 하이닥</span>
+	                       	</div>
+	                       	
+	                       	<div class="col-md-6" style="padding-right: 7.5px;  text-align: center; margin-top: 20px;">
+		                        <div class="rs-content" style="border: none; height: 92px;">
+		                       		<img src="/HappyRing/img/right-side-all/sampleApp7.png"/>
+		                        </div>
+		                        <span style="font-size: 12px;"># 트로스트</span>
+	                       	</div>
                        </div>
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
-                       <div class="rs-content">
-                       		<img src="/HappyRing/img/right-side-all/add5.png"/>
-                       </div>
-                       <span class="icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span>
-                       <div class="rs-content">
-                       		<img src="/HappyRing/img/right-side-all/add6.png"/>
-                       </div>
+                       
                   </div>
+
+
                 </div> 
                 <!-- 탭 content END -->    
 	         </div>
@@ -120,7 +187,7 @@
 	      
 	      
 <!-- right-side-all.jsp 전용 js --> 
-   <script src="/HappyRing/js/common/include/right-side-all.js"></script>
+<!--    <script src="/HappyRing/js/common/include/right-side-all.js"></script> -->
 	      
 	      
 </body>

@@ -103,7 +103,7 @@ function cheerUpQuestion(idQuestDiv){
 			   	  <div class="cheerUp-main-title">
 			   	  	 <span>
 			   	  	 	<img alt="" src="/HappyRing/img/main/flower.png" />
-			   	  	 	 2018-03-08 오늘의 위로 한 마디	 
+			   	  	 	 2018-03-08 과거의 나에게 한 마디 하고 싶어
 			   	  	 </span>
 			   	  </div>
 			   	  <div class="row" style="margin-left: 0px; margin-right: 0px;">

@@ -49,7 +49,7 @@
             <div class="tabs-custom tabs-horizontal tabs-buttons" id="">
                  <!-- 탭 nav-->
                   <ul class="nav nav-tabs">
-                     <li> <a class="button" href="#beforeN" data-toggle="tab">
+                     <li class="active"> <a class="button" href="#main-tab-1" data-toggle="tab">
                          <img class="imgTab" alt="" src="/HappyRing/img/main/beforeN.png" width="63px"><br/>교양심리학</a>
                      </li>
                      <li><a class="button" href="#tips" data-toggle="tab">
@@ -61,15 +61,15 @@
                      <li><a class="button" href="#trainning" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/trainning.png" width="63px"><br/>나만의고민</a>
                      </li>
-                     <li class="active"><a class="button" href="#cheerUp" data-toggle="tab">
+                     <li><a class="button" href="#cheerUp" data-toggle="tab">
                            <img class="imgTab" alt="" src="/HappyRing/img/main/tips.png" width="63px"><br/>멋진응원 한마디</a>
                     </li>
                   </ul>
                   <!-- 탭 contents-->
                   <div class="tab-content main-tab">
                       <!-- 첫번째 contents: 비포&애프터 -->   
-                      <div class="tab-pane fade" id="beforeN">
-                        <p>gggggggggThe layout is aesthetically appealing, contains concise texts in order not to take your precious time. Text styling allows scanning the pages quickly. Site navigation is extremely intuitive and user-friendly. You will always know where you are now.</p>
+                      <div class="tab-pane fade in active" id="main-tab-1">
+                      	<jsp:include page="/view/main/mainTheory.jsp"></jsp:include>
                       </div>
                      <!-- 두번째 contents: 멋진응원 -->    
                      <div class="tab-pane fade" id="tips">
@@ -84,7 +84,7 @@
                       </div>
                       
                       <!-- 멋진응원 한마디  -->
-                      <div class="tab-pane fade in active" id="cheerUp">
+                      <div class="tab-pane fade" id="cheerUp">
                         <jsp:include page="/view/main/cheerUp/cheerUp.jsp"></jsp:include>
                      </div>  
                   </div>  
