@@ -26,7 +26,7 @@
 			   	 </div>
 		      </div>
 		      <div class="col-md-9">
-		      	 <p class="hn">기초심리이론&nbsp;<span>인기게시글</span></p>
+		      	 <p class="hn">심리이론 > 기초심리이론&nbsp;<span>인기게시글</span></p>
 		      </div>	
 		      <div class="col-md-2">
 		      	 <p class="hn"> 전체보기 </p>
@@ -77,7 +77,7 @@
 				 </div>
 		      </div>
 		      <div class="col-md-9">
-		      	 <p class="hn">행동심리학&nbsp;<span>인기게시글</span></p>
+		      	 <p class="hn">심리이론 > 행동심리학&nbsp;<span>인기게시글</span></p>
 		      </div>	
 		      <div class="col-md-2">
 		      	 <p class="hn"> 전체보기 </p>
@@ -131,7 +131,7 @@
 				 </div>
 		      </div>
 		      <div class="col-md-9">
-		      	 <p class="hn">심리학지식&nbsp;<span>인기게시글</span></p>
+		      	 <p class="hn">심리이론 > 심리학지식&nbsp;<span>인기게시글</span></p>
 		      </div>	
 		      <div class="col-md-2">
 		      	 <p class="hn"> 전체보기 </p>
@@ -185,7 +185,7 @@
 			   	 </div>
 		      </div>
 		      <div class="col-md-9">
-		      	 <p class="hn">묻고답하기&nbsp;<span>인기게시글</span></p>
+		      	 <p class="hn">심리이론 > 묻고답하기&nbsp;<span>인기게시글</span></p>
 		      </div>	
 		      <div class="col-md-2">
 		      	 <p class="hn"> 전체보기 </p>
@@ -246,7 +246,7 @@
 			   	 </div>
 		      </div>
 		      <div class="col-md-9">
-		      	 <p class="hn">고민게시판&nbsp;<span>인기게시글</span></p>
+		      	 <p class="hn">커뮤니티 > 고민게시판&nbsp;<span>인기게시글</span></p>
 		      </div>	
 		      <div class="col-md-2">
 		      	 <p class="hn"> 전체보기 </p>
