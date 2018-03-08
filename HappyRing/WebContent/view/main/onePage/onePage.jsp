@@ -64,6 +64,8 @@
 		</div>
 		<!-- 기초심리이론 END -->
 		
+		<!-- 구분선 -->
+		<div class="divider-div" style="border-top:solid 2px; margin: 40px 0;"></div>
 		
 		<!-- ###### 생동심리학 START -->
 		<div class="theory-basic-area2">
@@ -115,6 +117,9 @@
 		</div>
 		<!-- 생동심리학 END -->
 		
+		<!-- 구분선 -->
+		<div class="divider-div" style="border-top:solid 2px; margin: 40px 0;"></div>
+		
 		
 		<!-- ###### 심리학지식 START -->
 		<div class="theory-basic-area3">
@@ -164,6 +169,11 @@
 		
 		</div>
 		<!-- 심리학지식 END -->
+		
+		
+		<!-- 구분선 -->
+		<div class="divider-div" style="border-top:solid 2px; margin: 40px 0;"></div>
+		
 		
 		<!-- ##### 팁&노하우 START -->
 		<div class="theory-qna-area">
@@ -221,6 +231,9 @@
            </div>
 		</div>
 		<!-- 팁&노하우 END -->
+		
+		<!-- 구분선 -->
+		<div class="divider-div" style="border-top:solid 2px; margin: 40px 0;"></div>
 		
 		<!-- #############################(임시) 커뮤니티 category START -->
 		<div class="theory-qna-area">

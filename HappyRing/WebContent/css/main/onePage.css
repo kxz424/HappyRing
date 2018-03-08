@@ -58,7 +58,7 @@
 
 /* onePage > 기초심리학 lsit(theory-basic-list)*/
 .theory-basic-area{
-	border: solid;
+/* 	border: solid; */
 }
 
 /* 블록 형식의 list div */
@@ -160,14 +160,14 @@
 
 /* onePage > (임시)행동심리학 lsit(theory-basic-list)*/
 .theory-basic-area2{
-	border: solid;
+/* 	border: solid; */
 	margin-top: 35px;
 }
 
 
 /* onePage > (임시)심리학지식 lsit(theory-basic-list)*/
 .theory-basic-area3{
-	border: solid;
+/* 	border: solid; */
 	margin-top: 35px;
 }
 
@@ -177,7 +177,7 @@
 /************ 묻고답하기 게시판 List CSS START **********************/
 /* onePage > 심리이론 > 묻고답하기  lsit(theory-qna-list)*/
 .theory-qna-area{
-	border: solid;
+/* 	border: solid; */
 	margin-top: 35px;
 }
 
