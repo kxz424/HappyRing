@@ -44,6 +44,7 @@ padding-bottom: 45px;
 <!-- Javascript-->
    <script src="/HappyRing/js/common/innerBootstrap/core.min.js"></script>
    <script src="/HappyRing/js/common/innerBootstrap/script.js"></script>
+   <script src="/HappyRing/js/main/jquery.jscroll.js"></script>
 <!-- header전용 js --> 
    <script src="/HappyRing/js/common/include/header.js"></script>
 
