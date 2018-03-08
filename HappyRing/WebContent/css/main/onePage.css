@@ -174,6 +174,155 @@
 
 
 
+/************ 묻고답하기 게시판 List CSS START **********************/
+/* onePage > 심리이론 > 묻고답하기  lsit(theory-qna-list)*/
+.theory-qna-area{
+	border: solid;
+	margin-top: 35px;
+}
+
+
+
+/* 커뮤니티 게시판 list div */
+.th-qna-list, .cd-xs-list{
+/*     padding-top: 20px; */
+/*     margin-top: 15px; */
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    /* border: solid red; */
+}
+/* 커뮤니티 게시판 list padding-bottom 부분 조정 */
+.th-qna-list {
+	padding-bottom: 0;
+}
+/* 큰 화면일때 모바일 화면 기준 커뮤니티 게시판 목록 숨김 처리 */
+.cd-xs-list {
+	display: none;
+}
+/* ## 모바일 화면 기준 커뮤니티 게시판 css START */
+@media(max-width: 768px){
+	/* 큰 화면 기준 커뮤니티 게시판 목록 숨김 처리 */
+	.th-qna-list {
+	    display: none;
+	}
+	/* 모바일 화면 기준 커뮤니티 게시판 목록 보임 처리 */
+	.cd-xs-list {
+		display: block;
+		padding-bottom: 15px;
+	}
+	/* 커뮤니티 게시판 목록 중 댓글 개수 버튼 위치 조정 */
+	.cd-xs-list .col-xs-2 {
+		margin-top: 3%;
+	}
+	/* 커뮤니티 게시판 목록 중 댓글 개수 버튼 크기 조정 */
+	.cd-xs-list .cd-xs-count-btn {
+		padding: 1px 6px 2px 7px;
+	}
+	/* 모바일 화면 글쓰기 버튼 위치 및 크기지정 */
+	.cd-xs-list .cd-xs-write {
+		float: right;
+		padding: auto 15px;
+	}
+}
+/* 모바일 화면 기준 커뮤니티 게시판 css END */
+
+
+
+/* table 상단 선 */
+.th-qna-list .table-list .isotope {
+	border-top: 2px solid #ddd;
+}
+
+
+/* 리스트 테두리 선 */
+.th-qna-list .table-list .table > tbody > tr > td{
+	padding: 20px 8px 22px 9px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-bottom: 1px dashed #ddd;
+    border-top: 0;
+}
+
+.th-qna-list .row {
+	margin-bottom: 0;
+}
+.th-qna-list [data-isotope-layout] .row > [class*="col-"] {
+	margin-top: 0;
+}
+
+/* 리스트 상단 제목에 css 주기*/
+.th-qna-list-row .th-qna-list-contents span{
+	font-size: 13px;
+/* 	font-size: 17px; */
+	color: black;
+}
+.th-qna-list-row .th-qna-list-contents span strong{
+	font-size: 15px;
+	color: black;
+}
+
+/* 리스트 중간 내용에 css 주기*/
+.th-qna-list-row .th-qna-list-contents p {
+	margin: 0;
+/* 	font-size: 12px; */
+	font-size: 13.5px;
+	margin-top: 2%;
+	color:#000000;
+	
+}
+.th-qna-list-row .th-qna-list-contents .glyphicon{
+	font-size: 11px;
+    float: right;
+    line-height: 24px;
+    color: #0000004f;
+}
+
+
+.th-qna-list-row2{
+	margin-top: 2%;
+}
+
+/* 리스트 하단 부가정보에 css 주기*/
+.th-qna-list-row2 .th-qna-list-profile {
+	font-size: 11px;
+	margin-top: 1%;
+}
+
+/* 리스트 하단 부가정보 span 사이에 패딩 주기*/
+.th-qna-list-row2 .th-qna-list-profile span{
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+
+/**/
+.glyphicon-heart{
+/* 	font-size: 9px; */
+}
+
+
+
+/* list 좌측 대표 이미지 col-md-2 공간  css */
+.th-qna-list-img{
+	padding-left: 0px;
+	padding-top: 7px;
+}
+/* list 좌측 대표 이미지 윤곽선 주기 */
+.th-qna-list-img img{
+/* 	border:  solid 0.6px; */
+	min-width: 100%;
+	height: 87px;
+}
+
+
+
+
+/* 묻고답하기list  list END */
+
+
+
 
 
 

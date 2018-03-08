@@ -7,11 +7,23 @@
 }
 /*  paging 버튼 크기 설정 */
 .fr-paging-search .fr-paging #pageNum a, .fr-paging-search .fr-paging li {
-	min-width: 35px;
-	height: 35px;
-	vertical-align: middle;
-	line-height: 35px;
+/* 	min-width: 35px; */
+/* 	height: 35px; */
+/* 	vertical-align: middle; */
+/* 	line-height: 35px; */
+
+	min-width: 30px;
+    height: 28px;
+    vertical-align: middle;
+    line-height: 26px;
+    font-size: 7px;
 }
+
+.fr-paging-search .fr-paging #pageNum a.num-btn{
+	font-size: 12px !important;
+}
+
+
 /* 큰 화면 paging 버튼 간격 조정 */
 .fr-paging-search .fr-paging li{
 	margin-left: 5px;
@@ -42,16 +54,18 @@
 .fr-paging-search {
 	margin-top: 0;
 }
-/* paging 위치 조정 (5.하은수정 css : 패딩조정) */
+/* paging 위치 조정 */
 .fr-paging-search .col-md-7 {
-	padding-left: 7.4%;
+/* 	padding-left: 7.4%; */
+	padding-left: 10%;
 }
 /* paging 글쓰기 버튼 크기 및 위치 조정 */
 .fr-paging-search .fr-write {
-	height: 35px; 
-	padding: 8px 20px; 
+/* 	height: 35px;  */
+/* 	padding: 8px 20px;  */
+    height: 28px;
+    padding: 5px 20px;
 	border-radius: 10px;
-	/*3. 글쓰기버튼 색 변경 : 하은*/
 	color: #fff;
     background-color: #3f3f6d;
     border-color: #3f3f6d;

@@ -149,7 +149,7 @@
 /* contents div  배경색, 패딩 설정 */
 .mainTab-1-div .tab-content {
 	background-color: white;
-    padding: 16px 15px 16px 27px;
+    padding: 16px 15px 37px 27px;
 }
 
 /* 노란색 따움표 (마커) css */
@@ -202,7 +202,7 @@
 .mainTab-1-div .tab-content .glyphicon-heart-empty {
 	color: red;
 /* 	float: right; */
-	margin-top: 5px;
+/* 	margin-top: 5px; */
 }
 /* 멋진응원 엔젤링 count 숫자 색 변경 */
 .mainTab-1-div .tab-content .heart-count {
